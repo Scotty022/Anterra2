@@ -1,0 +1,21 @@
+state={
+	id=12
+	name="STATE_12"
+history={
+			owner = QIN
+			add_core_of = QIN
+			}
+	victory_points = {
+	1891 10
+	}
+	buildings = {
+					infrastructure = 7
+					industrial_complex = 5
+			}
+	provinces={
+		921 1891 2003 2193 2772 4282 8260 
+	}
+	manpower=100000
+	state_category = town
+	buildings_max_level_factor=1.000
+}

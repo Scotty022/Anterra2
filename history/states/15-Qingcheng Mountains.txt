@@ -1,0 +1,18 @@
+state={
+	id=15
+	name="STATE_15"
+history={
+			owner = QIN
+			add_core_of = QIN
+			}
+			buildings = {
+					infrastructure = 7
+					industrial_complex = 5
+			}
+	provinces={
+		151 1472 1824 2318 8386 
+	}
+	manpower=10000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}
