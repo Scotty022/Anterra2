@@ -707,3 +707,7 @@ SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
 }
+KOD = {
+	color = rgb { 114 148 80 }
+	color_ui = rgb { 222 247 198 }
+}

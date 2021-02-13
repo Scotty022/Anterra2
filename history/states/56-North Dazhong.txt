@@ -1,0 +1,14 @@
+
+state={
+	id=56
+	name="STATE_56"
+history={
+			owner = KOD
+			add_core_of = KOD
+			}
+	provinces={
+		2041 2670 2885 4741 7457 7522 7529 7552 7598 7642 
+	}
+	manpower=1100
+	buildings_max_level_factor=1.000
+}

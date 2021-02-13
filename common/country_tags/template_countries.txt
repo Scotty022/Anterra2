@@ -1,2 +1,3 @@
 TST = "countries/Test.txt"
 QIN = "countries/Qingcheng.txt"
+KOD = "countries/Kodeshia.txt"

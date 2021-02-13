@@ -3179,4 +3179,10 @@
  QIN_communism:0 "Qingcheng"
  QIN_fascism:0 "Qingcheng"
  QIN_ADJ:0 "Qingchenese"
+ KOD_neutrality_DEF:0 "Republic of Kodeshia"
+ KOD_neutrality:0 "Kodeshia"
+ KOD_democratic:0 "Kodeshia"
+ KOD_communism:0 "Kodeshia"
+ KOD_fascism:0 "Kodeshia"
+ KOD_ADJ:0 "Kodeshian"
  
