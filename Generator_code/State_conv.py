@@ -82,7 +82,7 @@ with open(States_Raw, 'r') as datalist:
 
 #----------------------- WHAT IT WRITES: ------------------------#
 		try:
-			prefix = f"{file_id}-"
+			prefix = f"{file_id}-" 					# finds a file based on its ID
 			RightFile = [filename for filename in os.listdir("C:\\Users\\20172436\\Desktop\\Progameren\\Anterra2\\history\\states\\") if filename.startswith(prefix)]
 			print(RightFile)
 			g = open(Source+RightFile[0], "r")		#opens the OG file
@@ -123,13 +123,13 @@ with open(States_Raw, 'r') as datalist:
 			)
 		except IndexError:
 			if prefix == "id-":
-				print('The display of this "error" is triggered by the header of the .csv file. If no further error messages show up, everything is fine.')
+				print('! The display of this "error" is triggered by the header of the .csv file. If no further error messages show up, everything is fine.')
 			else:
-				print("The ID name could not be found! There might be a file missing.")
+				print("!!! The ID name could not be found! There might be a file missing.")
 		except:
-			print(f"!!! attempting to find/create {file_id} ({name}) has failed")
+			print(f"!!! attempting to find/create ID {file_id} ({name}) has failed")
 			print(sys.exc_info())
-print("The script has ended. Thank you for using!")
+print("- The script has ended. Thank you for using! -")
 
 
 	
