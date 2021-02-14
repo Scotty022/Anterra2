@@ -1,0 +1,13 @@
+id,name,state_category,population,owner,core1,core2,core3,victory_point1,victory_point2,victory_point3,infrastructure,civi,mili,refinery,buildings_max_level_factor,airbase,lvl_naval_base,loc_naval_base
+1,State_1,,,,,,,,,,,,,,,,,
+2,Chenghua,town,10000,QIN,QIN,,,1,,,7,5,,,1,,,
+3,South Yulin,rural,1000,QIN,QIN,,,20,,,7,,1,,1,,,
+4,North Yulin,,,,,,,,,,,,,,1,,,
+5,South Liujiang,,,,,,,,,,,,,,1,,,
+6,North Liujiang,,,,,,,,,,,,,,1,,,
+7,South Tianzhou,,,,,,,,,,,,,,1,,,
+8,North Tianzhou,,,,,,,,,,,,,,1,,,
+9,,,,,,,,,,,,,,,1,,,
+10,,,,,,,,,,,,,,,1,,,
+11,,,,,,,,,,,,,,,1,,,
+12,,,,,,,,,,,,,,,1,,,

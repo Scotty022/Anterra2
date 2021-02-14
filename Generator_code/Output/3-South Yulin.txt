@@ -1,0 +1,28 @@
+state={
+		id = 3
+		name = "STATE_3" # South Yulin
+		manpower = 1000
+		buildings_max_level_factor = 1
+
+		state_category = rural
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			victory_points = {20  }
+
+			buildings = {
+				infrastructure = 7
+				
+				arms_factory = 1
+				
+				
+				
+		} }
+		provinces={
+		1761 2967 3912 4175 8802 8806 8848 
+		}
+}
