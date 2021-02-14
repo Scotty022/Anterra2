@@ -3,7 +3,16 @@
 QIN = {
 	color = rgb { 71 113 97 }
 	color_ui = rgb { 71 113 97 }
-
+}
+KOD = {
+	color = rgb { 114 148 80 }
+	color_ui = rgb { 222 247 198 }
+}
+MUR = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+	
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
@@ -11,10 +20,6 @@ GER = {
 ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
-}
-SOV = {
-	color = rgb { 125 13 24 }
-	color_ui = rgb { 163 17 31 }
 }
 SWE = {
 	color = rgb { 36 132 247 }
@@ -706,8 +711,4 @@ WUR = {
 SHL = {
 	color = rgb { 51 51 255 }
 	color_ui = rgb { 51 51 255 }
-}
-KOD = {
-	color = rgb { 114 148 80 }
-	color_ui = rgb { 222 247 198 }
 }

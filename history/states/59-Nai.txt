@@ -1,0 +1,13 @@
+state={
+	id=59
+	name="STATE_59"
+history={
+			owner = MUR
+			add_core_of = MUR
+			}
+	provinces={
+		3351 4816 5479 
+	}
+	manpower=1100
+	buildings_max_level_factor=1.000
+}
