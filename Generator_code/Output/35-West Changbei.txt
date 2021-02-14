@@ -1,0 +1,29 @@
+state={
+		id = 35
+		name = "STATE_35" # West Changbei
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		7009 7075 7148 7149 7213 7220 7274 7283 7289 7341 
+		}
+}

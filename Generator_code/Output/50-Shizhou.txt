@@ -1,0 +1,29 @@
+state={
+		id = 50
+		name = "STATE_50" # Shizhou
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1729 2811 2844 7450 7622 
+		}
+}

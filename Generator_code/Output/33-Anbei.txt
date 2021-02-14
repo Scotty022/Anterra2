@@ -1,0 +1,29 @@
+state={
+		id = 33
+		name = "STATE_33" # Anbei
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		680 1720 4823 7553 
+		}
+}

@@ -2,19 +2,20 @@ state={
 		id = 7
 		name = "STATE_7" # South Tianzhou
 		manpower = 
-		buildings_max_level_factor = 1
+		
 
-		state_category = 
+		state_category = rural
 
 		history = {
-			owner = 
-			
+			owner = QIN
+			add_core_of = QIN
 			
 			
 
 			
 
 			buildings = {
+				
 				
 				
 				

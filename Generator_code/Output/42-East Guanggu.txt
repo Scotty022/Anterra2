@@ -1,0 +1,29 @@
+state={
+		id = 42
+		name = "STATE_42" # East Guanggu
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		732 2568 2655 3710 7190 7253 7288 7328 7329 
+		}
+}

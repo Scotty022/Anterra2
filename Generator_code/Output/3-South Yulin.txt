@@ -2,7 +2,7 @@ state={
 		id = 3
 		name = "STATE_3" # South Yulin
 		manpower = 1000
-		buildings_max_level_factor = 1
+		
 
 		state_category = rural
 
@@ -12,12 +12,13 @@ state={
 			
 			
 
-			victory_points = {20  }
+			
 
 			buildings = {
-				infrastructure = 7
+				infrastructure = 5
 				
 				arms_factory = 1
+				
 				
 				
 				

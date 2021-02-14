@@ -2,7 +2,7 @@ state={
 		id = 2
 		name = "STATE_2" # Chenghua
 		manpower = 10000
-		buildings_max_level_factor = 1
+		
 
 		state_category = town
 
@@ -12,11 +12,12 @@ state={
 			
 			
 
-			victory_points = {1  }
+			victory_points = {8773  }
 
 			buildings = {
-				infrastructure = 7
+				infrastructure = 5
 				industrial_complex = 5
+				
 				
 				
 				

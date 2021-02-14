@@ -60,19 +60,24 @@ with open(States_Raw, 'r') as datalist:
 			refinery = f"synthetic_refinery = {row[14]}"
 		else:
 			refinery = ''
+		
+		if row[15]:																		# dockyard
+			dockyard = f"dockyard  = {row[15]}"
+		else:
+			dockyard = ''
 
-		if row[15]:																		# buildings_max_level_factor
-			build_factor = f"buildings_max_level_factor = {row[15]}"
+		if row[16]:																		# buildings_max_level_factor
+			build_factor = f"buildings_max_level_factor = {row[16]}"
 		else:
 			build_factor = ''
 
-		if row[16]:																		# airbase / air_base
-			air_base = f"air_base  = {row[16]}"
+		if row[17]:																		# airbase / air_base
+			air_base = f"air_base  = {row[17]}"
 		else:
 			air_base = ''
 
-		if row[18]:																		# navalbase / naval_base
-			naval_base = f"{row[18]} = " + '{' + f"naval_base = {row[17]}" + '}'
+		if row[19]:																		# navalbase / naval_base
+			naval_base = f"{row[19]} = " + '{' + f"naval_base = {row[18]}" + '}'
 		else:
 			naval_base = ''
 		
@@ -125,6 +130,7 @@ with open(States_Raw, 'r') as datalist:
 				{infrastructure}
 				{civil_fac}
 				{mil_fac}
+				{dockyard}
 				{refinery}
 				{air_base}
 				{naval_base}

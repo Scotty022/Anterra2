@@ -1,6 +1,6 @@
 state={
-		id = 6
-		name = "STATE_6" # North Liujiang
+		id = 11
+		name = "STATE_11" # East Zhonghe
 		manpower = 
 		
 
@@ -24,6 +24,6 @@ state={
 				
 		} }
 		provinces={
-		3074 3336 4637 8663 8683 8727 8745 
+		28 238 2691 3261 4267 4921 8387 8427 
 		}
 }

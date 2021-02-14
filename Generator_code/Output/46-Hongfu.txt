@@ -1,0 +1,29 @@
+state={
+		id = 46
+		name = "STATE_46" # Hongfu
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1222 7564 7614 7722 
+		}
+}

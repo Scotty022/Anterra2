@@ -1,6 +1,6 @@
 state={
-		id = 6
-		name = "STATE_6" # North Liujiang
+		id = 15
+		name = "STATE_15" # Qingcheng Mountains
 		manpower = 
 		
 
@@ -24,6 +24,6 @@ state={
 				
 		} }
 		provinces={
-		3074 3336 4637 8663 8683 8727 8745 
+		151 1472 1824 2318 8386 
 		}
 }

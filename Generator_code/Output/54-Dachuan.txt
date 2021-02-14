@@ -1,0 +1,29 @@
+state={
+		id = 54
+		name = "STATE_54" # Dachuan
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		514 902 1879 2574 2950 3668 3715 3922 4513 4697 7927 7961 8008 8077 8128 8187 
+		}
+}

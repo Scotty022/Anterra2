@@ -1,0 +1,29 @@
+state={
+		id = 37
+		name = "STATE_37" # Xuemai
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		349 3529 4139 4264 4383 6723 6732 6787 
+		}
+}

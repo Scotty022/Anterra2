@@ -1,0 +1,29 @@
+state={
+		id = 44
+		name = "STATE_44" # South Guanggu
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		21 2402 3676 4066 4848 7390 7541 
+		}
+}

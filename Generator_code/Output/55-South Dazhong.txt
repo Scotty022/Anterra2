@@ -1,0 +1,29 @@
+state={
+		id = 55
+		name = "STATE_55" # South Dazhong
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		143 681 1256 1962 2292 2668 4009 4415 7734 7786 7821 7858 7882 7923 7962 8000 
+		}
+}
