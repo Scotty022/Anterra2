@@ -1,0 +1,28 @@
+state={
+		id = 2
+		name = "STATE_2" #Chenghua
+		manpower = 10000
+		buildings_max_level_factor = 1
+
+		state_category = town
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			victory_points = {1  }
+
+			buildings = {
+				infrastructure = 7
+				industrial_complex = 5
+				
+				
+				
+				
+		} }
+		provinces = {
+			1 2 3
+		}
+}

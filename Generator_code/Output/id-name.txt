@@ -1,0 +1,28 @@
+state={
+		id = id
+		name = "STATE_id" #name
+		manpower = population
+		buildings_max_level_factor = buildings_max_level_factor
+
+		state_category = state_category
+
+		history = {
+			owner = owner
+			add_core_of = core1
+			add_core_of = core2
+			add_core_of = core3
+
+			victory_points = {victory_point1 victory_point2 victory_point3}
+
+			buildings = {
+				infrastructure = infrastructure
+				industrial_complex = civi
+				arms_factory = mili
+				synthetic_refinery = refinery
+				air_base  = airbase
+				loc_naval_base = {naval_base = lvl_naval_base}
+		} }
+		provinces = {
+			1 2 3
+		}
+}
