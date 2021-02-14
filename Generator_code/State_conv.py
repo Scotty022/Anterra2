@@ -1,7 +1,9 @@
 from csv import reader
+import os
 
 States_Raw = 'Generator_code\\States_Raw.csv'
 Output = 'Generator_code\\Output\\'
+Source = 'history\\states\\'
 
 with open(States_Raw, 'r') as datalist: 
 	csv_reader = reader(datalist)		#reads the data in the file
@@ -70,18 +72,26 @@ with open(States_Raw, 'r') as datalist:
 		else:
 			naval_base = ''
 		
-		provinces = """provinces = {
-			1 2 3
-		}"""
-		
+		# provinces = """provinces = {
+		# 	1 2 3
+		# }"""
 
+# #----------------------- WHAT IT WRITES: ------------------------#
+		prefix = f"{file_id}-"
+		RightFile = [filename for filename in os.listdir("C:\\Users\\20172436\\Desktop\\Progameren\\Anterra2\\history\\states\\") if filename.startswith(prefix)]
+		print(RightFile)
+		g = open(Source+RightFile[0], "r")		#opens the OG file
+		split1 = g.read().split("provinces")		#cuts the file after 'provinces'
+		split2 = split1[1].split("}", 1) 			#picks the second half and cuts on the first } it finds
+		#the result is something in the shape "={1 2 3", which means a } has to be added to the end
+		provinces = "provinces" + split2[0] + "\t}" #formats it proper
 
 		f = open(Output+f"{row[0]}-{row[1]}.txt", 'w+') #creates (or opens) a .txt file named the id number and the name given up in the second row
-# #----------------------- WHAT IT WRITES: ------------------------#
+
 		f.write(
 			'state={' + f"""
 		id = {file_id}
-		name = "STATE_{file_id}" #{name}
+		name = "STATE_{file_id}" # {name}
 		{population}
 		{build_factor}
 
@@ -106,28 +116,7 @@ with open(States_Raw, 'r') as datalist:
 		{provinces}
 """ + '}'
 		)
-# 		f.write('state={' + f""" 
-#  		id = {row[0]}
-# 		name = "STATE_{row[0]}" # {row[1]}
-# 		manpower = {row[3]}
-# 		state_category = "{row[2]}"
 
-# 		history=""" + '{' + f"""
-# 			owner = {row[4]}
-# 			victory_points = {victory_points} 
-# 			buildings =""" + '{' + f"""
-# 				infrastructure = {row[11]}
-# 				industrial_complex = {row[12]}
-# 				arms_factory = {row[13]}
-# 				airbase = {row[]}
-# 		""" + '}}}')
-
-# 		#f = open(Output + f'{row[0]}-{row(1)}.txt', 'w+') 
-# 		#f.write("state={" + f"""br/
-# 		#id = {row[0]}
-# 		#name = "STATE_{row[0]}" # {row[1]}
-# 		#manpower = {row[3]}
-# 		#""" + '}')
 
 
 	
