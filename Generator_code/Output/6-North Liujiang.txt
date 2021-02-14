@@ -1,6 +1,6 @@
 state={
 		id = 6
-		name = "STATE_6" #North Liujiang
+		name = "STATE_6" # North Liujiang
 		manpower = 
 		buildings_max_level_factor = 1
 

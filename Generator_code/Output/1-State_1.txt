@@ -1,6 +1,6 @@
 state={
 		id = 1
-		name = "STATE_1" #State_1
+		name = "STATE_1" # State_1
 		manpower = 
 		
 

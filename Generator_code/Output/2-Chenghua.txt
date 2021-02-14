@@ -1,6 +1,6 @@
 state={
 		id = 2
-		name = "STATE_2" #Chenghua
+		name = "STATE_2" # Chenghua
 		manpower = 10000
 		buildings_max_level_factor = 1
 

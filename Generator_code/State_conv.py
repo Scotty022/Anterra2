@@ -1,14 +1,18 @@
 from csv import reader
 import os
+import sys
 
 States_Raw = 'Generator_code\\States_Raw.csv'
 Output = 'Generator_code\\Output\\'
 Source = 'history\\states\\'
 
+print("The script has started. Please do not touch any files")
+
 with open(States_Raw, 'r') as datalist: 
 	csv_reader = reader(datalist)		#reads the data in the file
+	print("States_Ras.csv has successfully been read")
 	for row in csv_reader:				#For each row of data, we do the following:
-		print(row)                		#prints
+		#print(row)                		#prints
 
 #-------------------- Determining all values --------------------#
 		file_id = row[0]																# id
@@ -76,20 +80,21 @@ with open(States_Raw, 'r') as datalist:
 		# 	1 2 3
 		# }"""
 
-# #----------------------- WHAT IT WRITES: ------------------------#
-		prefix = f"{file_id}-"
-		RightFile = [filename for filename in os.listdir("C:\\Users\\20172436\\Desktop\\Progameren\\Anterra2\\history\\states\\") if filename.startswith(prefix)]
-		print(RightFile)
-		g = open(Source+RightFile[0], "r")		#opens the OG file
-		split1 = g.read().split("provinces")		#cuts the file after 'provinces'
-		split2 = split1[1].split("}", 1) 			#picks the second half and cuts on the first } it finds
-		#the result is something in the shape "={1 2 3", which means a } has to be added to the end
-		provinces = "provinces" + split2[0] + "\t}" #formats it proper
+#----------------------- WHAT IT WRITES: ------------------------#
+		try:
+			prefix = f"{file_id}-"
+			RightFile = [filename for filename in os.listdir("C:\\Users\\20172436\\Desktop\\Progameren\\Anterra2\\history\\states\\") if filename.startswith(prefix)]
+			print(RightFile)
+			g = open(Source+RightFile[0], "r")		#opens the OG file
+			split1 = g.read().split("provinces")		#cuts the file after 'provinces'
+			split2 = split1[1].split("}", 1) 			#picks the second half and cuts on the first } it finds
+			#the result is something in the shape "={1 2 3", which means a } has to be added to the end
+			provinces = "provinces" + split2[0] + "\t}" #formats it proper
 
-		f = open(Output+f"{row[0]}-{row[1]}.txt", 'w+') #creates (or opens) a .txt file named the id number and the name given up in the second row
+			f = open(Output+f"{row[0]}-{row[1]}.txt", 'w+') #creates (or opens) a .txt file named the id number and the name given up in the second row
 
-		f.write(
-			'state={' + f"""
+			f.write(
+				'state={' + f"""
 		id = {file_id}
 		name = "STATE_{file_id}" # {name}
 		{population}
@@ -115,8 +120,16 @@ with open(States_Raw, 'r') as datalist:
 		""" + '} }' +f"""
 		{provinces}
 """ + '}'
-		)
-
+			)
+		except IndexError:
+			if prefix == "id-":
+				print('The display of this "error" is triggered by the header of the .csv file. If no further error messages show up, everything is fine.')
+			else:
+				print("The ID name could not be found! There might be a file missing.")
+		except:
+			print(f"!!! attempting to find/create {file_id} ({name}) has failed")
+			print(sys.exc_info())
+print("The script has ended. Thank you for using!")
 
 
 	
