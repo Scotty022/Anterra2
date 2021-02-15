@@ -1,0 +1,28 @@
+state={
+		id = 12
+		name = "STATE_12" # 
+		manpower = 
+		buildings_max_level_factor = 1
+
+		state_category = 
+
+		history = {
+			owner = 
+			
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		921 1891 2003 2193 2772 4282 8260 
+		}
+}

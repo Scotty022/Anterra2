@@ -1,0 +1,29 @@
+state={
+		id = 39
+		name = "STATE_39" # North Guangshen
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		11 4638 7008 7074 7159 7175 
+		}
+}

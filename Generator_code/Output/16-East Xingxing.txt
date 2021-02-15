@@ -1,0 +1,29 @@
+state={
+		id = 16
+		name = "STATE_16" # East Xingxing
+		manpower = 
+		
+
+		state_category = rural
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		330 1199 1604 4738 8226 8274 
+		}
+}

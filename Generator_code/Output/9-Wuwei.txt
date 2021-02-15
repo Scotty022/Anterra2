@@ -1,0 +1,29 @@
+state={
+		id = 9
+		name = "STATE_9" # Wuwei
+		manpower = 
+		
+
+		state_category = town
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		418 730 4761 8590 
+		}
+}

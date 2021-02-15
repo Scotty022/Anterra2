@@ -1,0 +1,29 @@
+state={
+		id = 24
+		name = "STATE_24" # Yu An
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		423 2904 3128 3846 3886 8400 8411 8412 8453 8454 
+		}
+}

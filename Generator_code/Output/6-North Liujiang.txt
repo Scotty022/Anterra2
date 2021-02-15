@@ -1,0 +1,29 @@
+state={
+		id = 6
+		name = "STATE_6" # North Liujiang
+		manpower = 
+		
+
+		state_category = rural
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		3074 3336 4637 8663 8683 8727 8745 
+		}
+}

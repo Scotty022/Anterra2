@@ -1,0 +1,29 @@
+state={
+		id = 18
+		name = "STATE_18" # Bazhong
+		manpower = 
+		
+
+		state_category = town
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		2216 
+		}
+}

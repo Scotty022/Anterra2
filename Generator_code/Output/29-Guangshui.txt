@@ -1,0 +1,29 @@
+state={
+		id = 29
+		name = "STATE_29" # Guangshui
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1010 1948 2127 3057 3309 3815 3930 4338 4721 7934 7960 8007 8037 8106 8132 
+		}
+}

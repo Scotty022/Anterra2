@@ -1,0 +1,29 @@
+state={
+		id = 19
+		name = "STATE_19" # West Zhimin
+		manpower = 
+		
+
+		state_category = rural
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		161 1587 4451 8498 8510 8530 8565 
+		}
+}

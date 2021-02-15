@@ -1,0 +1,29 @@
+state={
+		id = 12
+		name = "STATE_12" # Enshi
+		manpower = 
+		
+
+		state_category = town
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		921 1891 2003 2193 2772 4282 8260 
+		}
+}

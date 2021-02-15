@@ -1,0 +1,29 @@
+state={
+		id = 51
+		name = "STATE_51" # West Tainlin
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1027 2346 2767 4099 4916 7551 7596 7658 7715 7784 7867 
+		}
+}

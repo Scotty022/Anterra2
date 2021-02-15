@@ -1,0 +1,29 @@
+state={
+		id = 40
+		name = "STATE_40" # Guangshen
+		manpower = 
+		
+
+		state_category = 
+
+		history = {
+			owner = KOD
+			add_core_of = KOD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		329 919 1421 1502 4777 7201 7261 7273 7296 7303 7309 7317 7340 7364 7408 
+		}
+}

@@ -1,0 +1,29 @@
+state={
+		id = 17
+		name = "STATE_17" # Wenzhou
+		manpower = 
+		
+
+		state_category = town
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		8736 
+		}
+}

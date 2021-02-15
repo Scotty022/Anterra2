@@ -1,0 +1,29 @@
+state={
+		id = 13
+		name = "STATE_13" # South Xinxing
+		manpower = 
+		
+
+		state_category = rural
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		885 3637 8410 8430 8440 8459 8482 8551 
+		}
+}
