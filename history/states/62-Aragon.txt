@@ -1,0 +1,16 @@
+
+state={
+	id=62
+	name="Aragon"
+history={
+			owner = HEL
+			add_core_of = HEL
+			}
+	provinces={
+		676 5361 5380
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+
