@@ -1,1 +1,1 @@
-﻿capital = 100
+﻿capital = 1
