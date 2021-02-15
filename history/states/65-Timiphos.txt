@@ -1,0 +1,16 @@
+
+state={
+	id=65
+	name="Timiphos"
+history={
+			owner = HEL
+			add_core_of = HEL
+			}
+	provinces={
+		4414 3570 5443 124 5458 3843 2822
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+
