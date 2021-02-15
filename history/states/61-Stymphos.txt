@@ -1,0 +1,16 @@
+
+state={
+	id=61
+	name="Stymphos"
+history={
+			owner = HEL
+			add_core_of = HEL
+			}
+	provinces={
+		5303 3557 5337 2145 4474 4266
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+

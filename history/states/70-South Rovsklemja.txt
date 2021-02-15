@@ -1,11 +1,16 @@
 
 state={
-	id=1
-	name="STATE_1"
+	id=70
+	name="South Rovsklemja"
+history={
+			owner = HEL
+			add_core_of = HEL
+			}
 	provinces={
-
+		1555
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=town
 }
+

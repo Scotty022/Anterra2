@@ -1,0 +1,16 @@
+
+state={
+	id=64
+	name="Calinae"
+history={
+			owner = HEL
+			add_core_of = HEL
+			}
+	provinces={
+		5332 2171 2137 5396 2958
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+
