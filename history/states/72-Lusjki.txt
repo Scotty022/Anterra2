@@ -1,0 +1,16 @@
+
+state={
+	id=72
+	name="Lusjki"
+history={
+			owner = LUS
+			add_core_of = LUS
+			}
+	provinces={
+		9187 2 1719 5434 1918 1485
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+
