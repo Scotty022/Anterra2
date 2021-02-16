@@ -1,13 +1,13 @@
 
 state={
-	id=78
-	name="Qora Jarliklar"
+	id=92
+	name="Dasavletit"
 history={
 			owner = SAM
 			add_core_of = SAM
 			}
 	provinces={
-		1001 5365 1737 5399 18254
+		3042 5342 2258 5300 18257 2260
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
