@@ -1,6 +1,6 @@
 state={
-	id=114
-	name="STATE_114"
+	id=115
+	name="Astran"
 	provinces={
 		4399 5186 
 	}
