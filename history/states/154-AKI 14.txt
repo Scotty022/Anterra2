@@ -2,7 +2,7 @@ state={
 	id=154
 	name="AKI 14"
 	provinces={
-		2791 3918 4002 4704 7181 7248 7304 7330 7371 7396 
+		2791 3918 4002 4704 7181 7248 7304 7371 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
