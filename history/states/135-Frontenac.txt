@@ -1,0 +1,13 @@
+state={
+	id=135
+	name="Frontenac"
+	history={
+			owner = CHZ
+			add_core_of = CHZ
+			}
+	provinces={
+		4114
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=123
+	name="Sunggari"
+	history={
+			owner = TON
+			add_core_of = TON
+			}
+	provinces={
+		523 1856 2925 3140 4728 4802 6061 6062 6069 6092 6093 6101 6102 6121 6134 6140 6149 6165 6175 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+}

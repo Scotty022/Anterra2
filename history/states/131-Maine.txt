@@ -1,0 +1,14 @@
+state={
+	id=131
+	name="Maine"
+	history={
+			owner = CHZ
+			add_core_of = CHZ
+			}
+	provinces={
+		4054
+
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

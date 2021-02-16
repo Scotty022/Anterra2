@@ -32,6 +32,14 @@ VRT = {
 	color = rgb{ 0  102  0 }
 	color_ui = rgb{ 0 51 0 }
 }
+TON = {
+	color = rgb { 230  223  50 }
+	color_ui = rgb { 230  223  50 }
+}
+CHZ = {
+	color = rgb {255  77  77 }
+	color_ui = rgb {255 0 0 }
+}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
