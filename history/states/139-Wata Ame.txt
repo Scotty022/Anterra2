@@ -1,0 +1,9 @@
+state={
+	id=139
+	name="Wata Ame"
+	provinces={
+		6242 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

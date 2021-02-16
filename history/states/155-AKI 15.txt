@@ -1,0 +1,9 @@
+state={
+	id=155
+	name="AKI 15"
+	provinces={
+		1966 2316 2470 2764 3181 7107 7124 7268 7356 7391 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

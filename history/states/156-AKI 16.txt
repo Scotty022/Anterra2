@@ -1,0 +1,9 @@
+state={
+	id=156
+	name="AKI 16"
+	provinces={
+		4489 7094 7202 7235 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

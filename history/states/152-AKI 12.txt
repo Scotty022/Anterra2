@@ -1,0 +1,9 @@
+state={
+	id=152
+	name="AKI 12"
+	provinces={
+		1731 3684 6779 6885 6930 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
