@@ -10,4 +10,4 @@ VRT = "countries/Vrtgora.txt"
 SAM = "countries/Samotkhe.txt"
 TON = "countries/Tonkina.txt"
 CHZ = "countries/Chezzetcook.txt"
-
+AKI = "countries/Akiteiwa.txt"

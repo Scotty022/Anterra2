@@ -1,9 +1,13 @@
 state={
 	id=143
 	name="AKI 3"
+	history={
+			owner = AKI
+			add_core_of = AKI
+			}
 	provinces={
 		1717 1961 3060 4463 6221 6315 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
 }
