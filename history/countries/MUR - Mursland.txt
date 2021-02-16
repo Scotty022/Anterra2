@@ -1,3 +1,4 @@
+
 capital = 58
 
 #oob = "SCO_1936"
@@ -35,3 +36,13 @@ set_popularities = {
 	neutrality = 85
 }
 
+create_country_leader = {
+	name = "Arkady III"
+	desc = "Overlord of Bonamech and Traxí, Duke of Circe, Heleovo and Visia"
+	picture = "Portrait_Yugoslavia_Arkady_III.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}
