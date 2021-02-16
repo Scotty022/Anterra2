@@ -6,4 +6,8 @@ HEL = "countries/Helinika.txt"
 POJ = "countries/Poja.txt"
 TIP = "countries/Tiperyn.txt"
 LUS = "countries/Lusjki.txt"
+
 VRT = "countries/Vrtgora.txt"
+
+SAM = "countries/Samotkhe.txt"
+
