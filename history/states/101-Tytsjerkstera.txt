@@ -1,0 +1,17 @@
+
+
+state={
+	id=101
+	name="Tytsjerkstera"
+history={
+			owner = TIP
+			add_core_of = TIP
+			}
+	provinces={
+		2964 1637 5109 1221 3374 5067 468 5030 200 1126 1512 1245 3600 391 3889 71 5094 3623 5048 5019
+		}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+

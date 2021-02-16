@@ -1,0 +1,15 @@
+state={
+	id=105
+	name="Darimh"
+history={
+			owner = TIP
+			add_core_of = TIP
+			}
+	provinces={
+		3726 2080 5192
+		}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+

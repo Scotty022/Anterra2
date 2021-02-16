@@ -1,0 +1,15 @@
+state={
+	id=112
+	name="Idlerein"
+history={
+			owner = TIP
+			add_core_of = TIP
+			}
+	provinces={
+		5 5223 4747 5167 2409 210 716 122 5172 5193 3851 5221 190 4218 1401 506 3048 2977
+		}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+

@@ -1,0 +1,16 @@
+
+state={
+	id=113
+	name="Tipslân"
+history={
+			owner = TIP
+			add_core_of = TIP
+			}
+	provinces={
+		1125 5235 5248 5196 5179 1567 5160 3 1943 826 5098 5117 1448 2770 5194 1581 307 5187 2370
+		}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+

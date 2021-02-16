@@ -1,0 +1,16 @@
+
+state={
+	id=97
+	name="Grootshaven"
+history={
+			owner = TIP
+			add_core_of = TIP
+			}
+	provinces={
+		426 5040
+		}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=town
+}
+
