@@ -1,0 +1,13 @@
+state={
+	id=138
+	name="Sydney"
+	history={
+			owner = CHZ
+			add_core_of = CHZ
+			}
+	provinces={
+		2401
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=133
+	name="L'Ile-aux-Marins"
+	history={
+			owner = CHZ
+			add_core_of = CHZ
+			}
+	provinces={
+		5085 3151
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
