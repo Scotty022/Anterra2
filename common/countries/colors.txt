@@ -59,6 +59,22 @@ NSR = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
 }
+CHA = {
+	color = rgb { 155 101 107 }
+	color_ui = rgb { 202 131 139 }
+}
+KHO = {
+	color = rgb { 178 114 99 }
+	color_ui = rgb { 231 148 129 }
+}
+SVE = {
+	color = rgb { 100  100  150 }
+	color_ui = rgb { 100  100  150 }
+}
+MIH = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }

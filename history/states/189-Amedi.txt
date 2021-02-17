@@ -1,9 +1,13 @@
 state={
 	id=189
 	name="Amedi"
+	history={
+            owner = MIH
+            add_core_of = MIH
+            }
 	provinces={
 		1128 2851 3238 7210 7230 7281 7352 7416 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
 }

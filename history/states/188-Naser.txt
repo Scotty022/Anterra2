@@ -1,9 +1,13 @@
 state={
 	id=188
 	name="Naser"
+	history={
+            owner = NSR
+            add_core_of = NSR
+            }
 	provinces={
 		78 3258 7301 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
 }

@@ -1,9 +1,13 @@
 state={
 	id=191
 	name="Maslahat"
+	history={
+            owner = MIH
+            add_core_of = MIH
+            }
 	provinces={
 		291 1652 1894 2124 3719 3877 4693 4713 7196 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
 }

@@ -1,9 +1,13 @@
 state={
 	id=190
 	name="Madaristan"
+	history={
+            owner = MIH
+            add_core_of = MIH
+            }
 	provinces={
 		1743 2229 3050 4286 7440 7539 7546 7584 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
 }

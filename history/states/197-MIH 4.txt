@@ -1,9 +1,13 @@
 state={
 	id=197
 	name="MIH 4"
+	history={
+            owner = MIH
+            add_core_of = MIH
+            }
 	provinces={
 		1442 2610 3463 3895 3972 4115 7057 7065 7127 7139 7272 7302 7338 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
 }
