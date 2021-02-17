@@ -5,10 +5,6 @@ history={
 			owner = POJ
 			add_core_of = POJ
 			}
-history={
-			owner = 
-			add_core_of = 
-			}
 	provinces={
 		3791 9200 9201 
 	}
