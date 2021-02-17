@@ -1,0 +1,9 @@
+state={
+	id=187
+	name="Darbandikhan"
+	provinces={
+		180 1514 2446 3654 3655 3808 7126 7137 7164 7218 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=200
+	name="South Sorani"
+	provinces={
+		1704 3588 3996 6800 6810 6856 6913 6953 6961 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

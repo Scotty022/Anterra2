@@ -1,0 +1,9 @@
+state={
+	id=188
+	name="Naser"
+	provinces={
+		78 3258 7301 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

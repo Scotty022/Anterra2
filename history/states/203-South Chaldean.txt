@@ -1,0 +1,9 @@
+state={
+	id=203
+	name="South Chaldean"
+	provinces={
+		2034 2186 3862 4174 7477 7492 7550 7561 7696 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

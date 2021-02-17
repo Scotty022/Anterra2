@@ -1,0 +1,9 @@
+state={
+	id=195
+	name="MIH 2"
+	provinces={
+		234 880 1322 3390 3845 4349 7348 7401 7417 7449 7470 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
