@@ -2,6 +2,10 @@
 state={
 	id=115
 	name="Astran"
+history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		4399 5186 18269 
 	}
