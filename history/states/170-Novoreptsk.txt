@@ -1,6 +1,10 @@
 state={
 	id=170
 	name="Novoreptsk"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		1398 1494 4144 4548 4665 5435 5461 
 	}

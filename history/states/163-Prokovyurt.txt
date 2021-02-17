@@ -1,6 +1,10 @@
 state={
 	id=163
 	name="Prokovyurt"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		79 280 340 2479 3404 4386 5323 
 	}

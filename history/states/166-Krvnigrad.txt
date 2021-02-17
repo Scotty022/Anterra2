@@ -1,6 +1,10 @@
 state={
 	id=166
 	name="Krvnigrad"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		1028 3214 3792 5304 5325 
 	}

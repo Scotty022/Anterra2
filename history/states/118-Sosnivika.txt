@@ -1,6 +1,10 @@
 state={
 	id=118
 	name="Sosnivika"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		2014 3514 5577 5639 
 	}

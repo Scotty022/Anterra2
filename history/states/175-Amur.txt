@@ -1,6 +1,10 @@
 state={
 	id=175
 	name="Amur"
+	history={
+            owner = LST
+            add_core_of = LST
+            }
 	provinces={
 		992 1056 2313 3038 
 	}

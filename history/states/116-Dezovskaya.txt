@@ -1,6 +1,10 @@
 state={
 	id=116
 	name="Dezovskaya"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		62 651 4293 4347 5585 
 	}

@@ -1,6 +1,10 @@
 state={
 	id=160
 	name="Carasovia"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		5321 
 	}

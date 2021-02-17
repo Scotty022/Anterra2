@@ -1,6 +1,10 @@
 state={
 	id=174
 	name="Sibenik"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		323 982 1341 1568 4393 5357 5394 5438 
 	}

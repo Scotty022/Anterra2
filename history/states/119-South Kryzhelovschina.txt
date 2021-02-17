@@ -1,6 +1,10 @@
 state={
 	id=119
 	name="South Kryzhelovschina"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		9 533 4840 5123 5127 
 	}

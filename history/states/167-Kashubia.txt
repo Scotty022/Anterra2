@@ -1,6 +1,11 @@
+
 state={
 	id=167
 	name="Kashubia"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		769 786 2161 5294 
 	}

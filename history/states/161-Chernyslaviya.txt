@@ -1,6 +1,10 @@
 state={
 	id=161
 	name="Chernyslaviya"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		683 832 2243 3605 4568 5362 5387 5408 5436 
 	}

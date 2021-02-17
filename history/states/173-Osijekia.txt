@@ -1,6 +1,10 @@
 state={
 	id=173
 	name="Osijekia"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		13 1351 2892 3139 5305 
 	}

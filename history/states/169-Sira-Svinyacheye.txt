@@ -1,6 +1,10 @@
 state={
 	id=169
 	name="Sira-Svinyacheye"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		2261 2739 2940 3594 4940 5295 5296 5317 
 	}

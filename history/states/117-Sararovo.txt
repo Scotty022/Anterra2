@@ -1,6 +1,10 @@
 state={
 	id=117
 	name="Sararovo"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		272 2163 2414 3183 3727 5510 
 	}

@@ -1,6 +1,10 @@
 state={
 	id=165
 	name="Zagoriya"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		3898 4211 5454 5477 
 	}

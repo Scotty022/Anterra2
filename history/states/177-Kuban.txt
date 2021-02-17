@@ -1,6 +1,10 @@
 state={
 	id=177
 	name="Kuban"
+	history={
+            owner = LST
+            add_core_of = LST
+            }
 	provinces={
 		548 3276 4019 
 	}

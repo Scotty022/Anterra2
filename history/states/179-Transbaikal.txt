@@ -1,7 +1,10 @@
 state={
 	id=179
 	name="Transbaikal"
-"
+	history={
+            owner = LST
+            add_core_of = LST
+            }
 	provinces={
 		353 522 690 1832 2605 4239 4959 4962 4968 4970 4973 4976 
 	}

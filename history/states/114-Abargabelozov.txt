@@ -1,8 +1,12 @@
 state={
 	id=114
 	name="Abargavelozov"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
-		5645 
+		5645 5611 4668 5682 3149 3642 4516
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

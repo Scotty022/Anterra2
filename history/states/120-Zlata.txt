@@ -1,6 +1,10 @@
 state={
 	id=120
 	name="Zlata"
+	history={
+            owner = RAZ
+            add_core_of = RAZ
+            }
 	provinces={
 		3179 3660 4273 5451 5462 
 	}

@@ -1,6 +1,10 @@
 state={
 	id=176
 	name="Don"
+	history={
+            owner = LST
+            add_core_of = LST
+            }
 	provinces={
 		88 962 4992 
 	}
