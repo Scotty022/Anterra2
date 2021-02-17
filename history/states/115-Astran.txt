@@ -1,8 +1,9 @@
+
 state={
 	id=115
 	name="Astran"
 	provinces={
-		4399 5186 
+		4399 5186 18269 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
