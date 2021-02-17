@@ -6,7 +6,7 @@ state={
             add_core_of = RAZ
             }
 	provinces={
-		1028 3214 3792 5304 5325 
+		1028 3214 3792 5304 5325 18264
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
