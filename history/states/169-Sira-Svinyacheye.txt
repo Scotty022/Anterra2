@@ -1,6 +1,6 @@
 state={
 	id=169
-	name="STATE_167"
+	name="Sira-Svinyacheye"
 	provinces={
 		2261 2739 2940 3594 4940 5295 5296 5317 
 	}

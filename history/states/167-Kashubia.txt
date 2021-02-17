@@ -1,6 +1,6 @@
 state={
 	id=167
-	name="STATE_167"
+	name="Kashubia"
 	provinces={
 		769 786 2161 5294 
 	}

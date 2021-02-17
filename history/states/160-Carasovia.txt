@@ -1,6 +1,6 @@
 state={
 	id=160
-	name="STATE_160"
+	name="Carasovia"
 	provinces={
 		5321 
 	}

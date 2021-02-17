@@ -1,6 +1,6 @@
 state={
 	id=164
-	name="STATE_160"
+	name="Rovskemlja Proper"
 	provinces={
 		1681 2839 3763 5324 5386 5398 5427 5460 
 	}

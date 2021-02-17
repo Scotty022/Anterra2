@@ -1,6 +1,6 @@
 state={
 	id=162
-	name="STATE_160"
+	name="Koroyevsk"
 	provinces={
 		135 1116 1934 2267 2396 2797 3559 5335 5400 
 	}

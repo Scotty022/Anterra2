@@ -1,8 +1,8 @@
 state={
-	id=166
-	name="Krvnigrad"
+	id=170
+	name="Novoreptsk"
 	provinces={
-		1028 3214 3792 5304 5325 
+		1398 1494 4144 4548 4665 5435 5461 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

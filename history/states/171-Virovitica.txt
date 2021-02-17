@@ -1,8 +1,8 @@
 state={
-	id=166
-	name="Krvnigrad"
+	id=171
+	name="Virovitica"
 	provinces={
-		1028 3214 3792 5304 5325 
+		34 1667 2866 3046 3897 5334 5381 5391 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
