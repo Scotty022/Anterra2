@@ -1,0 +1,13 @@
+state={
+	id=181
+	name="Zhisensk"
+history={
+			owner = POJ
+			add_core_of = POJ
+			}
+	provinces={
+		3791 9200 9201 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

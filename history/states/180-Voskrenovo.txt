@@ -1,0 +1,13 @@
+state={
+	id=180
+	name="Voskrenovo"
+history={
+			owner = RAZ
+			add_core_of = RAZ
+			}
+	provinces={
+		3983 9193 9196 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
