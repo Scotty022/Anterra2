@@ -1,6 +1,10 @@
 state={
 	id=185
 	name="Trvana"
+history={
+			owner = 
+			add_core_of = 
+			}
 	provinces={
 		175 552 734 866 2320 5164 5181 5182 5200 
 	}

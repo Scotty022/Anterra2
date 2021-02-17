@@ -1,6 +1,10 @@
 state={
 	id=186
 	name="Presov"
+history={
+			owner = 
+			add_core_of = 
+			}
 	provinces={
 		945 1069 1890 3357 3734 4285 5133 5150 
 	}

@@ -1,6 +1,10 @@
 state={
 	id=184
 	name="Kosinec"
+history={
+			owner = 
+			add_core_of = 
+			}
 	provinces={
 		452 3274 3705 5147 5195 5216 
 	}
