@@ -2,8 +2,8 @@ state={
 	id=183
 	name="Zamakia"
 history={
-			owner = 
-			add_core_of = 
+			owner = POZ
+			add_core_of = POZ
 			}
 	provinces={
 		1596 4661 4805 5210 5261 5289 

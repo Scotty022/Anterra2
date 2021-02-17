@@ -2,8 +2,8 @@ state={
 	id=182
 	name="Lucenec"
 history={
-			owner = 
-			add_core_of = 
+			owner = POZ
+			add_core_of = POZ
 			}
 	provinces={
 		2075 2513 3739 5227 5241 5250 5258 
