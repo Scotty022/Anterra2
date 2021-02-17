@@ -1,0 +1,9 @@
+state={
+	id=183
+	name="Zamakia"
+	provinces={
+		1596 4661 4805 5210 5261 5289 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

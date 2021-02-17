@@ -1,0 +1,9 @@
+state={
+	id=184
+	name="Kosinec"
+	provinces={
+		452 3274 3705 5147 5195 5216 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
