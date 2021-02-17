@@ -1,0 +1,9 @@
+state={
+	id=205
+	name="North Chaldean"
+	provinces={
+		1338 1470 1655 2863 4205 4883 7174 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

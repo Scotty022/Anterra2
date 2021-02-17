@@ -51,7 +51,10 @@ LST = {
 RAZ = {
 	color = rgb {128 0 0}
 	color_ui = {0 0 0}
-
+}
+NSR = {
+	color = rgb { 155 101 107 }
+	color_ui = rgb { 202 131 139 }
 }
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

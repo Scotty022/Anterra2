@@ -1,0 +1,9 @@
+state={
+	id=192
+	name="Naqadeh"
+	provinces={
+		3335 7316 7379 7407 7475 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

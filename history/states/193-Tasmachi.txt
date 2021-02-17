@@ -1,0 +1,9 @@
+state={
+	id=193
+	name="Tasmachi"
+	provinces={
+		588 1450 2123 2551 3185 3382 3830 3915 4021 7434 7448 7469 7497 7512 7538 7613 7632 7663 7721 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
