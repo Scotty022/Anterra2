@@ -1,0 +1,9 @@
+state={
+	id=186
+	name="Presov"
+	provinces={
+		945 1069 1890 3357 3734 4285 5133 5150 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

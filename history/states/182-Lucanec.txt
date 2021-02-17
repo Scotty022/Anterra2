@@ -1,0 +1,9 @@
+state={
+	id=182
+	name="Lucenec"
+	provinces={
+		2075 2513 3739 5227 5241 5250 5258 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
