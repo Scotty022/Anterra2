@@ -1,6 +1,10 @@
 state={
 	id=183
 	name="Zamakia"
+history={
+			owner = 
+			add_core_of = 
+			}
 	provinces={
 		1596 4661 4805 5210 5261 5289 
 	}
