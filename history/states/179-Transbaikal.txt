@@ -1,0 +1,10 @@
+state={
+	id=179
+	name="Transbaikal"
+"
+	provinces={
+		353 522 690 1832 2605 4239 4959 4962 4968 4970 4973 4976 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

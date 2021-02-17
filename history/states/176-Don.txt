@@ -1,0 +1,9 @@
+state={
+	id=176
+	name="Don"
+	provinces={
+		88 962 4992 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
