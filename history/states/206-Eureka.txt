@@ -1,0 +1,9 @@
+state={
+	id=206
+	name="Eureka"
+	provinces={
+		425 857 900 2559 9133 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
