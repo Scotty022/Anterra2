@@ -1,5 +1,8 @@
 #reload countrycolors
-
+POZ = {
+	color = rgb { 255 88 66 }
+	color_ui = rgb { 255 88 66 }
+}
 QIN = {
 	color = rgb { 71 113 97 }
 	color_ui = rgb { 71 113 97 }
