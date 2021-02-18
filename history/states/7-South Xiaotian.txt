@@ -1,16 +1,17 @@
+
 state={
-	id=19
-	name="STATE_19"
+	id=7
+	name="South Xiaotian"
 history={
 			owner = QIN
 			add_core_of = QIN
 			}
-			buildings = {
+	buildings = {
 					infrastructure = 7
 					industrial_complex = 5
 			}
 	provinces={
-		161 1587 4451 8498 8510 8530 8565 
+		578 2302 4220 8712 8758 8736 
 	}
 	manpower=10000
 	state_category = rural
