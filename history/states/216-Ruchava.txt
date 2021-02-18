@@ -1,0 +1,9 @@
+state={
+	id=216
+	name="Ruchava"
+	provinces={
+		521 2801 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

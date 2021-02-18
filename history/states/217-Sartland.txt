@@ -1,0 +1,9 @@
+state={
+	id=217
+	name="Sartland"
+	provinces={
+		205 749 2294 2522 3093 4902 5011 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
