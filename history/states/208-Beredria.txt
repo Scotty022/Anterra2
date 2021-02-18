@@ -1,6 +1,10 @@
 state={
 	id=208
 	name="Beredria"
+history={
+            owner = LEI
+            add_core_of = LEI
+            }
 	provinces={
 		2650 
 	}

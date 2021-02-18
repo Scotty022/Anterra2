@@ -1,4 +1,8 @@
 #reload countrycolors
+LEI = {
+	color = rgb { 222 91 225 }
+	color_ui = rgb { 222 91 225 }
+}
 POZ = {
 	color = rgb { 255 88 66 }
 	color_ui = rgb { 255 88 66 }

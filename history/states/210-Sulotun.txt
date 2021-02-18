@@ -1,6 +1,10 @@
 state={
 	id=210
 	name="Sulotun"
+history={
+            owner = LEI
+            add_core_of = LEI
+            }
 	provinces={
 		1131 3610 5074 
 	}

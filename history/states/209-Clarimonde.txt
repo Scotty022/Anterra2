@@ -1,6 +1,10 @@
 state={
 	id=209
 	name="Clarimonde"
+history={
+            owner = LEI
+            add_core_of = LEI
+            }
 	provinces={
 		849 1565 3831 4224 5063 
 	}
