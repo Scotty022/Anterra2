@@ -1,0 +1,9 @@
+state={
+	id=219
+	name="Xigong"
+	provinces={
+		5995 5989 6004 6028 3133 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
