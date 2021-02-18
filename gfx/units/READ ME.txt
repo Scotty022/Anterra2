@@ -1,0 +1,16 @@
+In this folder, Anterra2\gfx\units, you can put DDS files and they'll render on existing base game models. 
+It would be easiest to start out with three textures, one for "base" unit, one for "normal" unit, and one for "specular" unit. 
+Make sure that your "base" unit texture is labeled with the country and the terrain it's used for. 
+
+Example: Akiteiwa 
+
+AKI_helmet_diff_use
+
+AKI_helmet_normal
+
+AKI_helmet_specular
+
+If you wanted a different texture for snow terrain, you would create a separate DDS file and name it:
+
+AKI_helmet_diff_use_snow
+
