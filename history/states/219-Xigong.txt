@@ -1,9 +1,19 @@
 state={
 	id=219
 	name="Xigong"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 7
+					industrial_complex = 5
+			}
+	
 	provinces={
 		5995 5989 6004 6028 3133 
 	}
-	manpower=0
+	manpower=10000
+	state_category = metropolis
 	buildings_max_level_factor=1.000
 }

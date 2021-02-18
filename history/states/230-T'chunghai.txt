@@ -1,6 +1,6 @@
 state={
-	id=237
-	name="Yngse"
+	id=230
+	name="T'chunghai"
 	history={
 			owner = BEI
 			add_core_of = BEI
@@ -10,9 +10,9 @@ state={
 					industrial_complex = 0
 			}
 	provinces={
-		6614 6661 6704 6695 
+		3959 6252 6264 6289 1981 6286 3702 6346 6326 6320
 	}
-	manpower=0
-	state_category = wasteland
+	manpower=10000
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

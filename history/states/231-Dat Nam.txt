@@ -1,9 +1,18 @@
 state={
 	id=231
 	name="Dat Nam"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 1
+					industrial_complex = 0
+			}
 	provinces={
 		3213 1076 2516 6399 6463 6433 2874 6468 3614
 	}
-	manpower=0
+	manpower=500
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

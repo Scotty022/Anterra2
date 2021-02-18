@@ -1,9 +1,18 @@
 state={
 	id=238
 	name="Man Saap"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 2
+					industrial_complex = 1
+			}
 	provinces={
 		2006 6606 6577 6647 6655 6638 6648 6683
 	} 
-	manpower=0
+	manpower=10000
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

@@ -1,9 +1,18 @@
 state={
 	id=222
 	name="Tsih-Pa La"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 4
+					industrial_complex = 3
+			}
 	provinces={
 		6130
 	}
-	manpower=0
+	manpower=10000
+	state_category = enclave
 	buildings_max_level_factor=1.000
 }

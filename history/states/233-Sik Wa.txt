@@ -1,9 +1,18 @@
 state={
 	id=233
 	name="Sik Wa"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 1
+					industrial_complex = 0
+			}
 	provinces={
 		1974 3350 666 6387 3780 6428 2305 6398 4895 4486 6467 6517 441
 	}
-	manpower=0
+	manpower=500
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

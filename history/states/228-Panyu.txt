@@ -1,9 +1,18 @@
 state={
 	id=228
 	name="Panyu"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 5
+					industrial_complex = 3
+			}
 	provinces={
 		4610 6105 4247 2211
 	}
-	manpower=0
+	manpower=10000
+	state_category = city
 	buildings_max_level_factor=1.000
 }
