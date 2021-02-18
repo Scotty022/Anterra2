@@ -1,0 +1,9 @@
+state={
+	id=208
+	name="Beredria"
+	provinces={
+		2650 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
