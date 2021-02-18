@@ -1,0 +1,9 @@
+state={
+	id=209
+	name="Clarimonde"
+	provinces={
+		849 1565 3831 4224 5063 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=207
+	name="Sulotun"
+	provinces={
+		1131 3610 5074 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
