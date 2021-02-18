@@ -1,0 +1,9 @@
+state={
+	id=222
+	name="Quang Chau"
+	provinces={
+		2676
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
