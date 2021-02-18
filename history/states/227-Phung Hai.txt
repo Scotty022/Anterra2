@@ -1,0 +1,9 @@
+state={
+	id=227
+	name="Phung Hai"
+	provinces={
+		6029 6053 6084 1369 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

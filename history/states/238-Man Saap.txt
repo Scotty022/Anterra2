@@ -1,0 +1,9 @@
+state={
+	id=238
+	name="Man Saap"
+	provinces={
+		2006 6606 6577 6647 6655 6638 6648 6683
+	} 
+	manpower=0
+	buildings_max_level_factor=1.000
+}

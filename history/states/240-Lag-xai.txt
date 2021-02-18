@@ -1,0 +1,9 @@
+state={
+	id=240
+	name="Lag-xai"
+	provinces={
+		2946 6739 361 6786 6847 2153 2785 6900 6846
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

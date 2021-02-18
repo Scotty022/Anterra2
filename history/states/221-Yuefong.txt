@@ -1,0 +1,9 @@
+state={
+	id=221
+	name="Yuefong"
+	provinces={
+		5959 3643 5963 542 1086
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=228
+	name="Panyu"
+	provinces={
+		4610 6105 4247 2211
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

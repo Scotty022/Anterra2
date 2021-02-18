@@ -1,0 +1,9 @@
+state={
+	id=237
+	name="Yngse"
+	provinces={
+		6614 6661 6704 6695 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

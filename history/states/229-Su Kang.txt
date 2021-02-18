@@ -1,0 +1,9 @@
+state={
+	id=229
+	name="Su Kang"
+	provinces={
+		6174 3406 4540 3426 6199 6163 6192 1493 6247 6258
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

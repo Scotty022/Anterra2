@@ -1,0 +1,9 @@
+state={
+	id=226
+	name="Lei Hou"
+	provinces={
+		3768 3858
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

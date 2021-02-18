@@ -1,0 +1,9 @@
+state={
+	id=230
+	name="T'chunghai"
+	provinces={
+		3959 6252 6264 6289 1981 6286 3702 6346 6326 6320
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

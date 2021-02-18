@@ -1,0 +1,9 @@
+state={
+	id=225
+	name="Siew Puiyi"
+	provinces={
+		221 6301 3520 6257 2649 6206 2454 6256 9241
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

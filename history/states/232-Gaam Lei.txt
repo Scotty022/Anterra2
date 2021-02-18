@@ -1,0 +1,9 @@
+state={
+	id=232
+	name="Gaam Lei"
+	provinces={
+		6329 6370 6437 6404 6376 2515 1429 6309 1416 6317 6335 6449 6475 3490 6371 6410 6483
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

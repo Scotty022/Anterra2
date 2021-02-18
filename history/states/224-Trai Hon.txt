@@ -1,0 +1,9 @@
+state={
+	id=224
+	name="Trai Hon"
+	provinces={
+		6180 4815 6219 6203 6239 3389 6278 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

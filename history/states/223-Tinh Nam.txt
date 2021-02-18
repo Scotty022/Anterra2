@@ -1,0 +1,9 @@
+state={
+	id=223
+	name="Tinh Nam"
+	provinces={
+		3347 2879 6042 6050 6057 2684 6120 6091 2884 696 1932
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

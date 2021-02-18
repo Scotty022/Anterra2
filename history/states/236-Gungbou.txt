@@ -1,0 +1,9 @@
+state={
+	id=236
+	name="Gungbou"
+	provinces={
+		6541 6592 4546 729 6620
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

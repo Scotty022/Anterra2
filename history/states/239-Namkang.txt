@@ -1,0 +1,9 @@
+state={
+	id=239
+	name="Namkang"
+	provinces={
+		6525 6550 6535 4231 1953 6585 6637
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
