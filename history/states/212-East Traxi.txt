@@ -1,0 +1,9 @@
+state={
+	id=212
+	name="East Traxi"
+	provinces={
+		5390 1697 4739 2248 3804 4490 5345 5407 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

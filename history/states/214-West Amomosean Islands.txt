@@ -1,0 +1,9 @@
+state={
+	id=213
+	name="West Amomosean Islands"
+	provinces={
+		9194
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

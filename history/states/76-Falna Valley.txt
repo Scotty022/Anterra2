@@ -1,7 +1,7 @@
 
 state={
 	id=76
-	name="Vrtgora Massif"
+	name="Falna Valley"
 history={
 			owner = VRT
 			add_core_of = VRT

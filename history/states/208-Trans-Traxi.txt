@@ -1,0 +1,9 @@
+state={
+	id=208
+	name="Trans-Traxi"
+	provinces={
+		508 1008 1331 2233 5343 5372 5414 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

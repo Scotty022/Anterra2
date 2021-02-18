@@ -1,0 +1,9 @@
+state={
+	id=209
+	name="PRO 1"
+	provinces={
+		111 1451 4582 5471 5514 5534 5561 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
