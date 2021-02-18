@@ -3281,4 +3281,10 @@
  KTK_communism:0 "Kitoko"
  KTK_fascism:0 "Kitoko"
  KTK_ADJ:0 "Kitokan"
+ POZ_neutrality_DEF:0 "Kingdom of Pozrika"
+ POZ_neutrality:0 "Kingdom of Pozrika"
+ POZ_democratic:0 "Republic of Pozrika"
+ POZ_communism:0 "Peoples Union of Pozrika"
+ POZ_fascism:0 "Pozriki State"
+ POZ_ADJ:0 "Pozriki"
  
