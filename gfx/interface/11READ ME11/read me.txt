@@ -1,0 +1,2 @@
+This is for custom interface gfx for things such as focus tree pictures, tech pictures, and even the mod logo. 
+Delete base game stuff
