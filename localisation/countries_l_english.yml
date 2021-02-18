@@ -3287,4 +3287,9 @@
  POZ_communism:0 "Peoples Union of Pozrika"
  POZ_fascism:0 "Pozriki State"
  POZ_ADJ:0 "Pozriki"
- 
+ BEI_neutrality_DEF:0 "Imperial State of Beifang"
+ BEI_neutrality:0 "Imperial State of Beifang"
+ BEI_democratic:0 "Federal Republic of Beifang"
+ BEI_communism:0 "Democratic Republic of Bakfong"
+ BEI_fascism:0 "Dai Gwok Bakfong"
+ BEI_ADJ:0 "Bakanese"
