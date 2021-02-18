@@ -1,0 +1,13 @@
+state={
+	id=207
+	name="Kitoko"
+	history={
+            owner = KTK
+            add_core_of = KTK
+            }
+	provinces={
+		7853
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

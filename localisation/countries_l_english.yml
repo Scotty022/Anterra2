@@ -3275,4 +3275,10 @@
  KHO_communism:0 "Khorasan"
  KHO_fascism:0 "Khorasan"
  KHO_ADJ:0 "Khorasan"
+ KTK_neutrality_DEF:0 "Kitoko"
+ KTK_neutrality:0 "Kitoko"
+ KTK_democratic:0 "Kitoko"
+ KTK_communism:0 "Kitoko"
+ KTK_fascism:0 "Kitoko"
+ KTK_ADJ:0 "Kitokan"
  
