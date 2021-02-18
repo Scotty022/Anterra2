@@ -88,7 +88,7 @@ with open(States_Raw, 'r') as datalist:
 #----------------------- WHAT IT WRITES: ------------------------#
 		try:
 			prefix = f"{file_id}-" 					# finds a file based on its ID
-			RightFile = [filename for filename in os.listdir("C:\\Users\\20172436\\Desktop\\Progameren\\Anterra2\\history\\states\\") if filename.startswith(prefix)]
+			RightFile = [filename for filename in os.listdir("history\\states") if filename.startswith(prefix)]
 			print(RightFile) 						# prints the name of the file to be sure
 			
 			split3 = RightFile[0].split("-")		# removes prefix from file name
