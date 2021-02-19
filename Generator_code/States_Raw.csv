@@ -1,4 +1,4 @@
-id,name,state_category,population,owner,core1,core2,core3,victory_point1,victory_point2,victory_point3,infrastructure,civi,mili,refinery,dockyard,buildings_max_level_factor,airbase,lvl_naval_base,loc_naval_base
+,name,state_category,population,owner,core1,core2,core3,victory_point1,victory_point2,victory_point3,infrastructure,civi,mili,refinery,dockyard,buildings_max_level_factor,airbase,lvl_naval_base,loc_naval_base
 1,State_1,,Read tooltips ^,,,,,,,,,,,,,,,,
 2,Chenghua,town,10000,QIN,QIN,,,8773,,,5,5,,,,,,,
 3,South Yulin,rural,1000,QIN,QIN,,,,,,5,,1,,,,,,
@@ -198,9 +198,9 @@ id,name,state_category,population,owner,core1,core2,core3,victory_point1,victory
 197,T'chunghai,rural,150000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
 198,Sik Wa,pastoral,75000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
 199,Lag-Xai,pastoral,87000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
-200,Moukam,pastoral,15000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
-201,Yngse,pastoral,40000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
-202,Gungbou,pastoral,27000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
+200,Moukam,wasteland,15000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
+201,Yngse,wasteland,40000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
+202,Gungbou,wasteland,27000,BEI,BEI,,,,,,1,0,0,,0,,0,0,
 203,,,,,,,,,,,,,,,,,,,
 204,,,,,,,,,,,,,,,,,,,
 205,,,,,,,,,,,,,,,,,,,
