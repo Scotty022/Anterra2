@@ -3299,3 +3299,10 @@
  BEI_communism:0 "Leinzeberg"
  BEI_fascism:0 "Leinzeberg"
  BEI_ADJ:0 "Leinzeberg"
+ HYD_neutrality_DEF:0 "Hydar"
+ HYD_neutrality:0 "Hydar"
+ HYD_democratic:0 "Hydar"
+ HYD_communism:0 "Hydar"
+ HYD_fascism:0 "Hydar"
+ HYD_ADJ:0 "Hydar"
+
