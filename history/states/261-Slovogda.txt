@@ -1,0 +1,9 @@
+state={
+	id=261
+	name="Slovogda"
+	provinces={
+		2207 3829 5166 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
