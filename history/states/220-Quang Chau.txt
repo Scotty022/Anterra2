@@ -1,0 +1,18 @@
+state={
+	id=220
+	name="Quang Chau"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 8
+					industrial_complex = 6
+			}
+	provinces={
+		2676
+	}
+	manpower=10000
+	state_category = megalopolis
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=218
+	name="Taywu"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 8
+					industrial_complex = 5
+			}
+	provinces={
+		6068 
+	}
+	manpower=100000
+	state_category = megalopolis
+	buildings_max_level_factor=1.000
+}

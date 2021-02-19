@@ -1,12 +1,16 @@
+
 state={
 	id=172
 	name="Dubrava"
+
 	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
+		owner = RAZ
+		add_core_of = RAZ
+
+	}
+
 	provinces={
-		241 1940 2333 3437 3968 4495 4872 5271 18263
+		241 1940 2333 3437 3968 4495 4872 5271 18262 18263 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

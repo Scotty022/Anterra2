@@ -1,0 +1,18 @@
+state={
+	id=240
+	name="Lag-xai"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 1
+					industrial_complex = 0
+			}
+	provinces={
+		2946 6739 361 6786 6847 2153 2785 6900 6846
+	}
+	manpower=100
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

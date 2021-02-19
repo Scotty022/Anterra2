@@ -1,0 +1,18 @@
+state={
+	id=226
+	name="Lei Hou"
+	history={
+			owner = BEI
+			add_core_of = BEI
+			}
+	buildings = {
+					infrastructure = 5
+					industrial_complex = 3
+			}
+	provinces={
+		3768 3858
+	}
+	manpower=10000
+	state_category = city
+	buildings_max_level_factor=1.000
+}
