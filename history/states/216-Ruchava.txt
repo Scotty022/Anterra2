@@ -1,6 +1,10 @@
 state={
 	id=216
 	name="Ruchava"
+	history={
+			owner = ASS
+			add_core_of = ASS
+			}
 	provinces={
 		521 2801 
 	}
