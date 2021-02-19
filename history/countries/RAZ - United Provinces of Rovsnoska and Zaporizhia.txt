@@ -23,7 +23,7 @@ add_manpower = 5000
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -31,13 +31,13 @@ set_politics = {
 set_popularities = {
 	democratic = 5
 	fascism = 5
-	communism = 5
-	neutrality = 85
+	communism = 85
+	neutrality = 5
 }
 create_country_leader = {
-	name = "Jacques Ouilles"
+	name = "Rovskosky Khruschev"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "pSuslov.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = communism_ideology
 }
