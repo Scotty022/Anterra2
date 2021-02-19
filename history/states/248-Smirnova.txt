@@ -1,0 +1,9 @@
+state={
+	id=248
+	name="Smirnova"
+	provinces={
+		424 875 4520 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=258
+	name="Khomustatskaya"
+	provinces={
+		104 146 719 1459 2579 2669 4006 4274 4767 5176 5217 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

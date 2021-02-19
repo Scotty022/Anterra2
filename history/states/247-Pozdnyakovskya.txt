@@ -1,0 +1,9 @@
+state={
+	id=247
+	name="Pozdnyakovskaya"
+	provinces={
+		282 286 910 3491 3680 5233 5290 5322 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

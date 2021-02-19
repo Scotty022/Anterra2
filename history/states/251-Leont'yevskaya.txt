@@ -1,0 +1,9 @@
+state={
+	id=251
+	name="Leont'yevskaya"
+	provinces={
+		82 801 1746 3244 3340 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

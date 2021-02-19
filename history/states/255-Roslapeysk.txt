@@ -1,0 +1,10 @@
+
+state={
+	id=255
+	name="Roslapeysk"
+	provinces={
+		831 1137 1853 1917 3483 5189 5237 5247 5259 9179 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

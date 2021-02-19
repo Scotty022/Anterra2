@@ -1,0 +1,10 @@
+
+state={
+	id=250
+	name="Irinovskiy"
+	provinces={
+		247 783 1709 4426 5102 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

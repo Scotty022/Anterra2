@@ -1,0 +1,9 @@
+state={
+	id=254
+	name="Otrada"
+	provinces={
+		112 285 784 1600 5165 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

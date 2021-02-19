@@ -1,0 +1,9 @@
+state={
+	id=245
+	name="Kryzhelovschina"
+	provinces={
+		497 1422 3583 5106 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
