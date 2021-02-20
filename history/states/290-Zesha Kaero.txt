@@ -1,6 +1,10 @@
 state={
 	id=290
 	name="Zesha Kaero"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		6627 1217 788 6656 3187 6594 6555 3533 1779 1242
 	}

@@ -1,6 +1,10 @@
 state={
 	id=262
 	name="Glikaero"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		3534 4762
 	}

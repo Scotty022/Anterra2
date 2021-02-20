@@ -1,6 +1,10 @@
 state={
 	id=289
 	name="Côte de Caira"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		4032 6672 1870 6633 9265
 	}

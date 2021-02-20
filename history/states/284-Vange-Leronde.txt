@@ -1,6 +1,10 @@
 state={
 	id=284
 	name="Vange-Leronde"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 3597 7033 3901 3947 6969 6903 6937
 	}

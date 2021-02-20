@@ -1,6 +1,10 @@
 state={
 	id=286
 	name="Mesères"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 6938 18251 6850 6965 6897
 	}

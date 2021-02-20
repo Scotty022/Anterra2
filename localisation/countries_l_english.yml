@@ -3305,4 +3305,9 @@
  HYD_communism:0 "Hydar"
  HYD_fascism:0 "Hydar"
  HYD_ADJ:0 "Hydar"
-
+ TLN_neutrality_DEF:0 "Tilenno"
+ TLN_neutrality:0 "Tilenno"
+ TLN_democratic:0 "Tilenno"
+ TLN_communism:0 "Tilenno"
+ TLN_fascism:0 "Tilenno"
+ TLN_ADJ:0 "Tilenno"

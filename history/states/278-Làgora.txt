@@ -1,6 +1,10 @@
 state={
 	id=278
 	name="Làgora"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 9287 7068 4018 
 	}

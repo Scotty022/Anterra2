@@ -1,6 +1,10 @@
 state={
 	id=273
 	name="Tèsares"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 1185 7331 797 7284
 	}

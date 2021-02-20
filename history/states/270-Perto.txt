@@ -1,6 +1,10 @@
 state={
 	id=270
 	name="Perto"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 4364 7419 7365 7310 7249 4284
 	}

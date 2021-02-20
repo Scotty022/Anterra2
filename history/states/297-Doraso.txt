@@ -1,6 +1,10 @@
 state={
 	id=297
 	name="Doraso"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		1298 6740 6747 6805 6775 6874 3603 196 4796 6868 4060 6867 6931 6916
 	}

@@ -1,6 +1,10 @@
 state={
 	id=291
 	name="Zesha Tetiso"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		9264 9258 6486 882 6442 2683 693 6353 3235 6330 2412 1301 6306 6327 6318 6290 4569 6296 4313 1804 6280 4091 6395
 	}

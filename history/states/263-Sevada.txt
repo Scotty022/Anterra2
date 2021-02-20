@@ -1,6 +1,10 @@
 state={
 	id=263
 	name="Sevada"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		7680 9315 9322
 	}

@@ -1,6 +1,10 @@
 state={
 	id=296
 	name="Hireno"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		4460
 	}

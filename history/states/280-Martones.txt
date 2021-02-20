@@ -1,6 +1,10 @@
 state={
 	id=280
 	name="Martones"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 6917 148 18247 9314
 	}

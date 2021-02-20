@@ -1,6 +1,10 @@
 state={
 	id=279
 	name="Telero"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 2832 7185 7130 7221 346 7059 
 	}

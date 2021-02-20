@@ -1,6 +1,10 @@
 state={
 	id=264
 	name="Fares Atrivo"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		7648 7514 1641 1017 7480 3432
 	}

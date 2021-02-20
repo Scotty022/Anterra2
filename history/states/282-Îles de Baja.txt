@@ -1,6 +1,10 @@
 state={
 	id=282
 	name="Îles de Baja"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 9267 7224
 	}

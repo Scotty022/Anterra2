@@ -1,6 +1,10 @@
 state={
 	id=276
 	name="Ytrivae"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 7023 778 288 776 6980
 	}

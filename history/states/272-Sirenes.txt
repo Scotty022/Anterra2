@@ -1,6 +1,10 @@
 state={
 	id=272
 	name="Sirenes"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 7305 4577 18244 18245 18246
 	}

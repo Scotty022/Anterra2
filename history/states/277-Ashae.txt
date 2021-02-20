@@ -1,6 +1,10 @@
 state={
 	id=277
 	name="Ashae"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 4918 7116 18250 18248
 	}

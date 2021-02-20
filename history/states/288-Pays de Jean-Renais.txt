@@ -1,6 +1,10 @@
 state={
 	id=288
 	name="Pays de Jean-Renais"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		 6706 6699 2818 6673 6768 6818 4190 6725 4733
 	}

@@ -1,6 +1,10 @@
 state={
 	id=293
 	name="Tilae Erano"
+	history={
+			owner = TLN
+			add_core_of = TLN
+			}
 	provinces={ 
 		3543 6464 6507 3287 6476 851 4420 3107 1329 6556 3199 1855 3646 1738 2780 6712
 	}
