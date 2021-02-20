@@ -36,8 +36,8 @@ set_popularities = {
 }
 create_country_leader = {
 	name = "Branislav Biely"
-	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	desc = "Puppet figurehead of Pozrika, rules with an iron fist, everyone dislikes him lol"
+	picture = "Biely.dds"
 	expire = "1965.1.1"
-	ideology = communism_ideology
+	ideology = leninism
 }
