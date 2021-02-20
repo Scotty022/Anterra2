@@ -1,0 +1,9 @@
+state={
+	id=279
+	name="Telero"
+	provinces={ 
+		 2832 7185 7130 7221 346 7059 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=274
+	name="Kertae"
+	provinces={ 
+		 7214 7141
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

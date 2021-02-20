@@ -1,0 +1,9 @@
+state={
+	id=297
+	name="Doraso"
+	provinces={ 
+		1298 6740 6747 6805 6775 6874 3603 196 4796 6868 4060 6867 6931 6916
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

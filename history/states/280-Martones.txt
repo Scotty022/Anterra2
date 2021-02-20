@@ -1,0 +1,9 @@
+state={
+	id=280
+	name="Martones"
+	provinces={ 
+		 6917 148 18247 9314
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

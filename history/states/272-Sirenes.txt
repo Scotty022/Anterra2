@@ -1,0 +1,9 @@
+state={
+	id=272
+	name="Sirenes"
+	provinces={ 
+		 7305 4577 18244 18245 18246
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

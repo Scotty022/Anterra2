@@ -1,0 +1,9 @@
+state={
+	id=289
+	name="Côte de Caira"
+	provinces={ 
+		4032 6672 1870 6633 9265
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

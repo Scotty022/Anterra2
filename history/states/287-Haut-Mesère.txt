@@ -1,0 +1,9 @@
+state={
+	id=287
+	name="Haut-Mesère"
+	provinces={ 
+		 3272 6851 6948 6886 2177
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

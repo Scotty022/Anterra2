@@ -1,0 +1,9 @@
+state={
+	id=286
+	name="Mesères"
+	provinces={ 
+		 6938 18251 6850 6965 6897
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

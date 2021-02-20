@@ -1,0 +1,9 @@
+state={
+	id=288
+	name="Pays de Jean-Renais"
+	provinces={ 
+		 6706 6699 2818 6673 6768 6818 4190 6725 4733
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

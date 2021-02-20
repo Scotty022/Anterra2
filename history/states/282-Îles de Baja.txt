@@ -1,0 +1,9 @@
+state={
+	id=282
+	name="Îles de Baja"
+	provinces={ 
+		 9267 7224
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

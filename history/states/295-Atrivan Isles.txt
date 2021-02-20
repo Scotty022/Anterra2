@@ -1,0 +1,9 @@
+state={
+	id=295
+	name="Atrivan Isles"
+	provinces={ 
+		6991 18238 9316 18252
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

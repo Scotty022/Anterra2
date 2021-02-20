@@ -1,0 +1,9 @@
+state={
+	id=293
+	name="Tilae Erano"
+	provinces={ 
+		3543 6464 6507 3287 6476 851 4420 3107 1329 6556 3199 1855 3646 1738 2780 6712
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=296
+	name="Hireno"
+	provinces={ 
+		4460
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

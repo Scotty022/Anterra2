@@ -1,0 +1,9 @@
+state={
+	id=271
+	name="Tilae Kos"
+	provinces={ 
+		 7442 7223 3954 1770
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

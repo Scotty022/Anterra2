@@ -1,0 +1,9 @@
+state={
+	id=294
+	name="Úshera"
+	provinces={ 
+		18242 7366 731 7382 7397 7436 1117
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

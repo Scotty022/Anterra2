@@ -1,0 +1,9 @@
+state={
+	id=276
+	name="Ytrivae"
+	provinces={ 
+		 7023 778 288 776 6980
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

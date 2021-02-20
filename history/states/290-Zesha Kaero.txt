@@ -1,0 +1,9 @@
+state={
+	id=290
+	name="Zesha Kaero"
+	provinces={ 
+		6627 1217 788 6656 3187 6594 6555 3533 1779 1242
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=277
+	name="Ashae"
+	provinces={ 
+		 4918 7116 18250 18248
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
