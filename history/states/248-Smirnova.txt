@@ -1,6 +1,10 @@
 state={
 	id=248
 	name="Smirnova"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		424 875 4520 
 	}

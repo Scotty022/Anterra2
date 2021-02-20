@@ -1,6 +1,10 @@
 state={
 	id=254
 	name="Otrada"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		112 285 784 1600 5165 
 	}

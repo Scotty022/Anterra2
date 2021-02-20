@@ -1,7 +1,11 @@
 state={
 	id=249
 	name="Bochinovka"
-	provinces={
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
+            provinces={
 		639 878 1318 2422 2850 4278 4566 5183 
 	}
 	manpower=0

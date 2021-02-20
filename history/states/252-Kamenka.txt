@@ -1,6 +1,10 @@
 state={
 	id=252
 	name="Kamenka"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		443 1105 1387 2534 5110 5124 5140 5159 
 	}

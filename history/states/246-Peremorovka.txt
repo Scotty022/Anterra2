@@ -1,6 +1,10 @@
 state={
 	id=246
 	name="Peremorovka"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		331 708 3029 3874 5033 5084 
 	}

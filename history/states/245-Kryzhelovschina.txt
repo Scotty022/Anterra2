@@ -1,6 +1,10 @@
 state={
 	id=245
 	name="Kryzhelovschina"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		497 1422 3583 5106 
 	}

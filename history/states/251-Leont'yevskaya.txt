@@ -1,6 +1,10 @@
 state={
 	id=251
 	name="Leont'yevskaya"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		82 801 1746 3244 3340 
 	}

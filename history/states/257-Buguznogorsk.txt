@@ -1,6 +1,10 @@
 state={
 	id=257
 	name="Buguznogorsk"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		629 2144 2738 
 	}

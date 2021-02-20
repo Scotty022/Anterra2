@@ -2,6 +2,10 @@
 state={
 	id=255
 	name="Roslapeysk"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		831 1137 1853 1917 3483 5189 5237 5247 5259 9179 
 	}

@@ -2,6 +2,10 @@
 state={
 	id=250
 	name="Irinovskiy"
+history={
+            owner = YAR
+            add_core_of = YAR
+            }
 	provinces={
 		247 783 1709 4426 5102 
 	}
