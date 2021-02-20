@@ -1,0 +1,9 @@
+state={
+	id=270
+	name="Perto"
+	provinces={ 
+		 4364 7419 7365 7310 7249 4284
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

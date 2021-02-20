@@ -1,0 +1,9 @@
+state={
+	id=263
+	name="Sevada"
+	provinces={ 
+		7680 9315 9322
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

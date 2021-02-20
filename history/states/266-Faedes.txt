@@ -1,0 +1,9 @@
+state={
+	id=266
+	name="Faedes"
+	provinces={ 
+		3195 7643 3285
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

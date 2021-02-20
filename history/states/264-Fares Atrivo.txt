@@ -1,0 +1,9 @@
+state={
+	id=264
+	name="Fares Atrivo"
+	provinces={ 
+		7648 7514 1641 1017 7480 3432
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
