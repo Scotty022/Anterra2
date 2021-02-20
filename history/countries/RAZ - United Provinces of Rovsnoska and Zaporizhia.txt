@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "Leader of the UPRZ and staunch supporter of international volkovism"
 	picture = "pSuslov.dds"
 	expire = "1965.1.1"
-	ideology = communism_ideology
+	ideology = leninism
 	traits = {
 		
 	}
