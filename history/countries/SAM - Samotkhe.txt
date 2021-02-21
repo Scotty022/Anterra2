@@ -44,14 +44,21 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 50
-	fascism = 6
-	communism = 6
-	neutrality = 38
+	democratic = 5
+	fascism = 85
+	communism = 5
+	neutrality = 5
+}
+create_country_leader = {
+	name = "Tamar Qetevan"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "Gadaffi boi"
+	expire = "1965.1.1"
+	ideology = nazism
 }
