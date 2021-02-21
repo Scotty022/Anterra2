@@ -1,0 +1,13 @@
+state={
+	id=298
+	name="Brahestad"
+history={
+			owner = KIR
+			add_core_of = KIR
+			}
+	provinces={
+		81 713 3807 4086 4954 4966 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

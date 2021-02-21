@@ -1,0 +1,13 @@
+state={
+	id=299
+	name="Hedastad"
+history={
+			owner = KIR
+			add_core_of = KIR
+			}
+	provinces={
+		410 1292 2022 2549 4974 4978 9145 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

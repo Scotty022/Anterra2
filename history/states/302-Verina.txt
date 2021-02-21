@@ -1,0 +1,13 @@
+state={
+	id=302
+	name="Verina"
+history={
+			owner = DES
+			add_core_of = DES
+			}
+	provinces={
+		1507 2405 4996 5004 5016 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

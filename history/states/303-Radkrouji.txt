@@ -1,0 +1,13 @@
+state={
+	id=303
+	name="Radkrouji"
+history={
+			owner = DES
+			add_core_of = DES
+			}
+	provinces={
+		278 315 1039 1090 1257 1727 2756 5032 5044 5055 5057 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
