@@ -2,15 +2,17 @@
 state={
 	id=95
 	name="Dajavshna"
-history={
-			owner = SAM
-			add_core_of = SAM
-			}
+
+	history={
+		owner = SAM
+		add_core_of = SAM
+
+	}
+
 	provinces={
-		5428 18253 2745
+		216 2221 2367 2745 3801 5428 5484 18253 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=town
 }
-
