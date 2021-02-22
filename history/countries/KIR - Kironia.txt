@@ -35,9 +35,9 @@ set_popularities = {
 	neutrality = 80
 }
 create_country_leader = {
-	name = "Ho Chi Minh"
+	name = "Kauri Harma"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "Kauri Harma.dds"
 	expire = "1965.1.1"
 	ideology = oligarchy
 }
