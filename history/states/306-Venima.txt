@@ -1,0 +1,13 @@
+state={
+	id=306
+	name="Benima"
+history={
+			owner = SER
+			add_core_of = SER
+			}
+	provinces={
+		 4856 4873 663
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=312
+	name="Curinzy"
+history={
+			owner = MCU
+			add_core_of = MCU
+			}
+	provinces={
+		 9186 5575 5546 5543 5482 4345 139
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

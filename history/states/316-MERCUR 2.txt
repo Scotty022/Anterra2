@@ -1,0 +1,13 @@
+state={
+	id=316
+	name="MERCUR 2"
+history={
+			owner = MCU
+			add_core_of = MCU
+			}
+	provinces={
+		 5505 1860 3809 4911 5316 4493 2165 5287 3267 5264
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

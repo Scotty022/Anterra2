@@ -1,0 +1,13 @@
+state={
+	id=308
+	name="BORGO 1"
+history={
+			owner = BOR
+			add_core_of = BOR
+			}
+	provinces={
+		 5494 2849 1522 5378 448 5383
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

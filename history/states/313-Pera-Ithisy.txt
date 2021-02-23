@@ -1,0 +1,13 @@
+state={
+	id=313
+	name="Pera-Ithisy"
+history={
+			owner = MCU
+			add_core_of = MCU
+			}
+	provinces={
+		 5469 5513 5413 1107 4487 1423 3894 5417 1487
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
