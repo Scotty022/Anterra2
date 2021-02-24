@@ -24,25 +24,36 @@ add_manpower = 5000
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democracy
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 5
-	neutrality = 85
+	democratic = 65
+	fascism = 10
+	communism = 0
+	neutrality = 25
 }
 
 create_country_leader = {
-	name = "Arkady III"
+	name = "Martin I"
 	desc = "Overlord of Bonamech and Traxí, Duke of Circe, Heleovo and Visia"
-	picture = "Portrait_Yugoslavia_Arkady_III.dds"
-	expire = "1965.1.1"
+	picture = "Portrait_Martin_I.dds"
+	expire = "1955.7.7"
+	ideology = conservatism
+	traits = {
+		staunch_monarchist unpopular_monarch
+	}
+}
+
+create_country_leader = {
+	name = "Martin I"
+	desc = "Overlord of Bonamech and Traxí, Duke of Circe, Heleovo and Visia"
+	picture = "Portrait_Martin_I.dds"
+	expire = "1955.7.7"
 	ideology = despotism
 	traits = {
-		
+		staunch_monarchist 
 	}
 }
