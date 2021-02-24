@@ -1,0 +1,13 @@
+state={
+	id = 319
+	name="Werengo"
+history={
+			owner = OSR
+			add_core_of = TLN
+			}
+	provinces={
+		 7505 1610 3729
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

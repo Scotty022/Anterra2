@@ -1,0 +1,13 @@
+state={
+	id = 324
+	name="Zoloto"
+history={
+			owner = OSR
+			add_core_of = OSR
+			}
+	provinces={
+		 8027 1876 8148 8214 4333 8276 1252
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id = 327
+	name="Kakhab"
+history={
+			owner = OSR
+			add_core_of = OSR
+			}
+	provinces={
+		 8237
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

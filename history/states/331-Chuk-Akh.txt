@@ -1,0 +1,13 @@
+state={
+	id = 331
+	name="Chuk-Akh"
+history={
+			owner = OSR
+			add_core_of = OSR
+			}
+	provinces={
+		 8324 9343 8367 8404 3316 9352
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id = 328
+	name="Seksoto"
+history={
+			owner = OSR
+			add_core_of = OSR
+			}
+	provinces={
+		 3481 18237 4524 8264
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

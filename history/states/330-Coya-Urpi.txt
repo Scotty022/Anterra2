@@ -1,0 +1,13 @@
+state={
+	id = 330
+	name="Coya-Urpi"
+history={
+			owner = OSR
+			add_core_of = OSR
+			}
+	provinces={
+		 2532 8250 3205 8312 2345 1627 496 8357 8391 8351
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

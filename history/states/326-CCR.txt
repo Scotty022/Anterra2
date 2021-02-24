@@ -1,0 +1,13 @@
+state={
+	id = 326
+	name="CCR"
+history={
+			owner = OSR
+			add_core_of = OSR
+			}
+	provinces={
+		 7859 2264
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

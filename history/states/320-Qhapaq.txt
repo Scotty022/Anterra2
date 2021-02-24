@@ -1,0 +1,13 @@
+state={
+	id = 320
+	name="Qhapaq"
+history={
+			owner = OSR
+			add_core_of = OSR
+			}
+	provinces={
+		 7649 7673 3906 33 7699 7795 4645 7844 2492 7869 1921 4106 8024 7764
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

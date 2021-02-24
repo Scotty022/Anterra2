@@ -1,0 +1,13 @@
+state={
+	id = 318
+	name="Esterel"
+history={
+			owner = OSR
+			add_core_of = OSR
+			}
+	provinces={
+		 7437 3079 3380 3800 4581
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
