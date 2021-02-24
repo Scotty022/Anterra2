@@ -35,11 +35,11 @@ set_popularities = {
 	neutrality = 85
 }
 create_country_leader = {
-	name = "Ronald McDonald"
+	name = "Seryozha Kulikov"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "Seryozha Novichka Kulikov.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = despotism
 	traits = {
 		scary_clown
 	}
