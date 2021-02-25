@@ -1,0 +1,13 @@
+state={
+	id=340
+	name="BAM 6"
+	history={
+			owner = BAM
+			add_core_of = BAM
+			}
+	provinces={
+		7957 4727 8029 8096 8216 4127 8136 8087 1872 1268 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

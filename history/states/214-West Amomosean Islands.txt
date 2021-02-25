@@ -1,6 +1,10 @@
 state={
 	id=214
 	name="West Amomosean Islands"
+	history={
+			owner = PRO
+			add_core_of = PRO
+			}
 	provinces={
 		9194
 	}

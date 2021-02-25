@@ -1,6 +1,10 @@
 state={
 	id=208
 	name="Trans-Traxi"
+	history={
+			owner = PRO
+			add_core_of = PRO
+			}
 	provinces={
 		508 1008 1331 2233 5343 5372 5414 
 	}

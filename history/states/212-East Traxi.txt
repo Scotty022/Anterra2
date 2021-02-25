@@ -1,6 +1,10 @@
 state={
 	id=212
 	name="East Traxi"
+	history={
+			owner = PRO
+			add_core_of = PRO
+			}
 	provinces={
 		5390 1697 4739 2248 3804 4490 5345 5407 
 	}

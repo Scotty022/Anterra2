@@ -7,7 +7,7 @@ history={
 			add_core_of = HEL
 			}
 	provinces={
-		3843 1154 5553 2291 5583 1440
+		1154 5553 2291 5583 1440
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

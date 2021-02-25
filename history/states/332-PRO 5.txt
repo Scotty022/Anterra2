@@ -1,0 +1,13 @@
+state={
+	id=332
+	name="PRO 5"
+	history={
+			owner = PRO
+			add_core_of = PRO
+			}
+	provinces={
+		9191 9195 5604 9185 4757 9198 5726
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
