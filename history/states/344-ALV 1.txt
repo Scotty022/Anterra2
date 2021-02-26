@@ -1,16 +1,12 @@
-
 state={
-	id=115
-	name="Astran"
-
+	id=344
+	name="ALV 1"
 	history={
-		owner = RAZ
-		add_core_of = RAZ
-
-	}
-
+			owner = ALV
+			add_core_of = ALV
+			}
 	provinces={
-		4399 5186 18267
+		6365
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
