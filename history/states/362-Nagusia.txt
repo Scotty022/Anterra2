@@ -1,0 +1,13 @@
+state={
+	id=362
+	name="Nagusia"
+	history={
+			owner = ABL
+			add_core_of = ABL
+			}
+	provinces={
+		9216 1424 5908 5941 3644 4880 9226
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

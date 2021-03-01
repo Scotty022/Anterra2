@@ -1,0 +1,13 @@
+state={
+	id=365
+	name="Barhan"
+	history={
+			owner = ABL
+			add_core_of = ABL
+			}
+	provinces={
+		9214 9217
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

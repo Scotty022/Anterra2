@@ -1,0 +1,13 @@
+state={
+	id=363
+	name="Western Alrayisiun"
+	history={
+			owner = ABL
+			add_core_of = ABL
+			}
+	provinces={
+		6099 6138 6136 6096 6110 6073 6109 9242
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
