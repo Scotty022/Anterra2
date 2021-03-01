@@ -4,6 +4,7 @@ state={
 history={
 			owner = KRW
 			add_core_of = KRW
+}
 	provinces={
 		1363 2936 7714 7762 7775 7825 
 	}
