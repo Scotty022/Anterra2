@@ -1,4 +1,4 @@
-capital = 351
+capital = 354
 
 #oob = "SCO_1936"
 
@@ -37,7 +37,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Matew II"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	picture = "gfx/leaders/VKA/Portrait_Veikaia_Mattew_II.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 }
