@@ -1,0 +1,13 @@
+state={
+	id=359
+	name="Saint Tomas"
+	history={
+			owner = VKA
+			add_core_of = VKA
+			}
+	provinces={
+		224 18278 3501 18275
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

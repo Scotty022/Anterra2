@@ -1,12 +1,12 @@
 state={
-	id=351
-	name="Oztov"
+	id=356
+	name="Virimez"
 	history={
 			owner = VKA
 			add_core_of = VKA
 			}
 	provinces={
-		2434 5079 4433 5134 670 18282 18287 18291
+		1172 36 18280 5135 505
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

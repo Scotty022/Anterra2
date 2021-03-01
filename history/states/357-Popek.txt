@@ -1,0 +1,13 @@
+state={
+	id=357
+	name="Popek"
+	history={
+			owner = VKA
+			add_core_of = VKA
+			}
+	provinces={
+		18285 1818 3946 5090 18286 3497 1803 1018 18284
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=358
+	name="Nambrosi"
+	history={
+			owner = VKA
+			add_core_of = VKA
+			}
+	provinces={
+		18281
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

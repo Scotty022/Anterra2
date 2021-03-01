@@ -1,0 +1,13 @@
+state={
+	id=355
+	name="Bohdn"
+	history={
+			owner = VKA
+			add_core_of = VKA
+			}
+	provinces={
+		2858 18292 3132 1063 18290 631 1695 18289 3678
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,13 @@
+state={
+	id=361
+	name="Gotka"
+	history={
+			owner = VKA
+			add_core_of = VKA
+			}
+	provinces={
+		18277 4471 792
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
