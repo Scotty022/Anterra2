@@ -1,6 +1,9 @@
 state={
 	id=351
 	name="Dara-Suwaydif"
+history={
+			owner = KRW
+			add_core_of = KRW
 	provinces={
 		1270 2076 7585 7677 7732 
 	}
