@@ -37,7 +37,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Kauri Harma"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "Kauri Harma.dds"
+	picture = "Portrait_Kironia_Kauri_Harma.dds"
 	expire = "1965.1.1"
 	ideology = oligarchy
 }
