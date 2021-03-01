@@ -1,0 +1,9 @@
+state={
+	id=352
+	name="Dara-Suwaydif"
+	provinces={
+		1270 2076 7585 7677 7732 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

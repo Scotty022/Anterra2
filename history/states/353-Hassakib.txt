@@ -1,0 +1,9 @@
+state={
+	id=352
+	name="Hassakib"
+	provinces={
+		1363 2936 7714 7762 7775 7825 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
