@@ -1,0 +1,13 @@
+state={
+	id=368
+	name="Santo Andre"
+	history={
+			owner = JUN
+			add_core_of = JUN
+			}
+	provinces={
+		1785 35 6223 6238
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
