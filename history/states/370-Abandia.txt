@@ -1,0 +1,13 @@
+state={
+	id=370
+	name="Abandia"
+	history={
+			owner = SBA
+			add_core_of = SBA
+			}
+	provinces={
+		3943 4442 1038 5574
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

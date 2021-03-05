@@ -1,0 +1,13 @@
+state={
+	id=373
+	name="Bograna"
+	history={
+			owner = SBA
+			add_core_of = SBA
+			}
+	provinces={
+		5644 3799 225 5676 5622 5657
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

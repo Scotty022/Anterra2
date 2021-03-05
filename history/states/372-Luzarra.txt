@@ -1,0 +1,13 @@
+state={
+	id=372
+	name="Luzarra"
+	history={
+			owner = SBA
+			add_core_of = SBA
+			}
+	provinces={
+		4329 2499 5601 5626 132
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

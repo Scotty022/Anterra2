@@ -1,0 +1,13 @@
+state={
+	id=367
+	name="Tregonda"
+	history={
+			owner = NBA
+			add_core_of = NBA
+			}
+	provinces={
+		5450 5444 5467 2784 2182 4089
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

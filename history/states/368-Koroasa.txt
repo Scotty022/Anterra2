@@ -1,0 +1,13 @@
+state={
+	id=368
+	name="Koroasa"
+	history={
+			owner = NBA
+			add_core_of = NBA
+			}
+	provinces={
+		80 4016 233 1350 1630
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

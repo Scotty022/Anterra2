@@ -1,0 +1,13 @@
+state={
+	id=371
+	name="Ibaretta"
+	history={
+			owner = SBA
+			add_core_of = SBA
+			}
+	provinces={
+		1464 5521 3465 5562 4570
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

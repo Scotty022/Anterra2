@@ -1,0 +1,13 @@
+state={
+	id=366
+	name="Zuloaga"
+	history={
+			owner = NBA
+			add_core_of = NBA
+			}
+	provinces={
+		2694 4297 2008 5488
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
