@@ -1,12 +1,12 @@
 state={
-	id=367
-	name="Ilhas"
+	id=374
+	name="Santa Helena"
 	history={
 			owner = JUN
 			add_core_of = JUN
 			}
 	provinces={
-		9220 2438 5920 5928 5952 9224 9222 9219 9218
+		4314 6003 4181 5958 1007 4409 6021 6056 2309 6098 6049 6041 4303 5988 6024 3078 6046
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
