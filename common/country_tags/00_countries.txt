@@ -40,3 +40,4 @@ ABL = "countries/Albel.txt"
 ALV = "countries/Alvakalia.txt"
 NBA = "countries/North Boaga.txt"
 SBA = "countries/South Boaga.txt"
+SVX = "countries/svenskt.txt" #SVE is in use by Sovena :(
