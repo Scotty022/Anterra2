@@ -1,0 +1,13 @@
+state={
+	id=379
+	name="South Qurac"
+history={
+			owner = QUR
+			add_core_of = QUR
+			}
+	provinces={
+		3662 4631 6576 6584 6613 6619 6660 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

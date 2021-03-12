@@ -2,7 +2,7 @@ state={
 	id=352
 	name="Hassakib"
 history={
-			owner = KRW
+			owner = HYD
 			add_core_of = KRW
 }
 	provinces={
