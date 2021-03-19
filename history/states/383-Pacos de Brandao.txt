@@ -1,12 +1,12 @@
 state={
-	id=376
-	name="Santo Andre"
+	id=383
+	name="Paços de Brandào"
 	history={
 			owner = JUN
 			add_core_of = JUN
 			}
 	provinces={
-		1785 35 6223 6238 9231
+		6014 556 4287 6018 3325 6097 1623 6104 528 6037 4678 6020 6034 6002 9227
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

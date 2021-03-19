@@ -42,3 +42,4 @@ NBA = "countries/North Boaga.txt"
 SBA = "countries/South Boaga.txt"
 SVX = "countries/svenskt.txt" #SVE is in use by Sovena :(
 QUR = "countries/Qurac.txt"
+JUN = "countries/Jungastia.txt"
