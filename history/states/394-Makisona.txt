@@ -1,13 +1,29 @@
 state={
-	id=394
-	name="Makisona"
-	history={
+		id = 394
+		name = "Makisona"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ABE
 			add_core_of = ABE
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		4445 5888 610 5890 245 5867 4151 5909 1968 5932 5922 5915 5946
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

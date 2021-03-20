@@ -1,0 +1,29 @@
+state={
+		id = 390
+		name = "Despajado"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = ARO
+			add_core_of = ARO
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		4899 56 5956 3307 4209 1650 4418 3764 2846 5962 6017 5884 5923
+			}
+}

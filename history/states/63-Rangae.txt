@@ -1,16 +1,29 @@
-
 state={
-	id=63
-	name="Rangae"
-history={
+		id = 63
+		name = "Rangae"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
 			owner = HEL
 			add_core_of = HEL
-			}
-	provinces={
-		3447 1293 5431
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		3447 1293 5431
+			}
+}

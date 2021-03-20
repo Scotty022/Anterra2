@@ -1,13 +1,29 @@
 state={
-	id = 317
-	name="Okarina"
-history={
+		id = 317
+		name = "Okarina"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = OSR
 			add_core_of = OSR
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 3115 2737 2796 7633 7571 3167 7634 7625 7666 2176 7674 1062 4890 2796 304 7723 7776 7883 4326 7805 7822 1651 4102 3123
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

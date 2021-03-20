@@ -1,13 +1,29 @@
 state={
-	id=214
-	name="West Amomosean Islands"
-	history={
+		id = 214
+		name = "West Amomosean Islands"
+		manpower = 1000
+		
+
+		state_category = Small_island
+
+		history = {
 			owner = PRO
 			add_core_of = PRO
-			}
-	provinces={
+			add_core_of = TRA
+			add_core_of = MUR
+
+			
+
+			buildings = {
+				infrastructure = 1
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		9194
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

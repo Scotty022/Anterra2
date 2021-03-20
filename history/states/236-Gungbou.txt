@@ -1,18 +1,29 @@
 state={
-	id=236
-	name="Gungbou"
-	history={
+		id = 236
+		name = "Gungbou"
+		manpower = 27000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = BEI
 			add_core_of = BEI
-			}
-	buildings = {
-					infrastructure = 1
-					industrial_complex = 0
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				infrastructure = 1
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6541 6592 4546 729 6620
-	}
-	manpower=0
-	state_category = wasteland
-	buildings_max_level_factor=1.000
+			}
 }

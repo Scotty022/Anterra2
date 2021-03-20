@@ -1,13 +1,29 @@
 state={
-	id=375
-	name="Ilhas"
-	history={
+		id = 375
+		name = "Ilhas"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		9220 2438 5920 5928 5952 9224 9222 9219 9218
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

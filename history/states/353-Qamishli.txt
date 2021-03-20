@@ -1,13 +1,29 @@
 state={
-	id=353
-	name="Qamishli"
-history={
+		id = 353
+		name = "Qamishli"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = HYD
-			add_core_of = KRW
-}
-	provinces={
+			add_core_of = HYD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1508 1995 2959 3259 3387 3782 7462 7498 7521 7547 7563 7595 7606 7618 7619 7657 7664 7708 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

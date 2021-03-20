@@ -1,13 +1,29 @@
 state={
-	id=119
-	name="South Kryzhelovschina"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 119
+		name = "South Kryzhelovschina"
+		manpower = 8000000
+		
+
+		state_category = large city
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = GPR
+			
+
+			
+
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 2
+				arms_factory = 1
+				
+				synthetic_refinery = 1
+				
+				
+		} }
+		provinces={
 		9 533 4840 5123 5127 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

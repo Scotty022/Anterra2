@@ -1,0 +1,29 @@
+state={
+		id = 389
+		name = "Bendición"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = ARO
+			add_core_of = ARO
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		518 2941 3200 6211 3033 6156 6222 6266 6322 888 572 6312 6260 823
+			}
+}

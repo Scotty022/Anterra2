@@ -1,13 +1,29 @@
 state={
-	id=135
-	name="Frontenac"
-	history={
+		id = 135
+		name = "Frontenac"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = CHZ
 			add_core_of = CHZ
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		4114
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

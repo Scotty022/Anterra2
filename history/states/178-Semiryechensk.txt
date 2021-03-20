@@ -1,13 +1,29 @@
 state={
-	id=178
-	name="Semiryechensk"
-	history={
-            owner = LST
-            add_core_of = LST
-            }
-	provinces={
+		id = 178
+		name = "Semiryechensk"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = LST
+			add_core_of = LST
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1057 3119 3434 3692 5003 5026 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

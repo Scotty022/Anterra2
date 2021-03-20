@@ -1,0 +1,29 @@
+state={
+		id = 425
+		name = "Lumières"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = TRR
+			add_core_of = TRR
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		7887 4717 3405 8011 3065 2539 7880 1886 
+			}
+}

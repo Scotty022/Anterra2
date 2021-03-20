@@ -1,18 +1,29 @@
 state={
-	id=237
-	name="Yngse"
-	history={
+		id = 237
+		name = "Yngse"
+		manpower = 40000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = BEI
 			add_core_of = BEI
-			}
-	buildings = {
-					infrastructure = 1
-					industrial_complex = 0
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				infrastructure = 1
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6614 6661 6704 6695 
-	}
-	manpower=0
-	state_category = wasteland
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=378
-	name="North Qurac"
-history={
+		id = 378
+		name = "North Qurac"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = QUR
 			add_core_of = QUR
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		915 2071 2378 3170 6384 6427 6441 6456 6481 6534 6540 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

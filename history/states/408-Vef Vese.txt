@@ -1,13 +1,29 @@
 state={
-	id=408
-	name="Vef Vese"
-	history={
+		id = 408
+		name = "Vef Vese"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TAV
 			add_core_of = TAV
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		4931 2820 5359 5388 5409 5374 5354 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

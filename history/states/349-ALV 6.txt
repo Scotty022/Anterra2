@@ -1,13 +1,29 @@
 state={
-	id=349
-	name="ALV 6"
-	history={
+		id = 349
+		name = "ALV 6"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ALV
 			add_core_of = ALV
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6630 6605 4768 838 6681 6665 6731 6716 874 6796 2777 6857 6865 1693 6821 6804 2580
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

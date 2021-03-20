@@ -1,13 +1,29 @@
 state={
-	id=388
-	name="Los Recuerdos"
-	history={
+		id = 388
+		name = "Los Recuerdos"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ARO
 			add_core_of = ARO
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		140 6423 6650 6781 3953 3641 6662 2525 3797 6531 1078
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=295
-	name="Atrivan Isles"
-	history={
+		id = 295
+		name = "Atrivan Isles"
+		manpower = 1000
+		
+
+		state_category = large_city
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		6991 18238 9316 18252
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=267
-	name="Rone"
-	history={
+		id = 267
+		name = "Rone"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		7504 7473 7530 1140 491
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

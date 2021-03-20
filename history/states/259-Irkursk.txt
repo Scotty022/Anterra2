@@ -1,14 +1,29 @@
-
 state={
-	id=259
-	name="Irkusk"
-	history={
-		owner = TST
-		add_core_of = TST
-		}
-	provinces={
+		id = 259
+		name = "Irkursk"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = TST
+			
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		38 133 783 814 2608 3116 3430 4426 5043 5059 5064 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

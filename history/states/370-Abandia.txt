@@ -1,13 +1,29 @@
 state={
-	id=370
-	name="Abandia"
-	history={
+		id = 370
+		name = "Abandia"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = SBA
 			add_core_of = SBA
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3943 4442 1038 5574
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

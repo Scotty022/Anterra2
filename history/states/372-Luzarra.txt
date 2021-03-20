@@ -1,13 +1,29 @@
 state={
-	id=372
-	name="Luzarra"
-	history={
+		id = 372
+		name = "Luzarra"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = SBA
 			add_core_of = SBA
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		4329 2499 5601 5626 132
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

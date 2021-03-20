@@ -1,16 +1,29 @@
-
 state={
-	id=96
-	name="North Samotkhe"
-history={
+		id = 96
+		name = "North Samotkhe"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = SAM
 			add_core_of = SAM
-			}
-	provinces={
-		412 5214 5180 2226 169 3970 5220 5236 5273 5251 1390 5203 18293
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		412 5214 5180 2226 169 3970 5220 5236 5273 5251 1390 5203 18293
+			}
+}

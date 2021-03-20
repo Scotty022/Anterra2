@@ -1,13 +1,29 @@
 state={
-	id=285
-	name="Caravino"
-	history={
+		id = 285
+		name = "Caravino"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		 6773 6841 6790 6812 877 3228 6752 3571 6791
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

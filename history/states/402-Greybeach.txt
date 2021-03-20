@@ -1,13 +1,29 @@
 state={
-	id=402
-	name="Greybeach"
-	history={
+		id = 402
+		name = "Greybeach"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ABE
 			add_core_of = ABE
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1214 685 2350 5708
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

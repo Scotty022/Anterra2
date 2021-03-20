@@ -1,0 +1,29 @@
+state={
+		id = 227
+		name = "Phung Hai Biet"
+		manpower = 3300000
+		
+
+		state_category = city 
+
+		history = {
+			owner = BEI
+			add_core_of = BEI
+			
+			
+
+			
+
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		6029 6053 6084 1369 
+			}
+}

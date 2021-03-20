@@ -1,16 +1,29 @@
-
 state={
-	id=128
-	name="Sivegore"
-history={
+		id = 128
+		name = "Sivegore"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
 			owner = VRT
 			add_core_of = VRT
-			}
-	provinces={
-		5285 3629
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			add_core_of = LUS
+			
 
+			
+
+			buildings = {
+				infrastructure = 3
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5285 3629
+			}
+}

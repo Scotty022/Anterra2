@@ -1,13 +1,29 @@
 state={
-	id=304
-	name="Seratof"
-history={
+		id = 304
+		name = "Seratof"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = SER
 			add_core_of = SER
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 1820 5470 5497 4710 1716 1030 2388
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

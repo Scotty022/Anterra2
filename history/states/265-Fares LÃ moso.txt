@@ -1,0 +1,29 @@
+state={
+		id = 265
+		name = "Fares Làmoso"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = TLN
+			add_core_of = TLN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
+		3884 9320 7318 3578
+			}
+}

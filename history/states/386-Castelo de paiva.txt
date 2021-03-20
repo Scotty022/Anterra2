@@ -1,13 +1,29 @@
 state={
-	id=386
-	name="Castelo de Paiva"
-	history={
+		id = 386
+		name = "Castelo de Paiva"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6524 6480 6504 2971 6512 1851 3043 688 2616 4860 4069 6393 6386 6345 4162 6360 3927 305 6351 3665 6314 6344 6385 6325 3063 3422 4214 3962 6430 6448
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

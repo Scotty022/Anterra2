@@ -1,13 +1,29 @@
 state={
-	id=133
-	name="L'Ile-aux-Marins"
-	history={
+		id = 133
+		name = "L'Ile-aux-Marins"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = CHZ
 			add_core_of = CHZ
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		5085 3151
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

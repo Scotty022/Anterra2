@@ -1,0 +1,29 @@
+state={
+		id = 223
+		name = "Tỉnh Nam Hồ"
+		manpower = 650000
+		
+
+		state_category = town
+
+		history = {
+			owner = BEI
+			add_core_of = BEI
+			
+			
+
+			
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		3347 2879 6042 6050 6057 2684 6120 6091 2884 696 1932
+			}
+}

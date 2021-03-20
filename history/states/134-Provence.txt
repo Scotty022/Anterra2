@@ -1,13 +1,29 @@
 state={
-	id=134
-	name="Provence"
-	history={
+		id = 134
+		name = "Provence"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = CHZ
 			add_core_of = CHZ
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		710 5052
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

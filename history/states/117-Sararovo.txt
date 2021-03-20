@@ -1,13 +1,29 @@
 state={
-	id=117
-	name="Sararovo"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 117
+		name = "Sararovo"
+		manpower = 7000000
+		
+
+		state_category = large city
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ZAP
+			
+
+			
+
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 2
+				arms_factory = 3
+				
+				
+				
+				
+		} }
+		provinces={
 		272 2163 2414 3183 3727 5510 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

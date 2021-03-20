@@ -1,13 +1,29 @@
 state={
-	id=205
-	name="North Chaldean"
-	history={
-            owner = CHA
-            add_core_of = CHA
-            }
-	provinces={
+		id = 205
+		name = "North Chaldean"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = CHA
+			add_core_of = CHA
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1338 1470 1655 2863 4205 4883 7174 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+			}
 }

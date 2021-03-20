@@ -1,16 +1,29 @@
-
 state={
-	id=86
-	name="Mdinare"
-history={
+		id = 86
+		name = "Aghmosavletit"
+		manpower = 1000
+		
+
+		state_category = town
+
+		history = {
 			owner = SAM
 			add_core_of = SAM
-			}
-	provinces={
-		4778 18255 4850 5293 699
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		4778 18255 4850 5293 699
+			}
+}

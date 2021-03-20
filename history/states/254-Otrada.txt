@@ -1,13 +1,29 @@
 state={
-	id=254
-	name="Otrada"
-history={
-            owner = YAR
-            add_core_of = YAR
-            }
-	provinces={
+		id = 254
+		name = "Otrada"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = YAR
+			add_core_of = YAR
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		112 285 784 1600 5165 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

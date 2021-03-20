@@ -1,13 +1,29 @@
 state={
-	id=120
-	name="Zlata"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 120
+		name = "Zlata"
+		manpower = 2600000
+		
+
+		state_category = city
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ZAP
+			
+
+			
+
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 1
+				arms_factory = 1
+				
+				
+				
+				
+		} }
+		provinces={
 		3179 3660 4273 5451 5462 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=208
-	name="Trans-Traxi"
-	history={
+		id = 208
+		name = "Trans-Traxi"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
 			owner = PRO
 			add_core_of = PRO
-			}
-	provinces={
+			add_core_of = TRA
+			add_core_of = LUS
+
+			
+
+			buildings = {
+				infrastructure = 2
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		508 1008 1331 2233 5343 5372 5414 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=33
-	name="STATE_33"
-history={
+		id = 33
+		name = "Anbei"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		680 1720 4823 7553 
-	}
-	manpower=1100
-	buildings_max_level_factor=1.000
+			}
 }

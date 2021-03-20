@@ -1,0 +1,29 @@
+state={
+		id = 89
+		name = "Maghalmtianebi"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
+			owner = SAM
+			add_core_of = SAM
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1666 5246 4042
+			}
+}

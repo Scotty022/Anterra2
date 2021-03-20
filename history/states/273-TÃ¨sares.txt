@@ -1,0 +1,29 @@
+state={
+		id = 273
+		name = "Tèsares"
+		manpower = 1000
+		
+
+		state_category = city
+
+		history = {
+			owner = TLN
+			add_core_of = TLN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
+		 1185 7331 797 7284
+			}
+}

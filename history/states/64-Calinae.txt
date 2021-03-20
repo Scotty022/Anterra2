@@ -1,16 +1,29 @@
-
 state={
-	id=64
-	name="Calinae"
-history={
+		id = 64
+		name = "Calinae"
+		manpower = 1000
+		
+
+		state_category = town
+
+		history = {
 			owner = HEL
 			add_core_of = HEL
-			}
-	provinces={
-		5332 2171 2137 5396 2958
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5332 2171 2137 5396 2958
+			}
+}

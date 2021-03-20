@@ -1,18 +1,29 @@
 state={
-	id=5
-	name="STATE_5"
-history={
+		id = 5
+		name = "South Liujiang"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
 			owner = QIN
 			add_core_of = QIN
-			}
-	buildings = {
-					infrastructure = 7
-					industrial_complex = 5
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1473 2196 3275 4488 8767 8807 
-	}
-	manpower=10000
-	state_category = rural
-	buildings_max_level_factor=1.000
+			}
 }

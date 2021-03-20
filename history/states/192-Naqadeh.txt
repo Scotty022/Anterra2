@@ -1,13 +1,29 @@
 state={
-	id=192
-	name="Naqadeh"
-	history={
-            owner = MIH
-            add_core_of = MIH
-            }
-	provinces={
+		id = 192
+		name = "Naqadeh"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = MIH
+			add_core_of = MIH
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3335 7316 7379 7407 7475 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+			}
 }

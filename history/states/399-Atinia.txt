@@ -1,13 +1,29 @@
 state={
-	id=399
-	name="Atinia"
-	history={
+		id = 399
+		name = "Atinia"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ABE
 			add_core_of = ABE
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		439 4919 3732 3556 15
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

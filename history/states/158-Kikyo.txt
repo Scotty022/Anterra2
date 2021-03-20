@@ -1,13 +1,29 @@
 state={
-	id=158
-	name="Kikyo"
-	history={
+		id = 158
+		name = "Kikyo"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = AKI
 			add_core_of = AKI
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1160 1194 1458 1816 2895 3131 3196 3419 3423 3645 3841 3963 4595 6554 6734 6761 6780 6788 6834 6835 6840 6923 6988 6989 6998 7037 7093 7105 7160 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+			}
 }

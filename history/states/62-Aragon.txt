@@ -1,16 +1,29 @@
-
 state={
-	id=62
-	name="Aragon"
-history={
+		id = 62
+		name = "Aragon"
+		manpower = 1000
+		
+
+		state_category = town
+
+		history = {
 			owner = HEL
 			add_core_of = HEL
-			}
-	provinces={
-		676 5361 5380
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		676 5361 5380
+			}
+}

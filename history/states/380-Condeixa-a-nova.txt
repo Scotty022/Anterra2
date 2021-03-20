@@ -1,13 +1,29 @@
 state={
-	id=380
-	name="Condeixa-A-Nova"
-	history={
+		id = 380
+		name = "Condeixa-a-Nova"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		9228 6139 1330 6080 4348 1223 6031 6074 6111 6153 3326 2108 6282 6283  6308 325 6224 6255 1718 6128 1926 1444 6067 6119 6 4480 6189 1361 6244 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

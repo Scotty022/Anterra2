@@ -20,11 +20,11 @@ with open(States_Raw, 'r') as datalist:
 		if row[2]:
 			state_category = f"state_category = {row[2]}"								# state_category
 		else:
-			state_category = "wasteland"
+			state_category = "state_category = pastoral"
 		if row[3]:
 			population = f"manpower = {row[3]}"											# population/manpower
 		else:
-			population = "1000"
+			population = "manpower = 1000"
 		
 		if row[4]:
 			owner = f"owner = {row[4]}"													# owner
@@ -122,7 +122,7 @@ with open(States_Raw, 'r') as datalist:
 			f.write(
 				'state={' + f"""
 		id = {file_id}
-		name = "STATE_{file_id}" # {name}
+		name = "{name}"
 		{population}
 		{build_factor}
 

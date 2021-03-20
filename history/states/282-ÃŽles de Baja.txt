@@ -1,0 +1,29 @@
+state={
+		id = 282
+		name = "Îles de Baja"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = TLN
+			add_core_of = TLN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
+		 9267 7224
+			}
+}

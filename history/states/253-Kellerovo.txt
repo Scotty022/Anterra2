@@ -1,13 +1,29 @@
 state={
-	id=253
-	name="Kellerovo"
-history={
-            owner = YAR
-            add_core_of = YAR
-            }
-	provinces={
+		id = 253
+		name = "Kellerovo"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = YAR
+			add_core_of = YAR
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		102 909 1556 3109 5185 5208 5232 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

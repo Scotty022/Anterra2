@@ -1,13 +1,29 @@
 state={
-	id=405
-	name="Skelelikosulasikra"
-	history={
+		id = 405
+		name = "Skelelikosulasikra"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TAV
 			add_core_of = TAV
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		867 4166 3424 1228 4724 5266 4017 1488 5205
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

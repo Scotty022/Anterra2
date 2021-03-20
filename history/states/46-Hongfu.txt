@@ -1,13 +1,29 @@
 state={
-	id=46
-	name="STATE_46"
-history={
+		id = 46
+		name = "Hongfu"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1222 7564 7614 7722 
-	}
-	manpower=1100
-	buildings_max_level_factor=1.000
+			}
 }

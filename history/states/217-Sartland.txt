@@ -1,13 +1,29 @@
 state={
-	id=217
-	name="Sartland"
-	history={
+		id = 217
+		name = "Sartland"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ASS
 			add_core_of = ASS
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		205 749 2294 2522 3093 4902 5011 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

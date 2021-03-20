@@ -1,13 +1,29 @@
 state={
-	id=351
-	name="Dara-Suwaydif"
-history={
+		id = 351
+		name = "Dara-Suwaydif"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = HYD
-			add_core_of = KRW
-}
-	provinces={
+			add_core_of = HYD
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1270 2076 7585 7677 7732 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

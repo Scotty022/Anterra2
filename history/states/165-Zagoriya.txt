@@ -1,13 +1,29 @@
 state={
-	id=165
-	name="Zagoriya"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 165
+		name = "Zagoriya"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ZAP
+			
+
+			
+
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+				arms_factory = 0
+				
+				
+				
+				
+		} }
+		provinces={
 		3898 4211 5454 5477 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

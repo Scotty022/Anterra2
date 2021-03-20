@@ -1,13 +1,29 @@
 state={
-	id=384
-	name="Tábua"
-	history={
+		id = 384
+		name = "Tabua"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6078 6066 6100 1759 2986 6198 2722 6145 6179 3616 6263 6218 1287 1532 4618 2254 6273 4709 4202 6339 6236
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

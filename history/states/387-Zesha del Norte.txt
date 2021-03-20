@@ -1,13 +1,29 @@
 state={
-	id=387
-	name="Zesha del Norte"
-	history={
+		id = 387
+		name = "Zesha del Norte"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ARO
 			add_core_of = ARO
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6284 6405 891 1022 6405 2562 4339 6649 6366 2150
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

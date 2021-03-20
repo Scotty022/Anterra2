@@ -1,13 +1,29 @@
 state={
-	id=264
-	name="Fares Atrivo"
-	history={
+		id = 264
+		name = "Fares Atrivo"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		7648 7514 1641 1017 7480 3432
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

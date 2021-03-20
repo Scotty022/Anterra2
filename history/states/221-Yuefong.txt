@@ -1,18 +1,29 @@
 state={
-	id=221
-	name="Yuefong"
-	history={
+		id = 221
+		name = "Yuefong"
+		manpower = 8380000
+		
+
+		state_category = metropolis
+
+		history = {
 			owner = BEI
 			add_core_of = BEI
-			}
-	buildings = {
-					infrastructure = 7
-					industrial_complex = 5
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 3
+				arms_factory = 1
+				dockyard  = 1
+				
+				
+				
+		} }
+		provinces={
 		5959 3643 5963 542 1086
-	}
-	manpower=10000
-	state_category = metropolis
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,11 +1,29 @@
-
 state={
-	id=1
-	name="STATE_1"
-	provinces={
+		id = 1
+		name = "State_1"
+		manpower = Read tooltips ^
+		
 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
+		state_category = pastoral
+
+		history = {
+			TST
+			
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=424
-	name="Pays de Laronne"
-	history={
+		id = 424
+		name = "Pays de Laronne"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TRR
 			add_core_of = TRR
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		7412 7507 7579 3580 4507 7639 2031 7701 1773 4058 7796 2648 1980 7836 7899 3640
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

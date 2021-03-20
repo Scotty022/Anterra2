@@ -1,13 +1,29 @@
 state={
-	id=314
-	name="Albizy"
-history={
+		id = 314
+		name = "Albizy"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = MCU
 			add_core_of = MCU
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 2143 3273 5425
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

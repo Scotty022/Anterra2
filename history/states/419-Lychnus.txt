@@ -1,13 +1,29 @@
 state={
-	id=419
-	name="Lychnus"
-	history={
+		id = 419
+		name = "Lychnus"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = CIP
 			add_core_of = CIP
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3444 8099 8135 3169 4617 7948 2355 1735 1176 546 8010 7993
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=245
-	name="Kryzhelovschina"
-history={
-            owner = YAR
-            add_core_of = YAR
-            }
-	provinces={
+		id = 245
+		name = "Kryzhelovschina"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = YAR
+			add_core_of = YAR
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		497 1422 3583 5106 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=358
-	name="Nambrosi"
-	history={
+		id = 358
+		name = "Nambrosi"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = VKA
 			add_core_of = VKA
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		18281
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id = 327
-	name="Kakhab"
-history={
+		id = 327
+		name = "Kakhab"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = OSR
 			add_core_of = OSR
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 8237
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,18 +1,29 @@
 state={
-	id=20
-	name="Zhimin"
-history={
+		id = 20
+		name = "Zhimin"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
 			owner = QIN
 			add_core_of = QIN
-			}
+			
+			
+
+			
+
 			buildings = {
-					infrastructure = 7
-					industrial_complex = 5
-			}
-	provinces={
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2268 4679 8543 8584 2216 161 1587 4451 8498 8510 8530 8565 
-	}
-	manpower=10000
-	state_category = rural
-	buildings_max_level_factor=1.000
+			}
 }

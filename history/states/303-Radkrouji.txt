@@ -1,13 +1,29 @@
 state={
-	id=303
-	name="Radkrouji"
-history={
+		id = 303
+		name = "Radkrouji"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = DES
 			add_core_of = DES
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		278 315 1039 1090 1257 1727 2756 5032 5044 5055 5057 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=413
-	name="Siliwaskak"
-	history={
+		id = 413
+		name = "Siliwaskak"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TAV
 			add_core_of = TAV
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		876 2932 5170 1054 2786 254 3709 3346 1174 1443 2205 5087 1957 4079 4847
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

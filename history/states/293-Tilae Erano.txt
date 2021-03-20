@@ -1,13 +1,29 @@
 state={
-	id=293
-	name="Tilae Erano"
-	history={
+		id = 293
+		name = "Tilae Erano"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		3543 6464 6507 3287 6476 851 4420 3107 1329 6556 3199 1855 3646 1738 2780 6712 6443 1798
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

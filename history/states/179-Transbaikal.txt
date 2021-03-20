@@ -1,13 +1,29 @@
 state={
-	id=179
-	name="Transbaikal"
-	history={
-            owner = LST
-            add_core_of = LST
-            }
-	provinces={
+		id = 179
+		name = "Transbaikal"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = LST
+			add_core_of = LST
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		353 522 690 1832 2605 4239 4959 4962 4968 4970 4973 4976 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

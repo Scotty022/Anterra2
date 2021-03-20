@@ -1,15 +1,29 @@
 state={
-	id=110
-	name="Hindelvega"
-history={
+		id = 110
+		name = "Hindelvega"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TIP
 			add_core_of = TIP
-			}
-	provinces={
-		5151 5141
-		}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5151 5141
+				}
+}

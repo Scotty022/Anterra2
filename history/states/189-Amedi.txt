@@ -1,13 +1,29 @@
 state={
-	id=189
-	name="Amedi"
-	history={
-            owner = MIH
-            add_core_of = MIH
-            }
-	provinces={
+		id = 189
+		name = "Amedi"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = MIH
+			add_core_of = MIH
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1128 2851 3238 7210 7230 7281 7352 7416 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+			}
 }

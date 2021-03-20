@@ -1,13 +1,29 @@
 state={
-	id=202
-	name="South West Chaldean"
-	history={
-            owner = CHA
-            add_core_of = CHA
-            }
-	provinces={
+		id = 202
+		name = "South West Chaldean"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = CHA
+			add_core_of = CHA
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2369 2962 7363 7402 7471 7472 7503 7548 7549 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+			}
 }

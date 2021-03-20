@@ -1,13 +1,29 @@
 state={
-	id=416
-	name="Cipertine"
-	history={
+		id = 416
+		name = "Cipertine"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = CIP
 			add_core_of = CIP
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		236 8065 4232 8158 3067 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

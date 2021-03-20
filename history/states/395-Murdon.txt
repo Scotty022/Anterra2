@@ -1,13 +1,29 @@
 state={
-	id=395
-	name="Murdon"
-	history={
+		id = 395
+		name = "Murdon"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ABE
 			add_core_of = ABE
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2368 1998 5844 192 810 5761 4085 5714 4478 4799 5844 192 5845 1609 5806 4228 1800 5709 5719 5782
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

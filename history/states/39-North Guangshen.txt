@@ -1,13 +1,29 @@
 state={
-	id=39
-	name="STATE_39"
-history={
+		id = 39
+		name = "North Guangshen"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		11 4638 7008 7074 7159 7175 
-	}
-	manpower=1100
-	buildings_max_level_factor=1.000
+			}
 }

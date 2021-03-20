@@ -1,0 +1,29 @@
+state={
+		id = 137
+		name = "Saint Mary's"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = CHZ
+			add_core_of = CHZ
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		724 5020 5035
+			}
+}

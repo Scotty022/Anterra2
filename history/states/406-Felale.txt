@@ -1,13 +1,29 @@
 state={
-	id=406
-	name="Felale"
-	history={
+		id = 406
+		name = "Felale"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TAV
 			add_core_of = TAV
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3030 954 5262 1272 1721 1186 5230 3670 3291 494 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

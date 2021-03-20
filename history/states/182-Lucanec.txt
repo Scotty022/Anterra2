@@ -1,13 +1,29 @@
 state={
-	id=182
-	name="Lucenec"
-history={
+		id = 182
+		name = "Lucanec"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = POZ
 			add_core_of = POZ
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2075 2513 3739 5227 5241 5250 5258 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

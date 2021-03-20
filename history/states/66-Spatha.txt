@@ -1,16 +1,29 @@
-
 state={
-	id=66
-	name="Spatha"
-history={
+		id = 66
+		name = "Spatha"
+		manpower = 1000
+		
+
+		state_category = city
+
+		history = {
 			owner = HEL
 			add_core_of = HEL
-			}
-	provinces={
-		1154 5553 2291 5583 1440
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1154 5553 2291 5583 1440
+			}
+}

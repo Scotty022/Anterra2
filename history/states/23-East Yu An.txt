@@ -1,13 +1,29 @@
 state={
-	id=23
-	name="STATE_23"
-history={
+		id = 23
+		name = "East Yu An"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1919 1925 3289 3617 8175 8272 8304 8332 
-	}
-	manpower=1100
-	buildings_max_level_factor=1.000
+			}
 }

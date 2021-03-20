@@ -1,13 +1,29 @@
 state={
-	id=280
-	name="Martones"
-	history={
+		id = 280
+		name = "Martones"
+		manpower = 1000
+		
+
+		state_category = city
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		 6917 148 18247 9314
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

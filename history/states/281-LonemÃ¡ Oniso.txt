@@ -1,0 +1,29 @@
+state={
+		id = 281
+		name = "Lonemá Oniso"
+		manpower = 1000
+		
+
+		state_category = town
+
+		history = {
+			owner = TLN
+			add_core_of = TLN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
+		 7493 9305 9301 9297
+			}
+}

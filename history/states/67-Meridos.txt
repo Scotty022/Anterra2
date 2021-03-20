@@ -1,16 +1,29 @@
-
 state={
-	id=67
-	name="Meridos"
-history={
+		id = 67
+		name = "Meridos"
+		manpower = 1000
+		
+
+		state_category = large_town
+
+		history = {
 			owner = HEL
 			add_core_of = HEL
-			}
-	provinces={
-		5490 5528 1978 5548 2083
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5490 5528 1978 5548 2083
+			}
+}

@@ -1,13 +1,29 @@
 state={
-	id=188
-	name="Naser"
-	history={
-            owner = NSR
-            add_core_of = NSR
-            }
-	provinces={
+		id = 188
+		name = "Naser"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = NSR
+			add_core_of = NSR
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		78 3258 7301 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+			}
 }

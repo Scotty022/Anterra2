@@ -1,13 +1,29 @@
 state={
-	id=298
-	name="Brahestad"
-history={
+		id = 298
+		name = "Brahestad"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = KIR
 			add_core_of = KIR
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		81 713 3807 4086 4954 4966 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=376
-	name="Santo Andre"
-	history={
+		id = 376
+		name = "Santo Andre"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1785 35 6223 6238 9231
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=124
-	name="Siuku"
-	history={
+		id = 124
+		name = "Siuku"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = TON
 			add_core_of = TON
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1004 1197 1964 4004 4307 6051 6103 6117 6182 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=256
-	name="Shchyokov"
-history={
-            owner = YAR
-            add_core_of = YAR
-            }
-	provinces={
+		id = 256
+		name = "Shchyokov"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = YAR
+			add_core_of = YAR
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		961 1403 1590 2188 2347 4794 5092 5108 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

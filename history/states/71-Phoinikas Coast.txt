@@ -1,16 +1,29 @@
-
 state={
-	id=71
-	name="Phoinikas Coast"
-history={
+		id = 71
+		name = "Phoinikas Coast"
+		manpower = 800000
+		
+
+		state_category = town
+
+		history = {
 			owner = LUS
 			add_core_of = LUS
-			}
-	provinces={
-		5512 2017
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				infrastructure = 3
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5512 2017
+			}
+}

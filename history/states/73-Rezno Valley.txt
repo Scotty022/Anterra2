@@ -1,16 +1,29 @@
-
 state={
-	id=73
-	name="Rezno Valley"
-history={
+		id = 73
+		name = "Rezno Valley"
+		manpower = 1000
+		
+
+		state_category = large_town
+
+		history = {
 			owner = VRT
 			add_core_of = VRT
-			}
-	provinces={
-		2133 4579 1857 3459 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			add_core_of = LUS
+			
 
+			
+
+			buildings = {
+				infrastructure = 4
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		2133 4579 1857 3459 
+			}
+}

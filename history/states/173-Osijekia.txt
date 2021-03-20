@@ -1,13 +1,29 @@
 state={
-	id=173
-	name="Osijekia"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 173
+		name = "Osijekia"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ROV
+			
+
+			
+
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+				arms_factory = 1
+				
+				
+				
+				
+		} }
+		provinces={
 		13 1351 2892 3139 5305 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

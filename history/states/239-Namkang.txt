@@ -1,18 +1,29 @@
 state={
-	id=239
-	name="Namkang"
-	history={
+		id = 239
+		name = "Namkang"
+		manpower = 250000
+		
+
+		state_category = rural
+
+		history = {
 			owner = BEI
 			add_core_of = BEI
-			}
-	buildings = {
-					infrastructure = 2
-					industrial_complex = 1
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6525 6550 6535 4231 1953 6585 6637
-	}
-	manpower=10000
-	state_category = rural
-	buildings_max_level_factor=1.000
+			}
 }

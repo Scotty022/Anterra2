@@ -1,13 +1,29 @@
 state={
-	id=392
-	name="Valle del Mesera"
-	history={
+		id = 392
+		name = "Valle del Mesera"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ARO
 			add_core_of = ARO
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2528 4584 6176 6142 1468 6015 3230 2399 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

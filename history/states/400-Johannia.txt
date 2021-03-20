@@ -1,13 +1,29 @@
 state={
-	id=400
-	name="Johannia"
-	history={
+		id = 400
+		name = "Johannia"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ABE
 			add_core_of = ABE
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		5811 5805 1780
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

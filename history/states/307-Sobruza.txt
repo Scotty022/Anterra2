@@ -1,13 +1,29 @@
 state={
-	id=307
-	name="Sobruza"
-history={
+		id = 307
+		name = "Sobruza"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = SER
 			add_core_of = SER
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 1396 5544 9184
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

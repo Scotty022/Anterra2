@@ -1,13 +1,29 @@
 state={
-	id = 331
-	name="Chuk-Akh"
-history={
+		id = 331
+		name = "Chuk-Akh"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = OSR
 			add_core_of = OSR
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 8324 9343 8367 8404 3316 9352
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

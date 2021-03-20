@@ -1,18 +1,29 @@
 state={
-	id=14
-	name="STATE_14"
-history={
+		id = 14
+		name = "West Xinxing"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
 			owner = QIN
 			add_core_of = QIN
-			}
+			
+			
+
+			
+
 			buildings = {
-					infrastructure = 7
-					industrial_complex = 5
-			}
-	provinces={
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		240 428 1478 2362 4876 8284 8323 8354 
-	}
-	manpower=10000
-	state_category = rural
-	buildings_max_level_factor=1.000
+			}
 }

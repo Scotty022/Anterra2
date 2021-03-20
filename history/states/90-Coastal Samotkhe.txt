@@ -1,16 +1,29 @@
-
 state={
-	id=90
-	name="Coastal Samotkhe"
-history={
+		id = 90
+		name = "Coastal Samotkhe"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = SAM
 			add_core_of = SAM
-			}
-	provinces={
-		5422 1132 3938 5405 1152 911
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5422 1132 3938 5405 1152 911
+			}
+}

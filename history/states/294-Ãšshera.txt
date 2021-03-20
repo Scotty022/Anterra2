@@ -1,0 +1,29 @@
+state={
+		id = 294
+		name = "Úshera"
+		manpower = 1000
+		
+
+		state_category = rural
+
+		history = {
+			owner = TLN
+			add_core_of = TLN
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
+		18242 7366 731 7382 7397 7436 1117
+			}
+}

@@ -1,13 +1,29 @@
 state={
-	id=180
-	name="Voskrenovo"
-history={
+		id = 180
+		name = "Voskrenovo"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = RAZ
 			add_core_of = RAZ
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3983 9193 9196 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=216
-	name="Ruchava"
-	history={
+		id = 216
+		name = "Ruchava"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = ASS
 			add_core_of = ASS
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		521 2801 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

@@ -1,13 +1,29 @@
 state={
-	id=174
-	name="Sibenik"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 174
+		name = "Sibenik"
+		manpower = 2500000
+		
+
+		state_category = pastoral
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ROV
+			
+
+			
+
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 3
+				arms_factory = 1
+				
+				
+				
+				
+		} }
+		provinces={
 		323 982 1341 1568 4393 5357 5394 5438 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }

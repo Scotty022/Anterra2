@@ -1,13 +1,29 @@
 state={
-	id=417
-	name="Lirona"
-	history={
+		id = 417
+		name = "Lirona"
+		manpower = 1000
+		
+
+		state_category = pastoral
+
+		history = {
 			owner = CIP
 			add_core_of = CIP
-			}
-	provinces={
+			
+			
+
+			
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1297 4554 7994 8054 597 4588 8206 1554 8288 2486 8291 2334 3283 8159 3379 8233 8149
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+			}
 }
