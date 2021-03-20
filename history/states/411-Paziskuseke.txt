@@ -1,0 +1,13 @@
+state={
+	id=411
+	name="Paziskuseke"
+	history={
+			owner = TAV
+			add_core_of = TAV
+			}
+	provinces={
+		5279 5313 5308 5275 1776 2067 4130 1184 5333
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

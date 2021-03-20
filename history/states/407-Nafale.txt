@@ -1,0 +1,13 @@
+state={
+	id=407
+	name="Nafale"
+	history={
+			owner = TAV
+			add_core_of = TAV
+			}
+	provinces={
+		4827 2038 2045 5329 1615 5370 459 802 5344 5340
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

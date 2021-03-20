@@ -1,0 +1,13 @@
+state={
+	id=398
+	name="Roix"
+	history={
+			owner = ABE
+			add_core_of = ABE
+			}
+	provinces={
+		5894 894 5937 365 5968 5972 4818
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

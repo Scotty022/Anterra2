@@ -1,0 +1,13 @@
+state={
+	id=391
+	name="El Regalo"
+	history={
+			owner = ARO
+			add_core_of = ARO
+			}
+	provinces={
+		6040 2828 5992 6011
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

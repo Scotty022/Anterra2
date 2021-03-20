@@ -1,0 +1,13 @@
+state={
+	id=403
+	name="Greybeach"
+	history={
+			owner = ABE
+			add_core_of = ABE
+			}
+	provinces={
+		5555 1723 3460 2905 50
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

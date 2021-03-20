@@ -1,0 +1,13 @@
+state={
+	id=412
+	name="Sumoludanesiskusek"
+	history={
+			owner = TAV
+			add_core_of = TAV
+			}
+	provinces={
+		3041 4901 5358 3523 5326 1204 5286 5312
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

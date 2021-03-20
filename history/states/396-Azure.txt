@@ -1,0 +1,13 @@
+state={
+	id=396
+	name="Azure"
+	history={
+			owner = ABE
+			add_core_of = ABE
+			}
+	provinces={
+		3658 5671 4001 4208 134 5777 3512 2215 269 3988 5786 5692 587 5876 5931 5876 5866 5877 5790 4288 5812 1044 5713 5678 3948 2040 347
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

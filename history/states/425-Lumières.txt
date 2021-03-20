@@ -1,0 +1,13 @@
+state={
+	id=425
+	name="Lumières"
+	history={
+			owner = TRR
+			add_core_of = TRR
+			}
+	provinces={
+		7887 4717 3405 8011 3065 2539 7880 1886 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

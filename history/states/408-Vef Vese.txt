@@ -1,0 +1,13 @@
+state={
+	id=408
+	name="Vef Vese"
+	history={
+			owner = TAV
+			add_core_of = TAV
+			}
+	provinces={
+		4931 2820 5359 5388 5409 5374 5354 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
