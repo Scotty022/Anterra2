@@ -1,0 +1,13 @@
+state={
+	id=410
+	name="Mulal"
+	history={
+			owner = TAV
+			add_core_of = TAV
+			}
+	provinces={
+		5331 2304 2198 5366 1060 5439 4881 2697 5419 3435 5409 5395 2808 4841 1263 5401 2382 5406
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

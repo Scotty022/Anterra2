@@ -1,0 +1,13 @@
+state={
+	id=400
+	name="Johannia"
+	history={
+			owner = ABE
+			add_core_of = ABE
+			}
+	provinces={
+		5811 5805 1780
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

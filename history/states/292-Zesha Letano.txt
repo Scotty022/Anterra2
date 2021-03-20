@@ -6,7 +6,7 @@ state={
 			add_core_of = TLN
 			}
 	provinces={ 
-		6530 6487 3427 1121 6421 1074 6311 6337 6379 6422 2150
+		6530 6487 3427 1121 6421 1074 6311 6337 6379 6422 6291
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

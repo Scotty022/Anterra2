@@ -1,0 +1,13 @@
+state={
+	id=390
+	name="Despejado"
+	history={
+			owner = ARO
+			add_core_of = ARO
+			}
+	provinces={
+		4899 56 5956 3307 4209 1650 4418 3764 2846 5962 6017 5884 5923
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

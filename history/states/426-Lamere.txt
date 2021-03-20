@@ -1,0 +1,13 @@
+state={
+	id=426
+	name="Lamere"
+	history={
+			owner = TRR
+			add_core_of = TRR
+			}
+	provinces={
+		1951 4299 2476 8112 8108 8055
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

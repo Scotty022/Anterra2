@@ -1,0 +1,13 @@
+state={
+	id=404
+	name="Teigne"
+	history={
+			owner = TGN
+			add_core_of = TGN
+			}
+	provinces={
+		5997 6022 4906 4866 4506 4748 3314 6025 6006 2635
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

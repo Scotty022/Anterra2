@@ -1,0 +1,13 @@
+state={
+	id=428
+	name="Lacrône"
+	history={
+			owner = TRR
+			add_core_of = TRR
+			}
+	provinces={
+		3436 8200
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
