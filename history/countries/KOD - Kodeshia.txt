@@ -1,4 +1,4 @@
-capital = 177
+capital = 378
 
 #oob = "SCO_1936"
 
@@ -17,13 +17,13 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
-set_convoys = 30
+set_convoys = 20
 set_research_slots = 3
-add_manpower = 20000
+add_manpower = 5000
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -34,12 +34,4 @@ set_popularities = {
 	communism = 5
 	neutrality = 85
 }
-create_country_leader = {
-	name = "Seryozha Kulikov"
-	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "Portrait_Lestykhol_Seryozha_Kulikov.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	#traits = {
-	#}
-}
+

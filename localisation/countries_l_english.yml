@@ -1,4 +1,7 @@
 ﻿l_english:
+ TST:0 "Test"
+ TST_DEF:0 "The Test State"
+ TST_ADJ:0 "Testian"
  QIN_neutrality_DEF:0 "the Federal Republic of Qingcheng"
  QIN:0 "Qingcheng"
  QIN_ADJ:0 "Qingchenese"

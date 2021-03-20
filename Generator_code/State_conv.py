@@ -17,9 +17,19 @@ with open(States_Raw, 'r') as datalist:
 #-------------------- Determining all values --------------------#
 		file_id = row[0]																# id
 		name = row[1]																	# name
-		state_category = f"state_category = {row[2]}"									# state_category
-		population = f"manpower = {row[3]}"												# population/manpower
-		owner = f"owner = {row[4]}"														# owner
+		if row[2]:
+			state_category = f"state_category = {row[2]}"								# state_category
+		else:
+			state_category = "wasteland"
+		if row[3]:
+			population = f"manpower = {row[3]}"											# population/manpower
+		else:
+			population = "1000"
+		
+		if row[4]:
+			owner = f"owner = {row[4]}"													# owner
+		else:
+			owner = "TST"
 
 		if row[5]: 																		# first core
 			core1 = f"add_core_of = {row[5]}"
