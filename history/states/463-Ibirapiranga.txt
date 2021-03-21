@@ -1,0 +1,13 @@
+state={
+	id=463
+	name="Ibirapiranga"
+	history={
+			owner = MAR
+			add_core_of = MAR
+			}
+	provinces={
+		927 2827 7902 1316 3016 7780 7864 3530 7912
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

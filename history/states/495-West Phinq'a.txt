@@ -1,0 +1,13 @@
+state={
+	id=495
+	name="West Phinq'a"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+		9011 4023 9022 929
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

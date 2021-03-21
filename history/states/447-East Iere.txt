@@ -1,0 +1,13 @@
+state={
+	id=447
+	name="East Iere"
+	history={
+			owner = SAM
+			add_core_of = IER
+			}
+	provinces={
+		4760 9248 6251 395 3456 6188 4635 6197 6215
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

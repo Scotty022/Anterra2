@@ -1,0 +1,13 @@
+state={
+	id=510
+	name="Reverencia"
+	history={
+			owner = SMA
+			add_core_of = SMA
+			}
+	provinces={
+ 		 8636 1414 8676 8717 8694 1622 8746 3479 4672 536 3872 1973 1034 8813
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

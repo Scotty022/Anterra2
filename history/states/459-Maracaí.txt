@@ -1,0 +1,13 @@
+state={
+	id=459
+	name="Maracaí"
+	history={
+			owner = MAR
+			add_core_of = MAR
+			}
+	provinces={
+		4807 7739 2682 7903 3225 4082 7888 3661 7976 2262 8014
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=485
+	name="Sakchu"
+	history={
+			owner = KYA
+			add_core_of = KYA
+			}
+	provinces={
+		1869 2901 4477 3135 1282 9111 3008 2289 2194 9084 4362 339 3180 2988 2570 4671
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

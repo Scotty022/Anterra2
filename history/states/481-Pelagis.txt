@@ -1,0 +1,13 @@
+state={
+	id=481
+	name="Pelagis"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		3166 2227 1792 8918 8907 8947 3175 1771 8986 8993 8988 3601 3870 223 
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

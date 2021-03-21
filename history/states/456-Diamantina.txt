@@ -1,0 +1,13 @@
+state={
+	id=456
+	name="Diamantina"
+	history={
+			owner = MAR
+			add_core_of = MAR
+			}
+	provinces={
+		7997 8003 4419 1127 8122 2838 743 8210 8247
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

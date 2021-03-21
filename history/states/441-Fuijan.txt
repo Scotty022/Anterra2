@@ -1,0 +1,13 @@
+state={
+	id=441
+	name="Fuijan"
+	history={
+			owner = KNA
+			add_core_of = KNA
+			}
+	provinces={
+		6369 6319 9252
+	}
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

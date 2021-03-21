@@ -1,0 +1,13 @@
+state={
+	id=461
+	name="North Maracaí"
+	history={
+			owner = MAR
+			add_core_of = MAR
+			}
+	provinces={
+		4855 7685 7719 2761 7702 7754 7810 7830 7819 2709 7755
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=430
+	name="Dzinakade"
+	history={
+			owner = BDZ
+			add_core_of = BDZ
+			}
+	provinces={
+		3558 4943 7 5519 2751 5619 5586
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

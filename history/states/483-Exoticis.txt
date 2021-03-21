@@ -1,0 +1,13 @@
+state={
+	id=483
+	name="Exoticis"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		8533 8497 8513 9355 4360
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=478
+	name="Raetium"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		2220 1817 4258 31 8792 8822 4257 8823 8783 2861 8864 8867 8866
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,6 +1,6 @@
 state={
 	id=403
-	name="Greybeach"
+	name="La Reproche"
 	history={
 			owner = ABE
 			add_core_of = ABE

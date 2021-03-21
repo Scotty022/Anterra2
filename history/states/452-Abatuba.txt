@@ -1,0 +1,13 @@
+state={
+	id=452
+	name="Abatuba"
+	history={
+			owner = MAR
+			add_core_of = MAR
+			}
+	provinces={
+		9294 4272 7386 7404 3634 737 1696 7426 7535 2035 7526 3376 7604 4340 4844 3333 7669 7637 470 7693 7726 2469 7727
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

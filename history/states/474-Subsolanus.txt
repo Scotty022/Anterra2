@@ -1,0 +1,13 @@
+state={
+	id=474
+	name="Subsolanus"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		8344 709 8418 8449 4428 8474 8552 991 8596
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=448
+	name="Lejosia"
+	history={
+			owner = THY
+			add_core_of = THY
+			}
+	provinces={
+		3091 2179 6808
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

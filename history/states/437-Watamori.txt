@@ -1,0 +1,13 @@
+state={
+	id=437
+	name="Watamori"
+	history={
+			owner = KNA
+			add_core_of = KNA
+			}
+	provinces={
+		6293 6304 4128
+	}
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

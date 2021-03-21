@@ -1,0 +1,13 @@
+state={
+	id=467
+	name="Santerre"
+	history={
+			owner = MAR
+			add_core_of = MAR
+			}
+	provinces={
+		7362 1754 4198 7384 7486 7453 2537 7518 7517 7509
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=439
+	name="Bakayata"
+	history={
+			owner = KNA
+			add_core_of = KNA
+			}
+	provinces={
+		6358 1261 6359 6426 6440 6409 6460 2152 6375 6413
+	}
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

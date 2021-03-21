@@ -1,0 +1,13 @@
+state={
+	id=496
+	name="South Phinq'a"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+		8991 2324 185 9030 9035 9040 928 2280 9020 3893 4549
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

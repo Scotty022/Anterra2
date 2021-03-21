@@ -1,0 +1,13 @@
+state={
+	id=450
+	name="Central Kyabar"
+	history={
+			owner = THY
+			add_core_of = THY
+			}
+	provinces={
+		6864 6829 6882 6919 4634 7000 4277 3842
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

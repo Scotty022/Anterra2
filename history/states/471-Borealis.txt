@@ -1,0 +1,13 @@
+state={
+	id=471
+	name="Borealis"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		3827 634 8221 8125 8170 3979 3156 8203 8261 2160 8303 8316 8319 8372 8413 561 294 989 8377 4612 4146 3990 8432 2520 1999 433 3902 2507 4301
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

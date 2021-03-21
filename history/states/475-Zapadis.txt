@@ -1,0 +1,13 @@
+state={
+	id=475
+	name="Zapadis"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		8753 2436 765 8809 2774 3165 411 4388 8913 
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

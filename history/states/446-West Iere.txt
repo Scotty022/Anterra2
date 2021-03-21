@@ -1,0 +1,13 @@
+state={
+	id=446
+	name="West Iere"
+	history={
+			owner = SAM
+			add_core_of = IER
+			}
+	provinces={
+		3517 6124 6161 6170 6127 4776 6212
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=479
+	name="Tumultum"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		8859 8881 1841 1097 571 8931 8946 2296 1649 8902 2283 8882 8932 3368 2734 4758 1489 4238 8977 8957 2458
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

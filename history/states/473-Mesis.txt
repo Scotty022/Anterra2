@@ -1,0 +1,13 @@
+state={
+	id=473
+	name="Mesis"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		3455 8526 8519 8560 3168 767 1490 4443 2306 8665 8588 8614 8575 8532 1454 8531 8547
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=500
+	name="Hidquechua"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+		314 9090 9079 83 2259 4394 9064 3311 9050 
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

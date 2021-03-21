@@ -1,0 +1,13 @@
+state={
+	id=493
+	name="Ikjara"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+		1437 8968 8973 1576 8974 8995 8962 8920 8951 3714
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=460
+	name="São Pedro"
+	history={
+			owner = MAR
+			add_core_of = MAR
+			}
+	provinces={
+		1592 7425 7489 3004 1549 7488 7587 7603 4545
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

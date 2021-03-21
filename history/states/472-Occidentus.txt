@@ -1,0 +1,13 @@
+state={
+	id=472
+	name="Occidentus"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		3738 895 8518 8606 3146 8647 8684 8708 8732 3019 8718 3227 8679 8673 8630 8587 1591 8567 1955 3363 8672 1036
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

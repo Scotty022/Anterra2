@@ -1,0 +1,13 @@
+state={
+	id=512
+	name="Ileno"
+	history={
+			owner = SMA
+			add_core_of = SMA
+			}
+	provinces={
+ 		 8511 2093 4535 8600 8502 500 3716 1654 1356 762 8637 8635 3628 8677 4439
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

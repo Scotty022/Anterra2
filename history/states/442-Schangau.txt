@@ -1,0 +1,13 @@
+state={
+	id=442
+	name="Schangau"
+	history={
+			owner = KNA
+			add_core_of = KNA
+			}
+	provinces={
+		6461 6503 1143 6516
+	}
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

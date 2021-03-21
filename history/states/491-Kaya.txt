@@ -1,0 +1,13 @@
+state={
+	id=491
+	name="Kaya"
+	history={
+			owner = KYA
+			add_core_of = KYA
+			}
+	provinces={
+		1433 3371 2351 396 2037 9132 1333 2750 9131 9130
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

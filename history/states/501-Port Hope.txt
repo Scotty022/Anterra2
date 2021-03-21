@@ -1,0 +1,13 @@
+state={
+	id=501
+	name="Port Hope"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+		2088 9105 4165 9113 611
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

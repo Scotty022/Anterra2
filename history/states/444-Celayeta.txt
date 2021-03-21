@@ -1,0 +1,13 @@
+state={
+	id=444
+	name="Celayeta"
+	history={
+			owner = KNA
+			add_core_of = KNA
+			}
+	provinces={
+		6574 2384 231
+	}
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

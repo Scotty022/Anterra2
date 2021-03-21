@@ -1,0 +1,13 @@
+state={
+	id=482
+	name="Austellum"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		1640 4699 1216 3071 1736 9005 2758 2252 9053 9049 9041 105 9024 9379
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

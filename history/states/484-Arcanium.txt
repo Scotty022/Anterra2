@@ -1,0 +1,13 @@
+state={
+	id=484
+	name="Arcanium"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		8765 3666
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

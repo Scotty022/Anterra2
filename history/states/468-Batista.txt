@@ -1,0 +1,13 @@
+state={
+	id=468
+	name="Batista"
+	history={
+			owner = MAR
+			add_core_of = MAR
+			}
+	provinces={
+		7567 7608 7602 1954 404 7779 7738 7748 7689 7636
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

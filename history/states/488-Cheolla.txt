@@ -1,0 +1,13 @@
+state={
+	id=488
+	name="Cheolla"
+	history={
+			owner = KYA
+			add_core_of = KYA
+			}
+	provinces={
+		1226 9119 1304 9121 925 1791 4063 9124 1519 4100 599 9410 599 3620 4253 2146 9123 230 
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=480
+	name="Feraxis"
+	history={
+			owner = ZHV
+			add_core_of = ZHV
+			}
+	provinces={
+		8896 2654 2079 4743 1123 8944 2337 8963 8987 4708 2344 9008 8996 212
+        }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

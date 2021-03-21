@@ -1,0 +1,13 @@
+state={
+	id=499
+	name="Lamara Suvu"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+		9045 1583 4834 9076 9082 1370 
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

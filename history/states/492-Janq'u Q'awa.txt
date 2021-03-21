@@ -1,0 +1,13 @@
+state={
+	id=492
+	name="Janq'u Q'awa"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+		2021 8945 482 2105 1382 1066 3251
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

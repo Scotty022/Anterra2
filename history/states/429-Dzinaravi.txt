@@ -1,0 +1,13 @@
+state={
+	id=429
+	name="Dzinaravi"
+	history={
+			owner = BDZ
+			add_core_of = BDZ
+			}
+	provinces={
+		5430 277 333 1749 3469 5440
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
