@@ -41,7 +41,7 @@ create_country_leader = {
 	picture = "Portrait_Qingcheng_YangLuoyang.dds"
 	expire = "1970.1.1"
 	ideology = fascism_ideology
-	traits = {
+	# traits = {
 
-	}
+	# }
 }

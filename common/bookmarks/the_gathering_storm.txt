@@ -7,10 +7,10 @@ bookmarks = {
 		default_country = "KOD"
 		default = yes
 		
-		# TST={
-		#  	history = "OTHER_GATHERING_STORM_DESC"
-		# 	ideology = neutrality	
-		# }
+		TST={
+		 	history = "OTHER_GATHERING_STORM_DESC"
+			ideology = neutrality	
+		}
 		KOD={ #Kesh war east and west front
 			history = "KOD_GATHERING_STORM_DESC"
 			ideology = fascism			
