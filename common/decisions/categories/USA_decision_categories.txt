@@ -2,16 +2,16 @@
 ##### USA ######
 ################
 
-USA_war_measures = {
+# USA_war_measures = {
 	
-	allowed = {
-		original_tag = USA
-	}
-}
+# 	allowed = {
+# 		original_tag = USA
+# 	}
+# }
 
-USA_aid_britain = {
+# USA_aid_britain = {
 
-	allowed = {
-		original_tag = USA
-	}
-}
+# 	allowed = {
+# 		original_tag = USA
+# 	}
+# }

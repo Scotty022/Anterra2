@@ -4,21 +4,84 @@ bookmarks = {
 		desc = "GATHERING_STORM_DESC"
 		date = 1946.1.1.12
 		picture = "GFX_select_date_1936"
-		default_country = "TST"
+		default_country = "KOD"
 		default = yes
 		
-		"TST"={
-			history = "OTHER_GATHERING_STORM_DESC"
+		# TST={
+		#  	history = "OTHER_GATHERING_STORM_DESC"
+		# 	ideology = neutrality	
+		# }
+		KOD={ #Kesh war east and west front
+			history = "KOD_GATHERING_STORM_DESC"
+			ideology = fascism			
 		}
-		"QIN"={
-			history = "QIN_GATHERING_STORM_DESC"		
+		TIP={ #Kesh war east and west front
+			history = "TIP_GATHERING_STORM_DESC"
+			ideology = democratic		
 		}
-		"KOD"={
-			history = "KOD_GATHERING_STORM_DESC"		
+		BEI={ #Kesh war east front
+			history = "BEI_GATHERING_STORM_DESC"
+			ideology = fascism			
+		}
+		KYA={ #Kesh war West front
+			history = "KYA_GATHERING_STORM_DESC"
+			ideology = neutrality			
+		}
+		AKI={ #Kesh war East front
+			history = "AKI_GATHERING_STORM_DESC"
+			ideology = fascism			
+		}
+		ALV={ #Kesh war West front
+			history = "ALV_GATHERING_STORM_DESC"
+			ideology = democratic			
+		}
+		# "SEL"={ #Kesh war east
+		# 	history = "SEL_GATHERING_STORM_DESC"
+		# 	ideology = neutrality		
+		# }
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		#####################################
+		### ----------- Minors ---------- ###
+		#####################################
+		"KHO"={ #Kesh war west
+			minor = yes
+			history = "KHO_GATHERING_STORM_DESC"
+			ideology = neutrality		
+		}
+		"MIH"={ #Kesh war west
+			minor = yes
+			history = "MIH_GATHERING_STORM_DESC"
+			ideology = neutrality		
+		}
+		"QIN"={ #Kesh war support
+			minor = yes
+			history = "QIN_GATHERING_STORM_DESC"
+			ideology = neutrality		
+		}
+		"LST"={ #Kesh war west
+			minor = yes
+			history = "LST_GATHERING_STORM_DESC"
+			ideology = neutrality		
+		}
+		"CHA"={ #Kesh war west
+			minor = yes
+			history = "CHA_GATHERING_STORM_DESC"
+			ideology = neutrality		
+		}
+		"TON"={ #Kesh war west
+			minor = yes
+			history = "TON_GATHERING_STORM_DESC"
+			ideology = neutrality		
 		}
 		"MUR"={
-			history = "KOD_GATHERING_STORM_DESC"		
+			minor = yes
+			history = "MUR_GATHERING_STORM_DESC"		
+			ideology = democratic	
 		}
+		
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

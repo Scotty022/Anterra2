@@ -2,4 +2,4 @@
 graphical_culture = native_american_gfx
 graphical_culture_2d = native_american_2d
 
-color = rgb { 247, 112, 205 }
+color = rgb { 247 112 205 }

@@ -2,9 +2,9 @@
 ##### FRA ######
 ################
 
-FRA_vichy_france = {
+# FRA_vichy_france = {
 	
-	allowed = {
-		original_tag = FRA
-	}
-}
+# 	allowed = {
+# 		original_tag = FRA
+# 	}
+# }

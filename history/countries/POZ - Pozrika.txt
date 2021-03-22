@@ -1,4 +1,4 @@
-capital = 2075
+capital = 185
 
 #oob = "SCO_1936"
 
