@@ -1,0 +1,13 @@
+state={
+	id=532
+	name="Yslanryk"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		 9325 9328
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

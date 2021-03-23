@@ -1,0 +1,13 @@
+state={
+	id=524
+	name="Shimakawa"
+	history={
+			owner = AKI
+			add_core_of = AKI
+			}
+	provinces={
+ 		 9323
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

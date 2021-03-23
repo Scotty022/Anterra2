@@ -1,0 +1,13 @@
+state={
+	id=529
+	name="Ervilo Vorbeia Islands"
+	history={
+			owner = SAM
+			add_core_of = SAM
+			}
+	provinces={
+ 		 9412
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

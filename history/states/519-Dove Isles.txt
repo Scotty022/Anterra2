@@ -1,0 +1,13 @@
+state={
+	id=519
+	name="Dove Isles"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		 9286
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

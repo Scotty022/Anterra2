@@ -1,0 +1,13 @@
+state={
+	id=514
+	name="Novo Santa Helena"
+	history={
+			owner = JUN
+			add_core_of = JUN
+			}
+	provinces={
+ 		 6515 9261 292 9254 9256
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

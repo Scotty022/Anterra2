@@ -1,0 +1,13 @@
+state={
+	id=535
+	name="Kihei Islands"
+	history={
+			owner = BRI
+			add_core_of = BRI
+			}
+	provinces={
+ 		 8632 8639 4041 29 8625
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

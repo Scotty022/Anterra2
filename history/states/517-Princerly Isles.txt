@@ -1,0 +1,13 @@
+state={
+	id=517
+	name="Princerly Isles"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		 9257 9259
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

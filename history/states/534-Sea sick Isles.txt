@@ -1,0 +1,13 @@
+state={
+	id=534
+	name="Sea Sick Isles"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		 9307 9318 12 9329
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=536
+	name="Red Sky Islands"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		 8275 9336 9340 2372 3055 170 8193
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

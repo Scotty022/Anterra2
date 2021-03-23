@@ -1,0 +1,13 @@
+state={
+	id=518
+	name="Turtle Isles"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		 9276 9278 9279
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=525
+	name="Yuhai Islands"
+	history={
+			owner = KOD
+			add_core_of = KOD
+			}
+	provinces={
+ 		 9351 9359 
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

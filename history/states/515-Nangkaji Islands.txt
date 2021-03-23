@@ -1,0 +1,13 @@
+state={
+	id=515
+	name="Nangkaji Islands"
+	history={
+			owner = JUN
+			add_core_of = JUN
+			}
+	provinces={
+ 		 6075 9239 9240
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

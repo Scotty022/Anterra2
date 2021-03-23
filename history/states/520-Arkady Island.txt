@@ -1,0 +1,13 @@
+state={
+	id=520
+	name="Arkady Island"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		 3288
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,6 +1,10 @@
 state={
 	id=206
 	name="Eureka"
+	history={
+		owner = TIP
+		add_core_of = TIP
+		}
 	provinces={
 		425 857 900 2559 9133 
 	}

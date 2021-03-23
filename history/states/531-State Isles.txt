@@ -1,0 +1,13 @@
+state={
+	id=531
+	name="State Isles"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		 9416 9339
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
