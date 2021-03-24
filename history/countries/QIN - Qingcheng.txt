@@ -23,7 +23,7 @@ add_manpower = 5000
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = authdemocracy
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -32,7 +32,8 @@ set_popularities = {
 	democratic = 5
 	fascism = 5
 	communism = 5
-	neutrality = 85
+	neutrality = 5
+	authdemocracy = 80
 }
 
 create_country_leader = {
@@ -40,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_YANG_LUOYANG_DESC"
 	picture = "Portrait_Qingcheng_YangLuoyang.dds"
 	expire = "1970.1.1"
-	ideology = fascism_ideology
+	ideology = authoritarian_democracy
 	# traits = {
 
 	# }
