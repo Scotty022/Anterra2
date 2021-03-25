@@ -1,0 +1,13 @@
+state={
+	id=570
+	name="SAT 9"
+	history={
+			owner = SAT
+			add_core_of = SAT
+			}
+	provinces={
+ 		4398 1285 6560 6604 6612 6565 6597 1893 6659 6640 182 6702 4755 18195 
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

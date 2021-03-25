@@ -1,0 +1,13 @@
+state={
+	id=565
+	name="SAT 4"
+	history={
+			owner = SAT
+			add_core_of = SAT
+			}
+	provinces={
+ 		1614 7049 6995 6921 6877 1544 1168 7110 7155 956 7111 2447 1768 7156 3152
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

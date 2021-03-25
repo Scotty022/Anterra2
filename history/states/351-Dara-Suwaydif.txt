@@ -2,7 +2,7 @@ state={
 	id=351
 	name="Dara-Suwaydif"
 history={
-			owner = HYD
+			owner = KRW
 			add_core_of = KRW
 }
 	provinces={

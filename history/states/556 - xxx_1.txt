@@ -1,0 +1,13 @@
+state={
+	id=556
+	name="XXX_1"
+	history={
+			owner = ???
+			add_core_of = ???
+			}
+	provinces={
+ 		4863 972 8403 1130 8383 1130 477 4424 3409
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

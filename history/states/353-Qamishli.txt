@@ -2,7 +2,7 @@ state={
 	id=353
 	name="Qamishli"
 history={
-			owner = HYD
+			owner = KRW
 			add_core_of = KRW
 }
 	provinces={

@@ -1,0 +1,13 @@
+state={
+	id=563
+	name="SAT 2"
+	history={
+			owner = SAT
+			add_core_of = SAT
+			}
+	provinces={
+ 		6644 1280 6559 6564 6611 3345 3197 6763 6669 4583 6708
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
