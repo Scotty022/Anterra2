@@ -9,5 +9,6 @@ state={
 		2929 6417 6372 6389 672 6354 6394 4820 202 6453 6432 6494
 	}
 	manpower=0
+	state_category = large_town
 	buildings_max_level_factor=1.000
 }
