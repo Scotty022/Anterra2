@@ -1,28 +1,14 @@
 state={
-		id = 348
-		name = "New Altmark"
-		manpower = 1000
-
-		state_category = town
-
-		history = {
+	id=348
+	name="New Altmark"
+	history={
 			owner = ALV
 			add_core_of = ALV
-			
-			
-
-			  
-
-			buildings = {
-				
-				
-				
-				
-				
-				
-				
-		} }
-		provinces={
+			}
+	provinces={
 		6363 3240 2656 6493 4511 450 4279 6598 1340 322 3745 6703
-		}
+	}
+	manpower=0
+	state_category = town
+	buildings_max_level_factor=1.000
 }
