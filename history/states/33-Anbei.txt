@@ -9,5 +9,6 @@ history={
 		680 1720 4823 7553 
 	}
 	manpower=1100
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

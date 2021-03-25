@@ -9,5 +9,6 @@ history={
 		11 4638 7008 7074 7159 7175 
 	}
 	manpower=1100
+	state_category = pastoral
 	buildings_max_level_factor=1.000
 }

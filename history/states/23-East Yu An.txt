@@ -9,5 +9,6 @@ history={
 		1919 1925 3289 3617 8175 8272 8304 8332 
 	}
 	manpower=1100
+	state_category = large_city
 	buildings_max_level_factor=1.000
 }
