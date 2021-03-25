@@ -1,16 +1,28 @@
-
 state={
-	id=84
-	name="Chernarus"
-history={
+		id = 84
+		name = "Chernarus"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = POJ
 			add_core_of = POJ
-			}
-	provinces={
-		986 5584 3509 1084 5516 5554 3748 1161 1235 3354 5588 4052 3880 5481 955 1524 131 5567 4519 5509
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		986 5584 3509 1084 5516 5554 3748 1161 1235 3354 5588 4052 3880 5481 955 1524 131 5567 4519 5509
+		}
+}

@@ -1,0 +1,28 @@
+state={
+		id = 462
+		name = "Morucá"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = MAR
+			add_core_of = MAR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		7986 8083 3252 7982 1231 2924 8074 8121 7975 8178
+        	}
+}

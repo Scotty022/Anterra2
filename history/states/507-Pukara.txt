@@ -1,13 +1,28 @@
 state={
-	id=507
-	name="Pukara"
-	history={
+		id = 507
+		name = "Pukara"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = PUK
 			add_core_of = PUK
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 9009 9000 2169 2939 9034 655 9047 1612 
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

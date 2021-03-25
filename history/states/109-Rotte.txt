@@ -1,15 +1,28 @@
 state={
-	id=109
-	name="Rotte"
-history={
+		id = 109
+		name = "Rotte"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TIP
 			add_core_of = TIP
-			}
-	provinces={
-		114 177 
-		}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		114 177 
+			}
+}

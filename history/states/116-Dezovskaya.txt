@@ -1,13 +1,28 @@
 state={
-	id=116
-	name="Dezovskaya"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 116
+		name = "Dezovskaya"
+		manpower = 1.482.005
+
+		state_category = city
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ZAP
+			
+
+			  
+
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 1
+				arms_factory = 0
+				
+				
+				
+				
+		} }
+		provinces={
 		62 651 4293 4347 5585 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

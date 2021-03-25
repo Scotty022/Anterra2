@@ -1,0 +1,28 @@
+state={
+		id = 537
+		name = "Among Uslands"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = TST
+			
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+ 		 9341
+       	}
+}

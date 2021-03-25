@@ -1,0 +1,28 @@
+state={
+		id = 460
+		name = "São Pedro"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = MAR
+			add_core_of = MAR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1592 7425 7489 3004 1549 7488 7587 7603 4545
+        	}
+}

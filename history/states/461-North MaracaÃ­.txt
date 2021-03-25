@@ -1,0 +1,28 @@
+state={
+		id = 461
+		name = "North Maracaí"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = MAR
+			add_core_of = MAR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		4855 7685 7719 2761 7702 7754 7810 7830 7819 2709 7755
+        	}
+}

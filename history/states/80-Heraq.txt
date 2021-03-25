@@ -1,16 +1,28 @@
-
 state={
-	id=80
-	name="Heraq"
-history={
+		id = 80
+		name = "Heraq"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = POJ
 			add_core_of = POJ
-			}
-	provinces={
-		5507 1913 1911 2180 5486 687
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5507 1913 1911 2180 5486 687
+		}
+}

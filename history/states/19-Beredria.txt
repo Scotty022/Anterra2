@@ -1,13 +1,28 @@
 state={
-	id=19
-	name="Beredria"
-history={
-            owner = LEI
-            add_core_of = LEI
-            }
-	provinces={
+		id = 19
+		name = "Beredria"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = LEI
+			add_core_of = LEI
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2650 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

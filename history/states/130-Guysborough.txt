@@ -1,13 +1,28 @@
 state={
-	id=130
-	name="Guysborough"
-	history={
+		id = 130
+		name = "Guysborough"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = CHZ
 			add_core_of = CHZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		5046 702
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

@@ -1,0 +1,28 @@
+state={
+		id = 286
+		name = "Meseres"
+		manpower = 1000
+
+		state_category = large_town
+
+		history = {
+			owner = TLN
+			add_core_of = TLN
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
+		 6938 18251 6850 6965 6897
+		}
+}

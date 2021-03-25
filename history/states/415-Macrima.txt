@@ -1,13 +1,28 @@
 state={
-	id=415
-	name="Macrima"
-	history={
+		id = 415
+		name = "Macrima"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = CIP
 			add_core_of = CIP
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		8245 4706 3174 3486 8141 1755 8287 4862 8368 8358 1289 8265 8325 8183
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

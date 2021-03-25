@@ -1,13 +1,28 @@
 state={
-	id=60
-	name="STATE_60"
-history={
+		id = 60
+		name = "Lower Traxi"
+		manpower = 2.150.203
+
+		state_category = city
+
+		history = {
 			owner = MUR
 			add_core_of = MUR
-			}
-	provinces={
+			add_core_of = TRA
+			
+
+			victory_points = {3330 10}  
+
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 2
+				
+				dockyard  = 2
+				
+				air_base  = 3
+				
+		} }
+		provinces={
 		3330 5429 5489 
-	}
-	manpower=1100
-	buildings_max_level_factor=1.000
+		}
 }

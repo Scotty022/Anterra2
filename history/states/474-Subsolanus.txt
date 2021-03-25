@@ -1,13 +1,28 @@
 state={
-	id=474
-	name="Subsolanus"
-	history={
+		id = 474
+		name = "Subsolanus"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ZHV
 			add_core_of = ZHV
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		8344 709 8418 8449 4428 8474 8552 991 8596
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

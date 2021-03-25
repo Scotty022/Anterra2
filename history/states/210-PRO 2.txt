@@ -1,13 +1,28 @@
 state={
-	id=210
-	name="PRO 2"
-	history={
+		id = 210
+		name = "PRO 2"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = PRO
 			add_core_of = PRO
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		173 1281 3484 1574 2642 5485 4325
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

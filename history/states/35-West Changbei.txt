@@ -1,14 +1,28 @@
 state={
-	id=35
-	name="STATE_35"
-history={
+		id = 35
+		name = "West Changbei"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		7009 7075 7148 7149 7213 7220 7274 7283 7289 7341 
-	}
-	manpower=1100
-	state_category = rural
-	buildings_max_level_factor=1.000
+		}
 }

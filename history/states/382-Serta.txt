@@ -1,13 +1,28 @@
 state={
-	id=382
-	name="Sertà"
-	history={
+		id = 382
+		name = "Serta"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		4837 6191 6173 6213 4632 6231 3110 1929 4642 484 1560 2624 4793 1653 2571 6226
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

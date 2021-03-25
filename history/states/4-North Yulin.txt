@@ -1,19 +1,28 @@
-
 state={
-	id=4
-	name="STATE_4"
-history={
+		id = 4
+		name = "North Yulin"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
 			owner = QIN
 			add_core_of = QIN
-			}
-	buildings = {
-					infrastructure = 7
-					industrial_complex = 5
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		350 1271 1607 3319 4310 8655 8766 
-	}
-	manpower=10000
-	state_category = rural
-	buildings_max_level_factor=1.000
+		}
 }

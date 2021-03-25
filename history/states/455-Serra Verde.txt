@@ -1,13 +1,28 @@
 state={
-	id=455
-	name="Serra Verde"
-	history={
+		id = 455
+		name = "Serra Verde"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = MAR
 			add_core_of = MAR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		8049 3564 8100 4812 8197 4933 1613 8337 3298 2911 
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

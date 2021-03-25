@@ -1,13 +1,28 @@
 state={
-	id=190
-	name="Madaristan"
-	history={
-            owner = MIH
-            add_core_of = MIH
-            }
-	provinces={
+		id = 190
+		name = "Madaristan"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = MIH
+			add_core_of = MIH
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1743 2229 3050 4286 7440 7539 7546 7584
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

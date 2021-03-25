@@ -1,13 +1,28 @@
 state={
-	id=437
-	name="Watamori"
-	history={
+		id = 437
+		name = "Watamori"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KNA
 			add_core_of = KNA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6293 6304 4128
-	}
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+		}
+}

@@ -1,13 +1,28 @@
 state={
-	id=241
-	name="Hydar"
-	history={
-            owner = HYD
-            add_core_of = HYD
-            }
-	provinces={
+		id = 241
+		name = "Hydar"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = HYD
+			add_core_of = HYD
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		178 586 2185 2968 3991 4246 4664 7946 7969 8015 8016 8053 8070 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

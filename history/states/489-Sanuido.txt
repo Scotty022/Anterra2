@@ -1,13 +1,28 @@
 state={
-	id=489
-	name="Sanuido"
-	history={
+		id = 489
+		name = "Sanuido"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KYA
 			add_core_of = KYA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2234 9118 886 1291 9120 720 686 3663 809 2277
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

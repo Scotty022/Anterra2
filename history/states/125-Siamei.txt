@@ -1,13 +1,28 @@
 state={
-	id=125
-	name="Siamei"
-	history={
+		id = 125
+		name = "Siamei"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TON
 			add_core_of = TON
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		835 1275 1986 2604 3102 3527 3689 4306 5893 5899 5910 5916 5924 5944 5945 5960 5964 5984 9225 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

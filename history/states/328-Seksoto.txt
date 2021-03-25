@@ -1,13 +1,28 @@
 state={
-	id = 328
-	name="Seksoto"
-history={
+		id = 328
+		name = "Seksoto"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = OSR
 			add_core_of = OSR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 3481 18237 4524 8264
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

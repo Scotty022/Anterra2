@@ -1,13 +1,28 @@
 state={
-	id=126
-	name="Hakha"
-	history={
+		id = 126
+		name = "Hakha"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TON
 			add_core_of = TON
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		149 226 543 1006 1337 1445 2483 3095 3249 3712 4526 4752 5939 5948 5967 5977 5996 5999 6058 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

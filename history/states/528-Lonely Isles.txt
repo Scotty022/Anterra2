@@ -1,13 +1,28 @@
 state={
-	id=528
-	name="Lonely Isles"
-	history={
+		id = 528
+		name = "Lonely Isles"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 9230
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

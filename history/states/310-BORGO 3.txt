@@ -1,13 +1,28 @@
 state={
-	id=310
-	name="BORGO 3"
-history={
+		id = 310
+		name = "BORGO 3"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BOR
 			add_core_of = BOR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 5384 3635 2972 935 5299 476 3312 1239
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

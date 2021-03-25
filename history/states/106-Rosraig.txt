@@ -1,15 +1,28 @@
 state={
-	id=106
-	name="Rosraig"
-history={
+		id = 106
+		name = "Rosraig"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TIP
 			add_core_of = TIP
-			}
-	provinces={
-		5190 5212 2632 3493 5272 95 2106 5314 4464 1080 4680 3819 18 1682 485 2084 1332 3921 1715 5263 2357 4090 5280 5238 1965 5219 187 5263
-		}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5190 5212 2632 3493 5272 95 2106 5314 4464 1080 4680 3819 18 1682 485 2084 1332 3921 1715 5263 2357 4090 5280 5238 1965 5219 187 5263
+			}
+}

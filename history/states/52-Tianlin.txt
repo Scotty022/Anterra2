@@ -1,15 +1,28 @@
-
 state={
-	id=52
-	name="STATE_52"
-history={
+		id = 52
+		name = "Tianlin"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		203 250 2457 2603 4051 4605 7456 7565 7621 7679 7711 7751 7785 7857 
-	}
-	manpower=1100
-	state_category = town
-	buildings_max_level_factor=1.000
+		}
 }

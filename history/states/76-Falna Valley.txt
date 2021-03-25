@@ -1,16 +1,28 @@
-
 state={
-	id=76
-	name="Falna Valley"
-history={
+		id = 76
+		name = "Falna Valley"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
 			owner = VRT
 			add_core_of = VRT
-			}
-	provinces={
-		906 2891 1339 5283
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				infrastructure = 3
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		906 2891 1339 5283
+		}
+}

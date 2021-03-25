@@ -1,13 +1,28 @@
 state={
-	id=453
-	name="Bangui"
-	history={
+		id = 453
+		name = "Bangui"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = MAR
 			add_core_of = MAR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		7756 3987 3398 7889 1570 7890 2897 8032 4828 367 7983 8050
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

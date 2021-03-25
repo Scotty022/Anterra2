@@ -1,0 +1,28 @@
+state={
+		id = 511
+		name = "Sabiduría"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = SMA
+			add_core_of = SMA
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+ 		 4159 4858 3051 8657 8664 2509 1352 2380 569 8697 1908 1680 8724 703 2282 8798
+       	}
+}

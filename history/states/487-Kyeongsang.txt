@@ -1,13 +1,28 @@
 state={
-	id=487
-	name="Kyeongsang"
-	history={
+		id = 487
+		name = "Kyeongsang"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KYA
 			add_core_of = KYA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		9117 711 9116 1002 248 9114 9104 201 76 2991 4868 1589 2631 9081 2699 4712 4711 1673 1956 9112 3193 1528 2712 1547 1516 9107 9097 2847 2862 9100
-	}
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+		}
+}

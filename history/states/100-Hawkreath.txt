@@ -1,16 +1,28 @@
-
 state={
-	id=100
-	name="Hawkreath"
-history={
+		id = 100
+		name = "Hawkreath"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TIP
 			add_core_of = TIP
-			}
-	provinces={
-		5009 2381 4517 2070 3428 511 1175 4078 510 4413 5012 624
-		}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5009 2381 4517 2070 3428 511 1175 4078 510 4413 5012 624
+			}
+}

@@ -1,13 +1,28 @@
 state={
-	id=207
-	name="Kitoko"
-	history={
-            owner = KTK
-            add_core_of = KTK
-            }
-	provinces={
+		id = 207
+		name = "Kitoko"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KTK
+			add_core_of = KTK
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		7853
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

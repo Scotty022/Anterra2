@@ -1,15 +1,28 @@
-
 state={
-	id=56
-	name="STATE_56"
-history={
+		id = 56
+		name = "North Dazhong"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2041 2670 2885 4741 7457 7522 7529 7552 7598 7642 
-	}
-	manpower=1100
-	state_category = town
-	buildings_max_level_factor=1.000
+		}
 }

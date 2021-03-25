@@ -1,13 +1,28 @@
 state={
-	id=397
-	name="Serianne"
-	history={
+		id = 397
+		name = "Serianne"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ABE
 			add_core_of = ABE
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3299 5901 3521 1378 3577 1728 5970 5949 1685 3754 5926
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

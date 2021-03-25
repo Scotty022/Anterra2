@@ -1,13 +1,28 @@
 state={
-	id=429
-	name="Dzinaravi"
-	history={
+		id = 429
+		name = "Dzinaravi"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BDZ
 			add_core_of = BDZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		5430 277 333 1749 3469 5440
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

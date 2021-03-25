@@ -1,13 +1,28 @@
 state={
-	id=466
-	name="Santa Helena"
-	history={
+		id = 466
+		name = "Santa Helena"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = MAR
 			add_core_of = MAR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		9288 7206 3652 7258 3984 4221 7358 7423 1461 7320
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

@@ -1,14 +1,28 @@
 state={
-	id=38
-	name="STATE_38"
-history={
+		id = 38
+		name = "Beifu"
+		manpower = 1000
+
+		state_category = wasteland
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		554 2531 2621 2927 3474 4136 4446 4891 6817 6848 6880 6907 6932 7058 
-	}
-	manpower=1100
-	state_category = wasteland
-	buildings_max_level_factor=1.000
+		}
 }

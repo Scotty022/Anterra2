@@ -1,13 +1,28 @@
 state={
-	id=490
-	name="Silla"
-	history={
+		id = 490
+		name = "Silla"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KYA
 			add_core_of = KYA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		9126 8 9125 2389 2019 2299 753 9128 9127 1909 2066 9129
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

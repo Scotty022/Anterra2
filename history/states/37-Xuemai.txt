@@ -1,14 +1,28 @@
 state={
-	id=37
-	name="STATE_37"
-history={
+		id = 37
+		name = "Xuemai"
+		manpower = 1000
+
+		state_category = wasteland
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		349 3529 4139 4264 4383 6723 6732 6787 
-	}
-	manpower=1100
-	state_category = wasteland
-	buildings_max_level_factor=1.000
+		}
 }

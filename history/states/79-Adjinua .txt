@@ -1,0 +1,28 @@
+state={
+		id = 79
+		name = "Adjinua "
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = POJ
+			add_core_of = POJ
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		637 4270 5499 4000 158 793 5418 237 5448 3216 605 1019 5565 5549 1005
+		}
+}

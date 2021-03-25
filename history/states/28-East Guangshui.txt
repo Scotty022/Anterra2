@@ -1,14 +1,28 @@
 state={
-	id=28
-	name="STATE_28"
-history={
+		id = 28
+		name = "East Guangshui"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		879 1659 1675 1866 3106 3208 4801 8071 8164 8192 
-	}
-	manpower=1100
-	state_category = pastoral
-	buildings_max_level_factor=1.000
+		}
 }

@@ -1,13 +1,28 @@
 state={
-	id=200
-	name="South Sorani"
-	history={
-            owner = SVE
-            add_core_of = SVE
-            }
-	provinces={
+		id = 200
+		name = "South Sorani"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = SVE
+			add_core_of = SVE
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1704 3588 3996 6800 6810 6856 6913 6953 6961 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

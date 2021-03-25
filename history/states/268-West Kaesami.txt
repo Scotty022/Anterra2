@@ -1,13 +1,28 @@
 state={
-	id=268
-	name="West Kaesami"
-	history={
+		id = 268
+		name = "West Kaesami"
+		manpower = 1000
+
+		state_category = wasteland
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		7044 7003 3072 7142 1384 4530 7193 665 2561 7024 7052 3767 3510 6940 6934 6860 2471 4176 467 7131 4353 7332 3118
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

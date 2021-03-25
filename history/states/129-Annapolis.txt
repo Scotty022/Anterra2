@@ -1,16 +1,28 @@
-
 state={
-	id=129
-	name="Annapolis"
-history={
+		id = 129
+		name = "Annapolis"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = CHZ
 			add_core_of = CHZ
-			}
-	provinces={
-		2000 1243
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		2000 1243
+		}
+}

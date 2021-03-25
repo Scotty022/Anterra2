@@ -1,13 +1,28 @@
 state={
-	id=160
-	name="Carasovia"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 160
+		name = "Carasovia"
+		manpower = 97.000
+
+		state_category = small_town
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			
+			
+
+			  
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 0
+				arms_factory = 0
+				
+				
+				
+				
+		} }
+		provinces={
 		5321 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

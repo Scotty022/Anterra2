@@ -1,13 +1,28 @@
 state={
-	id=356
-	name="Virimez"
-	history={
+		id = 356
+		name = "Virimez"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = VKA
 			add_core_of = VKA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1172 36 18280 5135 505
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

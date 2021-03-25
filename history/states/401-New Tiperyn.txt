@@ -1,13 +1,28 @@
 state={
-	id=401
-	name="New Tiperyn"
-	history={
+		id = 401
+		name = "New Tiperyn"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ABE
 			add_core_of = ABE
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1796 4305 848 332 18294 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

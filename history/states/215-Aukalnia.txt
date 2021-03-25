@@ -1,13 +1,28 @@
 state={
-	id=215
-	name="Aukalnia"
-	history={
+		id = 215
+		name = "Aukalnia"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ASS
 			add_core_of = ASS
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		94 674 1321 1706 2418 2597 3563 5024 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

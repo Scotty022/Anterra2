@@ -1,13 +1,28 @@
 state={
-	id=335
-	name="BAM 1"
-	history={
+		id = 335
+		name = "BAM 1"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BAM
 			add_core_of = BAM
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3489 8277 1772 1621 8095 1061 8120 8165 8184 2460 9342
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

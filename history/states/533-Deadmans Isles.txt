@@ -1,13 +1,28 @@
 state={
-	id=533
-	name="Deadmans Isles"
-	history={
+		id = 533
+		name = "Deadmans Isles"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 9421
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

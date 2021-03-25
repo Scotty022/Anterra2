@@ -1,13 +1,28 @@
 state={
-	id=450
-	name="Central Kyabar"
-	history={
+		id = 450
+		name = "Central Kyabar"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = THY
 			add_core_of = THY
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6864 6829 6882 6919 4634 7000 4277 3842
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

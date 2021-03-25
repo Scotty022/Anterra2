@@ -1,17 +1,28 @@
-
 state={
-	id=172
-	name="Dubrava"
+		id = 172
+		name = "Dubrava"
+		manpower = 1000
 
-	history={
-		owner = RAZ
-		add_core_of = RAZ
+		state_category = pastoral
 
-	}
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ROV
+			
 
-	provinces={
+			  
+
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 3
+				arms_factory = 2
+				
+				
+				
+				
+		} }
+		provinces={
 		241 1940 2333 3437 3968 4495 4872 5271 18262 18263 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

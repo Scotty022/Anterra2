@@ -1,13 +1,28 @@
 state={
-	id=449
-	name="Kyabar Superior"
-	history={
+		id = 449
+		name = "Kyabar Superior"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = THY
 			add_core_of = THY
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2545 1286 2965 2721 6872 6809 6842
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

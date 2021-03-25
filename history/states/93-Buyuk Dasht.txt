@@ -1,16 +1,28 @@
-
 state={
-	id=93
-	name="Buyuk Dasht"
-history={
+		id = 93
+		name = "Buyuk Dasht"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
 			owner = SAM
 			add_core_of = SAM
-			}
-	provinces={
-		4436 24 4003 2521 5385 1510 1875 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		4436 24 4003 2521 5385 1510 1875 
+		}
+}

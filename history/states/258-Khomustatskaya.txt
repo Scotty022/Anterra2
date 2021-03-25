@@ -1,13 +1,28 @@
 state={
-	id=258
-	name="Khomustatskaya"
-history={
-            owner = YAR
-            add_core_of = YAR
-            }
-	provinces={
+		id = 258
+		name = "Khomustatskaya"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = YAR
+			add_core_of = YAR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		104 146 719 1459 2579 2669 4006 4274 4767 5176 5217 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

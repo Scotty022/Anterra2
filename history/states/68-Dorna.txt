@@ -1,16 +1,28 @@
-
 state={
-	id=68
-	name="Dorna"
-history={
+		id = 68
+		name = "Dorna"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
 			owner = HEL
 			add_core_of = HEL
-			}
-	provinces={
-		1413 5459 4343 374
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1413 5459 4343 374
+		}
+}

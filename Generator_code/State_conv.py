@@ -20,11 +20,11 @@ with open(States_Raw, 'r') as datalist:
 		if row[2]:
 			state_category = f"state_category = {row[2]}"								# state_category
 		else:
-			state_category = "wasteland"
+			state_category = "state_category = pastoral"
 		if row[3]:
 			population = f"manpower = {row[3]}"											# population/manpower
 		else:
-			population = "1000"
+			population = "manpower = 1000"
 		
 		if row[4]:
 			owner = f"owner = {row[4]}"													# owner
@@ -47,10 +47,18 @@ with open(States_Raw, 'r') as datalist:
 			core3 = '' 
 
 		if row[8]:																		# Victory points (up to 3)
-			victory_points = 'victory_points = {'+ f"{row[8]} {row[9]} {row[10]}" + '}'
+			vp1 = 'victory_points = {'+ f"{row[8]} 10" + '}'
 		else:
-			victory_points = ''
-		
+			vp1 = ''
+		if row[9]:																		
+			vp2 = '\nvictory_points = {'+ f"{row[9]} 10" + '}'
+		else:
+			vp2 = ''
+		if row[10]:																		
+			vp3 = '\nvictory_points = {'+ f"{row[10]} 10" + '}'
+		else:
+			vp3 = ''
+
 		if row[11]:																		# infrastructure
 			infrastructure = f"infrastructure = {row[11]}"
 		else:
@@ -77,7 +85,7 @@ with open(States_Raw, 'r') as datalist:
 			dockyard = ''
 
 		if row[16]:																		# buildings_max_level_factor
-			build_factor = f"buildings_max_level_factor = {row[16]}"
+			build_factor = f"\nbuildings_max_level_factor = {row[16]}"
 		else:
 			build_factor = ''
 
@@ -122,9 +130,8 @@ with open(States_Raw, 'r') as datalist:
 			f.write(
 				'state={' + f"""
 		id = {file_id}
-		name = "STATE_{file_id}" # {name}
-		{population}
-		{build_factor}
+		name = "{name}"
+		{population}{build_factor}
 
 		{state_category}
 
@@ -134,7 +141,7 @@ with open(States_Raw, 'r') as datalist:
 			{core2}
 			{core3}
 
-			{victory_points}
+			{vp1} {vp2} {vp3}
 
 			buildings = """ + '{' + f"""
 				{infrastructure}

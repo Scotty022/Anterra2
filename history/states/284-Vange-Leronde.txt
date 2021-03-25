@@ -1,13 +1,28 @@
 state={
-	id=284
-	name="Vange-Leronde"
-	history={
+		id = 284
+		name = "Vange-Leronde"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		 3597 7033 3901 3947 6969 6903 6937
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

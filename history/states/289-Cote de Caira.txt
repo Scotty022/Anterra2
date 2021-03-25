@@ -1,0 +1,28 @@
+state={
+		id = 289
+		name = "Cote de Caira"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
+			owner = TLN
+			add_core_of = TLN
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
+		4032 6672 1870 6633 9265
+		}
+}

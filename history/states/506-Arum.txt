@@ -1,13 +1,28 @@
 state={
-	id=506
-	name="Arum"
-	history={
+		id = 506
+		name = "Arum"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ARR
 			add_core_of = ARR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 1991 8956 8978 3924 2247 364 4105 4425 8998 3606 761 3630 761 3438 9086 9066 1151 9037 9056
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

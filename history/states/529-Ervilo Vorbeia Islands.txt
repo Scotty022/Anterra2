@@ -1,13 +1,28 @@
 state={
-	id=529
-	name="Ervilo Vorbeia Islands"
-	history={
+		id = 529
+		name = "Ervilo Vorbeia Islands"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
 			owner = SAM
 			add_core_of = SAM
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 9412
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

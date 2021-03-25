@@ -1,13 +1,28 @@
 state={
-	id=443
-	name="Neu-Austrasien"
-	history={
+		id = 443
+		name = "Neu-Austrasien"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KNA
 			add_core_of = KNA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6562 6609 3111
-	}
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+		}
+}

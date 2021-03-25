@@ -1,13 +1,28 @@
 state={
-	id=480
-	name="Feraxis"
-	history={
+		id = 480
+		name = "Feraxis"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ZHV
 			add_core_of = ZHV
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		8896 2654 2079 4743 1123 8944 2337 8963 8987 4708 2344 9008 8996 212
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

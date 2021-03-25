@@ -1,13 +1,28 @@
 state={
-	id=187
-	name="Darbandikhan"
-	history={
-            owner = NSR
-            add_core_of = NSR
-            }
-	provinces={
+		id = 187
+		name = "Darbandikhan"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = NSR
+			add_core_of = NSR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		180 1514 2446 3654 3655 3808 7126 7137 7164 7218 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

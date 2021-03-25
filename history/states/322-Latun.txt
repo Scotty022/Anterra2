@@ -1,13 +1,28 @@
 state={
-	id = 322
-	name="Latun"
-history={
+		id = 322
+		name = "Latun"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = OSR
 			add_core_of = OSR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 917 7845 7885 7884 3627 8018 7939 4643
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

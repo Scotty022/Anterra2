@@ -1,13 +1,28 @@
 state={
-	id=499
-	name="Lamara Suvu"
-	history={
+		id = 499
+		name = "Lamara Suvu"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SIW
 			add_core_of = SIW
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		9045 1583 4834 9076 9082 1370 
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

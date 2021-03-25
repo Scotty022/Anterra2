@@ -1,13 +1,28 @@
 state={
-	id=427
-	name="Ferrange"
-	history={
+		id = 427
+		name = "Ferrange"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TRR
 			add_core_of = TRR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		8176 1129 8168 4265
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

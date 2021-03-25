@@ -1,13 +1,28 @@
 state={
-	id=121
-	name="Lankong"
-	history={
+		id = 121
+		name = "Lankong"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TON
 			add_core_of = TON
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2091 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

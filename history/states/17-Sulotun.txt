@@ -1,13 +1,28 @@
 state={
-	id=17
-	name="Sulotun"
-history={
-            owner = LEI
-            add_core_of = LEI
-            }
-	provinces={
+		id = 17
+		name = "Sulotun"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = LEI
+			add_core_of = LEI
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1131 3610 5074 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

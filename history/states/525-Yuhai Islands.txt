@@ -1,13 +1,28 @@
 state={
-	id=525
-	name="Yuhai Islands"
-	history={
+		id = 525
+		name = "Yuhai Islands"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 9351 9359 
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

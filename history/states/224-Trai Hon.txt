@@ -1,18 +1,28 @@
 state={
-	id=224
-	name="Trai Hon"
-	history={
+		id = 224
+		name = "Trai Hon"
+		manpower = 530.000
+
+		state_category = town
+
+		history = {
 			owner = BEI
 			add_core_of = BEI
-			}
-	buildings = {
-					infrastructure = 2
-					industrial_complex = 1
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				
+				
+				
+				air_base  = 1
+				
+		} }
+		provinces={
 		6180 4815 6219 6203 6239 3389 6278 
-	}
-	manpower=10000
-	state_category = town
-	buildings_max_level_factor=1.000
+		}
 }

@@ -1,13 +1,28 @@
 state={
-	id=476
-	name="Axaria"
-	history={
+		id = 476
+		name = "Axaria"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ZHV
 			add_core_of = ZHV
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2463 8858 8826 2463 2063 4596 4626 8832 4894 2573 3817 8836 2693 8779 8741 8719 8730 3220 52 8760
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

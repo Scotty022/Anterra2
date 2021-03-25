@@ -1,13 +1,28 @@
 state={
-	id=288
-	name="Pays de Jean-Renais"
-	history={
+		id = 288
+		name = "Pays de Jean-Renais"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		 6706 6699 2818 6673 6768 6818 4190 6725 4733
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

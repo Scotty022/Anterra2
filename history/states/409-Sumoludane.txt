@@ -1,13 +1,28 @@
 state={
-	id=409
-	name="Sumoludane"
-	history={
+		id = 409
+		name = "Sumoludane"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TAV
 			add_core_of = TAV
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		5397 5404 763 4280 4342 5437 2240 5373 647 1474 2158 5403
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

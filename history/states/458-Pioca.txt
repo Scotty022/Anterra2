@@ -1,13 +1,28 @@
 state={
-	id=458
-	name="Pioca"
-	history={
+		id = 458
+		name = "Pioca"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = MAR
 			add_core_of = MAR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2726 7466 7490 7544 7534 7610 7690 7660 7713 7609 1405 3468
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

@@ -1,13 +1,28 @@
 state={
-	id=377
-	name="Svenskt"
-	history={
+		id = 377
+		name = "Svenskt"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SVX
 			add_core_of = SVX
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		454 3003 3765 2462
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

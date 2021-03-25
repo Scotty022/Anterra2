@@ -1,13 +1,28 @@
 state={
-	id=434
-	name="Zukiyalishi"
-	history={
+		id = 434
+		name = "Zukiyalishi"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BDZ
 			add_core_of = BDZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		951 5618 4452 5655 5674 2658 4619 4070 5772 5744 2651 2665 4734 1300 632 5666 2869 5721 5683 4411
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

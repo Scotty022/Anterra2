@@ -1,13 +1,28 @@
 state={
-	id=421
-	name="Caesames"
-	history={
+		id = 421
+		name = "Caesames"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = CIP
 			add_core_of = CIP
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		7410 2011 7692 7589
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

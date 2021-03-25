@@ -1,13 +1,28 @@
 state={
-	id=435
-	name="Filanadumi"
-	history={
+		id = 435
+		name = "Filanadumi"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BDZ
 			add_core_of = BDZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		4133 5758 5778 5817 5837 846 5802 978 5800 289 4703 5827 3431 5857 4770 5779 5767
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

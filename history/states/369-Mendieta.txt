@@ -1,13 +1,28 @@
 state={
-	id=369
-	name="Mendieta"
-	history={
+		id = 369
+		name = "Mendieta"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = NBA
 			add_core_of = NBA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		4620 4014 5531 759 1164
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

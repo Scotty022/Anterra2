@@ -1,13 +1,28 @@
 state={
-	id=164
-	name="Rovskemlja Proper"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 164
+		name = "Rovskemlja Proper"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ROV
+			
+
+			  
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 0
+				arms_factory = 0
+				
+				
+				
+				
+		} }
+		provinces={
 		1681 2839 3763 5324 5386 5398 5427 5460 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

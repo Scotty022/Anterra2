@@ -1,17 +1,28 @@
-
 state={
-	id=115
-	name="Astran"
+		id = 115
+		name = "Astran"
+		manpower = 800.000
 
-	history={
-		owner = RAZ
-		add_core_of = RAZ
+		state_category = large_town
 
-	}
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = GPR
+			
 
-	provinces={
+			  
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 0
+				arms_factory = 0
+				
+				
+				
+				
+		} }
+		provinces={
 		4399 5186 18267
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

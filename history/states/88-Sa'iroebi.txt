@@ -1,0 +1,28 @@
+state={
+		id = 88
+		name = "Sa'iroebi"
+		manpower = 1000
+
+		state_category = large_town
+
+		history = {
+			owner = SAM
+			add_core_of = SAM
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5149 18259 18258 1993 432
+		}
+}

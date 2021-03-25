@@ -1,0 +1,28 @@
+state={
+		id = 167
+		name = "Kashubia"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ROV
+			add_core_of = POZ
+
+			  
+
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 0
+				arms_factory = 0
+				
+				
+				
+				
+		} }
+		provinces={
+		769 786 2161 5294 
+		}
+}

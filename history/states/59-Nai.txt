@@ -1,13 +1,28 @@
 state={
-	id=59
-	name="STATE_59"
-history={
+		id = 59
+		name = "Nai"
+		manpower = 2.908.488
+
+		state_category = large_town
+
+		history = {
 			owner = MUR
 			add_core_of = MUR
-			}
-	provinces={
+			
+			
+
+			victory_points = {3351 10}  
+
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 3
+				arms_factory = 2
+				
+				
+				
+				
+		} }
+		provinces={
 		3351 4816 5479 
-	}
-	manpower=1100
-	buildings_max_level_factor=1.000
+		}
 }

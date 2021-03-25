@@ -1,14 +1,28 @@
 state={
-	id=32
-	name="STATE_32"
-history={
+		id = 32
+		name = "Xiabei"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1347 1836 3890 4522 4775 7624 7684 7745 
-	}
-	manpower=1100
-	state_category = town
-	buildings_max_level_factor=1.000
+		}
 }

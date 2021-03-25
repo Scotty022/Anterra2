@@ -1,13 +1,28 @@
 state={
-	id=166
-	name="Krvnigrad"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 166
+		name = "Krvnigrad"
+		manpower = 3.600.000
+
+		state_category = Metropolis
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ROV
+			
+
+			  
+
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 6
+				arms_factory = 7
+				
+				
+				
+				
+		} }
+		provinces={
 		1028 3214 3792 5304 5325 18264
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

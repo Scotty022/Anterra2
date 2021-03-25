@@ -1,13 +1,28 @@
 state={
-	id=183
-	name="Zamakia"
-history={
+		id = 183
+		name = "Zamakia"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = POZ
 			add_core_of = POZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1596 4661 4805 5210 5261 5289 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

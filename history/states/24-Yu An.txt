@@ -1,14 +1,28 @@
 state={
-	id=24
-	name="STATE_24"
-history={
+		id = 24
+		name = "Yu An"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		423 2904 3128 3846 3886 8400 8411 8412 8453 8454 
-	}
-	manpower=1100
-	state_category = town
-	buildings_max_level_factor=1.000
+		}
 }

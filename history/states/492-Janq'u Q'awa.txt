@@ -1,13 +1,28 @@
 state={
-	id=492
-	name="Janq'u Q'awa"
-	history={
+		id = 492
+		name = "Janq'u Q'awa"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SIW
 			add_core_of = SIW
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2021 8945 482 2105 1382 1066 3251
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

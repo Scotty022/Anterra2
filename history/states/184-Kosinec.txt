@@ -1,13 +1,28 @@
 state={
-	id=184
-	name="Kosinec"
-history={
+		id = 184
+		name = "Kosinec"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = POZ
 			add_core_of = POZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		452 3274 3705 5147 5195 5216 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

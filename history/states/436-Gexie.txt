@@ -1,13 +1,28 @@
 state={
-	id=436
-	name="Gexie"
-	history={
+		id = 436
+		name = "Gexie"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KNA
 			add_core_of = KNA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3977 6082 6095 6144 6159 2990 324 6229 1093 2314 2569 2417 6243 6262 6230 6187 356 6137 6115 3723 1183 6196 6178 4022 6135 6118
-	}
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+		}
+}

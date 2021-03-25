@@ -1,14 +1,28 @@
 state={
-	id=53
-	name="STATE_53"
-history={
+		id = 53
+		name = "West Dachuan"
+		manpower = 1000
+
+		state_category = large_town
+
+		history = {
 			owner = KOD
 			add_core_of = KOD
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		259 344 1484 2222 2872 2914 7868 7879 7935 7936 7971 7990 8023 8072 8127 
-	}
-	manpower=1100
-	state_category = large_town
-	buildings_max_level_factor=1.000
+		}
 }

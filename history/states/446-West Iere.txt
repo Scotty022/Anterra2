@@ -1,13 +1,28 @@
 state={
-	id=446
-	name="West Iere"
-	history={
-			owner = SAM
+		id = 446
+		name = "West Iere"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = IER
 			add_core_of = IER
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3517 6124 6161 6170 6127 4776 6212
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

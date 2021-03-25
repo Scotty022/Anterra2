@@ -1,13 +1,28 @@
 state={
-	id=420
-	name="Acer"
-	history={
+		id = 420
+		name = "Acer"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = CIP
 			add_core_of = CIP
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		93 2104 4187 2830 7806 7826 2290 4254
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

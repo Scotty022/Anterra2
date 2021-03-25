@@ -1,16 +1,28 @@
-
 state={
-	id=69
-	name="Voifros"
-history={
+		id = 69
+		name = "Voifros"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
 			owner = HEL
 			add_core_of = HEL
-			}
-	provinces={
-		2951 3349
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		2951 3349
+		}
+}

@@ -1,13 +1,28 @@
 state={
-	id=297
-	name="Doraso"
-	history={
+		id = 297
+		name = "Doraso"
+		manpower = 1000
+
+		state_category = city
+
+		history = {
 			owner = TLN
 			add_core_of = TLN
-			}
-	provinces={ 
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={ 
 		1298 6740 6747 6805 6775 6874 3603 196 4796 6868 4060 6867 6931 6916
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

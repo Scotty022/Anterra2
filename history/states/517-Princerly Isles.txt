@@ -1,13 +1,28 @@
 state={
-	id=517
-	name="Princerly Isles"
-	history={
+		id = 517
+		name = "Princerly Isles"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 9257 9259
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

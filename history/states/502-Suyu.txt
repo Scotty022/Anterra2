@@ -1,13 +1,28 @@
 state={
-	id=502
-	name="Suyu"
-	history={
+		id = 502
+		name = "Suyu"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SIW
 			add_core_of = SIW
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		567 9077 2092 9093 9096 9089 9106 4243
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

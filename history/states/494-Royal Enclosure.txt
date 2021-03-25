@@ -1,13 +1,28 @@
 state={
-	id=494
-	name="Royal Enclosure"
-	history={
+		id = 494
+		name = "Royal Enclosure"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SIW
 			add_core_of = SIW
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2826 61 4125 8949 2390 415 1343 1859 2865 8959 8984 4937 3540 3526
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

@@ -1,0 +1,28 @@
+state={
+		id = 470
+		name = "Catão"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = MAR
+			add_core_of = MAR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		7851 7790 4598 2311 7767 7838 7872 7682 7627 1358 2061 7591
+        	}
+}

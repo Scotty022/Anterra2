@@ -1,13 +1,28 @@
 state={
-	id=527
-	name="Micro Isles"
-	history={
+		id = 527
+		name = "Microisles"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 9244
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

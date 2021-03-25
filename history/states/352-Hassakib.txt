@@ -1,13 +1,28 @@
 state={
-	id=352
-	name="Hassakib"
-history={
+		id = 352
+		name = "Hassakib"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KRW
 			add_core_of = KRW
-}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1363 2936 7714 7762 7775 7825 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

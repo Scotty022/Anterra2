@@ -1,13 +1,28 @@
 state={
-	id=477
-	name="Ulterior"
-	history={
+		id = 477
+		name = "Ulterior"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ZHV
 			add_core_of = ZHV
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		8595 44 8666 419 933 3713 8738 4408 8764 8739 1081 3674 8704 4892 4294 3751
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

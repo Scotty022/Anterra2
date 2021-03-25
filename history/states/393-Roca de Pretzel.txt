@@ -1,13 +1,28 @@
 state={
-	id=393
-	name="Roca de Pretzel"
-	history={
+		id = 393
+		name = "Roca de Pretzel"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ARO
 			add_core_of = ARO
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1617 6076 4586 113 6043 5990 2979 3574 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

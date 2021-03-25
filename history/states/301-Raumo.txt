@@ -1,14 +1,28 @@
-
 state={
-	id=301
-	name="Raumo"
-history={
+		id = 301
+		name = "Raumo"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KIR
 			add_core_of = KIR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		193 440 475 2266 4845 4952 4957 4963 9141 9142 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

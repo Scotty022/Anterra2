@@ -1,13 +1,28 @@
 state={
-	id=501
-	name="Port Hope"
-	history={
+		id = 501
+		name = "Port Hope"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SIW
 			add_core_of = SIW
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2088 9105 4165 9113 611
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

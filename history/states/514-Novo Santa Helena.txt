@@ -1,13 +1,28 @@
 state={
-	id=514
-	name="Novo Santa Helena"
-	history={
+		id = 514
+		name = "Novo Santa Helena"
+		manpower = 1000
+
+		state_category = small_island
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 6515 9261 292 9254 9256
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

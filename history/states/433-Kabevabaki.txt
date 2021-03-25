@@ -1,13 +1,28 @@
 state={
-	id=433
-	name="Kabevabaki"
-	history={
+		id = 433
+		name = "Kabevabaki"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BDZ
 			add_core_of = BDZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2935 779 1810 5455 5500 1967 1277 5517 5535 2023 5563 1439 5589 5570 5552
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

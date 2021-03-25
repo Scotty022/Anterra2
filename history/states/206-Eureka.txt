@@ -1,13 +1,28 @@
 state={
-	id=206
-	name="Eureka"
-	history={
-		owner = TIP
-		add_core_of = TIP
-		}
-	provinces={
+		id = 206
+		name = "Eureka"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
+			owner = TIP
+			add_core_of = EUR
+			
+			
+
+			  
+
+			buildings = {
+				infrastructure = 2
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		425 857 900 2559 9133 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

@@ -1,13 +1,28 @@
 state={
-	id=536
-	name="Red Sky Islands"
-	history={
+		id = 536
+		name = "Red Sky Islands"
+		manpower = 1000
+
+		state_category = small_island
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 8275 9336 9340 2372 3055 170 8193
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

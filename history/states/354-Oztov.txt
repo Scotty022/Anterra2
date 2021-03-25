@@ -1,13 +1,28 @@
 state={
-	id=354
-	name="Oztov"
-	history={
+		id = 354
+		name = "Oztov"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = VKA
 			add_core_of = VKA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2434 5079 4433 5134 670 18282 18287 18291
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

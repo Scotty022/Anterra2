@@ -1,13 +1,28 @@
 state={
-	id=422
-	name="Kaesami Oriental"
-	history={
+		id = 422
+		name = "Kaesami Oriental"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TRR
 			add_core_of = TRR
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		7186 920 7255 7215 7311 7438
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

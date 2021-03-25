@@ -1,13 +1,28 @@
 state={
-	id=508
-	name="Hosuman"
-	history={
+		id = 508
+		name = "Hosuman"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = HOS
 			add_core_of = HOS
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 2753 2695 8975 8958
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

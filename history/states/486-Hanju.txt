@@ -1,13 +1,28 @@
 state={
-	id=486
-	name="Hanju"
-	history={
+		id = 486
+		name = "Hanju"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KYA
 			add_core_of = KYA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1000 472 2727 3976 64 9067 2877 472 9058 100 2285 4603 9029 3120
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

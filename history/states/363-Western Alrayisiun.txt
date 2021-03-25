@@ -1,13 +1,28 @@
 state={
-	id=363
-	name="Western Alrayisiun"
-	history={
+		id = 363
+		name = "Western Alrayisiun"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ABL
 			add_core_of = ABL
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6099 6138 6136 6096 6110 6073 6109 9242
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

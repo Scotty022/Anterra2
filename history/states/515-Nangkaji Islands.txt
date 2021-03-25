@@ -1,13 +1,28 @@
 state={
-	id=515
-	name="Nangkaji Islands"
-	history={
+		id = 515
+		name = "Nangkaji Islands"
+		manpower = 1000
+
+		state_category = small_island
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 6075 9239 9240
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

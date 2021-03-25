@@ -1,13 +1,28 @@
 state={
-	id=177
-	name="Kuban"
-	history={
-            owner = LST
-            add_core_of = LST
-            }
-	provinces={
+		id = 177
+		name = "Kuban"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = LST
+			add_core_of = LST
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		548 3276 4019 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

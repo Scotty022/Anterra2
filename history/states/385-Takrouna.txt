@@ -1,13 +1,28 @@
 state={
-	id=385
-	name="Takrouna"
-	history={
+		id = 385
+		name = "Takrouna"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6305 3783 4707 6361 6397 4716 3076 6436 6332 4397 889 6465 3142 4499 3681 6431 6462 6513 619 6505 6466 1052 6362 6414 388 6455
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

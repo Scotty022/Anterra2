@@ -1,13 +1,28 @@
 state={
-	id=305
-	name="Heltia"
-history={
+		id = 305
+		name = "Heltia"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SER
 			add_core_of = SER
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		 2614 4331 3969 3718 4323 5420 2755 1854 2805 5351
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

@@ -1,13 +1,28 @@
 state={
-	id=513
-	name="Disfrute"
-	history={
+		id = 513
+		name = "Disfrute"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SMA
 			add_core_of = SMA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 8696 2743 2102 8707 1229 3375 8729 8716
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

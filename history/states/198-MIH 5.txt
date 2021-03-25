@@ -1,13 +1,28 @@
 state={
-	id=198
-	name="MIH 5"
-	history={
-            owner = MIH
-            add_core_of = MIH
-            }
-	provinces={
+		id = 198
+		name = "MIH 5"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = MIH
+			add_core_of = MIH
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		736 1169 2415 2686 2708 7050 7072 7166 7197 7239 7259 7260 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

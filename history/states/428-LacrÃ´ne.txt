@@ -1,0 +1,28 @@
+state={
+		id = 428
+		name = "Lacrône"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = TRR
+			add_core_of = TRR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		3436 8200
+		}
+}

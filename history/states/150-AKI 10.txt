@@ -1,13 +1,28 @@
 state={
-	id=150
-	name="AKI 10"
-	history={
+		id = 150
+		name = "AKI 10"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = AKI
 			add_core_of = AKI
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1476 1496 6827 6884 
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
+		}
 }

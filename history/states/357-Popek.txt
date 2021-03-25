@@ -1,13 +1,28 @@
 state={
-	id=357
-	name="Popek"
-	history={
+		id = 357
+		name = "Popek"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = VKA
 			add_core_of = VKA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		18285 1818 3946 5090 18286 3497 1803 1018 18284
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

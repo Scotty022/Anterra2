@@ -1,13 +1,28 @@
 state={
-	id=361
-	name="Gotka"
-	history={
+		id = 361
+		name = "Gotka"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = VKA
 			add_core_of = VKA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		18277 4471 792
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

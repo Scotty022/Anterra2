@@ -1,13 +1,28 @@
 state={
-	id=440
-	name="Xinji"
-	history={
+		id = 440
+		name = "Xinji"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KNA
 			add_core_of = KNA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6488 2689 342 371 3397 4170 2054 4649 6498 3744 6498 6539 6509 6523 6474 3256 4885 3108 6529 6497 6553
-	}
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+		}
+}

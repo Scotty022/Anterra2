@@ -1,13 +1,28 @@
 state={
-	id=391
-	name="El Regalo"
-	history={
+		id = 391
+		name = "El Regalo"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ARO
 			add_core_of = ARO
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6040 2828 5992 6011
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

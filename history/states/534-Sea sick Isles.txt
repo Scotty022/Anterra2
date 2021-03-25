@@ -1,13 +1,28 @@
 state={
-	id=534
-	name="Sea Sick Isles"
-	history={
+		id = 534
+		name = "Sea Sick Isles"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 9307 9318 12 9329
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

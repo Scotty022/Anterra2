@@ -1,13 +1,28 @@
 state={
-	id=500
-	name="Hidquechua"
-	history={
+		id = 500
+		name = "Hidquechua"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SIW
 			add_core_of = SIW
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		314 9090 9079 83 2259 4394 9064 3311 9050 
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

@@ -1,16 +1,28 @@
-
 state={
-	id=74
-	name="Pekadolina"
-history={
+		id = 74
+		name = "Pekadolina"
+		manpower = 1000
+
+		state_category = city
+
+		history = {
 			owner = VRT
 			add_core_of = VRT
-			}
-	provinces={
-		9190 3805 5379
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			victory_points = {9190 10}  
+
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 3
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		9190 3805 5379
+		}
+}

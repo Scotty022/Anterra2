@@ -1,13 +1,28 @@
 state={
-	id=431
-	name="Naku'andali"
-	history={
+		id = 431
+		name = "Naku'andali"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BDZ
 			add_core_of = BDZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3322 4607 5556 3821 4591 2771 1559 4674 3280 5654 5599 4722 5595 5632 525 4178 1499 422 5525
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

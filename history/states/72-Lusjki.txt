@@ -1,16 +1,28 @@
-
 state={
-	id=72
-	name="Lusjki"
-history={
+		id = 72
+		name = "Lusjki"
+		manpower = 1.200.000
+
+		state_category = large_town
+
+		history = {
 			owner = LUS
 			add_core_of = LUS
-			}
-	provinces={
-		9187 2 1719 5434 1918 1485
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			victory_points = {9187 10}  
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 1
+				
+				
+				
+				
+		} }
+		provinces={
+		9187 2 1719 5434 1918 1485
+		}
+}

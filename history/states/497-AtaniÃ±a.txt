@@ -1,0 +1,28 @@
+state={
+		id = 497
+		name = "Ataniña"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = SIW
+			add_core_of = SIW
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		2400 752 4375 9007 1504 1513 235 9052 9065 1177 1279 2868 9072 9061 2245 
+       	}
+}

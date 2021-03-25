@@ -1,13 +1,28 @@
 state={
-	id=448
-	name="Lejosia"
-	history={
+		id = 448
+		name = "Lejosia"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = THY
 			add_core_of = THY
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		3091 2179 6808
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

@@ -1,13 +1,28 @@
 state={
-	id=484
-	name="Arcanium"
-	history={
+		id = 484
+		name = "Arcanium"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ZHV
 			add_core_of = ZHV
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		8765 3666
-        }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+        	}
+}

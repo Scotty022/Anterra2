@@ -1,13 +1,28 @@
 state={
-	id=169
-	name="Sira-Svinyacheye"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 169
+		name = "Sira-Svinyacheye"
+		manpower = 39.192
+
+		state_category = rural
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ZAP
+			
+
+			  
+
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 0
+				arms_factory = 0
+				
+				
+				
+				
+		} }
+		provinces={
 		2261 2739 2940 3594 4940 5295 5296 5317 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

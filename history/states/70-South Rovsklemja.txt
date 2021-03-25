@@ -1,16 +1,28 @@
-
 state={
-	id=70
-	name="South Rovsklemja"
-history={
-			owner = HEL
-			add_core_of = HEL
-			}
-	provinces={
-		1555
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+		id = 70
+		name = "South Rovsklemja"
+		manpower = 1000
 
+		state_category = city
+
+		history = {
+			owner = HEL
+			add_core_of = ROV
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1555
+		}
+}

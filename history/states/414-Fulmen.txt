@@ -1,13 +1,28 @@
 state={
-	id=414
-	name="Fulmen"
-	history={
+		id = 414
+		name = "Fulmen"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = CIP
 			add_core_of = CIP
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2873 2126 2257 4730 8061 4104 1702 3560 8257 1366 3756 2980 8064 8078 3233 8028 2804 2762 8196 952 8134 8244
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

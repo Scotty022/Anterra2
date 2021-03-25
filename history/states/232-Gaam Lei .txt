@@ -1,0 +1,28 @@
+state={
+		id = 232
+		name = "Gaam Lei "
+		manpower = 306.000
+
+		state_category = rural
+
+		history = {
+			owner = BEI
+			add_core_of = BEI
+			
+			
+
+			  
+
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		6329 6370 6437 6404 6376 2515 1429 6309 1416 6317 6335 6449 6475 3490 6371 6410 6483
+		}
+}

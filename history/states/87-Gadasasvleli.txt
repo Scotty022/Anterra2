@@ -1,16 +1,28 @@
-
 state={
-	id=87
-	name="Gadasasvleli"
-history={
+		id = 87
+		name = "Gadasasvleli"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
 			owner = SAM
 			add_core_of = SAM
-			}
-	provinces={
-		5252 2005 2511 4780 3084 1498 901 2138
-	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
-}
+			
+			
 
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5252 2005 2511 4780 3084 1498 901 2138
+		}
+}

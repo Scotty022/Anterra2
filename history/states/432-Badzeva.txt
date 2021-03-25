@@ -1,13 +1,28 @@
 state={
-	id=432
-	name="Badzeva"
-	history={
+		id = 432
+		name = "Badzeva"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BDZ
 			add_core_of = BDZ
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		946 2543 5449 667 5478 5466 5491 5520 3515 2938 2634 4563 918 5587 2501 5612 5620 2429 5640 5647 5687
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

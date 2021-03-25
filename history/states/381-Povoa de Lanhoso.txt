@@ -1,13 +1,28 @@
 state={
-	id=381
-	name="Povoa de Lanhoso"
-	history={
+		id = 381
+		name = "Povoa de Lanhoso"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = JUN
 			add_core_of = JUN
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6048 6023 2833 5966  2228 6083 6125 6129 6171 4330 6190 573 6087 6052 6112 6133 2237 6032 6055 6089 4182 6090 6065 6033 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

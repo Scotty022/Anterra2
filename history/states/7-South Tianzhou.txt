@@ -1,0 +1,28 @@
+state={
+		id = 7
+		name = "South Tianzhou"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
+			owner = QIN
+			add_core_of = QIN
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		578 2302 4220 8712 8758 8736 
+		}
+}

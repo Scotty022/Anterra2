@@ -1,0 +1,28 @@
+state={
+		id = 516
+		name = "Isles Saint Croix"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = CHZ
+			add_core_of = CHZ
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+ 		 9324 9321 9319 9317 9313 9310 9309
+       	}
+}

@@ -1,13 +1,28 @@
 state={
-	id=441
-	name="Fuijan"
-	history={
+		id = 441
+		name = "Fuijan"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KNA
 			add_core_of = KNA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		6369 6319 9252
-	}
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+		}
+}

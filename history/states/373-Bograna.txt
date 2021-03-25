@@ -1,13 +1,28 @@
 state={
-	id=373
-	name="Bograna"
-	history={
+		id = 373
+		name = "Bograna"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SBA
 			add_core_of = SBA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		5644 3799 225 5676 5622 5657
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

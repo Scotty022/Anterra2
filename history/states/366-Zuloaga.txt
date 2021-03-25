@@ -1,13 +1,28 @@
 state={
-	id=366
-	name="Zuloaga"
-	history={
+		id = 366
+		name = "Zuloaga"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = NBA
 			add_core_of = NBA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		2694 4297 2008 5488
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

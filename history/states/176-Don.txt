@@ -1,13 +1,28 @@
 state={
-	id=176
-	name="Don"
-	history={
-            owner = LST
-            add_core_of = LST
-            }
-	provinces={
+		id = 176
+		name = "Don"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = LST
+			add_core_of = LST
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		88 962 4992 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

@@ -1,13 +1,28 @@
 state={
-	id=162
-	name="Koroyevsk"
-	history={
-            owner = RAZ
-            add_core_of = RAZ
-            }
-	provinces={
+		id = 162
+		name = "Koroyevsk"
+		manpower = 2.000.000
+
+		state_category = city
+
+		history = {
+			owner = RAZ
+			add_core_of = RAZ
+			add_core_of = ZAP
+			add_core_of = PER
+
+			  
+
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 2
+				arms_factory = 1
+				
+				
+				
+				
+		} }
+		provinces={
 		135 1116 1934 2267 2396 2797 3559 5335 5400 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

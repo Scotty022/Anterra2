@@ -1,13 +1,28 @@
 state={
-	id=438
-	name="Shakan"
-	history={
+		id = 438
+		name = "Shakan"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = KNA
 			add_core_of = KNA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		4875 6348 4824 1541 3541 6403 6382 6368
-	}
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+		}
+}

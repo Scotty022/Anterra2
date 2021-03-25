@@ -1,13 +1,28 @@
 state={
-	id=503
-	name="Teqi Lamara"
-	history={
+		id = 503
+		name = "Teqi Lamara"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SIW
 			add_core_of = SIW
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		1701 2387 4 2613 3323 679 
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

@@ -1,0 +1,28 @@
+state={
+		id = 344
+		name = "Alvastadt"
+		manpower = 1000
+
+		state_category = large_city
+
+		history = {
+			owner = ALV
+			add_core_of = ALV
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		6365
+		}
+}

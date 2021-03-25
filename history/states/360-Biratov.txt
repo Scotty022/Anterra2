@@ -1,13 +1,28 @@
 state={
-	id=360
-	name="Biratov"
-	history={
+		id = 360
+		name = "Biratov"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = VKA
 			add_core_of = VKA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		18279 2340 550 18274 18273 4311 18276 408
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }

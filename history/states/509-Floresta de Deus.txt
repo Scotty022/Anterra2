@@ -1,13 +1,28 @@
 state={
-	id=509
-	name="Floresta de Deus"
-	history={
+		id = 509
+		name = "Floresta de Deus"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SMA
 			add_core_of = SMA
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
  		 8405 3411 602 2637 8558 8465 1833 1320 1503 3104 8499
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

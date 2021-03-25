@@ -1,0 +1,28 @@
+state={
+		id = 99
+		name = "Wittenlan"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = TIP
+			add_core_of = TIP
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		5029 1571 1762 5023 3215 480 5002 2700 262 2802 1907 3850 5086 5101 3056 4223 5058 5013 2319 3201 589 5041 91 4118 2475
+			}
+}

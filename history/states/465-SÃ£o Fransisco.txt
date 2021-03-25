@@ -1,0 +1,28 @@
+state={
+		id = 465
+		name = "São Fransisco"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = MAR
+			add_core_of = MAR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
+		1141 1310 3359 2978 4627 4322 1342 7487 2189 7557 2223 
+        	}
+}

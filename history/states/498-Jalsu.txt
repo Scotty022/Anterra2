@@ -1,13 +1,28 @@
 state={
-	id=498
-	name="Jalsu"
-	history={
+		id = 498
+		name = "JAlsu"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = SIW
 			add_core_of = SIW
-			}
-	provinces={
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		9083 1766 9085 4387 3569 914 9057 2001 257 2183 553 1467
-       }
-	manpower=0
-  	 buildings_max_level_factor=1.000
- }  
+       	}
+}

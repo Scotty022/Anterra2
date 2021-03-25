@@ -1,13 +1,28 @@
 state={
-	id=249
-	name="Bochinovka"
-history={
-            owner = YAR
-            add_core_of = YAR
-            }
-            provinces={
+		id = 249
+		name = "Bochinovka"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = YAR
+			add_core_of = YAR
+			
+			
+
+			  
+
+			buildings = {
+				
+				
+				
+				
+				
+				
+				
+		} }
+		provinces={
 		639 878 1318 2422 2850 4278 4566 5183 
-	}
-	manpower=0
-	buildings_max_level_factor=1.000
+		}
 }
