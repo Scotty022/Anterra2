@@ -1,0 +1,13 @@
+state={
+	id=606
+	name="Downwind Islands"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		9356 9358
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

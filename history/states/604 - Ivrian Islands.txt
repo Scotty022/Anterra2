@@ -1,0 +1,13 @@
+state={
+	id=604
+	name="Ivrian Islands"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		9362
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
