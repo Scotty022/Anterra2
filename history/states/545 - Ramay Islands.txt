@@ -1,0 +1,13 @@
+state={
+	id=545
+	name="Ramay Islands"
+	history={
+			owner = RAM
+			add_core_of = RAM
+			}
+	provinces={
+ 		 9399 313 9405
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
