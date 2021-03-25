@@ -1,6 +1,6 @@
 state={
 	id=347
-	name="ALV 4"
+	name="West Bank"
 	history={
 			owner = ALV
 			add_core_of = ALV
