@@ -1,0 +1,13 @@
+state={
+	id=578
+	name="ALS 5"
+	history={
+			owner = ALS
+			add_core_of = ALS
+			}
+	provinces={
+ 		32 6694 6668 3864 3470 6721 6776 6783 352 1035 4882 4183
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
