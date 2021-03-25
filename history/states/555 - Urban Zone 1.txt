@@ -1,0 +1,13 @@
+state={
+	id=555
+	name="Urban Zone 1"
+	history={
+			owner = NAN
+			add_core_of = NAN
+			}
+	provinces={
+ 		1546 1670 8890 2969 8811 2053 8879 3722 8796 360 4615 8857 1594 8904 1861 1767 2886 8757 2062 698 8829 3999 8797 8771 1868 8744 8772 3162 8693
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

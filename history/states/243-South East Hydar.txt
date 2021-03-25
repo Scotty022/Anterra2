@@ -6,7 +6,7 @@ state={
             add_core_of = HYD
             }
 	provinces={
-		154 2098 4197 4376 8366 8396 8450 
+		154 2098 4197 4376 8366 8396 8450 2116
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

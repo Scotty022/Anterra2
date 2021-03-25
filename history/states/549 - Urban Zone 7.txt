@@ -1,12 +1,12 @@
 state={
-	id=546
-	name="Urban Zone 10"
+	id=549
+	name="Urban Zone 7"
 	history={
 			owner = NAN
 			add_core_of = NAN
 			}
 	provinces={
- 		 2478 8529 1562 8540 8489 3697 8541 1364 8473 8535
+ 		 8786 937 8818 2775 8834 8860 8861 4429 1014 8911 117
        }
 	manpower=0
   	 buildings_max_level_factor=1.000
