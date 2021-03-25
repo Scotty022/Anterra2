@@ -1,0 +1,13 @@
+state={
+	id=538
+	name="Tylakolia"
+	history={
+			owner = PRA
+			add_core_of = PRA
+			}
+	provinces={
+ 		 2903 2439 9102 293 2060 9098 9398
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

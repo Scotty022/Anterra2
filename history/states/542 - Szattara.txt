@@ -1,0 +1,13 @@
+state={
+	id=542
+	name="Szattara"
+	history={
+			owner = PRA
+			add_core_of = PRA
+			}
+	provinces={
+ 		 1250 9046 2018 652 3535 8997 1947 9026 18227
+       }
+	manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
