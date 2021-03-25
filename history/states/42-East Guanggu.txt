@@ -9,5 +9,6 @@ history={
 		732 2568 2655 3710 7190 7253 7288 7328 7329 
 	}
 	manpower=1100
+	state_category = wasteland
 	buildings_max_level_factor=1.000
 }

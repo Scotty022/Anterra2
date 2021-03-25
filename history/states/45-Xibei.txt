@@ -9,5 +9,6 @@ history={
 		2963 3308 4169 4514 7339 7380 7441 7483 
 	}
 	manpower=1100
+	state_category = town
 	buildings_max_level_factor=1.000
 }

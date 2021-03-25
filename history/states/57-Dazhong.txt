@@ -9,5 +9,6 @@ history={
 		847 898 2541 3824 7528 7597 7616 7623 7659 7716 
 	}
 	manpower=1100
+	state_category = city
 	buildings_max_level_factor=1.000
 }
