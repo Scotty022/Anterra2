@@ -1,0 +1,13 @@
+state={
+	id=594
+	name="PAS 10"
+	history={
+			owner = PAS
+			add_core_of = PAS
+			}
+	provinces={
+ 		2015 1660 2323 4131 8553 8527 8492 4915 2342 8506 4719 3154
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
