@@ -1,0 +1,13 @@
+state={
+	id=610
+	name="AFT 1"
+	history={
+			owner = AFT
+			add_core_of = AFT
+			}
+	provinces={
+ 		7279 7266 7321 7378 2921 2069 2878 7308 7375 7405 7346 827
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

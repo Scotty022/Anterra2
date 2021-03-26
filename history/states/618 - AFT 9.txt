@@ -1,0 +1,13 @@
+state={
+	id=618
+	name="AFT 9"
+	history={
+			owner = AFT
+			add_core_of = AFT
+			}
+	provinces={
+ 		4715 7770 598 3173 2916 4454 7653 4137 7691 3194 1021 3087 2032
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=622
+	name="AFT 13"
+	history={
+			owner = AFT
+			add_core_of = AFT
+			}
+	provinces={
+ 		4641 6757 6758 6766 6710 6759 6833 3088 6899 1026 6928 92
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
