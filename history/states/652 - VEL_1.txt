@@ -1,0 +1,13 @@
+state={
+	id=652
+	name="VEL_1"
+	history={
+			owner = VEL
+			add_core_of = VEL
+			}
+	provinces={
+ 		5865 1758 9212 5819
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
