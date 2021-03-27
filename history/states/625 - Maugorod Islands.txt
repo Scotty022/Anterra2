@@ -1,0 +1,13 @@
+state={
+	id=625
+	name="Maugorod Islands"
+	history={
+			owner = YAR
+			add_core_of = YAR
+			}
+	provinces={
+ 		2027 6492 9263
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

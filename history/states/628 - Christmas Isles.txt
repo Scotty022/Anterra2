@@ -1,0 +1,13 @@
+state={
+	id=628
+	name="Christmas Isles"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		9374 18235 9368
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=636
+	name="Hesperilla Island"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+ 		9406
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

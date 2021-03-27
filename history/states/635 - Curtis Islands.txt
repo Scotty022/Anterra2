@@ -1,0 +1,13 @@
+state={
+	id=635
+	name="Curtis Islands"
+	history={
+			owner = SIW
+			add_core_of = SIW
+			}
+	provinces={
+ 		9394
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

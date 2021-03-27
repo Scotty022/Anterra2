@@ -1,0 +1,13 @@
+state={
+	id=641
+	name="Richmond Islands"
+	history={
+			owner = TIP
+			add_core_of = TIP
+			}
+	provinces={
+ 		9137 9139
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
