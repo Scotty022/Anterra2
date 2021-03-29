@@ -1,0 +1,13 @@
+state={
+	id=667
+	name="VYA 4"
+	history={
+			owner = VYA
+			add_core_of = VYA
+			}
+	provinces={
+ 		4421 7874 800 7813 7768 2766 7904 7977 4148 4900 2184 7814
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

@@ -1,0 +1,13 @@
+state={
+	id=656
+	name="Banyuanayar"
+	history={
+			owner = KSH
+			add_core_of = KSH
+			}
+	provinces={
+ 		106 9110 974 9109 9103 9393
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

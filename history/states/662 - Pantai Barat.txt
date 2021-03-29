@@ -1,0 +1,13 @@
+state={
+	id=662
+	name="Pantai Barat"
+	history={
+			owner = KSH
+			add_core_of = KSH
+			}
+	provinces={
+ 		1753 4552 3552 9069 3686 1658
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

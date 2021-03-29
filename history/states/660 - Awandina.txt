@@ -1,0 +1,13 @@
+state={
+	id=660
+	name="Awandina"
+	history={
+			owner = KSH
+			add_core_of = KSH
+			}
+	provinces={
+ 		3018 4367 9074 9068 1784
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

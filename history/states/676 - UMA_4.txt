@@ -1,0 +1,13 @@
+state={
+	id=676
+	name="UMA 4"
+	history={
+			owner = UMA
+			add_core_of = UMA
+			}
+	provinces={
+ 		3190 8981 4623 1133 1624 1479 3138 8952 8948 3300 4406 8953
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

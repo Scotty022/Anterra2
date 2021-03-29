@@ -1,0 +1,13 @@
+state={
+	id=655
+	name="Banyasin"
+	history={
+			owner = KSH
+			add_core_of = KSH
+			}
+	provinces={
+ 		9400 9396 9403 4395 3442
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
