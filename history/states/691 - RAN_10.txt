@@ -1,0 +1,13 @@
+state={
+	id=691
+	name="RAN 10"
+	history={
+			owner = RAN
+			add_core_of = RAN
+			}
+	provinces={
+ 		4504 1406 7631 4355 7496 2555 2768 7661 7576 768 1752 1247 4458 
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  

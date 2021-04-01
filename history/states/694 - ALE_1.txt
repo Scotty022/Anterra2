@@ -1,0 +1,13 @@
+state={
+	id=694
+	name="ALE 1"
+	history={
+			owner = ALE
+			add_core_of = ALE
+			}
+	provinces={
+ 		4062 256 7638 3844 1319 7742 7794 7893 950 4849 2322 7815 4153 7968
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
