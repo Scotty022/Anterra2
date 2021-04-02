@@ -1,0 +1,13 @@
+state={
+	id=704
+	name="KOD 5"
+	history={
+			owner = KOD
+			add_core_of = KOD
+			}
+	provinces={
+ 		1200 7354 7418 7479 3892 7465 
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+ }  
