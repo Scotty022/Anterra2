@@ -10,4 +10,4 @@ state={
 }	
 	 manpower=0
   	 buildings_max_level_factor=1.000
- }  
+}  

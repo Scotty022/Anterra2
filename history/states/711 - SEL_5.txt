@@ -1,0 +1,13 @@
+state={
+	id=711
+	name="SEL 5"
+	history={
+			owner = SEL
+			add_core_of = SEL
+			}
+	provinces={
+ 		3914 6705 6772 3487 6778 6839 2598 6718 409 4472
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
