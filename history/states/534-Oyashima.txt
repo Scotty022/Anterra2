@@ -1,6 +1,6 @@
 state={
 		id = 534
-		name = "Sea Sick Isles"
+		name = "Oyashima"
 		manpower = 1000
 
 		state_category = tiny_island
