@@ -1,0 +1,13 @@
+state={
+	id=706
+	name="SEL 18"
+	history={
+			owner = SEL
+			add_core_of = SEL
+			}
+	provinces={
+ 		2944 7297 7263 2272 1452
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

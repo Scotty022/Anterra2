@@ -6,7 +6,7 @@ state={
 			add_core_of = KOD
 			}
 	provinces={
- 		6676 6593 4384 3572 904 6571 4636 6675
+ 		4636 6675 2572
 }	
 	 manpower=0
   	 buildings_max_level_factor=1.000
