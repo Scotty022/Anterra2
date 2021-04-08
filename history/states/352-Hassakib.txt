@@ -6,8 +6,8 @@ state={
 		state_category = pastoral
 
 		history = {
-			owner = KRW
-			add_core_of = KRW
+			owner = HYD
+			add_core_of = KRW HYD
 			
 			
 
