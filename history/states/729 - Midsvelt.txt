@@ -1,0 +1,13 @@
+state={
+	id=729
+	name="Midsvelt"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		214 3105 2121 5054 2468 5034 695 4344 5006 383 3828 4501 807 4991 4980 2582 2482 1802 4993 1679
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

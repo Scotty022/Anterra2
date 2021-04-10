@@ -1,0 +1,13 @@
+state={
+	id=727
+	name="Thuyiquakliq"
+	history={
+			owner = THU
+			add_core_of = THU
+			}
+	provinces={
+ 		3250 627 4948 1647 4149 1410 4029 1068 620 4956 4951 4960
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
