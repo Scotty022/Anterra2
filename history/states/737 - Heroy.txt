@@ -1,0 +1,13 @@
+state={
+	id=737
+	name="Heroy"
+	history={
+			owner = RIN
+			add_core_of = RIN
+			}
+	provinces={
+ 		2329 821 863 787 3769 18136
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

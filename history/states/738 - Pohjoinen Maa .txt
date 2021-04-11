@@ -1,0 +1,13 @@
+state={
+	id=738
+	name="Pohjoinen Maa "
+	history={
+			owner = EMB
+			add_core_of = EMB
+			}
+	provinces={
+ 		504 881 4949 2195 4958 2195 2030 4967 4964 3451 4745 4188 4975 771 2484 583 4979
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

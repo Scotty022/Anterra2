@@ -1,0 +1,13 @@
+state={
+	id=733
+	name="East Mespalia"
+	history={
+			owner = MES
+			add_core_of = MES
+			}
+	provinces={
+ 		2490 1113 2046 3475 2508 9157 9159 9158
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
