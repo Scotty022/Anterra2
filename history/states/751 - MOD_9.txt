@@ -1,0 +1,13 @@
+state={
+	id=751
+	name="MOD_9"
+	history={
+			owner = MOD
+			add_core_of = MOD
+			}
+	provinces={
+ 		1734 3207 5173 1165 5129 1873
+}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
