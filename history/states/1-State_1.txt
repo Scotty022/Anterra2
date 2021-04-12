@@ -1,7 +1,7 @@
 state={
 		id = 1
 		name = "State_1"
-		manpower = Read tooltips ^
+		manpower = 0
 
 		state_category = pastoral
 

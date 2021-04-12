@@ -1,8 +1,8 @@
-.asset files go in here. Any custom units must be placed in here as a .asset file before it can be loaded in.
-.asset files can be edited with Notepad++. You can assign certain animation assets to whatever unit you want.
-Some countries have different animation sets (Ex. Only the US has the repeating rifle animation for their M1 Garand) 
-while Germany has a unique animation for their MP40. You can select which animation sets you want by searching the base game assets.
+#.asset files go in here. Any custom units must be placed in here as a .asset file before it can be loaded in.
+#.asset files can be edited with Notepad++. You can assign certain animation assets to whatever unit you want.
+#Some countries have different animation sets (Ex. Only the US has the repeating rifle animation for their M1 Garand) 
+#while Germany has a unique animation for their MP40. You can select which animation sets you want by searching the base game assets.
 
-You also need a .gfx file here, which basically tells the game that your unit will be using the textures
-located in Anterra2\gfx\models\units. You also need to identify what unique animations you want. 
-*If it is left blank, the unit will use default England animations.
+#You also need a .gfx file here, which basically tells the game that your unit will be using the textures
+#located in Anterra2\gfx\models\units. You also need to identify what unique animations you want. 
+#*If it is left blank, the unit will use default England animations.

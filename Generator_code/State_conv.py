@@ -1,3 +1,8 @@
+
+
+# MAJOR ERROR ON THE SPACING IN FILE NAMES! NEEDS TO BE FIXED STILL
+
+
 from csv import reader
 import os
 import sys
@@ -107,9 +112,15 @@ with open(States_Raw, 'r') as datalist:
 		try:
 			prefix = f"{file_id}-" 					# finds a file based on its ID
 			RightFile = [filename for filename in os.listdir("history\\states") if filename.startswith(prefix)]
+			if RightFile==[]:
+				prefix = f"{file_id} - " 					# finds a file based on its ID
+				RightFile = [filename for filename in os.listdir("history\\states") if filename.startswith(prefix)]
 			print(RightFile) 						# prints the name of the file to be sure
 			
-			split3 = RightFile[0].split("-")		# removes prefix from file name
+			split3 = RightFile[0].split("- ")		# removes prefix from file name
+			if not split3[1]:
+				split3 = RightFile[0].split("-")
+			
 			FoundFile = split3[1].split(".")		# removes suffix from file name
 			if name != FoundFile[0]:				# checks of the stripped file name matches the new name, otherwise give errors
 				if FoundFile[0] == 'txt':
@@ -159,7 +170,7 @@ with open(States_Raw, 'r') as datalist:
 			if prefix == "id-":
 				print('! The display of this "error" is triggered by the header of the .csv file. If no further error messages show up, everything is fine.')
 			else:
-				print("!!! The ID name could not be found! There might be a file missing.")
+				print(f"!!! The ID {file_id} name could not be found! There might be a file missing.")
 		except:
 			print(f"!!! attempting to find/create ID {file_id} ({name}) has failed")
 			print(sys.exc_info())
