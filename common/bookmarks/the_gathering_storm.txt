@@ -9,38 +9,66 @@ bookmarks = {
 		
 		TST={
 		 	history = "OTHER_GATHERING_STORM_DESC"
-			ideology = neutrality	
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
 		}
 		KOD={ #Kesh war east and west front
 			history = "KOD_GATHERING_STORM_DESC"
-			ideology = fascism			
+			ideology = fascism	
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		TIP={ #Kesh war east and west front
 			history = "TIP_GATHERING_STORM_DESC"
-			ideology = democratic		
+			ideology = democratic	
+			ideas = {
+			}
+			focuses = {
+			}	
 		}
 		BEI={ #Kesh war east front
 			history = "BEI_GATHERING_STORM_DESC"
-			ideology = fascism			
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}	
 		}
 		KYA={ #Kesh war West front
 			history = "KYA_GATHERING_STORM_DESC"
-			ideology = neutrality			
+			ideology = neutrality	
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		AKI={ #Kesh war East front
 			history = "AKI_GATHERING_STORM_DESC"
-			ideology = fascism			
+			ideology = fascism	
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		ALV={ #Kesh war West front
 			history = "ALV_GATHERING_STORM_DESC"
-			ideology = democratic			
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}			
 		}
 		# "SEL"={ #Kesh war east
 		# 	history = "SEL_GATHERING_STORM_DESC"
 		# 	ideology = neutrality		
 		# }
 		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
 
 		#####################################
@@ -49,37 +77,65 @@ bookmarks = {
 		"KHO"={ #Kesh war west
 			minor = yes
 			history = "KHO_GATHERING_STORM_DESC"
-			ideology = neutrality		
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		"MIH"={ #Kesh war west
 			minor = yes
 			history = "MIH_GATHERING_STORM_DESC"
-			ideology = neutrality		
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		"QIN"={ #Kesh war support
 			minor = yes
 			history = "QIN_GATHERING_STORM_DESC"
-			ideology = neutrality		
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		"LST"={ #Kesh war west
 			minor = yes
 			history = "LST_GATHERING_STORM_DESC"
-			ideology = neutrality		
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		"CHA"={ #Kesh war west
 			minor = yes
 			history = "CHA_GATHERING_STORM_DESC"
-			ideology = neutrality		
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		"TON"={ #Kesh war west
 			minor = yes
 			history = "TON_GATHERING_STORM_DESC"
-			ideology = neutrality		
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}		
 		}
 		"MUR"={
 			minor = yes
 			history = "MUR_GATHERING_STORM_DESC"		
-			ideology = democratic	
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}	
 		}
 		
 		effect = {
