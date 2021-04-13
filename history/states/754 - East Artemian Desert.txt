@@ -1,0 +1,13 @@
+state={
+	id=754
+	name="East Artemian Desert"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		5115 2817 4851 127 728 5075 55 2366 1822 1426 5100
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

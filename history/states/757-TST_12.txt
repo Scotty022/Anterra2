@@ -1,0 +1,13 @@
+state={
+	id=757
+	name="TST_12"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		537 1386 2718 18270
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
