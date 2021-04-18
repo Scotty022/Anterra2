@@ -1,0 +1,13 @@
+state={
+	id=770
+	name="AYG_6"
+	history={
+			owner = AYG
+			add_core_of = AYG
+			}
+	provinces={
+		5943 4928 4683 5983 4370 6010 6019 6036 6047 
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
