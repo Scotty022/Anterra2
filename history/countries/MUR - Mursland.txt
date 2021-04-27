@@ -1,4 +1,3 @@
-
 capital = 58
 
 #oob = "SCO_1936"
@@ -30,10 +29,11 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 65
-	fascism = 10
+	democratic = 67
+	fascism = 7
 	communism = 0
-	neutrality = 25
+	neutrality = 18
+	authdemocracy = 8
 }
 
 create_country_leader = {
@@ -56,4 +56,12 @@ create_country_leader = {
 	traits = {
 		staunch_monarchist 
 	}
+}
+
+create_country_leader = {
+	name = "Kiril Antov"
+	desc = "..."
+	picture = "Portrait_Mursland_Martin_I.dds"
+	expire = "1979.12.9"
+	ideology = fascism_ideology
 }
