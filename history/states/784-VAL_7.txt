@@ -1,0 +1,13 @@
+state={
+	id=784
+	name="VAL_7"
+	history={
+			owner = VAL
+			add_core_of = VAL
+			}
+	provinces={
+		5346 2918 5311 5338 2090 437 164 3392
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

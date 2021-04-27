@@ -1,0 +1,13 @@
+state={
+	id=777
+	name="TEU_7"
+	history={
+			owner = TEU
+			add_core_of = TEU
+			}
+	provinces={
+		460 5424 2883 1241
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

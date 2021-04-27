@@ -6,7 +6,7 @@ state={
 			add_core_of = AYG
 			}
 	provinces={
-		2424 5906 4544 5907 5935 4113 5951 5955 
+		2424 5906 4544 5907 5935 4113 5951 5955
 	}	
 	 manpower=0
   	 buildings_max_level_factor=1.000

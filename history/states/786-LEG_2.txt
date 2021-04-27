@@ -1,0 +1,13 @@
+state={
+	id=786
+	name="LEG_2"
+	history={
+			owner = LEG
+			add_core_of = LEG
+			}
+	provinces={
+		2026 4602 5341 5291 5353 5368 2209 2653
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
