@@ -6,7 +6,7 @@ state={
 			add_core_of = VAL
 			}
 	provinces={
-		5306 4374 498 4630 3253
+		2673 4374 3253 5256 5222 5242 2585 
 	}	
 	 manpower=0
   	 buildings_max_level_factor=1.000
