@@ -1,0 +1,13 @@
+state={
+	id=799
+	name="AUS_7"
+	history={
+			owner = AUS
+			add_core_of = AUS
+			}
+	provinces={
+		5724 4804 5725 5748 559 5776 5774 5791
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

@@ -1,0 +1,13 @@
+state={
+	id=795
+	name="AUS_3"
+	history={
+			owner = AUS
+			add_core_of = AUS
+			}
+	provinces={
+		5445 5504 5475 5493 5523 5524
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
