@@ -6,23 +6,16 @@ state={
 		state_category = pastoral
 
 		history = {
-			TST
+			owner = TST
+			add_core_of = TST
 			
-			
-			
-
-			  
-
 			buildings = {
-				
-				
-				
-				
-				
-				
-				
-		} }
-		provinces={
+				infrastructure = 5
+				}
+			}
 
+
+		provinces={
+			3500
 		}
 }
