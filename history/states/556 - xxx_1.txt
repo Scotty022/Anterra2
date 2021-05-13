@@ -2,8 +2,8 @@ state={
 	id=556
 	name="XXX_1"
 	history={
-			owner = ???
-			add_core_of = ???
+			owner = TST
+			add_core_of = TST
 			}
 	provinces={
  		4863 972 8403 1130 8383 1130 477 4424 3409
