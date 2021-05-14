@@ -1,0 +1,13 @@
+state={
+	id=824
+	name="Stylyflysa"
+	history={
+			owner = STY
+			add_core_of = STY
+			}
+	provinces={
+		980 5696 9197
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

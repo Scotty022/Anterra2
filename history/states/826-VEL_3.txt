@@ -1,0 +1,13 @@
+state={
+	id=826
+	name="VEL_3"
+	history={
+			owner = VEL
+			add_core_of = VEL
+			}
+	provinces={
+		1756 4917 3064 5673 2089 5597 2206 5636
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
