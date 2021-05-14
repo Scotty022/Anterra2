@@ -360,3 +360,6 @@
  AUS_communism_DEF:0 "the Socialist Republic of Austrasia"
  AUS_democratic_DEF:0 "the Republic of Austrasia"
  AUS_ADJ:0 "Austrasian"
+ RAM:0 "Govic South Kesh"
+ RAM_DEF:0 "the Domain of Govic South Kesh"
+ RAM_ADJ:0 "South Keshian"
