@@ -1,0 +1,13 @@
+state={
+	id=829
+	name="ARB_2"
+	history={
+			owner = ARB
+			add_core_of = ARB
+			}
+	provinces={
+		4120 7312 7377 7443 7459 7533 7601 7586 7516 
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
