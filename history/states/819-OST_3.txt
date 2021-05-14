@@ -1,0 +1,13 @@
+state={
+	id=819
+	name="OST_3"
+	history={
+			owner = OST
+			add_core_of = OST
+			}
+	provinces={
+ 		 3518 4389 5076 5082 166 2747 1687 4371 19
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

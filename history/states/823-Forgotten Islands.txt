@@ -1,0 +1,13 @@
+state={
+	id=823
+	name="Forgotten Islands"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+ 		9273 9270
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
