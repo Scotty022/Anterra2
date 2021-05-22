@@ -1,0 +1,13 @@
+state={
+	id=832
+	name="ARG_2"
+	history={
+			owner = ARG
+			add_core_of = ARG
+			}
+	provinces={
+		5720 5658 2214 5684 1813 3682 2996 5697 4831
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  

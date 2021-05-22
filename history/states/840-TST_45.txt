@@ -1,0 +1,13 @@
+state={
+	id=840
+	name="TST_45"
+	history={
+			owner = TST
+			add_core_of = TST
+			}
+	provinces={
+		298 5130 5119 295 1015 1520 5132 1669
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
