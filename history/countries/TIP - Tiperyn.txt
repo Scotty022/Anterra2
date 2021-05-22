@@ -41,3 +41,27 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 }
+
+set_autonomy = { #Nyland
+	target = NYL
+	autonomous_state = autonomy_colony
+	freedom_level = 0.35
+}
+
+set_autonomy = { #Kitiko
+	target = KTK
+	autonomous_state = autonomy_colony
+	freedom_level = 0.35
+}
+
+set_autonomy = { #Northern Nasiria
+	target = NSR
+	autonomous_state = autonomy_colony
+	freedom_level = 0.35
+}
+
+set_autonomy = { #Arroyo
+	target = ARO
+	autonomous_state = autonomy_colony
+	freedom_level = 0.35
+}

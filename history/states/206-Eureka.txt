@@ -7,7 +7,7 @@ state={
 
 		history = {
 			owner = TIP
-			add_core_of = EUR
+			add_core_of = TIP
 			
 			
 

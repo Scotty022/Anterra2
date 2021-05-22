@@ -41,3 +41,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 }
+
+set_autonomy = { #Arbenz
+	target = ARB
+	autonomous_state = autonomy_colony
+	freedom_level = 0.35
+}

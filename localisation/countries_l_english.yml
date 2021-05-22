@@ -381,3 +381,6 @@
  ARG_DEF:0 "the United Kingdoms of Argata"
  ARG_communism_DEF:0 "the Peoples Republic of Argata"
  ARG_ADJ:0 "Argan"
+ NYL:0 "Nyland"
+ NYL_DEF:0 "the Dominion of Nyland"
+ NYL_ADJ:0 "Nylandic"

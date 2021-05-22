@@ -1,0 +1,13 @@
+state={
+	id=846
+	name="BRIG_3"
+	history={
+			owner = BRI
+			add_core_of = BRI
+			}
+	provinces={
+		2338 9182 462 5578 4833 5613 4572
+	}	
+	 manpower=0
+  	 buildings_max_level_factor=1.000
+}  
