@@ -1,12 +1,12 @@
 state={
-	id=845
-	name="BRIG_2"
+	id=850
+	name="BRIG_7"
 	history={
 			owner = BRI
 			add_core_of = BRI
 			}
 	provinces={
-		5415 5452 603 4046 5503 3871 5530 3044 5559 1139 1741 5579 5614 5638
+		5848 1359 5825 1905 852 5803 2956 5851 5797 5798 303 5814 2674
 	}	
 	 manpower=0
   	 buildings_max_level_factor=1.000
