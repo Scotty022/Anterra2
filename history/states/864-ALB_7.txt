@@ -1,0 +1,13 @@
+state={
+	id=864
+	name="ALB_7"
+	history={
+		owner = ALB
+		add_core_of = ALB
+		}
+	provinces={
+		156 517 1146 1939 2118 2170 2451 2453 2663 2909 3638 3909 4142 4686 8152 8209 8246 8252 8268 8269 8301 8302 8315 8359 8393 8399 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
