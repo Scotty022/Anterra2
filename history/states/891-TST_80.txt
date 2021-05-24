@@ -1,0 +1,13 @@
+state={
+	id=891
+	name="TST_80"
+	history={
+		owner = TST
+		add_core_of = TST
+		}
+	provinces={
+		6982 4787 2678 7038 7182 2976 1672 7034 3025 7227 2494 3454 7161
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
