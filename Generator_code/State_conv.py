@@ -1,7 +1,6 @@
-
-
-# MAJOR ERROR ON THE SPACING IN FILE NAMES! NEEDS TO BE FIXED STILL
-
+# Set limit on what range to generate
+LimitL = 509
+LimitU = 513
 
 from csv import reader
 import os
@@ -16,8 +15,14 @@ print("The script has started. Please do not touch any files")
 with open(States_Raw, 'r') as datalist: 
 	csv_reader = reader(datalist)		#reads the data in the file
 	print("States_Ras.csv has successfully been read")
+	
 	for row in csv_reader:				#For each row of data, we do the following:
 		#print(row)                		#prints
+
+		if int(row[0]) < LimitL: 		#Skips all entries that are either lower than LimitL or higher than LimitU
+			continue
+		if int(row[0]) > LimitU:
+			continue
 
 #-------------------- Determining all values --------------------#
 		file_id = row[0]																# id
@@ -112,16 +117,21 @@ with open(States_Raw, 'r') as datalist:
 		try:
 			prefix = f"{file_id}-" 					# finds a file based on its ID
 			RightFile = [filename for filename in os.listdir("history\\states") if filename.startswith(prefix)]
+			#print("a: "+str(RightFile)) 
 			if RightFile==[]:
 				prefix = f"{file_id} - " 					# finds a file based on its ID
 				RightFile = [filename for filename in os.listdir("history\\states") if filename.startswith(prefix)]
-			print(RightFile) 						# prints the name of the file to be sure
+			print("b: "+str(RightFile)) 						# prints the name of the file to be sure
 			
-			split3 = RightFile[0].split("- ")		# removes prefix from file name
-			if not split3[1]:
-				split3 = RightFile[0].split("-")
-			
-			FoundFile = split3[1].split(".")		# removes suffix from file name
+			# This sections removes the prefix from the file name. First
+			# by removing the one with a space and then the one without.
+			# The second statement uses '-1' for an indentifier. It will
+			# use the last entry of the list, which means regardless if
+			# it is already split, it can process the entry correctly.
+			split3 = RightFile[0].split("- ")		
+			split4 = split3[-1].split("-")			
+
+			FoundFile = split4[-1].split(".")		# removes suffix from file name
 			if name != FoundFile[0]:				# checks of the stripped file name matches the new name, otherwise give errors
 				if FoundFile[0] == 'txt':
 					print(f"! The OG file didnt have a name (pushed file has name: {name})")
@@ -175,9 +185,5 @@ with open(States_Raw, 'r') as datalist:
 			print(f"!!! attempting to find/create ID {file_id} ({name}) has failed")
 			print(sys.exc_info())
 print("- The script has ended. Thank you for using! -")
-
-
-	
-
 
 
