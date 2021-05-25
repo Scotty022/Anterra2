@@ -1,27 +1,21 @@
 state={
 		id = 15
 		name = "Qingcheng Mountains"
-		manpower = 1000
+		manpower = 650421
 
-		state_category = rural
+		state_category = pastoral
 
 		history = {
 			owner = QIN
 			add_core_of = QIN
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 1
+			} 
+		}
 		provinces={
 		151 1472 1824 2318 8386 
 		}

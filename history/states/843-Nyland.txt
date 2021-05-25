@@ -1,13 +1,21 @@
 state={
-	id=843
-	name="Nyland"
-	history={
-			owner = NYL
-			add_core_of = NYL
-			}
-	provinces={
+		id = 843
+		name = "Nyland"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = TIP
+			add_core_of = TIP
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		389 163 5853 5879 3377 5904 5927 5905 5892 1190 5886 1648
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

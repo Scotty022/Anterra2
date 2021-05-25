@@ -1,13 +1,21 @@
 state={
-	id=775
-	name="TEU_5"
-	history={
+		id = 775
+		name = "TEU_5"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TEU
 			add_core_of = TEU
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		5615 5568 5540 3352 239 335 5496 565 1308 227 4920
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

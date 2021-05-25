@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = SIW
 			add_core_of = SIW
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		1701 2387 4 2613 3323 679 
        	}

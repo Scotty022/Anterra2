@@ -1,0 +1,21 @@
+state={
+		id = 605
+		name = "Upwind Islands"
+		manpower = 1000
+
+		state_category = small_island
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		8381 3054 9348
+}
+}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = NSR
 			add_core_of = NSR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		78 3258 7301 
 		}

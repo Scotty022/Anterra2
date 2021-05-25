@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = QUR
 			add_core_of = QUR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		3662 4631 6576 6584 6613 6619 6660 
 		}

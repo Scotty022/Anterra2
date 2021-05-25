@@ -1,0 +1,21 @@
+state={
+		id = 597
+		name = "Someisae Island"
+		manpower = 1000
+
+		state_category = small_island
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9375 2025 1572 9013 9377 9381 9376 9291
+}
+}

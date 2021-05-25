@@ -1,13 +1,22 @@
 state={
-	id=766
-	name="AYG_2"
-	history={
+		id = 766
+		name = "AYG_2"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = AYG
 			add_core_of = AYG
-			}
-	provinces={
+
+			victory_points = {5680 10}
+			victory_points = {4779 10}
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		5781 1227 4498 656 4779 2854 5668 5680 5712 9204 4571 560
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

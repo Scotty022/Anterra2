@@ -1,27 +1,24 @@
 state={
 		id = 20
 		name = "Zhimin"
-		manpower = 1000
+		manpower = 6421256
 
-		state_category = rural
+		state_category = large_town
 
 		history = {
 			owner = QIN
 			add_core_of = QIN
-			
-			
 
-			  
+			victory_points = {2216 10}
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 5
+				arms_factory = 3
+				dockyard  = 2
+				2216 = {naval_base = 3}
+			} 
+		}
 		provinces={
 		2268 4679 8543 8584 2216 161 1587 4451 8498 8510 8530 8565 
 		}

@@ -3,25 +3,18 @@ state={
 		name = "Kihei Islands"
 		manpower = 1000
 
-		state_category = tiny_island
+		state_category = pastoral
 
 		history = {
 			owner = BRI
 			add_core_of = BRI
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
  		 8632 8639 4041 29 8625
        	}

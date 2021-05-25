@@ -1,0 +1,21 @@
+state={
+		id = 640
+		name = "Westcook Island"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = BRI
+			add_core_of = BRI
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9153
+}
+}

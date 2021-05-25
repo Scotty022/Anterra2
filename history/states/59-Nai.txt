@@ -8,20 +8,17 @@ state={
 		history = {
 			owner = MUR
 			add_core_of = MUR
-			
-			
 
-			victory_points = {3351 10}  
+			victory_points = {3351 10}
 
 			buildings = {
+				
 				infrastructure = 4
 				industrial_complex = 3
 				arms_factory = 2
-				
-				
-				
-				
-		} }
+				3351 = {naval_base = 1}
+			} 
+		}
 		provinces={
 		3351 4816 5479 
 		}

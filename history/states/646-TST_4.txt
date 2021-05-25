@@ -1,0 +1,21 @@
+state={
+		id = 646
+		name = "TST_4"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		4363 3221 2352 5768 2437 2947
+}
+}

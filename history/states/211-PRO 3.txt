@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = PRO
 			add_core_of = PRO
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		116 595 1678 2789 5472 2627
 		}

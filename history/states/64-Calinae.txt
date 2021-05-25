@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = HEL
 			add_core_of = HEL
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5332 2171 2137 5396 2958
 		}

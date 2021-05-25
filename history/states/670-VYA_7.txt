@@ -1,0 +1,21 @@
+state={
+		id = 670
+		name = "VYA_7"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = VYA
+			add_core_of = VYA
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		7581 7570 4269 2109 1348 7703 2394 7760 7839 1601
+}
+}

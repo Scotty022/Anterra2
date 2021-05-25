@@ -1,0 +1,21 @@
+state={
+		id = 721
+		name = "SEL_15"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = SEL
+			add_core_of = SEL
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		6711 6771 4769 6837 6894 6901 6963 7041
+}
+}

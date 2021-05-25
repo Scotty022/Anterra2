@@ -1,0 +1,21 @@
+state={
+		id = 556
+		name = "xxx_1"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		4863 972 8403 1130 8383 1130 477 4424 3409
+}
+}

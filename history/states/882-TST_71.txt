@@ -1,13 +1,21 @@
 state={
-	id=882
-	name="TST_71"
-	history={
-		owner = TST
-		add_core_of = TST
+		id = 882
+		name = "TST_71"
+		manpower = 4000
+
+		state_category = wasteland
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
 		}
-	provinces={
+		provinces={
 		1404 1699 3122 3176 3733 3863 4753 7205 7306 7357 7373 7421
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

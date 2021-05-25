@@ -9,19 +9,14 @@ state={
 			owner = PRO
 			add_core_of = PRO
 			add_core_of = TRA
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 4
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5390 1697 4739 2248 3804 4490 5345 5407 
 		}

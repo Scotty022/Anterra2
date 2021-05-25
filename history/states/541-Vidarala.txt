@@ -1,0 +1,21 @@
+state={
+		id = 541
+		name = "Vidarala"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = PRA
+			add_core_of = PRA
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		 3545 3466 970 9033 9027 9018
+       }
+}

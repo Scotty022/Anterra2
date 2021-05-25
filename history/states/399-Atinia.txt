@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = ABE
 			add_core_of = ABE
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		439 4919 3732 3556 15
 		}

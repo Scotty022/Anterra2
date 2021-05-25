@@ -1,0 +1,21 @@
+state={
+		id = 731
+		name = "Verquinte"
+		manpower = 1000
+
+		state_category = large_town
+
+		history = {
+			owner = MES
+			add_core_of = MES
+
+			victory_points = {9165 10}
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9165 1202 290 4861 742 9163 5069
+}
+}

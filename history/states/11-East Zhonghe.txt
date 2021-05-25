@@ -1,27 +1,21 @@
 state={
 		id = 11
 		name = "East Zhonghe"
-		manpower = 1000
+		manpower = 1230543
 
 		state_category = rural
 
 		history = {
 			owner = QIN
 			add_core_of = QIN
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 3
+			} 
+		}
 		provinces={
 		28 238 2691 3261 4267 4921 8387 8427 
 		}

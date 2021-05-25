@@ -1,27 +1,23 @@
 state={
 		id = 76
 		name = "Falna Valley"
-		manpower = 1000
+		manpower = 600000
 
 		state_category = rural
 
 		history = {
 			owner = VRT
 			add_core_of = VRT
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 3
-				
-				
-				
-				
-				
-				
-		} }
+				industrial_complex = 1
+				arms_factory = 1
+			} 
+		}
 		provinces={
 		906 2891 1339 5283
 		}

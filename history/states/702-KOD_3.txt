@@ -1,0 +1,21 @@
+state={
+		id = 702
+		name = "KOD_3"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KOD
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		7129 7191 4075 7370 2667 7324 7262 1288 7274 
+}
+}

@@ -1,27 +1,22 @@
 state={
 		id = 238
 		name = "Man Saap"
-		manpower = 215.000
+		manpower = 215000
 
 		state_category = rural
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 2
 				industrial_complex = 1
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2006 6606 6577 6647 6655 6638 6648 6683
 		}

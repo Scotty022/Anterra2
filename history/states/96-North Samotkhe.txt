@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = SAM
 			add_core_of = SAM
-			
-			
 
-			  
+			victory_points = {18293 10}
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		412 5214 5180 2226 169 3970 5220 5236 5273 5251 1390 5203 18293
 		}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = SBA
 			add_core_of = SBA
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		1464 5521 3465 5562 4570
 		}

@@ -1,0 +1,21 @@
+state={
+		id = 745
+		name = "MOD_3"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = MOD
+			add_core_of = MOD
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		3177 5446 829 1408 5483 2716 5532 1700 5518 1811
+}
+}

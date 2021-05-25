@@ -1,13 +1,22 @@
 state={
-	id=764
-	name="TST_19"
-	history={
+		id = 764
+		name = "TST_19"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+
+			
+
+			buildings = {
+				
+				infrastructure = 3
+			} 
+		}
+		provinces={
 		1274 4037 4983 1417 3785 1049
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

@@ -1,0 +1,21 @@
+state={
+		id = 674
+		name = "UMA_2"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = UMA
+			add_core_of = UMA
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		8999 2550 1935 3891 1747 3773 159 2024 318 9025 9039 159
+}
+}

@@ -1,0 +1,22 @@
+state={
+		id = 754
+		name = "East Artemian Desert"
+		manpower = 1000
+
+		state_category = wasteland
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+				infrastructure = 0
+			} 
+		}
+		provinces={
+ 		5115 2817 4851 127 728 5075 55 2366 1822 1426 5100
+	}
+}

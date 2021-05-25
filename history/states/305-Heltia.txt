@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = SER
 			add_core_of = SER
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		 2614 4331 3969 3718 4323 5420 2755 1854 2805 5351
 		}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = BDZ
 			add_core_of = BDZ
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5430 277 333 1749 3469 5440
 		}

@@ -1,13 +1,21 @@
 state={
-	id=827
-	name="VEL_2"
-	history={
+		id = 827
+		name = "VEL_2"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = VEL
 			add_core_of = VEL
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		2099 5487 5464 5498 5506 1327 5547 4012 5536 18171
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

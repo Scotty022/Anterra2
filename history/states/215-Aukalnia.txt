@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = ASS
 			add_core_of = ASS
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		94 674 1321 1706 2418 2597 3563 5024 
 		}

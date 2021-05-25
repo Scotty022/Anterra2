@@ -1,0 +1,21 @@
+state={
+		id = 724
+		name = "GAR_3"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = GAR
+			add_core_of = GAR
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		3750 9148 9146 9150 3861 948 5061 5028 5050 370 5056 1207 3440 1847 2353 1529 5093 5073 777 5072 2535 4786
+}
+}

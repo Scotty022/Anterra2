@@ -1,13 +1,21 @@
 state={
-	id=796
-	name="AUS_4"
-	history={
+		id = 796
+		name = "AUS_4"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = AUS
 			add_core_of = AUS
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		4192 5542 5569 4034 1230 2078 5623
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

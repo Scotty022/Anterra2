@@ -1,7 +1,7 @@
 state={
 		id = 162
 		name = "Koroyevsk"
-		manpower = 2.000.000
+		manpower = 2000000
 
 		state_category = city
 
@@ -11,17 +11,15 @@ state={
 			add_core_of = ZAP
 			add_core_of = PER
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 4
 				industrial_complex = 2
 				arms_factory = 1
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		135 1116 1934 2267 2396 2797 3559 5335 5400 
 		}

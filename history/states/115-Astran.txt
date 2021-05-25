@@ -1,7 +1,7 @@
 state={
 		id = 115
 		name = "Astran"
-		manpower = 800.000
+		manpower = 800000
 
 		state_category = large_town
 
@@ -9,19 +9,16 @@ state={
 			owner = RAZ
 			add_core_of = RAZ
 			add_core_of = GPR
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 3
 				industrial_complex = 0
 				arms_factory = 0
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		4399 5186 18267
 		}

@@ -1,13 +1,21 @@
 state={
-	id=783
-	name="VAL_6"
-	history={
+		id = 783
+		name = "VAL_6"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = VAL
 			add_core_of = VAL
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		381 1303 4038 1865 5338 2090
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

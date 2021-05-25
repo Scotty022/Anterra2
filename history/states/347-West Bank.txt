@@ -1,14 +1,21 @@
 state={
-	id=347
-	name="West Bank"
-	history={
+		id = 347
+		name = "West Bank"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ALV
 			add_core_of = ALV
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		6349 6596 10 1106 6692 2564 6751 2147 916 4296 4628 6770 6816 6845 6888 754 3626 2922 4124 2498 2790 2848 6955 2029 7067 7061 7073 2662 1102 4502 2275 7123 1377 2957 7240 1419 7212 3296 7122 7198 7184 7295 
 	}
-	manpower=0
-	state_category = pastoral
-	buildings_max_level_factor=1.000
 }

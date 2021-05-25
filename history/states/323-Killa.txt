@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = OSR
 			add_core_of = OSR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		 2584 8009 1407 8195 363 8228
 		}

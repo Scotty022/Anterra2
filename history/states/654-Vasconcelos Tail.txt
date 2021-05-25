@@ -1,0 +1,21 @@
+state={
+		id = 654
+		name = "Vasconcelos Tail"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = JUN
+			add_core_of = JUN
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		3324 6727 9272 9269 9266 4432 6533 9255
+}
+}

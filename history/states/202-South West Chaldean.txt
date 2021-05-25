@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = CHA
 			add_core_of = CHA
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2369 2962 7363 7402 7471 7472 7503 7548 7549 
 		}

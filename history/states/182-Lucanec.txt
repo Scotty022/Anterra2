@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = POZ
 			add_core_of = POZ
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2075 2513 3739 5227 5241 5250 5258 
 		}

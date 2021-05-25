@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = DES
 			add_core_of = DES
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		526 871 1846 1990 2050 2379 2794 3565 3913 4994 5014 
 		}

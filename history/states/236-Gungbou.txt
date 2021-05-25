@@ -1,27 +1,21 @@
 state={
 		id = 236
 		name = "Gungbou"
-		manpower = 27.000
+		manpower = 27000
 
 		state_category = pastoral
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 1
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		6541 6592 4546 729 6620
 		}

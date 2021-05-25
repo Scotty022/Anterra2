@@ -1,7 +1,7 @@
 state={
 		id = 116
 		name = "Dezovskaya"
-		manpower = 1.482.005
+		manpower = 1482005
 
 		state_category = city
 
@@ -9,19 +9,16 @@ state={
 			owner = RAZ
 			add_core_of = RAZ
 			add_core_of = ZAP
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 4
 				industrial_complex = 1
 				arms_factory = 0
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		62 651 4293 4347 5585 
 		}

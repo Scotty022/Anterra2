@@ -1,0 +1,21 @@
+state={
+		id = 735
+		name = "Kongensheim"
+		manpower = 1000
+
+		state_category = city
+
+		history = {
+			owner = RIN
+			add_core_of = RIN
+
+			victory_points = {2064 10}
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		2213 2064
+}
+}

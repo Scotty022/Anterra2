@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = IER
 			add_core_of = IER
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		3517 6124 6161 6170 6127 4776 6212
         	}

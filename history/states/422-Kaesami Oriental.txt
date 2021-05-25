@@ -3,25 +3,18 @@ state={
 		name = "Kaesami Oriental"
 		manpower = 1000
 
-		state_category = pastoral
+		state_category = wasteland
 
 		history = {
 			owner = TRR
 			add_core_of = TRR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		7186 920 7255 7215 7311 7438 1579 6999
 		}

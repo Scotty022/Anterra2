@@ -1,13 +1,21 @@
 state={
-	id=870
-	name="ALB_13"
-	history={
-		owner = ALB
-		add_core_of = ALB
+		id = 870
+		name = "ALB_13"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = ALB
+			add_core_of = ALB
+
+			
+
+			buildings = {
+				
+			} 
 		}
-	provinces={
+		provinces={
 		341 818 1058 1073 1657 1707 1887 2660 2860 3237 3823 4838 8821 8839 8895 8909 
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

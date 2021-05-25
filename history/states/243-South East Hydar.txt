@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = HYD
 			add_core_of = HYD
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		154 2098 4197 4376 8366 8396 8450 2116
 		}

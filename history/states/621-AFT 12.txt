@@ -1,0 +1,21 @@
+state={
+		id = 621
+		name = "AFT 12"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = AFT
+			add_core_of = AFT
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		400 6795 3212 2852 4357 3926 7102 7030 6947 2845 3026 6893 2875
+}
+}

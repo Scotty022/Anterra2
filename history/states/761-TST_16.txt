@@ -1,13 +1,22 @@
 state={
-	id=761
-	name="TST_16"
-	history={
+		id = 761
+		name = "TST_16"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+
+			
+
+			buildings = {
+				
+				infrastructure = 2
+			} 
+		}
+		provinces={
 		380 4985 1449 4500 870 1191 309 958 1302
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

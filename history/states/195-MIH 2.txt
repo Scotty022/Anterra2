@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = MIH
 			add_core_of = MIH
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		234 880 1322 3390 3845 4349 7348 7401 7417 7449 7470 
 		}

@@ -1,0 +1,21 @@
+state={
+		id = 540
+		name = "Bolukkia"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = PRA
+			add_core_of = PRA
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		 1041 4701 3679 9062 4648
+       }
+}

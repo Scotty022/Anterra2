@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = LST
 			add_core_of = LST
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		548 3276 4019 
 		}

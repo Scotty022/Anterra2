@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = ABL
 			add_core_of = ABL
-			
-			
 
-			  
+			victory_points = {6073 10}
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		6099 6138 6136 6096 6110 6073 6109 9242
 		}

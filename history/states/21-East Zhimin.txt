@@ -1,27 +1,21 @@
 state={
 		id = 21
 		name = "East Zhimin"
-		manpower = 1000
+		manpower = 3402795
 
 		state_category = rural
 
 		history = {
 			owner = QIN
 			add_core_of = QIN
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 4
+			} 
+		}
 		provinces={
 		2360 3494 3693 3866 3997 8433 8470 8557 
 		}

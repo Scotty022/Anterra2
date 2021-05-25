@@ -1,13 +1,21 @@
 state={
-	id=818
-	name="OST_2"
-	history={
+		id = 818
+		name = "OST_2"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = OST
 			add_core_of = OST
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
  		3243 3919 2609 3500 5137 3519 5206 3229 209 5136 5184 3443
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

@@ -1,0 +1,21 @@
+state={
+		id = 733
+		name = "East Mespalia"
+		manpower = 1000
+
+		state_category = enclave
+
+		history = {
+			owner = MES
+			add_core_of = MES
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		2490 1113 2046 3475 2508 9157 9159 9158
+}
+}

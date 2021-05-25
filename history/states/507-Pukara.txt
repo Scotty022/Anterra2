@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = PUK
 			add_core_of = PUK
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
  		 9009 9000 2169 2939 9034 655 9047 1612 
        	}

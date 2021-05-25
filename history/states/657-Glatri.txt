@@ -1,0 +1,21 @@
+state={
+		id = 657
+		name = "Glatri"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KSH
+			add_core_of = KSH
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		429 9087 384 9094 18232
+}
+}

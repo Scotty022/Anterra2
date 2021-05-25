@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = JUN
 			add_core_of = JUN
-			
-			
 
-			  
+			victory_points = {6018 10}
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		6014 556 4287 6018 3325 6097 1623 6104 528 6037 4678 6020 6034 6002 9227
 		}

@@ -1,7 +1,7 @@
 state={
 		id = 161
 		name = "Chernyslaviya"
-		manpower = 615.384
+		manpower = 615384
 
 		state_category = rural
 
@@ -9,19 +9,16 @@ state={
 			owner = RAZ
 			add_core_of = RAZ
 			add_core_of = ZAP
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 2
 				industrial_complex = 0
 				arms_factory = 0
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		683 832 2243 3605 4568 5362 5387 5408 5436 
 		}

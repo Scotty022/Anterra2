@@ -9,19 +9,13 @@ state={
 			owner = AKI
 			add_core_of = AKI
 			add_core_of = TIP
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		9299 987 7772 4292
        	}

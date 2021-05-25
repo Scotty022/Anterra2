@@ -1,27 +1,25 @@
 state={
 		id = 139
 		name = "Wata Ame"
-		manpower = 1000
+		manpower = 400000
 
-		state_category = pastoral
+		state_category = rural
 
 		history = {
 			owner = WAT
+			add_core_of = AKI
+			add_core_of = AKC
 			add_core_of = WAT
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 2
+				industrial_complex = 1
+				arms_factory = 1
+			} 
+		}
 		provinces={
 		6242 
 		}

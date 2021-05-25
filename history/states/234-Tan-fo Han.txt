@@ -1,27 +1,22 @@
 state={
 		id = 234
 		name = "Tan-fo Han"
-		manpower = 510.000
+		manpower = 510000
 
 		state_category = town
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 2
 				industrial_complex = 1
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		6566
 		}

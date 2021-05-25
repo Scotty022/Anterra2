@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = VKA
 			add_core_of = VKA
-			
-			
 
-			  
+			victory_points = {18281 10}
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		18281
 		}

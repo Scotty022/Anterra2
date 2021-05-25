@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = LEI
 			add_core_of = LEI
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		849 1565 3831 4224 5063 
 		}

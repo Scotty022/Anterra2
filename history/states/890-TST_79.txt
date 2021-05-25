@@ -1,13 +1,21 @@
 state={
-	id=890
-	name="TST_79"
-	history={
-		owner = TST
-		add_core_of = TST
+		id = 890
+		name = "TST_79"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
 		}
-	provinces={
+		provinces={
 		7154 7228 7188 7118 7195 7054
 	}
-	manpower=0
-	buildings_max_level_factor=1.000
 }

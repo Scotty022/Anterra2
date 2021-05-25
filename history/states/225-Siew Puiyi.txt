@@ -1,27 +1,22 @@
 state={
 		id = 225
 		name = "Siew Puiyi"
-		manpower = 570.000
+		manpower = 570000
 
 		state_category = town
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 3
 				industrial_complex = 1
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		221 6301 3520 6257 2649 6206 2454 6256 9241
 		}

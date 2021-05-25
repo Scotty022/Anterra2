@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = SMA
 			add_core_of = SMA
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
  		 8511 2093 4535 8600 8502 500 3716 1654 1356 762 8637 8635 3628 8677 4439
        	}

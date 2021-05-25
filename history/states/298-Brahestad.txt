@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = KIR
 			add_core_of = KIR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		81 713 3807 4086 4954 4966 
 		}

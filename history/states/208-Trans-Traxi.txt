@@ -11,17 +11,13 @@ state={
 			add_core_of = TRA
 			add_core_of = LUS
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 2
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		508 1008 1331 2233 5343 5372 5414 
 		}

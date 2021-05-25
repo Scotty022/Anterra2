@@ -1,27 +1,21 @@
 state={
 		id = 230
 		name = "T'chunghai"
-		manpower = 150.000
+		manpower = 150000
 
 		state_category = rural
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 1
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		3959 6252 6264 6289 1981 6286 3702 6346 6326 6320
 		}

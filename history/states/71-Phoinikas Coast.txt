@@ -1,27 +1,24 @@
 state={
 		id = 71
 		name = "Phoinikas Coast"
-		manpower = 800.000
+		manpower = 1000000
 
 		state_category = town
 
 		history = {
 			owner = LUS
 			add_core_of = LUS
-			
-			
 
-			  
+			victory_points = {2017 10}
 
 			buildings = {
+				
 				infrastructure = 3
-				
-				
-				
-				
-				
-				
-		} }
+				industrial_complex = 1
+				arms_factory = 1
+				dockyard  = 1
+			} 
+		}
 		provinces={
 		5512 2017
 		}

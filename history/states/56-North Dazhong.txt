@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = KOD
 			add_core_of = KOD
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2041 2670 2885 4741 7457 7522 7529 7552 7598 7642 
 		}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = BOR
 			add_core_of = BOR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		 4050 2824 5284 4621 5330
 		}

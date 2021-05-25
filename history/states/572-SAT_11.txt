@@ -1,0 +1,21 @@
+state={
+		id = 572
+		name = "SAT_11"
+		manpower = 1000
+
+		state_category = wasteland
+
+		history = {
+			owner = SAT
+			add_core_of = SAT
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		6906 4732 6960 4047 7029 3356 6878 6843 3932 3266
+}
+}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = TAV
 			add_core_of = TAV
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5397 5404 763 4280 4342 5437 2240 5373 647 1474 2158 5403
 		}

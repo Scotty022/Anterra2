@@ -1,16 +1,21 @@
-
 state={
-	id=77
-	name="Antarrner"
-history={
+		id = 77
+		name = "Antarrner"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
 			owner = SAM
 			add_core_of = SAM
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		4884 5265 5315 4791
 	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=town
 }
-

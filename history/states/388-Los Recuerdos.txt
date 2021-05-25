@@ -3,25 +3,18 @@ state={
 		name = "Los Recuerdos"
 		manpower = 1000
 
-		state_category = pastoral
+		state_category = wasteland
 
 		history = {
 			owner = ARO
 			add_core_of = ARO
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		140 6423 6650 6781 3953 3641 6662 2525 3797 6531 1078
 		}

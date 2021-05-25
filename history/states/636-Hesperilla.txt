@@ -1,0 +1,21 @@
+state={
+		id = 636
+		name = "Hesperilla"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = SIW
+			add_core_of = SIW
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9406
+}
+}

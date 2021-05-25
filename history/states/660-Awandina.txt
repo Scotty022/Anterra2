@@ -1,0 +1,21 @@
+state={
+		id = 660
+		name = "Awandina"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KSH
+			add_core_of = KSH
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		3018 4367 9074 9068 1784
+}
+}

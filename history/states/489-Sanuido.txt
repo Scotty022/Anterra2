@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = KYA
 			add_core_of = KYA
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2234 9118 886 1291 9120 720 686 3663 809 2277
        	}

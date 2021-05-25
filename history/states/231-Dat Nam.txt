@@ -1,27 +1,21 @@
 state={
 		id = 231
 		name = "Dat Nam"
-		manpower = 65.000
+		manpower = 65000
 
 		state_category = pastoral
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 1
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		3213 1076 2516 6399 6463 6433 2874 6468 3614
 		}

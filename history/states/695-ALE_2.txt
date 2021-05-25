@@ -1,0 +1,21 @@
+state={
+		id = 695
+		name = "ALE_2"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = ALE
+			add_core_of = ALE
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		635 8111 8185 8163 3539 3633 8297 1278 8318 8212 3143 8131
+}
+}

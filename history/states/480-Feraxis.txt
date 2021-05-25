@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = ZHV
 			add_core_of = ZHV
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		8896 2654 2079 4743 1123 8944 2337 8963 8987 4708 2344 9008 8996 212
         	}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = JIN
 			add_core_of = JIN
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		 2386 9099 1828 755 2242 1040 1536 4587 1536 717 9122
        	}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = BAM
 			add_core_of = BAM
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		7823 7827 465 7900 7910 7981 2636 8019 7964
 		}

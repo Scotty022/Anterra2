@@ -7,21 +7,15 @@ state={
 
 		history = {
 			owner = HYD
-			add_core_of = KRW HYD
-			
-			
+			add_core_of = KRW
+			add_core_of = HYD
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		1270 2076 7585 7677 7732 
 		}

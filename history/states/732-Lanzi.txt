@@ -1,0 +1,21 @@
+state={
+		id = 732
+		name = "Lanzi"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
+			owner = MES
+			add_core_of = MES
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		5105 3631 9164 4230 9161
+}
+}

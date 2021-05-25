@@ -1,0 +1,21 @@
+state={
+		id = 662
+		name = "Pantai Barat"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KSH
+			add_core_of = KSH
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		1753 4552 3552 9069 3686 1658
+}
+}

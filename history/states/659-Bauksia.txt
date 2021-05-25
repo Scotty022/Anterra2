@@ -1,0 +1,21 @@
+state={
+		id = 659
+		name = "Bauksia"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KSH
+			add_core_of = KSH
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9075 3370 9054 9070 2692 967
+}
+}

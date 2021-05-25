@@ -1,13 +1,22 @@
 state={
-	id=755
-	name="TST_10"
-	history={
+		id = 755
+		name = "TST_10"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
 			owner = TST
-			add_core_of = TST
-			}
-	provinces={
+			
+
+			
+
+			buildings = {
+				
+				infrastructure = 2
+			} 
+		}
+		provinces={
  		5051 642 4622 1553 1497 18269
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

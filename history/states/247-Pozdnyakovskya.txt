@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = YAR
 			add_core_of = YAR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		282 286 910 3491 3680 5233 5290 5322 
 		}

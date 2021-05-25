@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = TLN
 			add_core_of = TLN
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={ 
 		 7343 7222 3796 3145 7095 7168 1618 3621
 		}

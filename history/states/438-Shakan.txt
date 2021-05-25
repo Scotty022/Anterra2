@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = KNA
 			add_core_of = KNA
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		4875 6348 4824 1541 3541 6403 6382 6368
 		}

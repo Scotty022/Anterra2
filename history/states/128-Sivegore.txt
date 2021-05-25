@@ -1,7 +1,7 @@
 state={
 		id = 128
 		name = "Sivegore"
-		manpower = 1000
+		manpower = 200000
 
 		state_category = rural
 
@@ -9,19 +9,14 @@ state={
 			owner = VRT
 			add_core_of = VRT
 			add_core_of = LUS
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 3
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5285 3629
 		}

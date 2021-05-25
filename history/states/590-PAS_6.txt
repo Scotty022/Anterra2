@@ -1,0 +1,21 @@
+state={
+		id = 590
+		name = "PAS_6"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = PAS
+			add_core_of = PAS
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		8241 2638 2310 8223 4585 8117 3839 8068 1994 3317 7932 281 7800 7875
+}
+}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = VKA
 			add_core_of = VKA
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		1172 36 18280 5135 505
 		}

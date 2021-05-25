@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = JUN
 			add_core_of = JUN
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		9220 2438 5920 5928 5952 9224 9222 9219 9218
 		}

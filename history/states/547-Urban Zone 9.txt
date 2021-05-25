@@ -1,0 +1,21 @@
+state={
+		id = 547
+		name = "Urban Zone 9"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = NAN
+			add_core_of = NAN
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		 8501 905 8534 8578 3010 1885 8599 8624 8662 8660
+       }
+}

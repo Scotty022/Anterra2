@@ -1,0 +1,21 @@
+state={
+		id = 550
+		name = "Urban Zone 6"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = NAN
+			add_core_of = NAN
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		 2065 8919 4484 1070 8921 3537 660 8917 355 3659 638 1453
+       }
+}

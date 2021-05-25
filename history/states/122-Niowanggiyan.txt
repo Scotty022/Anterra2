@@ -1,27 +1,23 @@
 state={
 		id = 122
 		name = "Niowanggiyan"
-		manpower = 1000
+		manpower = 3739000
+		buildings_max_level_factor = 0.7
 
-		state_category = pastoral
+		state_category = town
 
 		history = {
 			owner = TON
 			add_core_of = TON
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 3
+				industrial_complex = 2
+			} 
+		}
 		provinces={
 		502 2028 2383 2799 3986 4108 4505 4935 6131 6154 6164 6193 6225 6240 6340 
 		}

@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = NBA
 			add_core_of = NBA
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		4620 4014 5531 759 1164
 		}

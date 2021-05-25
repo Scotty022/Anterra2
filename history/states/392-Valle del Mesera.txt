@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = ARO
 			add_core_of = ARO
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2528 4584 6176 6142 1468 6015 3230 2399 
 		}

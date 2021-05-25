@@ -1,7 +1,7 @@
 state={
 		id = 73
 		name = "Rezno Valley"
-		manpower = 1000
+		manpower = 2500000
 
 		state_category = large_town
 
@@ -9,19 +9,16 @@ state={
 			owner = VRT
 			add_core_of = VRT
 			add_core_of = LUS
-			
 
-			  
+			victory_points = {1857 10}
 
 			buildings = {
+				
 				infrastructure = 4
-				
-				
-				
-				
-				
-				
-		} }
+				industrial_complex = 2
+				arms_factory = 2
+			} 
+		}
 		provinces={
 		2133 4579 1857 3459 
 		}

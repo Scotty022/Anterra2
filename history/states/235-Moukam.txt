@@ -1,27 +1,21 @@
 state={
 		id = 235
 		name = "Moukam"
-		manpower = 15.000
+		manpower = 15000
 
 		state_category = pastoral
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 1
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2997 6506 6518
 		}

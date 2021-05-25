@@ -1,0 +1,21 @@
+state={
+		id = 539
+		name = "Yavin"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = PRA
+			add_core_of = PRA
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		 4167 9080 2910 2374 3903 3226 4015
+       }
+}

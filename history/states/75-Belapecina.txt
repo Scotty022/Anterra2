@@ -1,7 +1,7 @@
 state={
 		id = 75
 		name = "Belapecina"
-		manpower = 1000
+		manpower = 1100000
 
 		state_category = town
 
@@ -9,19 +9,16 @@ state={
 			owner = VRT
 			add_core_of = VRT
 			add_core_of = LUS
-			
 
-			  
+			victory_points = {2677 10}
 
 			buildings = {
+				
 				infrastructure = 5
-				
-				
+				industrial_complex = 2
 				dockyard  = 1
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2677 1463 
 		}

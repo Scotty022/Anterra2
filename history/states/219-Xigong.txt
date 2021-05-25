@@ -1,27 +1,24 @@
 state={
 		id = 219
 		name = "Xigong"
-		manpower = 6.050.000
+		manpower = 6050000
 
 		state_category = metropolis
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 7
 				industrial_complex = 2
 				arms_factory = 2
 				dockyard  = 1
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5995 5989 6004 6028 3133 
 		}

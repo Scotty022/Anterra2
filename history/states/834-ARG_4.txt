@@ -1,13 +1,21 @@
 state={
-	id=834
-	name="ARG_4"
-	history={
+		id = 834
+		name = "ARG_4"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ARG
 			add_core_of = ARG
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		2012 3868 3189 4473 2823 3952 5607 458
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

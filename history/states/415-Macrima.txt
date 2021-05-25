@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = CIP
 			add_core_of = CIP
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		8245 4706 3174 3486 8141 1755 8287 4862 8368 8358 1289 8265 8325 8183
 		}

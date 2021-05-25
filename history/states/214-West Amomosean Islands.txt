@@ -11,17 +11,13 @@ state={
 			add_core_of = TRA
 			add_core_of = MUR
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 1
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		9194
 		}

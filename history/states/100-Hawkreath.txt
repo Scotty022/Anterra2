@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = TIP
 			add_core_of = TIP
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5009 2381 4517 2070 3428 511 1175 4078 510 4413 5012 624
 			}

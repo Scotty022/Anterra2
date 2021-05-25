@@ -1,7 +1,7 @@
 state={
 		id = 114
 		name = "Abargabelozov"
-		manpower = 7.000.000
+		manpower = 7000000
 
 		state_category = large_city
 
@@ -9,19 +9,16 @@ state={
 			owner = RAZ
 			add_core_of = RAZ
 			add_core_of = ZAP
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 5
 				industrial_complex = 2
 				arms_factory = 1
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5645 5611 4668 5682 3149 3642 4516
 		}

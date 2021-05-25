@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = CHZ
 			add_core_of = CHZ
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2000 1243
 		}

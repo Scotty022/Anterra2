@@ -3,25 +3,18 @@ state={
 		name = "Caesames"
 		manpower = 1000
 
-		state_category = pastoral
+		state_category = wasteland
 
 		history = {
 			owner = CIP
 			add_core_of = CIP
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		7410 2011 7692 7589
 		}

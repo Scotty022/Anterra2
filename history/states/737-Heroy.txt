@@ -1,0 +1,21 @@
+state={
+		id = 737
+		name = "Heroy"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = RIN
+			add_core_of = RIN
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		2329 821 863 787 3769 18136
+}
+}

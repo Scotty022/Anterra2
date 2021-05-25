@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = SAM
 			add_core_of = SAM
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		5252 2005 2511 4780 3084 1498 901 2138
 		}

@@ -1,0 +1,21 @@
+state={
+		id = 627
+		name = "Snake Islands"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9333 9331
+}
+}

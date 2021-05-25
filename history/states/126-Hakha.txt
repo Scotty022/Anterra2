@@ -1,27 +1,24 @@
 state={
 		id = 126
 		name = "Hakha"
-		manpower = 1000
+		manpower = 9424000
+		buildings_max_level_factor = 0.7
 
-		state_category = pastoral
+		state_category = large_town
 
 		history = {
 			owner = TON
 			add_core_of = TON
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+			} 
+		}
 		provinces={
 		149 226 543 1006 1337 1445 2483 3095 3249 3712 4526 4752 5939 5948 5967 5977 5996 5999 6058 
 		}

@@ -1,7 +1,7 @@
 state={
 		id = 118
 		name = "Sosnivika"
-		manpower = 5.903.490
+		manpower = 5903490
 
 		state_category = metropolis
 
@@ -9,19 +9,16 @@ state={
 			owner = RAZ
 			add_core_of = RAZ
 			add_core_of = ZAP
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 7
 				industrial_complex = 5
 				arms_factory = 4
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2014 3514 5577 5639 
 		}

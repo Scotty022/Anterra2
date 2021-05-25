@@ -1,27 +1,23 @@
 state={
 		id = 7
 		name = "South Tianzhou"
-		manpower = 1000
+		manpower = 3310245
 
-		state_category = rural
+		state_category = town
 
 		history = {
 			owner = QIN
 			add_core_of = QIN
-			
-			
 
-			  
+			victory_points = {8736 10}
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 5
+				industrial_complex = 2
+				dockyard  = 3
+			} 
+		}
 		provinces={
 		578 2302 4220 8712 8758 8736 
 		}

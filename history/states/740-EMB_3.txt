@@ -1,0 +1,21 @@
+state={
+		id = 740
+		name = "EMB_3"
+		manpower = 1000
+
+		state_category = town
+
+		history = {
+			owner = EMB
+			add_core_of = EMB
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		5037 5039 892 3650 4065
+}
+}

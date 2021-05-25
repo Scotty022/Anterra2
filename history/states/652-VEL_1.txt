@@ -1,0 +1,21 @@
+state={
+		id = 652
+		name = "VEL_1"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = VEL
+			add_core_of = VEL
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		5865 1758 9212 5819
+}
+}

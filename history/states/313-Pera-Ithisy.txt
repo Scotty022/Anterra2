@@ -8,20 +8,14 @@ state={
 		history = {
 			owner = MCU
 			add_core_of = MCU
-			
-			
 
-			  
+			victory_points = {3894 10}
+			victory_points = {5469 10}
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 			3894 5469 5513 5413 1107 4487 1423 5417
 		}

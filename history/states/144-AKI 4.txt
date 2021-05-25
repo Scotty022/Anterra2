@@ -7,21 +7,15 @@ state={
 
 		history = {
 			owner = AKC
+			add_core_of = AKI
 			add_core_of = AKC
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		903 949 1198 1598 2975 4401 6400 6402 6411 
 		}

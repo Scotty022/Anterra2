@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = TRR
 			add_core_of = TRR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		7887 4717 3405 8011 3065 2539 7880 1886 
 		}

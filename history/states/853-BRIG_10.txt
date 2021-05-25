@@ -1,13 +1,21 @@
 state={
-	id=853
-	name="BRIG_10"
-	history={
+		id = 853
+		name = "BRIG_10"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = BRI
 			add_core_of = BRI
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		3787 5957 1071 5998 6027 6013 2288 3461 5982 3418 3278 6008 4877 5918 4156 4226 393
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

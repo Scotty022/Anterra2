@@ -1,0 +1,21 @@
+state={
+		id = 688
+		name = "RAN_7"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = RAN
+			add_core_of = RAN
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		7612 7536 7641 7575 4109 7519 2707 4829 7520 3599 7467 7444 4912 2836
+}
+}

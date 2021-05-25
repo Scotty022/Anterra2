@@ -1,6 +1,6 @@
 # Set limit on what range to generate
-LimitL = 509
-LimitU = 513
+LimitL = 2
+LimitU = 1000
 
 from csv import reader
 import os
@@ -47,12 +47,12 @@ with open(States_Raw, 'r') as datalist:
 			core1 = '' 
 		
 		if row[6]:																		# second core
-			core2 = f"add_core_of = {row[6]}"
+			core2 = f"\n			add_core_of = {row[6]}"
 		else:
 			core2 = '' 
 
 		if row[7]:																		# third core
-			core3 = f"add_core_of = {row[7]}"
+			core3 = f"\n			add_core_of = {row[7]}"
 		else:
 			core3 = '' 
 
@@ -61,51 +61,51 @@ with open(States_Raw, 'r') as datalist:
 		else:
 			vp1 = ''
 		if row[9]:																		
-			vp2 = '\nvictory_points = {'+ f"{row[9]} 10" + '}'
+			vp2 = '\n			victory_points = {'+ f"{row[9]} 10" + '}'
 		else:
 			vp2 = ''
 		if row[10]:																		
-			vp3 = '\nvictory_points = {'+ f"{row[10]} 10" + '}'
+			vp3 = '\n			victory_points = {'+ f"{row[10]} 10" + '}'
 		else:
 			vp3 = ''
 
 		if row[11]:																		# infrastructure
-			infrastructure = f"infrastructure = {row[11]}"
+			infrastructure = f"\n				infrastructure = {row[11]}"
 		else:
 			infrastructure = ''
 
 		if row[12]:																		# Civil / industrial complex
-			civil_fac = f"industrial_complex = {row[12]}"
+			civil_fac = f"\n				industrial_complex = {row[12]}"
 		else:
 			civil_fac = ''
 		
 		if row[13]:																		# mili / arms factory
-			mil_fac = f"arms_factory = {row[13]}"
+			mil_fac = f"\n				arms_factory = {row[13]}"
 		else:
 			mil_fac = ''
 
 		if row[14]:																		# synthetic_refinery
-			refinery = f"synthetic_refinery = {row[14]}"
+			refinery = f"\n				synthetic_refinery = {row[14]}"
 		else:
 			refinery = ''
 		
 		if row[15]:																		# dockyard
-			dockyard = f"dockyard  = {row[15]}"
+			dockyard = f"\n				dockyard  = {row[15]}"
 		else:
 			dockyard = ''
 
 		if row[16]:																		# buildings_max_level_factor
-			build_factor = f"\nbuildings_max_level_factor = {row[16]}"
+			build_factor = f"\n		buildings_max_level_factor = {row[16]}"
 		else:
 			build_factor = ''
 
 		if row[17]:																		# airbase / air_base
-			air_base = f"air_base  = {row[17]}"
+			air_base = f"\n				air_base  = {row[17]}"
 		else:
 			air_base = ''
 
 		if row[19]:																		# navalbase / naval_base
-			naval_base = f"{row[19]} = " + '{' + f"naval_base = {row[18]}" + '}'
+			naval_base = f"\n				{row[19]} = " + '{' + f"naval_base = {row[18]}" + '}'
 		else:
 			naval_base = ''
 		
@@ -143,8 +143,8 @@ with open(States_Raw, 'r') as datalist:
 			g = open(Source+RightFile[0], "r")		#opens the OG file
 			split1 = g.read().split("provinces")		#cuts the file after 'provinces'
 			split2 = split1[1].split("}", 1) 			#picks the second half and cuts on the first } it finds
-			#the result is something in the shape "={1 2 3", which means a } has to be added to the end
-			provinces = "provinces" + split2[0] + "\t}" #formats it proper
+			#the result is something in the shape "={\n1 2 3", which means a } has to be added to the end
+			provinces = "provinces" + split2[0] + "}" #formats it proper
 
 			f = open(Output+f"{row[0]}-{row[1]}.txt", 'w+') #creates (or opens) a .txt file named the id number and the name given up in the second row
 
@@ -158,21 +158,14 @@ with open(States_Raw, 'r') as datalist:
 
 		history = """ + '{' + f"""
 			{owner}
-			{core1}
-			{core2}
-			{core3}
+			{core1}{core2}{core3}
 
-			{vp1} {vp2} {vp3}
+			{vp1}{vp2}{vp3}
 
 			buildings = """ + '{' + f"""
-				{infrastructure}
-				{civil_fac}
-				{mil_fac}
-				{dockyard}
-				{refinery}
-				{air_base}
-				{naval_base}
-		""" + '} }' +f"""
+				{infrastructure}{civil_fac}{mil_fac}{dockyard}{refinery}{air_base}{naval_base}
+			""" + """} 
+		}""" + f"""
 		{provinces}
 """ + '}'
 			)

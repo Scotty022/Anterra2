@@ -1,0 +1,21 @@
+state={
+		id = 573
+		name = "SAT_12"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = SAT
+			add_core_of = SAT
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		6654 123 1150 6709 6746 6785 6831 2974 6832 6756 6764 3290
+}
+}

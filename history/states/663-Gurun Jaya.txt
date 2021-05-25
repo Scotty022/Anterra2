@@ -1,0 +1,21 @@
+state={
+		id = 663
+		name = "Gurun Jaya"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KSH
+			add_core_of = KSH
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9031 965 9038 1884 2142 392
+}
+}

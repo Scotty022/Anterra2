@@ -1,0 +1,21 @@
+state={
+		id = 658
+		name = "Tenjambe"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KSH
+			add_core_of = KSH
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		1254 2983 1850
+}
+}

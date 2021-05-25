@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = TST
 			
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2207 3829 5166 
 		}

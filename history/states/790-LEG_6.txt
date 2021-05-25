@@ -1,13 +1,21 @@
 state={
-	id=790
-	name="LEG_6"
-	history={
+		id = 790
+		name = "LEG_6"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = LEG
 			add_core_of = LEG
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		4263 334 626 1003 5309 5307 2341
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

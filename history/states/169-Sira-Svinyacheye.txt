@@ -1,7 +1,7 @@
 state={
 		id = 169
 		name = "Sira-Svinyacheye"
-		manpower = 39.192
+		manpower = 39192
 
 		state_category = rural
 
@@ -9,19 +9,16 @@ state={
 			owner = RAZ
 			add_core_of = RAZ
 			add_core_of = ZAP
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 3
 				industrial_complex = 0
 				arms_factory = 0
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		2261 2739 2940 3594 4940 5295 5296 5317 
 		}

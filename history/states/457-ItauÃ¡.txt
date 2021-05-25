@@ -8,21 +8,14 @@ state={
 		history = {
 			owner = MAR
 			add_core_of = MAR
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		3009 7773 4690 3885 7846 7919 2788 7852 2928
-        	}
+        }
 }

@@ -1,13 +1,26 @@
 state={
-	id=824
-	name="Stylyflysa"
-	history={
+		id = 824
+		name = "Stylyflysa"
+		manpower = 1000000
+
+		state_category = town
+
+		history = {
 			owner = STY
 			add_core_of = STY
-			}
-	provinces={
+			add_core_of = VES
+
+			victory_points = {980 10}
+
+			buildings = {
+				
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 1
+				dockyard  = 2
+			} 
+		}
+		provinces={
 		980 5696 9197
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

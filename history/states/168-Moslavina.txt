@@ -3,25 +3,23 @@ state={
 		name = "Moslavina"
 		manpower = 1000
 
-		state_category = small_town
+		state_category = rural
 
 		history = {
 			owner = RAZ
 			add_core_of = RAZ
 			add_core_of = ROV
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 3
 				industrial_complex = 3
 				arms_factory = 1
-				
 				synthetic_refinery = 2
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		215 551 1025 1265 1515 1914 2989 3366 5207 5224 5229 5249 5270 5274 
 		}

@@ -1,0 +1,21 @@
+state={
+		id = 739
+		name = "EMB_2"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
+			owner = EMB
+			add_core_of = EMB
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		3222 1029 3836 9166 3203 1418 5015 5008 1628 5005 3344
+}
+}

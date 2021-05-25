@@ -1,13 +1,21 @@
 state={
-	id=828
-	name="ARB_1"
-	history={
+		id = 828
+		name = "ARB_1"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
 			owner = ARB
 			add_core_of = ARB
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		2286 781 3178 4008 7656 7759 2085 2265 4547 121 7789
-	}	
-	 manpower=0
-  	 buildings_max_level_factor=1.000
-}  
+	}
+}

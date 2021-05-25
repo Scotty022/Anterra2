@@ -7,21 +7,15 @@ state={
 
 		history = {
 			owner = SEL
-			add_core_of = KOD SEL
-			
-			
+			add_core_of = KOD
+			add_core_of = SEL
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		680 1720 4823 7553 
 		}

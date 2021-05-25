@@ -1,0 +1,21 @@
+state={
+		id = 578
+		name = "ALS_5"
+		manpower = 1000
+
+		state_category = wasteland
+
+		history = {
+			owner = ALS
+			add_core_of = ALS
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		32 6694 6668 3864 3470 6721 6776 6783 352 1035 4882 4183
+}
+}

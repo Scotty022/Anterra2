@@ -1,0 +1,21 @@
+state={
+		id = 728
+		name = "Sterndal"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = STE
+			add_core_of = STE
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		971 1619 530 2139 1931 4997 675 9144 4988 2776 394 4987 4977 3608 1763 549
+}
+}

@@ -1,27 +1,21 @@
 state={
 		id = 16
 		name = "East Xinxing"
-		manpower = 1000
+		manpower = 1520503
 
 		state_category = rural
 
 		history = {
 			owner = QIN
 			add_core_of = QIN
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 3
+			} 
+		}
 		provinces={
 		330 1199 1604 4738 8226 8274 
 		}

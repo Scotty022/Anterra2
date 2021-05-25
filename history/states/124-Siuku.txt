@@ -1,27 +1,23 @@
 state={
 		id = 124
 		name = "Siuku"
-		manpower = 1000
+		manpower = 4800000
+		buildings_max_level_factor = 0.7
 
-		state_category = pastoral
+		state_category = rural
 
 		history = {
 			owner = TON
 			add_core_of = TON
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+				infrastructure = 2
+				arms_factory = 1
+			} 
+		}
 		provinces={
 		1004 1197 1964 4004 4307 6051 6103 6117 6182 
 		}

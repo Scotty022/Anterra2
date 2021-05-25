@@ -9,19 +9,16 @@ state={
 			owner = RAZ
 			add_core_of = RAZ
 			add_core_of = ROV
+
 			
 
-			  
-
 			buildings = {
+				
 				infrastructure = 4
 				industrial_complex = 3
 				arms_factory = 2
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		241 1940 2333 3437 3968 4495 4872 5271 18262 18263 
 		}

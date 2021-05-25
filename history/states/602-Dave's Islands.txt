@@ -1,0 +1,21 @@
+state={
+		id = 602
+		name = "Dave's Islands"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9418 9417
+}
+}

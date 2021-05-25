@@ -1,0 +1,21 @@
+state={
+		id = 626
+		name = "Reef Islands"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = TST
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9295 9262
+}
+}

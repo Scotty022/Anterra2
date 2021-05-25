@@ -1,27 +1,21 @@
 state={
 		id = 237
 		name = "Yngse"
-		manpower = 40.000
+		manpower = 40000
 
 		state_category = pastoral
 
 		history = {
 			owner = BEI
 			add_core_of = BEI
-			
-			
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 1
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		6614 6661 6704 6695 
 		}

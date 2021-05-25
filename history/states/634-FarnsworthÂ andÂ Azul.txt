@@ -1,0 +1,21 @@
+state={
+		id = 634
+		name = "Farnsworth and Azul"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = SIW
+			add_core_of = SIW
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9387
+}
+}

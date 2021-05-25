@@ -1,0 +1,21 @@
+state={
+		id = 641
+		name = "Richmond Islands"
+		manpower = 1000
+
+		state_category = tiny_island
+
+		history = {
+			owner = TIP
+			add_core_of = TIP
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9137 9139
+}
+}

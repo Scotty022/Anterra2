@@ -8,20 +8,13 @@ state={
 		history = {
 			owner = SVE
 			add_core_of = SVE
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		1704 3588 3996 6800 6810 6856 6913 6953 6961 
 		}

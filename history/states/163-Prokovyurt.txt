@@ -1,9 +1,9 @@
 state={
 		id = 163
 		name = "Prokovyurt"
-		manpower = 800.000
+		manpower = 800000
 
-		state_category = small_town
+		state_category = rural
 
 		history = {
 			owner = RAZ
@@ -11,17 +11,15 @@ state={
 			add_core_of = ZAP
 			add_core_of = PER
 
-			  
+			
 
 			buildings = {
+				
 				infrastructure = 2
 				industrial_complex = 1
 				arms_factory = 1
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		79 280 340 2479 3404 4386 5323 
 		}

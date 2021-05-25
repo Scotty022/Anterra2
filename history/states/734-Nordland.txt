@@ -1,0 +1,21 @@
+state={
+		id = 734
+		name = "Nordland"
+		manpower = 1000
+
+		state_category = rural
+
+		history = {
+			owner = RIN
+			add_core_of = RIN
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		2276 1224 4953 4969 372 9147 1664 2778 1726 4961
+}
+}

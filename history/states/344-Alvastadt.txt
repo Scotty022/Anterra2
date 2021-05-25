@@ -1,14 +1,21 @@
 state={
-	id=344
-	name="Alvastadt"
-	history={
+		id = 344
+		name = "Alvastadt"
+		manpower = 1000
+
+		state_category = large_city
+
+		history = {
 			owner = ALV
 			add_core_of = ALV
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
 		6365
 	}
-	manpower=0
-	state_category = large_city
-	buildings_max_level_factor=1.000
 }

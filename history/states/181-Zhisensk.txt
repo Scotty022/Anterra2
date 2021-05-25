@@ -3,25 +3,18 @@ state={
 		name = "Zhisensk"
 		manpower = 1000
 
-		state_category = pastoral
+		state_category = tiny_island
 
 		history = {
 			owner = POJ
 			add_core_of = POJ
-			
-			
 
-			  
+			
 
 			buildings = {
 				
-				
-				
-				
-				
-				
-				
-		} }
+			} 
+		}
 		provinces={
 		3791 9200 9201 
 		}

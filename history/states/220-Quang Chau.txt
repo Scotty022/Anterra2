@@ -1,22 +1,26 @@
 state={
-	id=220
-	name="Quang Chau"
-	history={
+		id = 220
+		name = "Quang Chau"
+		manpower = 8400000
+
+		state_category = megalopolis
+
+		history = {
 			owner = BEI
 			add_core_of = BEI
-			}
-	buildings = {
-					infrastructure = 8
-					industrial_complex = 4
-					arms_factory = 1
-					dockyard = 1
-					naval_base = 8
-					air_base = 3
-			}
-	provinces={
+
+			
+
+			buildings = {
+				
+				infrastructure = 8
+				industrial_complex = 4
+				arms_factory = 1
+				dockyard  = 1
+				air_base  = 3
+			} 
+		}
+		provinces={
 		2676
 	}
-	manpower=10000
-	state_category = megalopolis
-	buildings_max_level_factor=1.000
 }

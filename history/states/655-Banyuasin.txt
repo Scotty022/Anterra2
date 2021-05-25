@@ -1,0 +1,21 @@
+state={
+		id = 655
+		name = "Banyuasin"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = KSH
+			add_core_of = KSH
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		9400 9396 9403 4395 3442
+}
+}

@@ -1,0 +1,21 @@
+state={
+		id = 542
+		name = "Szattara"
+		manpower = 1000
+
+		state_category = pastoral
+
+		history = {
+			owner = PRA
+			add_core_of = PRA
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+ 		 1250 9046 2018 652 3535 8997 1947 9026 18227
+       }
+}
