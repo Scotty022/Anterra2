@@ -1,6 +1,10 @@
 capital = 58
 
-#oob = "SCO_1936"
+#oob = "MUR_1946"
+
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.3
 
 # Starting tech
 set_technology = {
@@ -36,32 +40,59 @@ set_popularities = {
 	authdemocracy = 8
 }
 
+#################################
+######### Nat Spirits ###########
+#################################
+add_ideas = {
+	Martin_I
+}
+
+#################################
+######### Politicians ###########
+#################################
+
+create_country_leader = {
+	name = "Velichko Thunone"
+	desc = "POLITICS_Velichko_Thunone_DESC"
+	picture = "Portrait_Mursland_Velichko_Thunone.dds"
+	expire = "1970.1.1"
+	ideology = liberalism
+}
+
 create_country_leader = {
 	name = "Martin I"
-	desc = "Overlord of Bonamech and Traxí, Duke of Circe, Heleovo and Visia"
+	desc = "POLITICS_Martin_I_DESC"
 	picture = "Portrait_Mursland_Martin_I.dds"
 	expire = "1955.7.7"
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		staunch_monarchist unpopular_monarch
 	}
 }
 
 create_country_leader = {
-	name = "Martin I"
-	desc = "Overlord of Bonamech and Traxí, Duke of Circe, Heleovo and Visia"
-	picture = "Portrait_Mursland_Martin_I.dds"
+	name = "Arkady III"
+	desc = "POLITICS_Arkady_III_DESC"
+	picture = "Portrait_Mursland_Arkady_III.dds"
 	expire = "1955.7.7"
 	ideology = despotism
 	traits = {
-		staunch_monarchist 
+		the_director inexperienced_monarch
 	}
 }
 
 create_country_leader = {
 	name = "Kiril Antov"
-	desc = "..."
-	picture = "Portrait_Mursland_Martin_I.dds"
+	desc = "POLITICS_Kiril_Antov_DESC"
+	picture = "Portrait_Mursland_Kiril_Antov.dds"
 	expire = "1979.12.9"
 	ideology = fascism_ideology
+}
+
+create_country_leader = {
+	name = "Kyriakos Metaxas"
+	desc = "POLITICS_Kyriakos_Metaxas_DESC"
+	picture = "Portrait_Mursland_Kyriakos_Metaxas.dds"
+	expire = "1979.12.9"
+	ideology = authoritarian_democracy
 }

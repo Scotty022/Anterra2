@@ -1,0 +1,169 @@
+ideas = {
+
+	country = {
+		# Under the country group, you make national spirits. You define all
+		# spirits that you start with or can acquire via focus here! (this
+		# goes for changing spirits too). When you start with a spirit, you
+		# have to add this tou your histry/[country].txt file as well.
+
+		Martin_I = {
+			picture = Martin_I 			# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+				# always = no 
+			}
+			available = {				
+				NOT = {
+					has_government = neutrality # remove if King in power
+				}
+			}
+
+			#cancel = { } #determines on what conditions the idea is canceled, for example too low political power
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.3
+				stability_factor = -0.1
+				ai_focus_aggressive_factor = -0.5
+			}
+		}
+
+	}
+	
+	political_advisor = {
+
+		BUL_dobri_bozhilov = { 
+
+			picture = generic_political_advisor_europe_1
+				
+			allowed = {original_tag = MUR}
+			
+			traits = { captain_of_industry }
+		}
+
+	}
+
+	theorist = {
+
+		BUL_kiril_stanchev = { 
+			ledger = army
+			
+			picture = bul_kiril_stanchev
+
+			allowed = {
+				original_tag = MUR
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+
+		BUL_ivan_gaidimitriv = { 
+			ledger = air
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				original_tag = MUR
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+
+		BUL_georgi_petsov = { 
+			ledger = navy
+
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = MUR
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
+
+	high_command = {
+
+		BUL_stoyan_stoyanov = {
+			ledger = air
+			
+			picture = generic_air_europe_2
+
+			allowed = {
+				NOT = { has_dlc = "Battle for the Bosporus" }
+				original_tag = MUR
+			}
+			
+			traits = { air_air_combat_training_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		BUL_hristo_lukov = { 
+			picture = generic_army_europe_2
+			
+			allowed = {
+				original_tag = MUR
+			}
+						
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+
+		BUL_asen_dobrev_nikolov = {
+			picture = generic_air_europe_2
+
+			allowed = {
+				original_tag = MUR
+			}
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		BUL_nikola_totev_markov = { 
+			picture = generic_navy_europe_1
+
+			allowed = {
+				original_tag = MUR
+			}
+						
+			traits = { navy_chief_decisive_battle_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

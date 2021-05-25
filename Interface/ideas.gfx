@@ -1,0 +1,11 @@
+spriteTypes = {	
+	###################################
+	####### New GFX for the mod #######
+	###################################
+
+	SpriteType = {
+		name = "GFX_idea_Martin_I"								# The 'GFX_idea_' part is required 
+		texturefile = "gfx/interface/ideas/idea_Martin_I.dds"
+	}
+
+}
