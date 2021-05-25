@@ -1,14 +1,12 @@
 state={
 		id = 642
 		name = "Grisham Islands"
-		manpower = 1000
-
+		manpower = 100
 		state_category = tiny_island
 
 		history = {
 			owner = SER
 			add_core_of = SER
-			add_core_of = GRI
 
 			
 

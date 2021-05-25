@@ -2,7 +2,6 @@ state={
 		id = 218
 		name = "Taywu"
 		manpower = 9800000
-
 		state_category = megalopolis
 
 		history = {

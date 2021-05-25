@@ -2,7 +2,6 @@ state={
 		id = 118
 		name = "Sosnivika"
 		manpower = 5903490
-
 		state_category = metropolis
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 496
 		name = "South Phinq'a"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

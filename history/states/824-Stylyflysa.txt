@@ -2,7 +2,6 @@ state={
 		id = 824
 		name = "Stylyflysa"
 		manpower = 1000000
-
 		state_category = town
 
 		history = {
@@ -17,7 +16,7 @@ state={
 				infrastructure = 2
 				industrial_complex = 2
 				arms_factory = 1
-				dockyard  = 2
+				dockyard  = 1
 			} 
 		}
 		provinces={

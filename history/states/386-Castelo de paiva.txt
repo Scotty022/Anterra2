@@ -2,7 +2,6 @@ state={
 		id = 386
 		name = "Castelo de Paiva"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

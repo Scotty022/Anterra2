@@ -1,8 +1,7 @@
 state={
 		id = 735
 		name = "Kongensheim"
-		manpower = 1000
-
+		manpower = 4200000
 		state_category = city
 
 		history = {

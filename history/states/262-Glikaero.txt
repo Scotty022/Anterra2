@@ -2,7 +2,6 @@ state={
 		id = 262
 		name = "Glikaero"
 		manpower = 1000
-
 		state_category = metropolis
 
 		history = {

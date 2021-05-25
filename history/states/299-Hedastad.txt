@@ -1,15 +1,15 @@
 state={
 		id = 299
 		name = "Hedastad"
-		manpower = 1000
-
-		state_category = pastoral
+		manpower = 2050000
+		state_category = town
 
 		history = {
 			owner = KIR
 			add_core_of = KIR
 
-			
+			victory_points = {2549 10}
+			victory_points = {2022 10}
 
 			buildings = {
 				

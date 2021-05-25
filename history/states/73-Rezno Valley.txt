@@ -2,7 +2,6 @@ state={
 		id = 73
 		name = "Rezno Valley"
 		manpower = 2500000
-
 		state_category = large_town
 
 		history = {
@@ -20,6 +19,6 @@ state={
 			} 
 		}
 		provinces={
-		2133 4579 1857 3459 
+		2133 4579 1857 
 		}
 }

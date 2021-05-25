@@ -1,15 +1,14 @@
 state={
 		id = 112
 		name = "Idlerein"
-		manpower = 1000
-
-		state_category = pastoral
+		manpower = 14319000
+		state_category = large_city
 
 		history = {
 			owner = TIP
 			add_core_of = TIP
 
-			
+			victory_points = {4218 10}
 
 			buildings = {
 				

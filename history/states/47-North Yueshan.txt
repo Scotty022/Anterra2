@@ -2,7 +2,6 @@ state={
 		id = 47
 		name = "North Yueshan"
 		manpower = 1000
-
 		state_category = rural
 
 		history = {

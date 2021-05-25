@@ -2,7 +2,6 @@ state={
 		id = 74
 		name = "Pekadolina"
 		manpower = 3200000
-
 		state_category = city
 
 		history = {

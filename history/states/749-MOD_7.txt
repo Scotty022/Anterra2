@@ -2,7 +2,6 @@ state={
 		id = 749
 		name = "MOD_7"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

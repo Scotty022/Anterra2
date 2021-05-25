@@ -2,7 +2,6 @@ state={
 		id = 534
 		name = "Oyashima"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

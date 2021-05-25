@@ -2,7 +2,6 @@ state={
 		id = 166
 		name = "Krvnigrad"
 		manpower = 3600000
-
 		state_category = Metropolis
 
 		history = {

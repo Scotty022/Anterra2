@@ -2,7 +2,6 @@ state={
 		id = 208
 		name = "Trans-Traxi"
 		manpower = 1000
-
 		state_category = rural
 
 		history = {

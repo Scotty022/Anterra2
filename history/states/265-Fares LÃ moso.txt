@@ -2,7 +2,6 @@ state={
 		id = 265
 		name = "Fares Làmoso"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

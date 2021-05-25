@@ -2,7 +2,6 @@ state={
 		id = 537
 		name = "Among Uslands"
 		manpower = 1
-
 		state_category = tiny_island
 
 		history = {

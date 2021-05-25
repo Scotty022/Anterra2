@@ -2,14 +2,14 @@ state={
 		id = 247
 		name = "Pozdnyakovskya"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {
 			owner = YAR
 			add_core_of = YAR
 
-			
+			victory_points = {910 10}
+			victory_points = {5290 10}
 
 			buildings = {
 				

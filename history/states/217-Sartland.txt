@@ -1,13 +1,13 @@
 state={
 		id = 217
 		name = "Sartland"
-		manpower = 1000
-
+		manpower = 600000
 		state_category = pastoral
 
 		history = {
 			owner = ASS
 			add_core_of = ASS
+			add_core_of = SAR
 
 			
 

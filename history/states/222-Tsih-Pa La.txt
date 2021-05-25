@@ -2,7 +2,6 @@ state={
 		id = 222
 		name = "Tsih-Pa La"
 		manpower = 740000
-
 		state_category = enclave
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 41
 		name = "South Guangshen"
 		manpower = 1000
-
 		state_category = rural
 
 		history = {

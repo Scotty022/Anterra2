@@ -2,7 +2,6 @@ state={
 		id = 179
 		name = "Transbaikal"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

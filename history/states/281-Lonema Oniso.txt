@@ -2,7 +2,6 @@ state={
 		id = 281
 		name = "Lonema Oniso"
 		manpower = 1000
-
 		state_category = town
 
 		history = {

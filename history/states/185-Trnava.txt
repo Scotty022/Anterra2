@@ -2,7 +2,6 @@ state={
 		id = 185
 		name = "Trnava"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

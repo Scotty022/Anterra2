@@ -2,7 +2,6 @@ state={
 		id = 236
 		name = "Gungbou"
 		manpower = 27000
-
 		state_category = pastoral
 
 		history = {

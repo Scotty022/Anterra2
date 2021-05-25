@@ -2,8 +2,10 @@ state={
 		id = 4
 		name = "North Yulin"
 		manpower = 4530230
-
 		state_category = large_town
+		resources = {
+			rubber = 20
+		}
 
 		history = {
 			owner = QIN

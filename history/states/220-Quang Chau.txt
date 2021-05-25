@@ -2,7 +2,6 @@ state={
 		id = 220
 		name = "Quang Chau"
 		manpower = 8400000
-
 		state_category = megalopolis
 
 		history = {

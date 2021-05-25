@@ -2,7 +2,6 @@ state={
 		id = 284
 		name = "Vange-Leronde"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

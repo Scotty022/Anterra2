@@ -2,7 +2,6 @@ state={
 		id = 632
 		name = "Ivoli Islands"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

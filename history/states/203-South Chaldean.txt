@@ -2,7 +2,6 @@ state={
 		id = 203
 		name = "South Chaldean"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

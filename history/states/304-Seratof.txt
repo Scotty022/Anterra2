@@ -2,14 +2,14 @@ state={
 		id = 304
 		name = "Seratof"
 		manpower = 1000
-
-		state_category = pastoral
+		state_category = city
 
 		history = {
 			owner = SER
 			add_core_of = SER
 
 			victory_points = {5497 10}
+			victory_points = {5470 10}
 
 			buildings = {
 				

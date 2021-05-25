@@ -2,7 +2,6 @@ state={
 		id = 599
 		name = "Sparrow Islands"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

@@ -2,14 +2,13 @@ state={
 		id = 305
 		name = "Heltia"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {
 			owner = SER
 			add_core_of = SER
 
-			
+			victory_points = {4331 10}
 
 			buildings = {
 				

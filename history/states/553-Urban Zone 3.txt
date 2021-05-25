@@ -2,7 +2,6 @@ state={
 		id = 553
 		name = "Urban Zone 3"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

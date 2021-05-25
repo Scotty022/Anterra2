@@ -2,7 +2,6 @@ state={
 		id = 160
 		name = "Carasovia"
 		manpower = 97000
-
 		state_category = rural
 
 		history = {

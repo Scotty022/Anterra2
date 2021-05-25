@@ -2,12 +2,12 @@ state={
 		id = 94
 		name = "Hvallica"
 		manpower = 1000
-
 		state_category = town
 
 		history = {
 			owner = SAM
 			add_core_of = SAM
+			add_core_of = HVA
 
 			
 

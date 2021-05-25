@@ -2,7 +2,6 @@ state={
 		id = 269
 		name = "East Kaesami"
 		manpower = 1000
-
 		state_category = wasteland
 
 		history = {

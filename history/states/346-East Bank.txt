@@ -2,7 +2,6 @@ state={
 		id = 346
 		name = "East Bank"
 		manpower = 1000
-
 		state_category = rural
 
 		history = {

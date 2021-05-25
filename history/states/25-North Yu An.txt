@@ -2,7 +2,6 @@ state={
 		id = 25
 		name = "North Yu An"
 		manpower = 1000
-
 		state_category = town
 
 		history = {

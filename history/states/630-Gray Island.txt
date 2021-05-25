@@ -2,7 +2,6 @@ state={
 		id = 630
 		name = "Gray Island"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

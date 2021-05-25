@@ -2,7 +2,6 @@ state={
 		id = 353
 		name = "Qamishli"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

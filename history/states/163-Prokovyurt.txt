@@ -2,7 +2,6 @@ state={
 		id = 163
 		name = "Prokovyurt"
 		manpower = 800000
-
 		state_category = rural
 
 		history = {

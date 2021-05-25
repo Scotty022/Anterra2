@@ -2,7 +2,6 @@ state={
 		id = 754
 		name = "East Artemian Desert"
 		manpower = 1000
-
 		state_category = wasteland
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 228
 		name = "Panyu"
 		manpower = 4230000
-
 		state_category = city
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 230
 		name = "T'chunghai"
 		manpower = 150000
-
 		state_category = rural
 
 		history = {

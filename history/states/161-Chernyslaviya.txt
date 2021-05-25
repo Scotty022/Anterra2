@@ -2,7 +2,6 @@ state={
 		id = 161
 		name = "Chernyslaviya"
 		manpower = 615384
-
 		state_category = rural
 
 		history = {

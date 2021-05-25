@@ -2,7 +2,6 @@ state={
 		id = 499
 		name = "Lamara Suvu"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

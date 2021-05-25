@@ -2,7 +2,6 @@ state={
 		id = 8
 		name = "North Tianzhou"
 		manpower = 4892901
-
 		state_category = town
 
 		history = {

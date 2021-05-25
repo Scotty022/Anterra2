@@ -1,15 +1,15 @@
 state={
 		id = 216
 		name = "Ruchava"
-		manpower = 1000
-
+		manpower = 800000
 		state_category = pastoral
 
 		history = {
 			owner = ASS
 			add_core_of = ASS
+			add_core_of = SAR
 
-			
+			victory_points = {521 10}
 
 			buildings = {
 				

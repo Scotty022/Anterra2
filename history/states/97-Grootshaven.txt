@@ -1,15 +1,14 @@
 state={
 		id = 97
 		name = "Grootshaven"
-		manpower = 1000
-
-		state_category = pastoral
+		manpower = 2451000
+		state_category = town
 
 		history = {
 			owner = TIP
 			add_core_of = TIP
 
-			
+			victory_points = {5040 10}
 
 			buildings = {
 				

@@ -2,7 +2,6 @@ state={
 		id = 119
 		name = "South Kryzhelovschina"
 		manpower = 8000000
-
 		state_category = large_city
 
 		history = {

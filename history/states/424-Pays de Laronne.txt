@@ -2,7 +2,6 @@ state={
 		id = 424
 		name = "Pays de Laronne"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

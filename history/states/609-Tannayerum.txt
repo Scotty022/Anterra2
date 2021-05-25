@@ -2,7 +2,6 @@ state={
 		id = 609
 		name = "Tannayerum"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

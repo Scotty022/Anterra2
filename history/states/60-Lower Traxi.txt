@@ -2,7 +2,6 @@ state={
 		id = 60
 		name = "Lower Traxi"
 		manpower = 2150203
-
 		state_category = city
 
 		history = {

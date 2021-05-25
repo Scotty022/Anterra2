@@ -2,7 +2,6 @@ state={
 		id = 76
 		name = "Falna Valley"
 		manpower = 600000
-
 		state_category = rural
 
 		history = {

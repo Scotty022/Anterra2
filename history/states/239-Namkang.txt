@@ -2,7 +2,6 @@ state={
 		id = 239
 		name = "Namkang"
 		manpower = 250000
-
 		state_category = rural
 
 		history = {

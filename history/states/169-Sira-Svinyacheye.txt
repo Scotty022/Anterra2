@@ -2,7 +2,6 @@ state={
 		id = 169
 		name = "Sira-Svinyacheye"
 		manpower = 39192
-
 		state_category = rural
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 633
 		name = "Free Rock"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 212
 		name = "East Traxi"
 		manpower = 1000
-
 		state_category = large_town
 
 		history = {

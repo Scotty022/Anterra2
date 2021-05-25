@@ -2,9 +2,8 @@ state={
 		id = 124
 		name = "Siuku"
 		manpower = 4800000
-		buildings_max_level_factor = 0.7
-
 		state_category = rural
+		buildings_max_level_factor = 0.7
 
 		history = {
 			owner = TON

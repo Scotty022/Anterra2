@@ -2,7 +2,6 @@ state={
 		id = 608
 		name = "Ionian Islands"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

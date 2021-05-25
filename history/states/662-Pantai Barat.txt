@@ -2,7 +2,6 @@ state={
 		id = 662
 		name = "Pantai Barat"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

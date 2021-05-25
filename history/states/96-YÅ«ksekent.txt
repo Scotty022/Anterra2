@@ -1,8 +1,7 @@
 state={
 		id = 96
-		name = "North Samotkhe"
+		name = "Yūksekent"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

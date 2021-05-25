@@ -2,7 +2,6 @@ state={
 		id = 232
 		name = "Gaam Lei "
 		manpower = 306000
-
 		state_category = rural
 
 		history = {

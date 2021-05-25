@@ -1,15 +1,14 @@
 state={
 		id = 105
 		name = "Darimh"
-		manpower = 1000
-
-		state_category = pastoral
+		manpower = 645000
+		state_category = rural
 
 		history = {
 			owner = TIP
 			add_core_of = TIP
 
-			
+			victory_points = {5192 10}
 
 			buildings = {
 				

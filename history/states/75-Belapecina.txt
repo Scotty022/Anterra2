@@ -2,7 +2,6 @@ state={
 		id = 75
 		name = "Belapecina"
 		manpower = 1100000
-
 		state_category = town
 
 		history = {

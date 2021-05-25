@@ -2,7 +2,6 @@ state={
 		id = 88
 		name = "Sa'iroebi"
 		manpower = 1000
-
 		state_category = large_town
 
 		history = {

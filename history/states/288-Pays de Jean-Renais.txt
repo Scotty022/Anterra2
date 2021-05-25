@@ -2,7 +2,6 @@ state={
 		id = 288
 		name = "Pays de Jean-Renais"
 		manpower = 1000
-
 		state_category = rural
 
 		history = {

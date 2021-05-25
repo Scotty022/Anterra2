@@ -2,7 +2,6 @@ state={
 		id = 71
 		name = "Phoinikas Coast"
 		manpower = 1000000
-
 		state_category = town
 
 		history = {

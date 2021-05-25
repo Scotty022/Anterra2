@@ -2,7 +2,6 @@ state={
 		id = 233
 		name = "Sik Wa"
 		manpower = 75000
-
 		state_category = pastoral
 
 		history = {

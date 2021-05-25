@@ -2,7 +2,6 @@ state={
 		id = 13
 		name = "South Xinxing"
 		manpower = 1935403
-
 		state_category = rural
 
 		history = {

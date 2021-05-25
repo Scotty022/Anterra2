@@ -2,7 +2,6 @@ state={
 		id = 15
 		name = "Qingcheng Mountains"
 		manpower = 650421
-
 		state_category = pastoral
 
 		history = {

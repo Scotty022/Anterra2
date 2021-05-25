@@ -2,7 +2,6 @@ state={
 		id = 240
 		name = "Lag-Xai"
 		manpower = 87000
-
 		state_category = pastoral
 
 		history = {

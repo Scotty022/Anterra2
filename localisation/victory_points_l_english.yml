@@ -35,7 +35,7 @@
  VICTORY_POINTS_4880:0 "Nagusia"
  VICTORY_POINTS_6073:0 "Shamal"
  VICTORY_POINTS_6152:0 "Almarkaz"
- #AYG
+ #Agrana y Griegro (AYG)
  VICTORY_POINTS_2047:0 "Monte Real"
  VICTORY_POINTS_5680:0 "Rio Verde"
  VICTORY_POINTS_4779:0 "Hernádez"
@@ -46,6 +46,31 @@
  VICTORY_POINTS_18254:0 "Tstelivish"
  VICTORY_POINTS_18259:0 "Sitsotskhli"
  VICTORY_POINTS_5328:0 "Orshi"
+ #Embrea, Mespalia, Ringerike
+ VICTORY_POINTS_9165:0 "Iouzzene"
+ VICTORY_POINTS_4861:0 "Rimmi"
+ VICTORY_POINTS_9159:0 "Viesca"
+ VICTORY_POINTS_2064:0 "Kongensheim"
+ #Seratof
+ VICTORY_POINTS_5497:0 "Azxara"
+ VICTORY_POINTS_5470:0 "Gjavašina"
+ VICTORY_POINTS_4331:0 "Varga"
+ #Yarova
+ VICTORY_POINTS_5106:0 "Zacissa"
+ VICTORY_POINTS_3874:0 "Abramivka"
+ VICTORY_POINTS_910:0 "Kogalma"
+ VICTORY_POINTS_5290:0 "Khanskoye-Chirbent"
+ VICTORY_POINTS_1709:0 "Belotsk"
+ VICTORY_POINTS_443:0 "Ishiriysk"
+ VICTORY_POINTS_1853:0 "Borisopol"
+ VICTORY_POINTS_5247:0 "Angusht"
+ VICTORY_POINTS_961:0 "Shchyokov"
+ VICTORY_POINTS_1590:0 "Chistopa"
+ VICTORY_POINTS_4006:0 "Chaykoboksarsk"
  #others
  VICTORY_POINTS_980:0 "Lumynia" #Stylyflysa
  VICTORY_POINTS_6910:0 "São Nicolau" #Vasconcelos
+ VICTORY_POINTS_2549:0 "Hedastad" #Kironia
+ VICTORY_POINTS_2022:0 "Dobele" #Kironia second
+ VICTORY_POINTS_2405:0 "Verina" #Destland
+ VICTORY_POINTS_2462:0 "Kaasøeborg" #Svenskt

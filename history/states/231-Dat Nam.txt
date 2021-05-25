@@ -2,7 +2,6 @@ state={
 		id = 231
 		name = "Dat Nam"
 		manpower = 65000
-
 		state_category = pastoral
 
 		history = {

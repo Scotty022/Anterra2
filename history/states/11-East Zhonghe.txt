@@ -2,7 +2,6 @@ state={
 		id = 11
 		name = "East Zhonghe"
 		manpower = 1230543
-
 		state_category = rural
 
 		history = {

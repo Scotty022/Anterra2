@@ -1,15 +1,14 @@
 state={
 		id = 98
 		name = "Kanaalbaken"
-		manpower = 1000
-
-		state_category = pastoral
+		manpower = 1290000
+		state_category = rural
 
 		history = {
 			owner = TIP
 			add_core_of = TIP
 
-			
+			victory_points = {4736 10}
 
 			buildings = {
 				

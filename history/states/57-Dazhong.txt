@@ -2,7 +2,6 @@ state={
 		id = 57
 		name = "Dazhong"
 		manpower = 1000
-
 		state_category = city
 
 		history = {

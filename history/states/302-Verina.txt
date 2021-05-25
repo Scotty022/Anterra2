@@ -2,14 +2,13 @@ state={
 		id = 302
 		name = "Verina"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {
 			owner = DES
 			add_core_of = DES
 
-			
+			victory_points = {2405 10}
 
 			buildings = {
 				

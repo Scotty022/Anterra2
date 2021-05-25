@@ -2,7 +2,6 @@ state={
 		id = 164
 		name = "Rovskemlja Proper"
 		manpower = 1000
-
 		state_category = rural
 
 		history = {

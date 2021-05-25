@@ -2,7 +2,6 @@ state={
 		id = 351
 		name = "Dara-Suwaydif"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

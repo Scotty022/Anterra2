@@ -2,7 +2,6 @@ state={
 		id = 882
 		name = "TST_71"
 		manpower = 4000
-
 		state_category = wasteland
 
 		history = {

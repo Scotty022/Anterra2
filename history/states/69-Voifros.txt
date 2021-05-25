@@ -2,7 +2,6 @@ state={
 		id = 69
 		name = "Voifros"
 		manpower = 1000
-
 		state_category = town
 
 		history = {

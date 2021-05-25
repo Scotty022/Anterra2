@@ -2,7 +2,6 @@ state={
 		id = 391
 		name = "El Regalo"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 383
 		name = "Pacos de Brandao"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

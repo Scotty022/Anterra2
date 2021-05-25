@@ -2,7 +2,6 @@ state={
 		id = 598
 		name = "Last Hope"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 242
 		name = "South Hydar"
 		manpower = 1000
-
 		state_category = pastoral
 
 		history = {

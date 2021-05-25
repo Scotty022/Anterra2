@@ -2,7 +2,6 @@ state={
 		id = 638
 		name = "Northern Band Islands"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

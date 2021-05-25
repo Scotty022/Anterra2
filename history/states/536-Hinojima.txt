@@ -2,7 +2,6 @@ state={
 		id = 536
 		name = "Hinojima"
 		manpower = 1000
-
 		state_category = small_island
 
 		history = {

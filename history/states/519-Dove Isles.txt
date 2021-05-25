@@ -2,7 +2,6 @@ state={
 		id = 519
 		name = "Dove Isles"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

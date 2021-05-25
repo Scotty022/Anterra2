@@ -2,7 +2,6 @@ state={
 		id = 21
 		name = "East Zhimin"
 		manpower = 3402795
-
 		state_category = rural
 
 		history = {

@@ -1,18 +1,19 @@
 state={
 		id = 733
 		name = "East Mespalia"
-		manpower = 1000
-
-		state_category = enclave
+		manpower = 2537000
+		state_category = town
 
 		history = {
 			owner = MES
 			add_core_of = MES
 
-			
+			victory_points = {9159 10}
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 1
 			} 
 		}
 		provinces={

@@ -2,7 +2,6 @@ state={
 		id = 289
 		name = "Cote de Caira"
 		manpower = 1000
-
 		state_category = rural
 
 		history = {

@@ -2,7 +2,6 @@ state={
 		id = 727
 		name = "Thuyiquakliq"
 		manpower = 900000
-
 		state_category = rural
 
 		history = {

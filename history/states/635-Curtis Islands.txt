@@ -2,7 +2,6 @@ state={
 		id = 635
 		name = "Curtis Islands"
 		manpower = 1000
-
 		state_category = tiny_island
 
 		history = {

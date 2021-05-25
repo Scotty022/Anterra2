@@ -1,8 +1,7 @@
 state={
 		id = 731
 		name = "Verquinte"
-		manpower = 1000
-
+		manpower = 4200000
 		state_category = large_town
 
 		history = {
@@ -10,9 +9,14 @@ state={
 			add_core_of = MES
 
 			victory_points = {9165 10}
+			victory_points = {4861 10}
 
 			buildings = {
 				
+				infrastructure = 5
+				industrial_complex = 1
+				arms_factory = 1
+				dockyard  = 1
 			} 
 		}
 		provinces={

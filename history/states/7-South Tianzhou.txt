@@ -2,8 +2,10 @@ state={
 		id = 7
 		name = "South Tianzhou"
 		manpower = 3310245
-
 		state_category = town
+		resources = {
+			oil = 20
+		}
 
 		history = {
 			owner = QIN

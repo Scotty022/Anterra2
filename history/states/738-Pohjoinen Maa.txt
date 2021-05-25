@@ -1,8 +1,7 @@
 state={
 		id = 738
 		name = "Pohjoinen Maa"
-		manpower = 1000
-
+		manpower = 95000
 		state_category = wasteland
 
 		history = {
