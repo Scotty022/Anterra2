@@ -7,7 +7,7 @@ ideas = {
 		# have to add this tou your histry/[country].txt file as well.
 
 		Martin_I = {
-			picture = Martin_I 			# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed
+			picture = Martin_I 			# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
 			allowed = { 				# determines who can get it. Used for advisors and such
 				original_tag = MUR
 				# always = no 

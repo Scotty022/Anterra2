@@ -4,7 +4,7 @@ spriteTypes = {
 	###################################
 
 	SpriteType = {
-		name = "GFX_idea_Martin_I"								# The 'GFX_idea_' part is required 
+		name = "GFX_idea_Martin_I"								# The 'GFX_idea_' part is required here
 		texturefile = "gfx/interface/ideas/idea_Martin_I.dds"
 	}
 
