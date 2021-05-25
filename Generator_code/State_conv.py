@@ -1,6 +1,6 @@
 # Set limit on what range to generate
 LimitL = 2
-LimitU = 1000
+LimitU = 10
 
 from csv import reader
 import os
@@ -109,6 +109,41 @@ with open(States_Raw, 'r') as datalist:
 		else:
 			naval_base = ''
 		
+		if row[20] or row[21] or row[22] or row[23] or row[24] or row[25]:				# Resources section
+			if row[20]:	
+				steel = f'\n			steel = {row[20]}'
+			else:
+				steel = ''
+
+			if row[21]:	
+				aluminium = f'\n			aluminium = {row[21]}'
+			else:
+				aluminium = ''
+
+			if row[22]:	
+				rubber = f'\n			rubber = {row[22]}'
+			else:
+				rubber = ''
+
+			if row[23]:	
+				tungsten = f'\n			tungsten = {row[23]}'
+			else:
+				tungsten = ''
+			
+			if row[24]:	
+				chromium = f'\n			chromium = {row[24]}'
+			else:
+				chromium = ''
+
+			if row[25]:	
+				oil = f'\n			oil = {row[25]}'
+			else:
+				oil = ''
+			
+			resources = '\n		resources = {' + f"{steel}{aluminium}{rubber}{tungsten}{chromium}{oil}"+"\n		}" 
+		else:
+			resources = ''
+		
 		# provinces = """provinces = {
 		# 	1 2 3
 		# }"""
@@ -152,9 +187,8 @@ with open(States_Raw, 'r') as datalist:
 				'state={' + f"""
 		id = {file_id}
 		name = "{name}"
-		{population}{build_factor}
-
-		{state_category}
+		{population}
+		{state_category}{build_factor}{resources}
 
 		history = """ + '{' + f"""
 			{owner}
