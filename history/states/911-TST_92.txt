@@ -1,0 +1,19 @@
+state={
+	id=911
+	name="TST_92"
+	history = {
+		owner = TST
+		
+
+		
+
+		buildings = {
+			
+		} 
+	}
+	provinces={
+		357 633 1534 1605 2557 2900 3495 3585 3595 4422 5103 5111 5157 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

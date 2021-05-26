@@ -1,0 +1,20 @@
+state={
+		id = 907
+		name = "Himelingen"
+		manpower = 1000
+		state_category = pastoral
+
+		history = {
+			owner = NVL
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			6657 6652 6688 6696 6544 3998 766 2095 6754 4814 6684 6635 4651 3730 1483 6642 6689
+	}
+}

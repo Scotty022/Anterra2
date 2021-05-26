@@ -1,0 +1,20 @@
+state={
+		id = 908
+		name = "South Gesinia"
+		manpower = 1000
+		state_category = pastoral
+
+		history = {
+			owner = NVL
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			311 3838 3294 3937 1949 3277 6595 6589 6583 1671 6658 6714
+	}
+}

@@ -1,0 +1,20 @@
+state={
+		id = 906
+		name = "Meiland"
+		manpower = 1000
+		state_category = pastoral
+
+		history = {
+			owner = NVL
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			6814 6755 1674 6762 9271 2591 6918 97 7006 3774 6853 6863 3910 6927 6871 1065 6807 3582 6813
+	}
+}

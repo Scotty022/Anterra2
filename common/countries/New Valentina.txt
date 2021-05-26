@@ -1,0 +1,5 @@
+
+graphical_culture = native_american_gfx
+graphical_culture_2d = native_american_2d
+
+color = rgb { 40 40 170 }
