@@ -2,13 +2,13 @@ state={
 		id = 907
 		name = "Himelingen"
 		manpower = 1000
-		state_category = pastoral
+		state_category = town
 
 		history = {
 			owner = NVL
-			
+			add_core_of = NVL
 
-			
+			victory_points = {4651 10}
 
 			buildings = {
 				

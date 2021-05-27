@@ -2,13 +2,13 @@ state={
 		id = 903
 		name = "Anskos"
 		manpower = 1000
-		state_category = pastoral
+		state_category = town
 
 		history = {
 			owner = NVL
-			
+			add_core_of = NVL
 
-			
+			victory_points = {3720 10}
 
 			buildings = {
 				
