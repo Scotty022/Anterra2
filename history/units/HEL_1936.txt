@@ -38,7 +38,7 @@ division_template = {
 	}
 
 	}
-}
+
 
 units = {
 	division = { 
