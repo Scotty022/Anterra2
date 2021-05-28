@@ -292,7 +292,7 @@ HEL_MNT_01 =
 		9 = { "%s Mountain Infantry Division" }
 		10 = { "%s Mountain Infantry Division" }
 		11 = { "%s Mountain Infantry Division" }
-		12 = { "%s Mountain Infantry Division" }
+		
 		13 = { "%s Mountain Infantry Division" }
 		14 = { "%s Mountain Infantry Division" }
 		15 = { "%s Mountain Infantry Division" }
