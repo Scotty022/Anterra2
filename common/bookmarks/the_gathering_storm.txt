@@ -11,6 +11,7 @@ bookmarks = {
 		 	history = "OTHER_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}
@@ -19,6 +20,7 @@ bookmarks = {
 			history = "KOD_GATHERING_STORM_DESC"
 			ideology = fascism	
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -27,6 +29,7 @@ bookmarks = {
 			history = "TIP_GATHERING_STORM_DESC"
 			ideology = democratic	
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}	
@@ -35,6 +38,7 @@ bookmarks = {
 			history = "BEI_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}	
@@ -43,6 +47,7 @@ bookmarks = {
 			history = "KYA_GATHERING_STORM_DESC"
 			ideology = neutrality	
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -51,6 +56,7 @@ bookmarks = {
 			history = "AKI_GATHERING_STORM_DESC"
 			ideology = fascism	
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -59,6 +65,7 @@ bookmarks = {
 			history = "ALV_GATHERING_STORM_DESC"
 			ideology = democratic
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}			
@@ -79,6 +86,7 @@ bookmarks = {
 			history = "KHO_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -88,6 +96,7 @@ bookmarks = {
 			history = "MIH_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -97,6 +106,7 @@ bookmarks = {
 			history = "QIN_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -106,6 +116,7 @@ bookmarks = {
 			history = "LST_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -115,6 +126,7 @@ bookmarks = {
 			history = "CHA_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -124,6 +136,7 @@ bookmarks = {
 			history = "TON_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}		
@@ -133,6 +146,7 @@ bookmarks = {
 			history = "MUR_GATHERING_STORM_DESC"		
 			ideology = democratic
 			ideas = {
+				militarism_focus
 			}
 			focuses = {
 			}	
