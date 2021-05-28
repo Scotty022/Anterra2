@@ -1,1 +1,3 @@
-# shape is: statenumber = {province number }
+58 = { 5670 }
+59 = { 4816 }
+60 = { 5429 }

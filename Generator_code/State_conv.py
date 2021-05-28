@@ -104,39 +104,39 @@ with open(States_Raw, 'r') as datalist:
 		else:
 			air_base = ''
 
-		if row[19]:																		# navalbase / naval_base
-			naval_base = f"\n				{row[19]} = " + '{' + f"naval_base = {row[18]}" + '}'
+		if row[21]:																		# navalbase / naval_base
+			naval_base = f"\n				{row[21]} = " + '{' + f"naval_base = {row[20]}" + '}'
 		else:
 			naval_base = ''
 		
-		if row[20] or row[21] or row[22] or row[23] or row[24] or row[25]:				# Resources section
-			if row[20]:	
-				steel = f'\n			steel = {row[20]}'
+		if row[22] or row[23] or row[24] or row[25] or row[26] or row[27]:				# Resources section
+			if row[22]:	
+				steel = f'\n			steel = {row[22]}'
 			else:
 				steel = ''
 
-			if row[21]:	
-				aluminium = f'\n			aluminium = {row[21]}'
+			if row[23]:	
+				aluminium = f'\n			aluminium = {row[23]}'
 			else:
 				aluminium = ''
 
-			if row[22]:	
-				rubber = f'\n			rubber = {row[22]}'
+			if row[24]:	
+				rubber = f'\n			rubber = {row[24]}'
 			else:
 				rubber = ''
 
-			if row[23]:	
-				tungsten = f'\n			tungsten = {row[23]}'
+			if row[25]:	
+				tungsten = f'\n			tungsten = {row[25]}'
 			else:
 				tungsten = ''
 			
-			if row[24]:	
-				chromium = f'\n			chromium = {row[24]}'
+			if row[26]:	
+				chromium = f'\n			chromium = {row[26]}'
 			else:
 				chromium = ''
 
-			if row[25]:	
-				oil = f'\n			oil = {row[25]}'
+			if row[27]:	
+				oil = f'\n			oil = {row[27]}'
 			else:
 				oil = ''
 			
