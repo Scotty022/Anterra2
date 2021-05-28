@@ -61,24 +61,8 @@ HEL_INF_01 =
 		10 = { "%s Infantry Division" }
 		11 = { "%s Infantry Division" }
 		12 = { "%s 'Olympus' Infantry Division" }
-		13 = { "%s Infantry Division" }
 		14 = { "%s Infantry Division" }
-		15 = { "%s Infantry Division" }
-		16 = { "%s Infantry Division" }
-		17 = { "%s Infantry Division" }
-		18 = { "%s Infantry Division" }
-		19 = { "%s Infantry Division" }
-		20 = { "%s Infantry Division" }		
-		21 = { "%s Infantry Division" }		
-		22 = { "%s Infantry Division" }		
-		23 = { "%s Infantry Division" }		
-		24 = { "%s Infantry Division" }		
-		25 = { "%s Infantry Division" }		
-		26 = { "%s Infantry Division" }		
-		27 = { "%s Infantry Division" }		
-		28 = { "%s Infantry Division" }		
-		29 = { "%s Infantry Division" }		
-		30 = { "%s Infantry Division" }		
+
 	}
 }
 
@@ -218,7 +202,7 @@ HEL_PAR_01 =
 {
 	name = "Paratrooper Division"
 
-	for_countries = { HE }
+	for_countries = { HEL }
 
 	can_use = { always = yes }
 
@@ -233,24 +217,24 @@ HEL_PAR_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%dst Airborne Division" }
-		2 = { "%dnd Airborne Division" }
-		3 = { "%drd Airborne Division" }
-		4 = { "%dth Airborne Division" }
-		5 = { "%dth Airborne Division" }
-		6 = { "%dth Airborne Division" }
-		7 = { "%dth Airborne Division" }
-		8 = { "%dth 'Griffin' Airborne Division" }
-		9 = { "%dth Airborne Division" }
-		10 = { "%dth Airborne Division" }
+		1 = { "%s Airborne Division" }
+		2 = { "%s Airborne Division" }
+		3 = { "%s Airborne Division" }
+		4 = { "%sAirborne Division" }
+		5 = { "%s Airborne Division" }
+		6 = { "%s Airborne Division" }
+		7 = { "%s Airborne Division" }
+		8 = { "%s 'Griffin' Airborne Division" }
+		9 = { "%s Airborne Division" }
+		10 = { "%s Airborne Division" }
 	}
 }
 
-GRE_MAR_01 = 
+HEL_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { GRE }
+	for_countries = { HEL }
 
 	can_use = { always = yes }
 
@@ -282,7 +266,7 @@ HEL_MNT_01 =
 {
 	name = "Mountain Division"
 
-	for_countries = { GRE }
+	for_countries = { HEL }
 
 	can_use = { always = yes }
 
@@ -297,21 +281,21 @@ HEL_MNT_01 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Mountain Infantry Division }
-		2 = { "%s Mountain Infantry Division }
-		3 = { "%s Mountain Infantry Division }
-		4 = { "%s Mountain Infantry Division }
-		5 = { "%s Mountain Infantry Division }
-		6 = { "%s Mountain Infantry Division }
-		7 = { "%s Mountain Infantry Division }
-		8 = { "%s Mountain Infantry Division }
-		9 = { "%s Mountain Infantry Division }
-		10 = { "%s Mountain Infantry Division }
-		11 = { "%s Mountain Infantry Division }
-		12 = { "%s Mountain Infantry Division}
-		13 = { "%s Mountain Infantry Division }
-		14 = { "%s Mountain Infantry Division }
-		15 = { "%s Mountain Infantry Division }
+		1 = { "%s Mountain Infantry Division" }
+		2 = { "%s Mountain Infantry Division" }
+		3 = { "%s Mountain Infantry Division" }
+		4 = { "%s Mountain Infantry Division" }
+		5 = { "%s Mountain Infantry Division" }
+		6 = { "%s Mountain Infantry Division" }
+		7 = { "%s Mountain Infantry Division" }
+		8 = { "%s Mountain Infantry Division" }
+		9 = { "%s Mountain Infantry Division" }
+		10 = { "%s Mountain Infantry Division" }
+		11 = { "%s Mountain Infantry Division" }
+		12 = { "%s Mountain Infantry Division" }
+		13 = { "%s Mountain Infantry Division" }
+		14 = { "%s Mountain Infantry Division" }
+		15 = { "%s Mountain Infantry Division" }
 			
 	}
 }
@@ -327,44 +311,26 @@ HEL_GAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HEL_INF_01 }
+	#link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Civil Guard Division"
+	fallback_name = "%s Civil Guard Brigade"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		21 = { "%s Civil Guard Division" }		
-		22 = { "%s Civil Guard Division" }		
-		23 = { "%s Civil Guard Division" }		
-		24 = { "%s Civil Guard Division" }		
-		25 = { "%s Civil Guard Division" }		
-		26 = { "%s Civil Guard Division" }		
-		27 = { "%s Civil Guard Division" }		
-		28 = { "%s Civil Guard Division" }		
-		29 = { "%s Civil Guard Division" }		
-		30 = { "%s Civil Guard Division" }		
-		1 = { "%s Civil Guard Division" }
-		2 = { "%s Civil Guard Division" }
-		3 = { "%s Civil Guard Division" }
-		4 = { "%s Civil Guard Division" }
-		5 = { "%s Civil Guard Division" }
-		6 = { "%s Civil Guard Division" }
-		7 = { "%s Civil Guard Division" }
-		8 = { "%s Civil Guard Division" }
-		9 = { "%s Civil Guard Division" }
+			
+		1 = { "%s 'Timiphos' Civil Guard Division" }
+		2 = { "%s 'Rangae' Civil Guard Division" }
+		3 = { "%s 'Aragon' Civil Guard Division" }
+		4 = { "%s 'Dorna' Civil Guard Division" }
+		5 = { "%s 'Meridos' Civil Guard Division" }
+		6 = { "%s 'Spatha' Civil Guard Division" }
+		7 = { "%s 'Stymphos' Civil Guard Division" }
+		8 = { "%s 'Volfros' Civil Guard Division" }
+		9 = { "%s 'Calinae' Civil Guard Division" }
 		10 = { "%s Civil Guard Division" }
-		11 = { "%s Civil Guard Division" }
-		12 = { "%s Civil Guard Division" }
-		13 = { "%s Civil Guard Division" }
-		14 = { "%s Civil Guard Division" }
-		15 = { "%s Civil Guard Division" }
-		16 = { "%s Civil Guard Division" }
-		17 = { "%s Civil Guard Division" }
-		18 = { "%s Civil Guard Division" }
-		19 = { "%s Civil Guard Division" }
-		20 = { "%s Civil Guard Division" }		
+			
 	}
 }
 
