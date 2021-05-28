@@ -1,0 +1,96 @@
+division_template = {
+	name = "Helinikan Infantry Division" 				# Triangular Infantry Division
+	division_names_group = HEL_INF_01
+	# Prior to 1940 mobilization = 3rd, 4th, 5th, 9th, 10, 13th;
+	# 	6th, 7th, 11th, and 12th had 2 regiments; 14th had 1 regiment
+	# Note: sources have all Greek regular infantry as mountain-trained
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		
+	}
+}
+
+units = {
+	######## Ellinikó Genikó Epiteleío ########
+	division = { # "V Merarchía Pezikoú"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 5
+		}
+		location = 12058
+		division_template = "Helinikan Infantry Division" 
+		start_experience_factor = 1
+		start_equipment_factor = 1
+
+	}
+	
+	}
+
+	##### NAVAL UNITS #####
+	navy = {					
+		name = "Vasilikó Polemikó Naftikó"				
+		base = 4109
+		location = 4109 # Athens
+		ship = { name = "RHS Georgios Averof" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = GRE } } }				
+		ship = { name = "RHS Elli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = GRE } } }				
+		# Destroyer Flotilla
+		ship = { name = "RHS Aetos" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Ierax" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Leon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Panthir" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Kountouriotis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+		ship = { name = "RHS Hydra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+		ship = { name = "RHS Psara" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+		ship = { name = "RHS Spetsai" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+	}					
+	navy = {					
+		name = "Stolískou Ypovrychíon"				
+		base = 4109 
+		location = 4109 # Athens
+		ship = { name = "RHS Katsonis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Papanikolis" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Protefs" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Nirefs" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		 
+		ship = { name = "RHS Triton" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+		ship = { name = "RHS Glafkos" definition = submarine equipment = { submarine_1 = { amount = 1 owner = GRE } } }		
+	}					
+
+}
+
+##### No Air units -- Greece did not start to modernize air force until 1937 #####
+
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GRE"
+		}
+		requested_factories = 1
+		progress = 0.22
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GRE"
+		}
+		requested_factories = 1
+		progress = 0.56
+		efficiency = 100
+	}
+}
