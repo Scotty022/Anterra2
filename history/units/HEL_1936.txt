@@ -21,7 +21,43 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Garrison Division" 				
+	name = "Mountain Infantry Division" 				
+	division_names_group = HEL_MTN_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2}
+	}
+}
+division_template = {
+	name = "Cavalry Brigade" 				
+	division_names_group = HEL_CAV_01
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+	}
+division_template = {
+	name = "Civil Guard" 				
 	division_names_group = HEL_GAR_01
 	
 	regiments = {
@@ -31,14 +67,11 @@ division_template = {
 		infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
-		infantry = { x = 2 y = 0 }
-		infantry = { x = 2 y = 1 }
-		infantry = { x = 2 y = 2 }
 		
 	}
-
+	priority = 0
 	}
-}
+
 
 units = {
 	division = { 
@@ -47,7 +80,7 @@ units = {
             name_order = 1
         }
 		#name = "Test"
-		location = 4414
+		location = 3557
 		division_template = "Infantry Division" 
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
@@ -59,7 +92,7 @@ units = {
             name_order = 2
         }
 		#name = "Test"
-		location = 4414
+		location = 3447
 		division_template = "Infantry Division" 
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
@@ -71,7 +104,7 @@ units = {
             name_order = 3
         }
 		#name = "Test"
-		location = 4414
+		location = 3843
 		division_template = "Infantry Division" 
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
@@ -83,7 +116,7 @@ units = {
             name_order = 4
         }
 		#name = "Test"
-		location = 4414
+		location = 1555
 		division_template = "Infantry Division" 
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
@@ -92,23 +125,20 @@ units = {
 	division = {
 	division_name = {
             is_name_ordered = yes
-            name_order = 5
+            name_order = 1
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Infantry Division" 
+		location = 2171
+		division_template = "Cavalry Brigade" 
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
 
 	}
 	division = {
-	division_name = {
-            is_name_ordered = yes
-            name_order = 6
-        }
-		#name = "Test"
-		location = 4414
-		division_template = "Infantry Division" 
+		name = "XII 'Olympus' Mountain Infantry Division"
+		
+		location = 2083
+		division_template = "Mountain Infantry Division" 
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
 
@@ -120,7 +150,7 @@ units = {
         }
 		#name = "Test"
 		location = 4414
-		division_template = "Garrison Division" 
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
@@ -130,8 +160,8 @@ units = {
             name_order = 2
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Garrison Division" 
+		location = 1293
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
@@ -141,8 +171,8 @@ units = {
             name_order = 3
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Garrison Division" 
+		location = 676
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
@@ -152,8 +182,8 @@ units = {
             name_order = 4
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Garrison Division" 
+		location = 374
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
@@ -163,8 +193,8 @@ units = {
             name_order = 5
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Garrison Division" 
+		location = 5490
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
@@ -174,8 +204,8 @@ units = {
             name_order = 6
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Garrison Division" 
+		location = 1440
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
@@ -185,8 +215,8 @@ units = {
             name_order = 7
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Garrison Division" 
+		location = 4474
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
@@ -196,8 +226,8 @@ units = {
             name_order = 8
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Garrison Division" 
+		location = 2951
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
@@ -207,8 +237,8 @@ units = {
             name_order = 9
         }
 		#name = "Test"
-		location = 4414
-		division_template = "Garrison Division" 
+		location = 2171
+		division_template = "Civil Guard" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
