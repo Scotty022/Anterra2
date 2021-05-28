@@ -29,10 +29,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 5
-	neutrality = 85
+	democratic = 15
+	fascism = 24
+	communism = 4
+	neutrality = 57
 }
 create_country_leader = {
 	name = "Ronald McDonald"

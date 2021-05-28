@@ -43,24 +43,24 @@ HEL_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Helinikan Infantry Division""
+	fallback_name = "%s Infantry Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%st 'Hoplite' Infantry Division" }
-		2 = { "%nd 'Manticore' Infantry Division" }
+		1 = { "%s 'Hoplite' Infantry Division" }
+		2 = { "%s 'Manticore' Infantry Division" }
 		3 = { "%s Infantry Division" }
 		4 = { "%s Infantry Division" }
 		5 = { "%s Infantry Division" }
-		6 = { "%s Infantry Division" }
+		6 = { "%s 'Chimaera' Infantry Division" }
 		7 = { "%s Infantry Division" }
 		8 = { "%s Infantry Division" }
 		9 = { "%s Infantry Division" }
 		10 = { "%s Infantry Division" }
 		11 = { "%s Infantry Division" }
-		12 = { "%th 'Olympus' Infantry Division" }
+		12 = { "%s 'Olympus' Infantry Division" }
 		13 = { "%s Infantry Division" }
 		14 = { "%s Infantry Division" }
 		15 = { "%s Infantry Division" }
