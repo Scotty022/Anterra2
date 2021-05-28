@@ -1,17 +1,27 @@
 state={
 		id = 61
 		name = "Stymphos"
-		manpower = 1000
+		manpower = 2346540
 		state_category = town
+		buildings_max_level_factor = 2
+		resources = {
+			steel = 10
+			aluminium = 15
+			tungsten = 10
+			chromium = 5
+		}
 
 		history = {
 			owner = HEL
 			add_core_of = HEL
 
-			
+			victory_points = {4474 10}
 
 			buildings = {
 				
+				infrastructure = 4
+				industrial_complex = 2
+				arms_factory = 2
 			} 
 		}
 		provinces={

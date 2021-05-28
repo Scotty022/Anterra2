@@ -1,17 +1,26 @@
 state={
 		id = 64
 		name = "Calinae"
-		manpower = 1000
+		manpower = 973452
 		state_category = town
+		buildings_max_level_factor = 2
+		resources = {
+			steel = 7
+			aluminium = 5
+			tungsten = 5
+		}
 
 		history = {
 			owner = HEL
 			add_core_of = HEL
 
-			
+			victory_points = {5396 10}
 
 			buildings = {
 				
+				infrastructure = 4
+				industrial_complex = 1
+				arms_factory = 1
 			} 
 		}
 		provinces={

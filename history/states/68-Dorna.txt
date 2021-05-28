@@ -1,8 +1,13 @@
 state={
 		id = 68
 		name = "Dorna"
-		manpower = 1000
+		manpower = 398742
 		state_category = rural
+		resources = {
+			steel = 5
+			aluminium = 10
+			tungsten = 5
+		}
 
 		history = {
 			owner = HEL
@@ -12,6 +17,8 @@ state={
 
 			buildings = {
 				
+				infrastructure = 2
+				industrial_complex = 1
 			} 
 		}
 		provinces={

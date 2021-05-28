@@ -1,7 +1,7 @@
 state={
 		id = 62
 		name = "Aragon"
-		manpower = 1000
+		manpower = 1284471
 		state_category = town
 
 		history = {
@@ -12,6 +12,9 @@ state={
 
 			buildings = {
 				
+				infrastructure = 4
+				industrial_complex = 1
+				arms_factory = 2
 			} 
 		}
 		provinces={

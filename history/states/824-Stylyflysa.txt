@@ -7,7 +7,7 @@ state={
 		history = {
 			owner = STY
 			add_core_of = STY
-			add_core_of = VEL
+			add_core_of = VES
 
 			victory_points = {980 10}
 

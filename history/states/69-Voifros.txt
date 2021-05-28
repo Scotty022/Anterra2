@@ -1,17 +1,24 @@
 state={
 		id = 69
 		name = "Voifros"
-		manpower = 1000
+		manpower = 1203243
 		state_category = town
+		resources = {
+			steel = 5
+			tungsten = 3
+		}
 
 		history = {
 			owner = HEL
 			add_core_of = HEL
 
-			
+			victory_points = {2951 10}
 
 			buildings = {
 				
+				infrastructure = 4
+				industrial_complex = 2
+				arms_factory = 2
 			} 
 		}
 		provinces={

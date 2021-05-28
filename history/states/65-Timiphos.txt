@@ -1,17 +1,28 @@
 state={
 		id = 65
 		name = "Timiphos"
-		manpower = 1000
-		state_category = large_city
+		manpower = 3274234
+		state_category = city
+		buildings_max_level_factor = 3
+		resources = {
+			steel = 10
+			aluminium = 10
+			tungsten = 5
+			chromium = 5
+		}
 
 		history = {
 			owner = HEL
 			add_core_of = HEL
 
-			
+			victory_points = {5443 10}
+			victory_points = {5458 10}
 
 			buildings = {
 				
+				infrastructure = 6
+				industrial_complex = 3
+				arms_factory = 2
 			} 
 		}
 		provinces={

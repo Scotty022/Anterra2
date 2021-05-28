@@ -3,9 +3,6 @@ state={
 		name = "Chenghua"
 		manpower = 3456230
 		state_category = large_city
-		resources = {
-			steel = 20
-		}
 
 		history = {
 			owner = QIN

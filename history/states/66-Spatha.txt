@@ -1,17 +1,27 @@
 state={
 		id = 66
 		name = "Spatha"
-		manpower = 1000
+		manpower = 2648421
 		state_category = city
+		resources = {
+			steel = 10
+			aluminium = 5
+			chromium = 5
+		}
 
 		history = {
 			owner = HEL
 			add_core_of = HEL
 
-			
+			victory_points = {5583 10}
 
 			buildings = {
 				
+				infrastructure = 6
+				industrial_complex = 3
+				arms_factory = 1
+				dockyard  = 3
+				5583 = {naval_base = 3}
 			} 
 		}
 		provinces={

@@ -1,7 +1,7 @@
 state={
 		id = 63
 		name = "Rangae"
-		manpower = 1000
+		manpower = 320842
 		state_category = rural
 
 		history = {
@@ -12,6 +12,8 @@ state={
 
 			buildings = {
 				
+				infrastructure = 2
+				industrial_complex = 2
 			} 
 		}
 		provinces={
