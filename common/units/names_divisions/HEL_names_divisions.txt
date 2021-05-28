@@ -202,7 +202,7 @@ HEL_PAR_01 =
 {
 	name = "Paratrooper Division"
 
-	for_countries = { HE }
+	for_countries = { HEL }
 
 	can_use = { always = yes }
 
@@ -230,11 +230,11 @@ HEL_PAR_01 =
 	}
 }
 
-GRE_MAR_01 = 
+HEL_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { GRE }
+	for_countries = { HEL }
 
 	can_use = { always = yes }
 
@@ -266,7 +266,7 @@ HEL_MNT_01 =
 {
 	name = "Mountain Division"
 
-	for_countries = { GRE }
+	for_countries = { HEL }
 
 	can_use = { always = yes }
 
@@ -311,7 +311,7 @@ HEL_GAR_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { HEL_INF_01 }
+	#link_numbering_with = { HEL_INF_01 }
 
 	fallback_name = "%s Civil Guard Brigade"
 
