@@ -43,32 +43,32 @@ HEL_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Infantry Division"
+	fallback_name = "%s Merarchia Pezikou"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s 'Hoplite' Infantry Division" }
-		2 = { "%s 'Manticore' Infantry Division" }
-		3 = { "%s Infantry Division" }
-		4 = { "%s Infantry Division" }
-		5 = { "%s Infantry Division" }
-		6 = { "%s 'Chimaera' Infantry Division" }
-		7 = { "%s Infantry Division" }
-		8 = { "%s Infantry Division" }
-		9 = { "%s Infantry Division" }
-		10 = { "%s Infantry Division" }
-		11 = { "%s Infantry Division" }
-		12 = { "%s 'Olympus' Infantry Division" }
-		14 = { "%s Infantry Division" }
+		1 = { "%s 'Hoplite' Merarchia Pezikou" }
+		2 = { "%s 'Manticore' Merarchia Pezikou" }
+		3 = { "%s Merarchia Pezikou" }
+		4 = { "%s Merarchia Pezikou" }
+		5 = { "%s Merarchia Pezikou" }
+		6 = { "%s 'Chimaera' Merarchia Pezikou" }
+		7 = { "%s Merarchia Pezikou" }
+		8 = { "%s Merarchia Pezikou" }
+		9 = { "%s Merarchia Pezikou" }
+		10 = { "%s Merarchia Pezikou" }
+		11 = { "%s Merarchia Pezikou" }
+		12 = { "%s 'Olympus' Merarchia Pezikou" }
+		14 = { "%s Merarchia Pezikou" }
 
 	}
 }
 
 HEL_CAV_01 = 
 {
-	name = "Cavalry Division"
+	name = "Cavalry Brigade"
 
 	for_countries = { HEL }
 
@@ -79,22 +79,22 @@ HEL_CAV_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Cavalry Division"
+	fallback_name = "%s Taxiarchía Ippikoú"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Cavalry Division" }
-		2 = { "%s Cavalry Division" }
-		3 = { "%s Cavalry Division" }
-		4 = { "%s Cavalry Division" }
-		5 = { "%s Cavalry Division" }
-		6 = { "%s Cavalry Division" }
-		7 = { "%s Cavalry Division" }
-		8 = { "%s Cavalry Division" }
-		9 = { "%s Cavalry Division" }
-		10 = { "%s Cavalry Division" }
+		1 = { "%s Taxiarchía Ippikoú" }
+		2 = { "%s Taxiarchía Ippikoú" }
+		3 = { "%s Taxiarchía Ippikoú" }
+		4 = { "%s Taxiarchía Ippikoú" }
+		5 = { "%s Taxiarchía Ippikoú" }
+		6 = { "%s Taxiarchía Ippikoú" }
+		7 = { "%s Taxiarchía Ippikoú" }
+		8 = { "%s Taxiarchía Ippikoú" }
+		9 = { "%s Taxiarchía Ippikoú" }
+		10 = { "%s Taxiarchía Ippikoú" }
 	}
 }
 
@@ -111,23 +111,15 @@ HEL_MOT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Motorized Infantry Division"
+	fallback_name = "%s Michanokíniti Merarchía Pezikoú"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		19 = { "%s Motorized Infantry Division" }
-		1 = { "%s Motorized Infantry Division" }
-		2 = { "%s Motorized Infantry Division" }
-		3 = { "%s Motorized Infantry Division" }
-		4 = { "%s Motorized Infantry Division" }
-		5 = { "%s Motorized Infantry Division" }
-		6 = { "%s Motorized Infantry Division" }
-		7 = { "%s Motorized Infantry Division" }
-		8 = { "%s Motorized Infantry Division" }
-		9 = { "%s Motorized Infantry Division" }
-		10 = { "%s Motorized Infantry Division" }
+		
+		1 = { "%s Michanokíniti Merarchía Pezikoú" }
+		2 = { "%s Michanokíniti Merarchía Pezikoú" }
 	}
 }
 
@@ -144,23 +136,23 @@ HEL_MEC_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Armored Infantry Division"
+	fallback_name = "%s Tethorakismeni Merarchia Pezikou"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		19 = { "%s Armored Infantry Division" }
-		1 = { "%s Armored Infantry Division" }
-		2 = { "%s Armored Infantry Division" }
-		3 = { "%s Armored Infantry Division" }
-		4 = { "%s Armored Infantry Division" }
-		5 = { "%s Armored Infantry Division" }
-		6 = { "%s Armored Infantry Division" }
-		7 = { "%s Armored Infantry Division" }
-		8 = { "%s Armored Infantry Division" }
-		9 = { "%s Armored Infantry Division" }
-		10 = { "%s Armored Infantry Division" }
+		19 = { "%s Tethorakismeni Merarchia Pezikou" }
+		1 = { "%s Tethorakismeni Merarchia Pezikou" }
+		2 = { "%s Tethorakismeni Merarchia Pezikou" }
+		3 = { "%s Tethorakismeni Merarchia Pezikou" }
+		4 = { "%s Tethorakismeni Merarchia Pezikou" }
+		5 = { "%s Tethorakismeni Merarchia Pezikou" }
+		6 = { "%s Tethorakismeni Merarchia Pezikou" }
+		7 = { "%s Tethorakismeni Merarchia Pezikou" }
+		8 = { "%s Tethorakismeni Merarchia Pezikou" }
+		9 = { "%s Tethorakismeni Merarchia Pezikou" }
+		10 = { "%s Tethorakismeni Merarchia Pezikou" }
 	}
 }
 
@@ -177,24 +169,24 @@ HEL_ARM_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Armored Division"
+	fallback_name = "%s Tethorakisméni Merarchía"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
 		
-		1 = { "%dst Armored Division" }
-		2 = { "%dnd 'Nemean' Armored Division" }
-		3 = { "%drd Armored Division" }
-		4 = { "%dth Armored Division" }
-		5 = { "%dth Armored Division" }
-		6 = { "%dth Armored Division" }
-		7 = { "%dth Armored Division" }
-		8 = { "%dth Armored Division" }
-		9 = { "%dth Armored Division" }
-		10 = { "%dth Armored Division" }
-		18 = { "%dth 'Stonewall' Armored Division"}
+		1 = { "%dst Tethorakisméni Merarchía" }
+		2 = { "%dnd 'Nemean' Tethorakisméni Merarchía" }
+		3 = { "%drd Tethorakisméni Merarchía" }
+		4 = { "%dth Tethorakisméni Merarchía" }
+		5 = { "%dth Tethorakisméni Merarchía" }
+		6 = { "%dth Tethorakisméni Merarchía" }
+		7 = { "%dth Tethorakisméni Merarchía" }
+		8 = { "%dth Tethorakisméni Merarchía" }
+		9 = { "%dth Tethorakisméni Merarchía" }
+		10 = { "%dth Tethorakisméni Merarchía" }
+		18 = { "%dth 'Stonewall' Tethorakisméni Merarchía"}
 	}
 }
 
@@ -211,22 +203,22 @@ HEL_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Airborne Division"
+	fallback_name = "%s Taxiarchía alexíptoton"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Airborne Division" }
-		2 = { "%s Airborne Division" }
-		3 = { "%s Airborne Division" }
-		4 = { "%sAirborne Division" }
-		5 = { "%s Airborne Division" }
-		6 = { "%s Airborne Division" }
-		7 = { "%s Airborne Division" }
-		8 = { "%s 'Griffin' Airborne Division" }
-		9 = { "%s Airborne Division" }
-		10 = { "%s Airborne Division" }
+		1 = { "%s Taxiarchía Alexíptoton" }
+		2 = { "%s Taxiarchía Alexíptoton" }
+		3 = { "%s Taxiarchía Alexíptoton" }
+		4 = { "%s Taxiarchía Alexíptoton" }
+		5 = { "%s Taxiarchía Alexíptoton" }
+		6 = { "%s Taxiarchía Alexíptoton" }
+		7 = { "%s Taxiarchía Alexíptoton" }
+		8 = { "%s 'Griffin' Taxiarchía Alexíptoton }
+		9 = { "%s Taxiarchía Alexíptoton" }
+		10 = { "%s Taxiarchía Alexíptoton" }
 	}
 }
 
@@ -241,24 +233,24 @@ HEL_MAR_01 =
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { GRE_INF_01 }
+	#link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Merarchía Pezonavton"
+	fallback_name = "%s Tmíma Thalássiou Pezikoú"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Merarchía Pezonavton" }
-		2 = { "%s Merarchía Pezonavton" }
-		3 = { "%s Merarchía Pezonavton" }
-		4 = { "%s Merarchía Pezonavton" }
-		5 = { "%s Merarchía Pezonavton" }
-		6 = { "%s Merarchía Pezonavton" }
-		7 = { "%s Merarchía Pezonavton" }
-		8 = { "%s Merarchía Pezonavton" }
-		9 = { "%s Merarchía Pezonavton" }
-		10 = { "%s Merarchía Pezonavton" }
+		1 = { "%s Tmíma Thalássiou Pezikoú" }
+		2 = { "%s Tmíma Thalássiou Pezikoú" }
+		3 = { "%s Tmíma Thalássiou Pezikoú" }
+		4 = { "%s Tmíma Thalássiou Pezikoú" }
+		5 = { "%s Tmíma Thalássiou Pezikoú" }
+		6 = { "%s Tmíma Thalássiou Pezikoú" }
+		7 = { "%s Tmíma Thalássiou Pezikoú" }
+		8 = { "%s Tmíma Thalássiou Pezikoú" }
+		9 = { "%s Tmíma Thalássiou Pezikoú" }
+		10 = { "%s Tmíma Thalássiou Pezikoú" }
 	}
 }
 
@@ -275,27 +267,27 @@ HEL_MNT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Mountain Infantry Division"
+	fallback_name = "%s ΟOreiní Pezikou Merarchía"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Mountain Infantry Division" }
-		2 = { "%s Mountain Infantry Division" }
-		3 = { "%s Mountain Infantry Division" }
-		4 = { "%s Mountain Infantry Division" }
-		5 = { "%s Mountain Infantry Division" }
-		6 = { "%s Mountain Infantry Division" }
-		7 = { "%s Mountain Infantry Division" }
-		8 = { "%s Mountain Infantry Division" }
-		9 = { "%s Mountain Infantry Division" }
-		10 = { "%s Mountain Infantry Division" }
-		11 = { "%s Mountain Infantry Division" }
+		1 = { "%s Oreiní Pezikou Merarchía" }
+		2 = { "%s Oreiní Pezikou Merarchía" }
+		3 = { "%s Oreiní Pezikou Merarchía" }
+		4 = { "%s Oreiní Pezikou Merarchía" }
+		5 = { "%s Oreiní Pezikou Merarchía" }
+		6 = { "%s Oreiní Pezikou Merarchía" }
+		7 = { "%s Oreiní Pezikou Merarchía" }
+		8 = { "%s Oreiní Pezikou Merarchía" }
+		9 = { "%s Oreiní Pezikou Merarchía" }
+		10 = { "%s Oreiní Pezikou Merarchía" }
+		11 = { "%s Oreiní Pezikou Merarchía" }
 		
-		13 = { "%s Mountain Infantry Division" }
-		14 = { "%s Mountain Infantry Division" }
-		15 = { "%s Mountain Infantry Division" }
+		13 = { "%s Oreiní Pezikou Merarchía" }
+		14 = { "%s Oreiní Pezikou Merarchía" }
+		15 = { "%s Oreiní Pezikou Merarchía" }
 			
 	}
 }
@@ -313,23 +305,23 @@ HEL_GAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { HEL_INF_01 }
 
-	fallback_name = "%s Civil Guard Brigade"
+	fallback_name = "%s Taxiarchía Politikís Frourás"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
 			
-		1 = { "%s 'Timiphos' Civil Guard Division" }
-		2 = { "%s 'Rangae' Civil Guard Division" }
-		3 = { "%s 'Aragon' Civil Guard Division" }
-		4 = { "%s 'Dorna' Civil Guard Division" }
-		5 = { "%s 'Meridos' Civil Guard Division" }
-		6 = { "%s 'Spatha' Civil Guard Division" }
-		7 = { "%s 'Stymphos' Civil Guard Division" }
-		8 = { "%s 'Volfros' Civil Guard Division" }
-		9 = { "%s 'Calinae' Civil Guard Division" }
-		10 = { "%s Civil Guard Division" }
+		1 = { "%s 'Timiphos' Taxiarchía Politikís Frourás" }
+		2 = { "%s 'Rangae' Taxiarchía Politikís Frourás" }
+		3 = { "%s 'Aragon' Taxiarchía Politikís Frourás" }
+		4 = { "%s 'Dorna' Taxiarchía Politikís Frourás" }
+		5 = { "%s 'Meridos' Taxiarchía Politikís Frourás" }
+		6 = { "%s 'Spatha' Taxiarchía Politikís Frourás" }
+		7 = { "%s 'Stymphos' Taxiarchía Politikís Frourás" }
+		8 = { "%s 'Volfros' Taxiarchía Politikís Frourás" }
+		9 = { "%s 'Calinae' Taxiarchía Politikís Frourásn" }
+		10 = { "%s Taxiarchía Politikís Frourás" }
 			
 	}
 }
