@@ -1,0 +1,251 @@
+MUR_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ALV_INF_01 }
+
+	fallback_name = "%d. Konfederatsiya Divizion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 =  { "%d. Konfederatsiya Guarda Divizion" }
+		2 =  { "%d. Konfederatsiya Divizion" }
+		3 =  { "%d. Konfederatsiya Divizion" }
+		4 =  { "%d. Kralskata Traxí Divizion" }
+		5 =  { "%d. Konfederatsiya Divizion" }
+		6 =  { "%d. Kralskata Traxí Guarda Divizion" }
+		7 =  { "%d. Konfederatsiya Guarda Divizion" }
+		8 =  { "%d. Konfederatsiya Divizion" }
+		9 =  { "%d. Kralskata Traxí Divizion" }
+		10 = { "%d. Kralskata Traxí Divizion" }
+		11 = { "%d. Konfederatsiya Divizion" }
+		12 = { "%d. Konfederatsiya Divizion" }
+	}
+}
+
+MUR_INF_02 = 
+{
+	name = "Guard Brigade"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ALV_INF_01 }
+
+	fallback_name = "%d. Pazach Brigada"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 =  { "%d. Pazach Brigada 'Martin"}
+		2 =  { "%d. Pazach Brigada 'Mihalou I'" }
+		3 =  { "%d. Pazach Brigada 'Arkady I'" }
+		4 =  { "%d. Pazach Brigada 'Miroslau I'" }
+		5 =  { "%d. Pazach Brigada 'Miroslau II'" }
+		6 =  { "%d. Pazach Brigada 'Arkady II'" }
+		7 =  { "%d. Pazach Brigada 'Mihalou II"}
+	}
+}
+
+
+MUR_CAV_01 = 
+{
+	name = "Cavalry Division"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ALV_INF_01 }
+
+	fallback_name = "%d. Konfederatsiya Konnitsa Divizion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Konfederatsiya Konnitsa Divizion" }
+		2 = { "%d. Konfederatsiya Konnitsa Divizion" }
+		3 = { "%d. Konfederatsiya Konnitsa Divizion" }
+		
+	}
+}
+
+MUR_MOT_01 = 
+{
+	name = "Motorized Infantry Division"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MUR_INF_01 }
+
+	fallback_name = "%d. Konfederatsiya Brzai Divizion"
+
+	unordered =
+	{
+		1 = { "%d. Kralskata Mursiya Brzai Divizion" }
+	}
+}
+
+MUR_MEC_01 = 
+{
+	name = "Mechanized Division"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MUR_INF_01 }
+
+	fallback_name = "%d. Konfederatsiya Brzai Divizion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	unordered =
+	{
+		1 = { "Kralskata 'Nai' Divizion" }
+	}
+}
+
+MUR_ARM_01 = 
+{
+	name = "Light Tank Divisionsn"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ALV_INF_01 }
+
+	fallback_name = "%d. Konfederatsiya Tankova Divizion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Konfederatsiya Tankova Divizion" }
+	}
+}
+
+MUR_ARM_02 = 
+{
+	name = "Heavy Tank Divisionsn"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MUR_ARM_01 }
+
+	fallback_name = "%d. Guarda Tankova Divizion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Guarda Tankova Divizion" }
+	}
+}
+
+MUR_PAR_01 = 
+{
+	name = "Paratrooper Division"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ALV_INF_01 }
+
+	fallback_name = "%s Samolet Divizion"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "'Krilat Dyavoli' Divizion" }
+	}
+}
+
+MUR_MAR_01 = 
+{
+	name = "Marine Brigade"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ALV_INF_01 }
+
+	fallback_name = "%s Morska Brigada"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%s 'Kanaligrad' Morska Divizion" }
+		2 = { "%s 'Visia' Morska Divizion" }
+	}
+}
+
+MUR_MNT_01 = 
+{
+	name = "Mountain Division"
+
+	for_countries = { MUR }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { ALV_INF_01 }
+
+	fallback_name = "%d. Planinska Divizija"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Planinska Divizija" }			
+	}
+}
+
+

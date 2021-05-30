@@ -216,7 +216,7 @@ HEL_PAR_01 =
 		5 = { "%s Taxiarchía Alexíptoton" }
 		6 = { "%s Taxiarchía Alexíptoton" }
 		7 = { "%s Taxiarchía Alexíptoton" }
-		8 = { "%s 'Griffin' Taxiarchía Alexíptoton }
+		8 = { "%s 'Griffin' Taxiarchía Alexíptoton" }
 		9 = { "%s Taxiarchía Alexíptoton" }
 		10 = { "%s Taxiarchía Alexíptoton" }
 	}
