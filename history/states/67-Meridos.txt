@@ -3,7 +3,6 @@ state={
 		name = "Meridos"
 		manpower = 1998423
 		state_category = large_town
-		buildings_max_level_factor = 2
 		resources = {
 			steel = 15
 			aluminium = 10
@@ -23,6 +22,7 @@ state={
 				industrial_complex = 1
 				arms_factory = 2
 				dockyard  = 2
+				air_base  = 2
 				5528 = {naval_base = 3}
 			} 
 		}

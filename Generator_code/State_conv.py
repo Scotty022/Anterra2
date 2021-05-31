@@ -1,6 +1,6 @@
 # Set limit on what range to generate
-LimitL = 2
-LimitU = 1000
+LimitL = 200
+LimitU = 400
 
 from csv import reader
 import os
@@ -34,7 +34,7 @@ with open(States_Raw, 'r') as datalist:
 		if row[3]:
 			population = f"manpower = {row[3]}"											# population/manpower
 		else:
-			population = "manpower = 1000"
+			population = "manpower = 100000"
 		
 		if row[4]:
 			owner = f"owner = {row[4]}"													# owner

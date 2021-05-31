@@ -3,9 +3,14 @@ state={
 		name = "South Rovsklemja"
 		manpower = 1242194
 		state_category = city
+		resources = {
+			steel = 5
+			aluminium = 5
+		}
 
 		history = {
 			owner = HEL
+			add_core_of = RAZ
 			add_core_of = ROV
 
 			victory_points = {1555 10}

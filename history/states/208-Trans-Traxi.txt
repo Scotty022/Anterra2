@@ -1,7 +1,7 @@
 state={
 		id = 208
 		name = "Trans-Traxi"
-		manpower = 1000
+		manpower = 800000
 		state_category = rural
 
 		history = {
@@ -14,7 +14,8 @@ state={
 
 			buildings = {
 				
-				infrastructure = 2
+				infrastructure = 1
+				industrial_complex = 1
 			} 
 		}
 		provinces={
