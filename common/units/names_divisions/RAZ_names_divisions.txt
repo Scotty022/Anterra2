@@ -98,7 +98,7 @@ RAZ_CAV_01 =
 	}
 }
 
-HEL_MOT_01 = 
+RAZ_MOT_01 = 
 {
 	name = "Bože sačuvaj nas umrijet ćemo"
 
@@ -123,7 +123,7 @@ HEL_MOT_01 =
 	}
 }
 
-HEL_MEC_01 = 
+RAZ_MEC_01 = 
 {
 	name = "MGB Pogranichnaya Diviziya"
 

@@ -1,8 +1,11 @@
 state={
 		id = 166
 		name = "Krvnigrad"
-		manpower = 3600000
+		manpower = 5200000
 		state_category = Metropolis
+		resources = {
+			steel = 7
+		}
 
 		history = {
 			owner = RAZ
@@ -14,8 +17,9 @@ state={
 			buildings = {
 				
 				infrastructure = 6
-				industrial_complex = 6
-				arms_factory = 7
+				industrial_complex = 4
+				arms_factory = 2
+				air_base  = 1
 			} 
 		}
 		provinces={

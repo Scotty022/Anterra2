@@ -3,6 +3,9 @@ state={
 		name = "Koroyevsk"
 		manpower = 2000000
 		state_category = city
+		resources = {
+			aluminium = 6
+		}
 
 		history = {
 			owner = RAZ
@@ -17,6 +20,7 @@ state={
 				infrastructure = 4
 				industrial_complex = 2
 				arms_factory = 1
+				air_base  = 1
 			} 
 		}
 		provinces={

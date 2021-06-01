@@ -1,8 +1,11 @@
 state={
 		id = 168
 		name = "Moslavina"
-		manpower = 100000
+		manpower = 1800000
 		state_category = rural
+		resources = {
+			oil = 4
+		}
 
 		history = {
 			owner = RAZ
@@ -13,8 +16,8 @@ state={
 
 			buildings = {
 				
-				infrastructure = 3
-				industrial_complex = 3
+				infrastructure = 2
+				industrial_complex = 1
 				arms_factory = 1
 				synthetic_refinery = 2
 			} 

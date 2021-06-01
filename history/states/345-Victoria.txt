@@ -3,9 +3,6 @@ state={
 		name = "Victoria"
 		manpower = 6700000
 		state_category = large_town
-		resources = {
-			rubber = 1
-		}
 
 		history = {
 			owner = ALV

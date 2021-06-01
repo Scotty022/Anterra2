@@ -1,8 +1,11 @@
 state={
 		id = 185
 		name = "Trnava"
-		manpower = 100000
-		state_category = pastoral
+		manpower = 853915
+		state_category = city
+		resources = {
+			chromium = 1
+		}
 
 		history = {
 			owner = POZ
@@ -12,6 +15,9 @@ state={
 
 			buildings = {
 				
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 2
 			} 
 		}
 		provinces={
