@@ -1,6 +1,6 @@
 capital = 65
 
-OOB = "HEL_1936"
+OOB = "HEL_1946"
 
 # Starting tech
 set_technology = {

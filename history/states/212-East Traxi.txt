@@ -1,7 +1,7 @@
 state={
 		id = 212
 		name = "East Traxi"
-		manpower = 1000
+		manpower = 1000000
 		state_category = large_town
 
 		history = {
@@ -13,7 +13,9 @@ state={
 
 			buildings = {
 				
-				infrastructure = 4
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 1
 			} 
 		}
 		provinces={

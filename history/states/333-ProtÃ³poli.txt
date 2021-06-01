@@ -1,0 +1,25 @@
+state={
+		id = 333
+		name = "Protópoli"
+		manpower = 5100000
+		state_category = large_city
+
+		history = {
+			owner = PRO
+			add_core_of = PRO
+
+			victory_points = {5629 10}
+
+			buildings = {
+				
+				infrastructure = 4
+				industrial_complex = 4
+				arms_factory = 2
+				dockyard  = 2
+				5629 = {naval_base = }
+			} 
+		}
+		provinces={
+		5610 2010 5629 5605 101 3303 657 4655 4740
+		}
+}

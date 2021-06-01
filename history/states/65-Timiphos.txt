@@ -3,7 +3,6 @@ state={
 		name = "Timiphos"
 		manpower = 3274234
 		state_category = city
-		buildings_max_level_factor = 3
 		resources = {
 			steel = 10
 			aluminium = 10
@@ -23,6 +22,7 @@ state={
 				infrastructure = 6
 				industrial_complex = 3
 				arms_factory = 2
+				air_base  = 3
 			} 
 		}
 		provinces={

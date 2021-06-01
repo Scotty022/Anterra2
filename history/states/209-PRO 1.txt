@@ -1,8 +1,8 @@
 state={
 		id = 209
 		name = "PRO 1"
-		manpower = 1000
-		state_category = pastoral
+		manpower = 2700000
+		state_category = large_town
 
 		history = {
 			owner = PRO
@@ -13,6 +13,10 @@ state={
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 1
+				arms_factory = 1
+				dockyard  = 1
 			} 
 		}
 		provinces={

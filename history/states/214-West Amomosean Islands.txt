@@ -1,7 +1,7 @@
 state={
 		id = 214
 		name = "West Amomosean Islands"
-		manpower = 1000
+		manpower = 9000
 		state_category = Small_island
 
 		history = {

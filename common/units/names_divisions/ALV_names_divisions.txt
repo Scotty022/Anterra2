@@ -206,7 +206,7 @@ ALV_ARM_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { ALV_INF_01 }
 
-	fallback_name = %d. Panzer-Division
+	fallback_name = "%d. Panzer-Division"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
@@ -329,7 +329,6 @@ ALV_GAR_01 =
 	ordered =
 	{
 			22 = {"%d. Reserve-Division"}
-		
 			
 	}
 }

@@ -3,7 +3,6 @@ state={
 		name = "Calinae"
 		manpower = 973452
 		state_category = town
-		buildings_max_level_factor = 2
 		resources = {
 			steel = 7
 			aluminium = 5
@@ -21,6 +20,7 @@ state={
 				infrastructure = 4
 				industrial_complex = 1
 				arms_factory = 1
+				air_base  = 2
 			} 
 		}
 		provinces={
