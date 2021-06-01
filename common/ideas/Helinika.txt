@@ -35,7 +35,7 @@ ideas = {
 				infantry_defense_factor = 0.1
 				infantry_speed_factor - 0.1
 			}
-
+			}
 			Cultural_Hierarchy = {
 			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
 			allowed = { 			# determines who can get it. Used for advisors and such
@@ -61,4 +61,3 @@ ideas = {
 		}
 		}
 	}
-}
