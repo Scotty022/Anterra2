@@ -1,7 +1,7 @@
 state={
 		id = 32
 		name = "Xiabei"
-		manpower = 1000
+		manpower = 100000
 		state_category = town
 
 		history = {

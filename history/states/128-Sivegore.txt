@@ -2,7 +2,7 @@ state={
 		id = 128
 		name = "Sivegore"
 		manpower = 200000
-		state_category = rural
+		state_category = pastoral
 
 		history = {
 			owner = VRT
@@ -13,7 +13,7 @@ state={
 
 			buildings = {
 				
-				infrastructure = 3
+				infrastructure = 2
 			} 
 		}
 		provinces={

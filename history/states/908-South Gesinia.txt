@@ -1,7 +1,7 @@
 state={
 		id = 908
 		name = "South Gesinia"
-		manpower = 1000
+		manpower = 100000
 		state_category = rural
 
 		history = {

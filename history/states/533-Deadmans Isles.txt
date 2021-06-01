@@ -1,7 +1,7 @@
 state={
 		id = 533
 		name = "Deadmans Isles"
-		manpower = 1000
+		manpower = 100000
 		state_category = tiny_island
 
 		history = {

@@ -3,6 +3,10 @@ state={
 		name = "Lusjki"
 		manpower = 1600000
 		state_category = large_town
+		resources = {
+			aluminium = 1
+			chromium = 3
+		}
 
 		history = {
 			owner = LUS
@@ -13,8 +17,8 @@ state={
 			buildings = {
 				
 				infrastructure = 2
-				industrial_complex = 2
-				arms_factory = 2
+				industrial_complex = 1
+				arms_factory = 1
 				air_base  = 1
 			} 
 		}

@@ -1,13 +1,13 @@
 state={
 		id = 78
 		name = "Qora Jarliklar"
-		manpower = 1000
+		manpower = 100000
 		state_category = rural
 
 		history = {
 			owner = SAM
 			add_core_of = SAM
-			add_core_of = TIL
+			add_core_of = TII
 
 			victory_points = {18254 10}
 

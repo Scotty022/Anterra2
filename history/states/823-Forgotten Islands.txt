@@ -1,7 +1,7 @@
 state={
 		id = 823
 		name = "Forgotten Islands"
-		manpower = 1000
+		manpower = 100000
 		state_category = tiny_island
 
 		history = {

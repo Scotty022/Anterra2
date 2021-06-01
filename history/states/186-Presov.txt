@@ -1,8 +1,11 @@
 state={
 		id = 186
 		name = "Presov"
-		manpower = 1000
-		state_category = pastoral
+		manpower = 81000
+		state_category = rural
+		resources = {
+			oil = 2
+		}
 
 		history = {
 			owner = POZ
@@ -12,6 +15,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={

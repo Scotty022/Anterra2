@@ -1,8 +1,11 @@
 state={
 		id = 347
 		name = "West Bank"
-		manpower = 1000
+		manpower = 300000
 		state_category = pastoral
+		resources = {
+			oil = 15
+		}
 
 		history = {
 			owner = ALV
@@ -12,6 +15,8 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
+				synthetic_refinery = 1
 			} 
 		}
 		provinces={
