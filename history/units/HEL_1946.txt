@@ -159,7 +159,7 @@ units = {
 		#name = "Test"
 		location = 4414
 		division_template = "Civil Guard" 
-		start_experience_factor = 0
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
 	division = {
@@ -170,7 +170,7 @@ units = {
 		#name = "Test"
 		location = 1293
 		division_template = "Civil Guard" 
-		start_experience_factor = 0.5
+		start_experience_factor = 0.2
 		start_equipment_factor = 0.2
 	}
 	division = {
