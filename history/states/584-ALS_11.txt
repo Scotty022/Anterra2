@@ -1,17 +1,25 @@
 state={
 		id = 584
 		name = "ALS_11"
-		manpower = 1000
-		state_category = pastoral
+		manpower = 1075041
+		state_category = town
 
 		history = {
 			owner = ALS
 			add_core_of = ALS
 
-			
+			victory_points = {6855 10}
+			victory_points = {6875 10}
+			victory_points = {1179 10}
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 3
+				arms_factory = 2
+				dockyard  = 1
+				air_base  = 3
+				6855 = {naval_base = 3}
 			} 
 		}
 		provinces={

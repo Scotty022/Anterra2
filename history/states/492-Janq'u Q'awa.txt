@@ -1,7 +1,7 @@
 state={
 		id = 492
 		name = "Janq'u Q'awa"
-		manpower = 1000
+		manpower = 100000
 		state_category = pastoral
 
 		history = {

@@ -1,7 +1,7 @@
 state={
 		id = 91
 		name = "Orshi"
-		manpower = 1000
+		manpower = 100000
 		state_category = large_town
 
 		history = {

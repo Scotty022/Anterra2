@@ -2,7 +2,7 @@ state={
 		id = 216
 		name = "Ruchava"
 		manpower = 800000
-		state_category = pastoral
+		state_category = rural
 
 		history = {
 			owner = ASS
