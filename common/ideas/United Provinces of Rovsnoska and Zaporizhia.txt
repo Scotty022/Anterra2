@@ -1,0 +1,40 @@
+ideas = {
+	country = {
+		        Ethnic_Tensions = {
+			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
+			allowed = { 			# determines who can get it. Used for advisors and such
+				original_tag = RAZ	# place your country tag here
+			}
+			available = {				
+			}
+
+			#cancel = { }
+
+			removal_cost = -1
+		
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.1
+			}
+		}
+		        Increasing Beurocracy = {
+			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
+			allowed = { 			# determines who can get it. Used for advisors and such
+				original_tag = RAZ	# place your country tag here
+			}
+			available = {				
+			}
+
+			#cancel = { }
+
+			removal_cost = -1
+		
+			modifier = {
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+
+			}
+		}
+		}
+	}
+
