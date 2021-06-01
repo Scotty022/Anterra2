@@ -1,0 +1,62 @@
+ideas = {
+	country = {
+		Helinikan_Militarism = {
+			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
+			allowed = { 			# determines who can get it. Used for advisors and such
+				original_tag = HEL	# place your country tag here
+			}
+			available = {				
+			}
+
+			#cancel = { }
+
+			removal_cost = -1
+		
+			modifier = {
+				war_support_factor = 0.1
+				conscription_factor = 0.05
+			}
+		}
+		Infantry_Focus = {
+			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
+			allowed = { 			# determines who can get it. Used for advisors and such
+				original_tag = HEL	# place your country tag here
+			}
+			available = {				
+			}
+
+			#cancel = { }
+
+			removal_cost = -1
+		
+			modifier = {
+				infantry_attack_factor = 0.1
+				infantry_defense_factor = 0.1
+				infantry_speed_factor - 0.1
+			}
+
+			Cultural_Hierarchy = {
+			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
+			allowed = { 			# determines who can get it. Used for advisors and such
+				original_tag = HEL	# place your country tag here
+			}
+			available = {			
+			NOT = {
+					has_government = communism 
+				}	
+			}
+
+			#cancel = { 
+
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				stability_factor = 0.95
+				production_factory_max_efficiency_factor=0.95
+			}
+		}
+		}
+	}
+}

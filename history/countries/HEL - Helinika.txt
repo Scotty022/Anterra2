@@ -41,3 +41,8 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 }
+add_ideas = {
+	Helinikan_Militarism
+	Infantry_Focus
+	Cultural_Hierarchy
+}
