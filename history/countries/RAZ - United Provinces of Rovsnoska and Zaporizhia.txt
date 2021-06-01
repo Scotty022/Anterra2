@@ -34,6 +34,20 @@ set_popularities = {
 	communism = 85
 	neutrality = 5
 }
+
+#################################
+######### Nat Spirits ###########
+#################################
+
+add_ideas = {
+	Ethnic_Tensions
+	Increasing_Beurocracy
+}
+
+#################################
+######### Politicians ###########
+#################################
+
 create_country_leader = {
 	name = "Rovskosky Khruschev"
 	desc = "Leader of the UPRZ and staunch supporter of international volkovism"
@@ -44,6 +58,7 @@ create_country_leader = {
 		
 	# }
 }
+
 if = {
 	limit = {
 		has_dlc = "Together for Victory"
@@ -55,3 +70,4 @@ if = {
 	else = {
 		puppet = POZ
 	}
+}

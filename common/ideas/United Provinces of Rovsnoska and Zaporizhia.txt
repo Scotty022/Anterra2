@@ -1,6 +1,7 @@
 ideas = {
 	country = {
-		        Ethnic_Tensions = {
+
+		Ethnic_Tensions = {
 			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
 			allowed = { 			# determines who can get it. Used for advisors and such
 				original_tag = RAZ	# place your country tag here
@@ -17,7 +18,8 @@ ideas = {
 				war_support_factor = -0.1
 			}
 		}
-		        Increasing Beurocracy = {
+
+		Increasing_Beurocracy = {
 			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
 			allowed = { 			# determines who can get it. Used for advisors and such
 				original_tag = RAZ	# place your country tag here
