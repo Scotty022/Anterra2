@@ -44,3 +44,14 @@ create_country_leader = {
 		
 	# }
 }
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = POZ
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = POZ
+	}

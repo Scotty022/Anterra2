@@ -41,15 +41,3 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 }
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = RAZ
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = RAZ
-	}
-}
