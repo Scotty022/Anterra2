@@ -1,0 +1,270 @@
+division_template = {
+	name = "Infantry Division" 				
+	division_names_group = RAZ_INF_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		artillery = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		artillery = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery = { x = 2 y = 3 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+
+	}
+}
+division_template = {
+	name = "Mountain Infantry Division" 				
+	division_names_group = RAZ_MTN_01
+	
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry" 				
+	division_names_group = RAZ_CAV_01
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 1 }
+		
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "MGB Pogranichnaya Diviziya" 				
+	division_names_group = RAZ_POG_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		
+	}
+	support = {
+		military_police = { x = 0 y = 1 }
+	}
+}
+division_template = { 
+	name = "Bože sačuvaj nas umrijet ćemo" 				
+	division_names_group = RAZ_ARM_01
+	
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+                motorized = { x = 1 y = 3 }
+		
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = { 
+		division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+		#name = "Test"
+		location = 5321
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = { 
+		division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+		#name = "Test"
+		location = 5325
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+	division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+		#name = "Test"
+		location = 982
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+	division_name = {
+            is_name_ordered = yes
+            name_order = 4
+        }
+		#name = "Test"
+		location = 5127
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+	division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+		#name = "Test"
+		location = 5325
+		division_template = "Bože sačuvaj nas umrijet ćemo" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		name = "AAAAHHHHHHHHHHHHH"
+		
+		location = 2940
+		division_template = "Bože sačuvaj nas umrijet ćemo" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+		#name = "Test"
+		location = 683
+		division_template = "Bože sačuvaj nas umrijet ćemo" 
+		start_experience_factor = 0
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 2
+        }
+		#name = "Test"
+		location = 2014
+		division_template = "MGB Pogranichnaya Diviziya" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 3
+        }
+		#name = "Test"
+		location = 5510
+		division_template = "MGB Pogranichnaya Diviziya" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 4
+        }
+		#name = "Test"
+		location = 5461
+		division_template = "MGB Pogranichnaya Diviziya" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 5
+        }
+		#name = "Test"
+		location = 5438
+		division_template = "MGB Pogranichnaya Diviziya" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 6
+        }
+		#name = "Test"
+		location = 5394
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 7
+        }
+		#name = "Test"
+		location = 2261
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 8
+        }
+		#name = "Test"
+		location = 2267
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 9
+        }
+		#name = "Test"
+		location = 4399
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.2
+	}
+}
+
