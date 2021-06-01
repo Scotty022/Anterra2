@@ -1,20 +1,19 @@
 state={
 		id = 1
 		name = "State_1"
-		manpower = 0
-
+		manpower = Read tooltips ^
 		state_category = pastoral
 
 		history = {
-			owner = TST
-			add_core_of = TST
+			TST
 			
+
+			
+
 			buildings = {
-				infrastructure = 5
-				}
-			}
-
-
+				
+			} 
+		}
 		provinces={
 			1
 		}

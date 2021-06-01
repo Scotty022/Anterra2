@@ -1,8 +1,11 @@
 state={
 		id = 345
 		name = "Victoria"
-		manpower = 100000
+		manpower = 6700000
 		state_category = large_town
+		resources = {
+			rubber = 1
+		}
 
 		history = {
 			owner = ALV
@@ -12,6 +15,8 @@ state={
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 2
 			} 
 		}
 		provinces={

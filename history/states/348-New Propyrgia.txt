@@ -1,0 +1,21 @@
+state={
+		id = 348
+		name = "New Propyrgia"
+		manpower = 5750000
+		state_category = town
+
+		history = {
+			owner = ALV
+			add_core_of = ALV
+
+			
+
+			buildings = {
+				
+				infrastructure = 2
+			} 
+		}
+		provinces={
+		6363 3240 2656 6493 4511 450 4279 6598 1340 322 3745 6703
+	}
+}

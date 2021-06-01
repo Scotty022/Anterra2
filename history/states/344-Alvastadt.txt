@@ -1,7 +1,7 @@
 state={
 		id = 344
 		name = "Alvastadt"
-		manpower = 100000
+		manpower = 1000000
 		state_category = large_city
 
 		history = {
@@ -12,6 +12,11 @@ state={
 
 			buildings = {
 				
+				infrastructure = 4
+				industrial_complex = 2
+				arms_factory = 2
+				dockyard  = 1
+				air_base  = 3
 			} 
 		}
 		provinces={

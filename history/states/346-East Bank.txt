@@ -1,8 +1,11 @@
 state={
 		id = 346
 		name = "East Bank"
-		manpower = 100000
+		manpower = 500000
 		state_category = rural
+		resources = {
+			oil = 8
+		}
 
 		history = {
 			owner = ALV
@@ -12,6 +15,11 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
+				industrial_complex = 1
+				arms_factory = 1
+				synthetic_refinery = 1
+				air_base  = 1
 			} 
 		}
 		provinces={
