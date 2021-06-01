@@ -25,7 +25,7 @@ division_template = {
 }
 division_template = {
 	name = "Mountain Infantry Division" 				
-	division_names_group = HEL_MTN_01
+	division_names_group = HEL_MNT_01
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -46,7 +46,7 @@ division_template = {
 		artillery = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
 		recon = { x = 0 y = 2 }
-		signal = { x x = 0 y = 3 }
+		signal_company = { x = 0 y = 3 }
 	}
 }
 division_template = {
