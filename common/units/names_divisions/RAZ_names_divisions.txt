@@ -100,7 +100,7 @@ RAZ_CAV_01 =
 
 RAZ_MOT_01 = 
 {
-	name = "Bože sačuvaj nas umrijet ćemo"
+	name = "Tankovaya Brigade"
 
 	for_countries = { RAZ }
 
@@ -131,7 +131,7 @@ RAZ_MEC_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "infantry" }
+	division_types = { "garrison" }
 
 	# Number reservation system will tie to another group.
 	link_numbering_with = { RAZ_INF_01 }
@@ -169,24 +169,16 @@ RAZ_ARM_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { RAZ_INF_01 }
 
-	fallback_name = "%s Tethorakisméni Merarchía"
+	fallback_name = "%s Tankovaya Brigade"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
 		
-		1 = { "%dst Tethorakisméni Merarchía" }
-		2 = { "%dnd 'Nemean' Tethorakisméni Merarchía" }
-		3 = { "%drd Tethorakisméni Merarchía" }
-		4 = { "%dth Tethorakisméni Merarchía" }
-		5 = { "%dth Tethorakisméni Merarchía" }
-		6 = { "%dth Tethorakisméni Merarchía" }
-		7 = { "%dth Tethorakisméni Merarchía" }
-		8 = { "%dth Tethorakisméni Merarchía" }
-		9 = { "%dth Tethorakisméni Merarchía" }
-		10 = { "%dth Tethorakisméni Merarchía" }
-		18 = { "%dth 'Stonewall' Tethorakisméni Merarchía"}
+		1 = { "%dst Tankovaya Brigade" }
+		2 = { "%dnd Tankovaya Brigade" }
+		3 = { "%drd Tankovaya Brigade" }
 	}
 }
 
@@ -203,22 +195,17 @@ RAZ_PAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { RAZ_INF_01 }
 
-	fallback_name = "%s Taxiarchía alexíptoton"
+	fallback_name = "%s Des Desantnik Divisia"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Taxiarchía Alexíptoton" }
-		2 = { "%s Taxiarchía Alexíptoton" }
-		3 = { "%s Taxiarchía Alexíptoton" }
-		4 = { "%s Taxiarchía Alexíptoton" }
-		5 = { "%s Taxiarchía Alexíptoton" }
-		6 = { "%s Taxiarchía Alexíptoton" }
-		7 = { "%s Taxiarchía Alexíptoton" }
-		8 = { "%s 'Griffin' Taxiarchía Alexíptoton" }
-		9 = { "%s Taxiarchía Alexíptoton" }
-		10 = { "%s Taxiarchía Alexíptoton" }
+		1 = { "%s Des Desantnik Divisia" }
+		2 = { "%s Des Desantnik Divisia" }
+		3 = { "%s Des Desantnik Divisia" }
+		4 = { "%s Des Desantnik Divisia" }
+		5 = { "%s Des Desantnik Divisia" }
 	}
 }
 
@@ -235,28 +222,23 @@ RAZ_MAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { RAZ_INF_01 }
 
-	fallback_name = "%s Tmíma Thalássiou Pezikoú"
+	fallback_name = "%s Morskaya Pechota"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Tmíma Thalássiou Pezikoú" }
-		2 = { "%s Tmíma Thalássiou Pezikoú" }
-		3 = { "%s Tmíma Thalássiou Pezikoú" }
-		4 = { "%s Tmíma Thalássiou Pezikoú" }
-		5 = { "%s Tmíma Thalássiou Pezikoú" }
-		6 = { "%s Tmíma Thalássiou Pezikoú" }
-		7 = { "%s Tmíma Thalássiou Pezikoú" }
-		8 = { "%s Tmíma Thalássiou Pezikoú" }
-		9 = { "%s Tmíma Thalássiou Pezikoú" }
-		10 = { "%s Tmíma Thalássiou Pezikoú" }
+		1 = { "%s Morskaya Pechota" }
+		2 = { "%s Morskaya Pechota" }
+		3 = { "%s Morskaya Pechota" }
+		4 = { "%s Morskaya Pechota" }
+		5 = { "%s Morskaya Pechota" }
 	}
 }
 
 RAZ_MNT_01 = 
 {
-	name = "Mountain Infantry Division"
+	name = "Alpinistic Divisia"
 
 	for_countries = { RAZ }
 
@@ -267,28 +249,20 @@ RAZ_MNT_01 =
 	# Number reservation system will tie to another group.
 	link_numbering_with = { RAZ_INF_01 }
 
-	fallback_name = "%s ΟOreiní Pezikou Merarchía"
+	fallback_name = "%s Alpinistic Divisia"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Oreiní Pezikou Merarchía" }
-		2 = { "%s Oreiní Pezikou Merarchía" }
-		3 = { "%s Oreiní Pezikou Merarchía" }
-		4 = { "%s Oreiní Pezikou Merarchía" }
-		5 = { "%s Oreiní Pezikou Merarchía" }
-		6 = { "%s Oreiní Pezikou Merarchía" }
-		7 = { "%s Oreiní Pezikou Merarchía" }
-		8 = { "%s Oreiní Pezikou Merarchía" }
-		9 = { "%s Oreiní Pezikou Merarchía" }
-		10 = { "%s Oreiní Pezikou Merarchía" }
-		11 = { "%s Oreiní Pezikou Merarchía" }
-		
-		13 = { "%s Oreiní Pezikou Merarchía" }
-		14 = { "%s Oreiní Pezikou Merarchía" }
-		15 = { "%s Oreiní Pezikou Merarchía" }
-			
+		1 = { "%s Alpinistic Divisia" }
+		2 = { "%s Alpinistic Divisia" }
+		3 = { "%s Alpinistic Divisia" }
+		4 = { "%s Alpinistic Divisia" }
+		5 = { "%s Alpinistic Divisia" }
+		6 = { "%s Alpinistic Divisia" }
+		7 = { "%s Alpinistic Divisia" }
+		8 = { "%s Alpinistic Divisia" }	
 	}
 }
 
