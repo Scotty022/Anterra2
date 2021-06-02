@@ -29,10 +29,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
+	democratic = 10
 	fascism = 5
 	communism = 85
-	neutrality = 5
+	neutrality = o
 }
 
 #################################
@@ -57,6 +57,16 @@ create_country_leader = {
 	# traits = {
 		
 	# }
+}
+
+create_corps_commander = {
+ 	name = "Alexander Gorbatov"
+ 	portrait_path = "Portrait_RovZap_Alexander_Gorbatov.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
 }
 
 if = {
