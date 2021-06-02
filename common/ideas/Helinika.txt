@@ -43,9 +43,9 @@ ideas = {
 			removal_cost = -1
 		
 			modifier = {
-				stability_factor = -0.05
-				production_factory_max_efficiency_factor=-0.05
-
+				stability_factor = -0.1
+				production_factory_max_efficiency_factor=-0.1
+				drift_defence_factor = -0.05
 			}
 		}
 	}
