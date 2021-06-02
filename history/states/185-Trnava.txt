@@ -1,7 +1,7 @@
 state={
 		id = 185
 		name = "Trnava"
-		manpower = 853915
+		manpower = 953915
 		state_category = city
 		resources = {
 			chromium = 1
@@ -16,7 +16,7 @@ state={
 			buildings = {
 				
 				infrastructure = 2
-				industrial_complex = 2
+				industrial_complex = 3
 				arms_factory = 2
 			} 
 		}

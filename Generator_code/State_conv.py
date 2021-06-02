@@ -1,5 +1,5 @@
 # Set limit on what range to generate
-LimitL = 2
+LimitL = 1
 LimitU = 1000
 
 from csv import reader

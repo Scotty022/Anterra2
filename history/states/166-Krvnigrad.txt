@@ -1,7 +1,7 @@
 state={
 		id = 166
 		name = "Krvnigrad"
-		manpower = 5200000
+		manpower = 6290000
 		state_category = Metropolis
 		resources = {
 			steel = 7

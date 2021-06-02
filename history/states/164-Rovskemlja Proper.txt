@@ -1,10 +1,10 @@
 state={
 		id = 164
 		name = "Rovskemlja Proper"
-		manpower = 1200000
+		manpower = 2200000
 		state_category = rural
 		resources = {
-			steel = 11
+			steel = 13
 		}
 
 		history = {

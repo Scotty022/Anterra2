@@ -1,8 +1,11 @@
 state={
 		id = 217
 		name = "Sartland"
-		manpower = 600000
+		manpower = 612
 		state_category = pastoral
+		resources = {
+			steel = 3
+		}
 
 		history = {
 			owner = ASS
@@ -13,6 +16,8 @@ state={
 
 			buildings = {
 				
+				industrial_complex = 2
+				arms_factory = 1
 			} 
 		}
 		provinces={

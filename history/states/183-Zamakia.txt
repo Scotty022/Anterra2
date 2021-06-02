@@ -1,7 +1,7 @@
 state={
 		id = 183
 		name = "Zamakia"
-		manpower = 272000
+		manpower = 472000
 		state_category = town
 
 		history = {
@@ -13,7 +13,7 @@ state={
 			buildings = {
 				
 				infrastructure = 2
-				industrial_complex = 1
+				industrial_complex = 2
 			} 
 		}
 		provinces={
