@@ -1,6 +1,6 @@
-capital = 533
+capital = 1028
 
-oob = "GPR_1946"
+oob = "ROV_1946"
 
 # Starting tech
 set_technology = {
@@ -23,16 +23,16 @@ add_manpower = 5000
 
 
 set_politics = {
-	ruling_party = communism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
-	fascism = 0
-	communism = 65
-	neutrality = 25
+	democratic = 15
+	fascism = 15
+	communism = 30
+	neutrality = 40
 }
 
 #################################
@@ -47,11 +47,11 @@ add_ideas = {
 #################################
 
 create_country_leader = {
-	name = "Alexander Khrenin"
-	desc = "Staunch supporter of anti-volkovist communism and Graznavan independence"
-	picture = "Portrait_Graznava_Alexander_Khrenin.dds"
+	name = "Karlo Krizan"
+	desc = "Veteran partisan, fought for the independece of Rovsnoska since the Marchotov Crisis"
+	picture = "Portrait_ROV_Karlo_Krizan.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotism
 	# traits = {
 		
 	# }
