@@ -47,12 +47,17 @@ set_popularities = {
 #################################
 
 create_country_leader = {
-	name = "Alexander Khrenin"
+	name = "Makar Trusau"
 	desc = "Staunch supporter of anti-volkovist communism and Graznavan independence"
+	picture = "Portrait_Graznava_Makar_Trusau.dds"
+	expire = "1965.1.1"
+	ideology = marxism	
+	}
+
+create_country_leader = {
+	name = "Alexander Khrenin"
+	desc = "pp poopoo"
 	picture = "Portrait_Graznava_Alexander_Khrenin.dds"
 	expire = "1965.1.1"
-	ideology = marxism
-	# traits = {
-		
-	# }
+	ideology = despotism
 }

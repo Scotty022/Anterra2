@@ -1,6 +1,6 @@
 capital = 207
 
-#oob = "SCO_1936"
+oob = "RAN_1946"
 
 # Starting tech
 set_technology = {
@@ -35,9 +35,9 @@ set_popularities = {
 	neutrality = 85
 }
 create_country_leader = {
-	name = "Ho Chi Minh"
-	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	name = "Mashal Horthy"
+	desc = "POLITICS_YANG_LUOYANG_DESC"
+	picture = "Portrait_Randomistan_Mashal_Horthy.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = despotism
 }
