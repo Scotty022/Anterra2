@@ -35,21 +35,11 @@ set_popularities = {
 	neutrality = 57
 }
 create_country_leader = {
-<<<<<<< HEAD
-<<<<<<< HEAD
 	name = "Stavros III"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "Portrait_Helinika_King_Stavros_III.dds"
 	expire = "1965.1.1"
-	ideology = neutrality_ideology
-=======
-=======
->>>>>>> b6ea3103978073398b080db286d104648c9f2852
-	name = "King Stavros II"
-	desc = "King of Helinika"
-	picture = ""
-	expire = "1947.2.11"
-	ideology = monarchist
+	ideology = despotism
 }
 
 create_field_marshal = {
@@ -143,10 +133,6 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 1
 	logistics_skill = 3
-<<<<<<< HEAD
->>>>>>> b6ea3103978073398b080db286d104648c9f2852
-=======
->>>>>>> b6ea3103978073398b080db286d104648c9f2852
 }
 add_ideas = {
 	Helinikan_Militarism

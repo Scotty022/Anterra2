@@ -24,7 +24,7 @@ division_template = {
 }
 division_template = {
 	name = "Alpinistic Divisia" 				
-	division_names_group = RAZ_MTN_01
+	division_names_group = RAZ_MNT_01
 	
 	regiments = {
 		mountaineers = { x = 0 y = 0 }	
@@ -60,7 +60,7 @@ division_template = {
 }
 division_template = {
 	name = "MGB Pogranichnaya Diviziya" 				
-	division_names_group = RAZ_POG_01
+	division_names_group = RAZ_MEC_01
 	
 	regiments = {
 		infantry = { x = 0 y = 0 }
