@@ -7,7 +7,7 @@ state={
 		history = {
 			owner = RAZ
 			add_core_of = RAZ
-                        add_core_of = POZ
+			add_core_of = POZ
 
 			
 
