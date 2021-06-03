@@ -35,11 +35,104 @@ set_popularities = {
 	neutrality = 57
 }
 create_country_leader = {
-	name = "Ronald McDonald"
-	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
+	name = "King Stavros II"
+	desc = "King of Helinika"
+	picture = ""
+	expire = "1947.2.11"
+	ideology = monarchist
+}
+
+create_field_marshal = {
+	name = "Stavros III"
+	picture = "Portrait_Helinika_King_Stavros_III"
+	traits = {  politically_connected trait_reckless media_personality}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+
+}
+
+create_corps_commander = {
+	name = "Iossif Petratos"
+	picture = ""
+	traits = {war_hero harsh_leader infantry_officer infantry_leader trait_mountaineer politically_connected}
+	skill = 5
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 3
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Vassilis Molakis"
+	picture = ""
+	traits = {war_hero hill_fighter cavalry_leader}
+	skill = 3
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Lazaros Sallotis"
+	picture = ""
+	traits = { hill_fighter trait_cautious politically_connected}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Evripides Thanellis"
+	picture = ""
+	traits = {war_hero trait_mountaineer trickster politically_connected}
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Aris Paxis"
+	picture = ""
+	traits = {trait_engineer politically_connected}
+	skill =1
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Thanos Koskiadis"
+	picture = ""
+	traits = { trait_mountaineer harsh_leader politically_connected}
+	skill =2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Aristoteles Speratos"
+	picture = ""
+	traits = {trait_engineer politically_connected}
+	skill =1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Pannikos Vassou"
+	picture = ""
+	traits = {trait_mountaineer organizer trait_engineer}
+	skill = 3
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
 }
 add_ideas = {
 	Helinikan_Militarism
