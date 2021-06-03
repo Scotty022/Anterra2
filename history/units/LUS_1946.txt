@@ -1,0 +1,120 @@
+##################################
+########### Templates ############
+##################################
+division_template = { # Infantry Division
+	name = "Infantry Division" 				
+	division_names_group = LUS_INF_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = { # Guard Brigade
+	name = "Guard Bridage" 				
+	division_names_group = LUS_INF_02
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		cavalry  = { x = 1 y = 0 }
+		cavalry  = { x = 1 y = 1 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = { # Mountain Division
+	name = "Mountain Division" 				
+	division_names_group = LUS_MNT_01
+	
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = { # Cavalry Division
+	name = "Cavalry Division" 				
+	division_names_group = LUS_CAV_01
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		
+	}
+}
+
+division_template = { # Tank Brigade
+	name = "Tank Brigade" 				
+	division_names_group = LUS_ARM_01
+	
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+		
+	}
+}
+
+##################################
+############# Units ##############
+##################################
+units = {
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 2017
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 9187
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 2
+		division_template = "Guard Brigade" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+
+	}
+}
