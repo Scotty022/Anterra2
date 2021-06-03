@@ -48,5 +48,23 @@ ideas = {
 				drift_defence_factor = -0.05
 			}
 		}
+		A_Red_Menace = {
+			picture = Martin_I 		# refers to /Interface/ideas.gfx, later more
+			allowed = { 			# determines who can get it. Used for advisors and such
+				original_tag = HEL	# place your country tag here
+			}
+			available = {			
+				NOT = {
+					has_government = communism 
+				}	
+			}
+
+			removal_cost = -1
+		
+			modifier = {
+				stability_factor = -0.1
+				production_factory_max_efficiency_factor=-0.1
+			}
+		}
 	}
 }
