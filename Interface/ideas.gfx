@@ -7,5 +7,10 @@ spriteTypes = {
 		name = "GFX_idea_Martin_I"								# The 'GFX_idea_' part is required here
 		texturefile = "gfx/interface/ideas/idea_Martin_I.dds"
 	}
+	
+		SpriteType = {
+		name = "GFX_idea_QIN_FED"								# The 'GFX_idea_' part is required here
+		texturefile = "gfx/interface/ideas/QIN_FED.dds"
+	}
 
 }

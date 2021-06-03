@@ -46,3 +46,6 @@ create_country_leader = {
 
 	# }
 }
+add_ideas = {
+	United_under_the_federation
+}
