@@ -1,7 +1,7 @@
 state={
 		id = 171
 		name = "Virovitica"
-		manpower = 800000
+		manpower = 2800000
 		state_category = rural
 
 		history = {
@@ -9,7 +9,7 @@ state={
 			add_core_of = RAZ
 			add_core_of = ROV
 
-			
+			victory_points = {4665 10}
 
 			buildings = {
 				

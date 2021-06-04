@@ -1,7 +1,7 @@
 state={
 		id = 216
 		name = "Ruchava"
-		manpower = 2,672,229
+		manpower = 2672229
 		state_category = rural
 		resources = {
 			steel = 8

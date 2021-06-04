@@ -1,7 +1,7 @@
 state={
 		id = 118
 		name = "Sosnivika"
-		manpower = 5903490
+		manpower = 4903490
 		state_category = metropolis
 
 		history = {
@@ -15,7 +15,7 @@ state={
 				
 				infrastructure = 7
 				industrial_complex = 5
-				arms_factory = 3
+				arms_factory = 2
 				synthetic_refinery = 1
 			} 
 		}

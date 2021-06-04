@@ -1,7 +1,7 @@
 state={
 		id = 217
 		name = "Sartland"
-		manpower = 612
+		manpower = 612000
 		state_category = pastoral
 		resources = {
 			steel = 3

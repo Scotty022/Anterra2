@@ -3,6 +3,9 @@ state={
 		name = "Prokovyurt"
 		manpower = 800000
 		state_category = rural
+		resources = {
+			aluminium = 4
+		}
 
 		history = {
 			owner = RAZ
@@ -10,7 +13,7 @@ state={
 			add_core_of = ZAP
 			add_core_of = PER
 
-			
+			victory_points = {5323 10}
 
 			buildings = {
 				
