@@ -31,8 +31,21 @@ set_politics = {
 
 set_popularities = {
 	democratic = 5
-	fascism = 5
+	fascism = 85
 	communism = 5
-	neutrality = 85
+	neutrality = 5
 }
+
+create_country_leader = {
+	name = "Guo Guotai"
+	desc = "POLITICS_Guo_Guotai_DESC"
+	picture = "Portrait_Guo_Guotai.dds"
+	expire = "1970.1.1"
+	ideology = nazism
+	traits = {
+		dictator
+		Grand_Marshall
+	}
+}
+
 
