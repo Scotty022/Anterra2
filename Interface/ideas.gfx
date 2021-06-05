@@ -8,9 +8,24 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_Martin_I.dds"
 	}
 	
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_idea_QIN_FED"								# The 'GFX_idea_' part is required here
 		texturefile = "gfx/interface/ideas/QIN_FED.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Klavdii_Sorokin"						# The 'GFX_idea_' part is required here
+		texturefile = "gfx/interface/ideas/idea_Klavdii_Sorokin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Advisor_Klavdii_Sorokin"				# The 'GFX_idea_' part is required here
+		texturefile = "gfx/interface/advisors/advisor_Klavdii_Sorokin.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_idea_Increasing_Bureaucracy"				# The 'GFX_idea_' part is required here
+		texturefile = "gfx/interface/ideas/idea_Increasing_Beurocracy.dds"
 	}
 
 }
