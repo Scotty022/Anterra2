@@ -1,7 +1,7 @@
 state={
 		id = 25
 		name = "North Yu An"
-		manpower = 100000
+		manpower = 7777916
 		state_category = town
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 3
 			} 
 		}
 		provinces={

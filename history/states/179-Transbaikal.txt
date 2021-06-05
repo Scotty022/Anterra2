@@ -1,7 +1,7 @@
 state={
 		id = 179
 		name = "Transbaikal"
-		manpower = 100000
+		manpower = 1420000
 		state_category = pastoral
 
 		history = {
@@ -12,6 +12,8 @@ state={
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 2
 			} 
 		}
 		provinces={

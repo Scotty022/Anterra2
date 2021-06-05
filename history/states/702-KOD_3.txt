@@ -2,16 +2,17 @@ state={
 		id = 702
 		name = "KOD_3"
 		manpower = 100000
-		state_category = pastoral
+		state_category = town
 
 		history = {
 			owner = KOD
-			
+			add_core_of = SEL
 
 			
 
 			buildings = {
 				
+				infrastructure = 2
 			} 
 		}
 		provinces={

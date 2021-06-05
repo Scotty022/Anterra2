@@ -1,7 +1,7 @@
 state={
 		id = 721
 		name = "SEL_15"
-		manpower = 100000
+		manpower = 1000000
 		state_category = pastoral
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={

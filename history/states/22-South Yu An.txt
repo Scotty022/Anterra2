@@ -1,7 +1,7 @@
 state={
 		id = 22
 		name = "South Yu An"
-		manpower = 100000
+		manpower = 3888958
 		state_category = rural
 
 		history = {
@@ -12,6 +12,9 @@ state={
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 1
+				dockyard  = 1
 			} 
 		}
 		provinces={

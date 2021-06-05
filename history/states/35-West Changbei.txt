@@ -1,7 +1,7 @@
 state={
 		id = 35
 		name = "West Changbei"
-		manpower = 100000
+		manpower = 2290909
 		state_category = rural
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 2
 			} 
 		}
 		provinces={

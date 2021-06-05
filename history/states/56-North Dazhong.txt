@@ -1,7 +1,7 @@
 state={
 		id = 56
 		name = "North Dazhong"
-		manpower = 100000
+		manpower = 10905947
 		state_category = town
 
 		history = {
@@ -12,6 +12,8 @@ state={
 
 			buildings = {
 				
+				infrastructure = 2
+				industrial_complex = 1
 			} 
 		}
 		provinces={

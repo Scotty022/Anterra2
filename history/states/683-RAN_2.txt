@@ -1,7 +1,7 @@
 state={
 		id = 683
 		name = "RAN_2"
-		manpower = 100000
+		manpower = 2
 		state_category = pastoral
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 8
 			} 
 		}
 		provinces={

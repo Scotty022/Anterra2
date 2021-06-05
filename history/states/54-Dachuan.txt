@@ -1,7 +1,7 @@
 state={
 		id = 54
 		name = "Dachuan"
-		manpower = 100000
+		manpower = 28772427
 		state_category = city
 
 		history = {
@@ -12,6 +12,9 @@ state={
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 3
+				arms_factory = 2
 			} 
 		}
 		provinces={

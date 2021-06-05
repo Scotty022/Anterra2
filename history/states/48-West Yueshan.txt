@@ -1,7 +1,7 @@
 state={
 		id = 48
 		name = "West Yueshan"
-		manpower = 100000
+		manpower = 4033510
 		state_category = rural
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 2
 			} 
 		}
 		provinces={

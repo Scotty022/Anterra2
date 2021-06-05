@@ -1,7 +1,7 @@
 state={
 		id = 42
 		name = "East Guanggu"
-		manpower = 100000
+		manpower = 519573
 		state_category = wasteland
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 0
 			} 
 		}
 		provinces={

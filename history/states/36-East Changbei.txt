@@ -1,7 +1,7 @@
 state={
 		id = 36
 		name = "East Changbei"
-		manpower = 100000
+		manpower = 4254546
 		state_category = town
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 3
 			} 
 		}
 		provinces={

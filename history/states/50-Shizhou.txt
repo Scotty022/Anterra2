@@ -1,7 +1,7 @@
 state={
 		id = 50
 		name = "Shizhou"
-		manpower = 100000
+		manpower = 3599275
 		state_category = town
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={

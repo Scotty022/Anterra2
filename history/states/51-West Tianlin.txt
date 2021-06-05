@@ -1,7 +1,7 @@
 state={
 		id = 51
 		name = "West Tianlin"
-		manpower = 100000
+		manpower = 2594961
 		state_category = rural
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={

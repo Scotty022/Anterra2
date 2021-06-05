@@ -1,7 +1,7 @@
 state={
 		id = 34
 		name = "Beihai"
-		manpower = 100000
+		manpower = 3758920
 		state_category = rural
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={

@@ -1,7 +1,7 @@
 state={
 		id = 43
 		name = "Guanggu"
-		manpower = 100000
+		manpower = 1091103
 		state_category = rural
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={

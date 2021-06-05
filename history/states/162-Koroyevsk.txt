@@ -1,7 +1,7 @@
 state={
 		id = 162
 		name = "Koroyevsk"
-		manpower = 2000000
+		manpower = 3000000
 		state_category = city
 		resources = {
 			aluminium = 6

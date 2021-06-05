@@ -1,7 +1,7 @@
 state={
 		id = 28
 		name = "East Guangshui"
-		manpower = 100000
+		manpower = 2412094
 		state_category = pastoral
 
 		history = {
@@ -12,6 +12,7 @@ state={
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={
