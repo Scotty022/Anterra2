@@ -23,7 +23,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Alpinistic Divisia" 				
+	name = "Alpská Divízia" 				
 	division_names_group = POZ_MTN_01
 	
 	regiments = {
@@ -59,7 +59,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "MGB Pogranichnaya Diviziya" 				
+	name = "Vnútorná Ochrana" 				
 	division_names_group = POZ_POG_01
 	
 	regiments = {
@@ -77,7 +77,7 @@ division_template = {
 	}
 }
 division_template = { 
-	name = "Tankovaya Brigade" 				
+	name = "Tank Brigáda" 				
 	division_names_group = POZ_ARM_01
 	
 	regiments = {
@@ -104,7 +104,7 @@ units = {
         }
 		#name = "Test"
 		location = 1069
-		division_template = "MGB Pogranichnaya Diviziya" 
+		division_template = "Vnútorná Ochrana" 
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.5
 	}
@@ -115,7 +115,7 @@ units = {
         }
 		#name = "Test"
 		location = 175
-		division_template = "MGB Pogranichnaya Diviziya" 
+		division_template = "Vnútorná Ochrana" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.9
 	}
@@ -148,7 +148,7 @@ units = {
         }
 		#name = "Test"
 		location = 5258
-		division_template = "MGB Pogranichnaya Diviziya" 
+		division_template = "Vnútorná Ochrana" 
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.7
 	}
