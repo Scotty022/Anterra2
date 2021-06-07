@@ -43,7 +43,7 @@ create_country_leader = {
 	expire = "1970.1.1"
 	ideology = nazism
 	traits = {
-		dictator
+		Dictator
 		Grand_Marshall
 	}
 }
