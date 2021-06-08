@@ -1,0 +1,16 @@
+﻿l_english:
+ # Colonies
+ RAM_MCU_subject:0 "Govic South Kesh"
+ RAM_MCU_subject_DEF:0 "the Dominion of Govic South Kesh"
+ RAM_subject:0 "$OVERLORDADJ$ South Kesh"
+ RAM_subject_DEF:0 "the $OVERLORDADJ$ South Kesh"
+ RAM_subject_ADJ:0 "South Keshian"
+
+ #Formed nations
+ VOL_CON_democratic:0 "Volirian Confederation"
+ VOL_CON_democratic_DEF:0 "the Volirian Confederation"
+ VOL_CON_authdemocracy:0 "Volirian Federation"
+ VOL_CON_authdemocracy_DEF:0 "the Volirian Federation"
+ VOL_CON:0 "Volirian Empire"
+ VOL_CON_DEF:0 "the Volirian Empire"
+ VOL_CON_ADJ:0 "Volirian"

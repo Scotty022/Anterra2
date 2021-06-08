@@ -1,0 +1,198 @@
+form_volirian_conf_category = {
+	
+	form_volirian_conf = {
+		icon = generic_form_nation
+
+		allowed = { # Mursland and Vrtgora can do this 
+			OR = {
+				original_tag = MUR
+				original_tag = VRT
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Mursland
+			controls_state = 58
+			controls_state = 59
+			controls_state = 60
+			# Vrtgora
+			controls_state = 73
+			controls_state = 74
+			controls_state = 75
+			controls_state = 76
+			controls_state = 128
+			# Lusjki starting states
+			controls_state = 71
+			controls_state = 72
+		}
+
+		visible = {
+			OR = {
+				original_tag = MUR
+				original_tag = VRT
+			}
+			NOT = { has_global_flag = form_volirian_conf_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = VOL_CON
+			# Mursland
+			58 = { add_core_of = ROOT }
+			59 = { add_core_of = ROOT }
+			60 = { add_core_of = ROOT }
+			# Vrtgora
+			73 = { add_core_of = ROOT }
+			74 = { add_core_of = ROOT }
+			75 = { add_core_of = ROOT }
+			76 = { add_core_of = ROOT }
+			128 = { add_core_of = ROOT }
+			# Lusjki starting states
+			71 = { add_core_of = ROOT }
+			72 = { add_core_of = ROOT }
+			# Extra cores
+			208 = { add_core_of = ROOT } # Trans-Traxi, aka Lusjki border region in Propygria
+			212 = { add_core_of = ROOT } # East Traxi (coastal Propygria)
+			214 = { add_core_of = ROOT } # West Amoomosean Islands (Propygria)
+			77  = { add_core_of = ROOT } # Anterner (Samothke)
+
+		
+			hidden_effect = {
+				news_event = { id = wtt_news.53 hours = 6 }  # Change the news event !!
+				set_global_flag = form_volirian_conf_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+# form_nordic_league_category = {
+
+# 	form_nordic_league = {
+
+# 		icon = generic_form_nation
+
+# 		allowed = {
+# 			OR = {
+# 				original_tag = NOR
+# 				original_tag = DEN
+# 				original_tag = SWE
+# 				original_tag = FIN
+# 				original_tag = ICE
+# 			}
+# 			has_dlc = "Waking the Tiger"
+# 		}
+
+# 		available = {
+# 			is_subject = no
+# 			# Norway
+# 			custom_trigger_tooltip = {
+# 				tooltip = form_country_norway_required_states_tt
+# 				controls_state = 110
+# 				controls_state = 142
+# 				controls_state = 143
+# 				controls_state = 144
+# 			}
+# 			# Sweden
+# 			custom_trigger_tooltip = {
+# 				tooltip = form_country_sweden_required_states_tt
+# 				controls_state = 124
+# 				controls_state = 138
+# 				controls_state = 139
+# 				controls_state = 140
+# 				controls_state = 141
+# 				controls_state = 38
+# 				controls_state = 666
+# 			}
+# 			# Denmark
+# 			custom_trigger_tooltip = {
+# 				tooltip = form_country_denmark_required_states_tt
+# 				controls_state = 37
+# 				controls_state = 99
+# 				controls_state = 100
+# 				controls_state = 101
+# 				controls_state = 337
+# 			}
+# 			# Finland
+# 			custom_trigger_tooltip = {
+# 				tooltip = form_country_finland_required_states_tt
+# 				controls_state = 111
+# 				controls_state = 145
+# 				controls_state = 148
+# 				controls_state = 149
+# 				controls_state = 150
+# 			}
+# 		}
+
+# 		visible = {
+# 			OR = {
+# 				original_tag = NOR
+# 				original_tag = DEN
+# 				original_tag = SWE
+# 				original_tag = FIN
+# 			}
+# 			NOT = { has_global_flag = form_nordic_league_flag }
+# 		}
+
+# 		complete_effect = {
+# 			set_cosmetic_tag = NDC_UNIFIED
+# 			# Norway
+# 			custom_effect_tooltip = form_country_norway_coring_states_tt
+# 			hidden_effect = {
+# 				110 = { add_core_of = ROOT }
+# 				142 = { add_core_of = ROOT }
+# 				143 = { add_core_of = ROOT }
+# 				144 = { add_core_of = ROOT }
+# 			}
+# 			# Sweden
+# 			custom_effect_tooltip = form_country_sweden_coring_states_tt
+# 			hidden_effect = {
+# 				124 = { add_core_of = ROOT }
+# 				138 = { add_core_of = ROOT }
+# 				139 = { add_core_of = ROOT }
+# 				140 = { add_core_of = ROOT }
+# 				141 = { add_core_of = ROOT }
+# 				38 = { add_core_of = ROOT }
+# 				666 = { add_core_of = ROOT }
+# 			}
+# 			# Denmark
+# 			custom_effect_tooltip = form_country_denmark_coring_states_tt
+# 			hidden_effect = {
+# 				37 = { add_core_of = ROOT }
+# 				99 = { add_core_of = ROOT }
+# 				100 = { add_core_of = ROOT }
+# 				101 = { add_core_of = ROOT }
+# 				337 = { add_core_of = ROOT }
+# 			}
+# 			# Finland
+# 			custom_effect_tooltip = form_country_finland_coring_states_tt
+# 			hidden_effect = {
+# 				111 = { add_core_of = ROOT }
+# 				145 = { add_core_of = ROOT }
+# 				148 = { add_core_of = ROOT }
+# 				149 = { add_core_of = ROOT }
+# 				150 = { add_core_of = ROOT }
+# 			}
+# 			hidden_effect = {
+# 				news_event = { id = wtt_news.54 hours = 6 }
+# 				set_global_flag = form_nordic_league_flag
+# 			}
+# 		}
+
+# 		ai_will_do = {
+# 			factor = 200
+# 			modifier = {
+# 				factor = 0
+# 				is_historical_focus_on = yes
+# 			}
+# 		}
+# 	}
+# }
+
