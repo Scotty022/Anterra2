@@ -1,807 +1,915 @@
-﻿l_english:
- STATE_1:1 "test"
- STATE_2:1 "Chenghua"
- STATE_3:5 "South Yulin"
- STATE_4:1 "North Yulin"
- STATE_5:2 "South Liujiang"
- STATE_6:1 "North Liujiang"
- STATE_7:1 "South Tianzhou"
- STATE_8:1 "North Tianzhou"
- STATE_9:1 "Wuwei"
- STATE_10:1 "West Zhonghe"
- STATE_11:1 "East Zhonghe"
- STATE_12:1 "Enshi"
- STATE_13:1 "South Xinxing"
- STATE_14:1 "West Xinxing"
- STATE_15:1 "Qingcheng Mountains"
- STATE_16:1 "East Xinxing"
- STATE_17:2 "Wenzhou"
- STATE_18:1 "Bazhong"
- STATE_19:1 "West Zhimin"
- STATE_20:1 "South Zhimin"
- STATE_21:1 "East Zhimin"
- STATE_22:0 "South Yu'An"
- STATE_23:0 "East Yu'An"
- STATE_24:0 "Yu'An"
- STATE_25:0 "North Yu'An"
- STATE_26:0 "Linshan"
- STATE_27:0 "Yanhe"
- STATE_28:1 "East Guangshui"
- STATE_29:1 "Guangshui"
- STATE_30:0 "Nanbin"
- STATE_31:0 "Zhongbin"
- STATE_32:0 "Xiabei"
- STATE_33:0 "Anbei"
- STATE_34:0 "Beihai"
- STATE_35:0 "West Changbei"
- STATE_36:0 "East Changbei"
- STATE_37:0 "Xuemai"
- STATE_38:0 "Beifu"
- STATE_39:0 "North Guangshen"
- STATE_40:0 "Guangshen"
- STATE_41:0 "South Guangshen"
- STATE_42:0 "East Guanggu"
- STATE_43:0 "Guanggu"
- STATE_44:0 "South Guanggu"
- STATE_45:0 "Xibei"
- STATE_46:0 "Hongfu"
- STATE_47:0 "North Yueshan"
- STATE_48:0 "West Yueshan"
- STATE_49:0 "Yueshan"
- STATE_50:0 "Shizhou"
- STATE_51:0 "West Tianlin"
- STATE_52:0 "Tianlin"
- STATE_53:0 "West Dachuan"
- STATE_54:0 "Dachuan"
- STATE_55:0 "South Dazhong"
- STATE_56:0 "North Dazhong"
- STATE_57:0 "Dazhong"
- STATE_58:0 "Bonamech"
- STATE_59:0 "Nai"
- STATE_60:0 "Lower Traxi"
- STATE_61:0 "Mecklenburg"
- STATE_62:1 "Vorpommern"
- STATE_63:0 "Hinterpommern"
- STATE_64:0 "Brandenburg"
- STATE_65:0 "Sachsen"
- STATE_66:0 "Niederschlesien"
- STATE_67:0 "Oberschlesien"
- STATE_68:0 "Ostmark"
- STATE_69:0 "Sudetenland"
- STATE_70:0 "Western Slovakia"
- STATE_71:0 "Eastern Slovakia"
- STATE_72:0 "Zaolzie"
- STATE_73:0 "Carpathian Ruthenia"
- STATE_74:0 "Eastern Sudetenland"
- STATE_75:0 "Moravia"
- STATE_76:0 "North Transylvania"
- STATE_77:0 "Dobrudja"
- STATE_78:0 "Bessarabia"
- STATE_79:0 "Moldova"
- STATE_80:0 "Bucovina"
- STATE_81:0 "Oltenia"
- STATE_82:0 "Banat"
- STATE_83:0 "Crisana"
- STATE_84:0 "Transylvania"
- STATE_85:0 "Danzig"
- STATE_86:0 "Poznan"
- STATE_87:1 "Łódz"
- STATE_88:0 "Krakow"
- STATE_89:0 "Stanisławów"
- STATE_90:0 "Kielce"
- STATE_91:0 "Lwów"
- STATE_92:0 "Lublin"
- STATE_93:0 "Wołyn"
- STATE_94:0 "Polesie"
- STATE_95:0 "Nowogródek"
- STATE_96:1 "Wilejka"
- STATE_97:0 "Białystok"
- STATE_98:0 "Płock"
- STATE_99:0 "Jutland"
- STATE_100:0 "Iceland"
- STATE_101:0 "Greenland"
- STATE_102:0 "Slovenia"
- STATE_103:0 "Dalmatia"
- STATE_104:0 "Bosnia"
- STATE_105:0 "Montenegro"
- STATE_106:0 "Macedonia"
- STATE_107:0 "Serbia"
- STATE_108:0 "Morava"
- STATE_109:0 "Croatia"
- STATE_110:1 "Østlandet"
- STATE_111:0 "Uusimaa"
- STATE_112:0 "Lisbon"
- STATE_113:0 "Lankong"
- STATE_114:0 "Sivegore"
- STATE_115:0 "Maulamyine"
- STATE_116:0 "Hakha"
- STATE_117:0 "Siamei"
- STATE_118:0 "Siuku"
- STATE_119:0 "Sunggari"
- STATE_120:0 "Niowanggiyan"
- STATE_121:0 "Lothian"
- STATE_122:0 "Wales"
- STATE_123:1 "South-West England"
- STATE_124:0 "Gotland"
- STATE_125:0 "East Anglia"
- STATE_126:0 "Greater London Area"
- STATE_127:0 "Sussex"
- STATE_128:0 "West Midlands"
- STATE_129:0 "East Midlands"
- STATE_130:0 "Yorkshire"
- STATE_131:0 "Northern England"
- STATE_132:0 "Lancashire"
- STATE_133:0 "Lanark"
- STATE_134:0 "Connaught"
- STATE_135:0 "Munster"
- STATE_136:0 "Aberdeenshire"
- STATE_137:0 "Crimea"
- STATE_138:0 "Scania"
- STATE_139:0 "Småland"
- STATE_140:0 "Västergötland"
- STATE_141:0 "Svealand"
- STATE_142:0 "Vestlandet"
- STATE_143:1 "Trøndelag"
- STATE_144:0 "Nord-Norge"
- STATE_145:0 "Åland"
- STATE_146:0 "Karjala"
- STATE_147:0 "Salla"
- STATE_148:0 "Lappi"
- STATE_149:0 "Pohjanmaa"
- STATE_150:0 "Savo"
- STATE_151:0 "Eastern Switzerland"
- STATE_152:0 "Upper Austria"
- STATE_153:0 "Tyrol"
- STATE_154:0 "Alföld"
- STATE_155:0 "Transdanubia"
- STATE_156:0 "Calabria"
- STATE_157:0 "Abruzzo"
- STATE_158:0 "Piedmont"
- STATE_159:0 "Lombardy"
- STATE_160:0 "Veneto"
- STATE_161:0 "Emilia Romagna"
- STATE_162:0 "Tuscany"
- STATE_163:0 "Zara"
- STATE_164:0 "Dodecanese"
- STATE_165:1 "Cataluña"
- STATE_166:1 "Western Aragón"
- STATE_167:0 "Valencia"
- STATE_168:0 "Murcia"
- STATE_169:1 "Sevilla"
- STATE_170:0 "Extremadura"
- STATE_171:0 "Galicia"
- STATE_172:1 "Navarra"
- STATE_173:0 "Granada"
- STATE_174:1 "León"
- STATE_175:1 "Ciudad Real"
- STATE_176:1 "Burgos"
- STATE_177:1 "Islas Baleares"
- STATE_178:1 "Islas Canarias"
- STATE_179:0 "Beja"
- STATE_180:0 "Porto"
- STATE_181:0 "Guarda"
- STATE_182:0 "Crete"
- STATE_183:0 "Cyprus"
- STATE_184:0 "Thrace"
- STATE_185:0 "Epirus"
- STATE_186:0 "Peloponnese"
- STATE_187:0 "Aegean Islands"
- STATE_188:0 "Memel"
- STATE_189:1 "Siauliai"
- STATE_190:0 "Kurzeme"
- STATE_191:0 "Tartu"
- STATE_192:0 "Odessa"
- STATE_193:0 "Chernigov"
- STATE_194:0 "Mozyr"
- STATE_195:0 "Leningrad"
- STATE_196:0 "Kherson"
- STATE_197:0 "Mykolaiv"
- STATE_198:0 "Vinnytsia"
- STATE_199:0 "Khmelnytskyi"
- STATE_200:0 "Zaporozhe"
- STATE_201:0 "Zhytomyr"
- STATE_202:0 "Kiev"
- STATE_203:0 "Cherkasy"
- STATE_204:0 "Bobruysk"
- STATE_205:0 "Kaluga"
- STATE_206:0 "Minsk"
- STATE_207:0 "Vitebsk"
- STATE_208:0 "Luga"
- STATE_209:0 "Pskov"
- STATE_210:0 "Nevel"
- STATE_211:0 "Burgas"
- STATE_212:0 "Plovdiv"
- STATE_213:0 "Murmansk"
- STATE_214:0 "Arkhangelsk"
- STATE_215:0 "Onega"
- STATE_216:0 "Olonets"
- STATE_217:0 "Stalingrad"
- STATE_218:0 "Rostov"
- STATE_219:0 "Moscow"
- STATE_220:0 "Kursk"
- STATE_221:0 "Kharkov"
- STATE_222:0 "Orel"
- STATE_223:0 "Tula"
- STATE_224:0 "Bryansk"
- STATE_225:0 "Sumy"
- STATE_226:0 "Dnipropetrovsk"
- STATE_227:0 "Stalino"
- STATE_228:0 "Voroshilovgrad"
- STATE_229:1 "Azerbaijan"
- STATE_230:0 "Armenia"
- STATE_231:0 "Georgia"
- STATE_232:0 "Grozny"
- STATE_233:0 "Caucasus Mountains"
- STATE_234:0 "Krasnodar"
- STATE_235:0 "Stavropol"
- STATE_236:0 "Astrakhan"
- STATE_237:0 "Elista"
- STATE_238:0 "Volgodonsk"
- STATE_239:0 "Saratov"
- STATE_240:0 "Belgorod"
- STATE_241:0 "Gomel"
- STATE_242:0 "Smolensk"
- STATE_243:0 "Roslavl"
- STATE_244:0 "Volkhov"
- STATE_245:0 "Millerovo"
- STATE_246:0 "Rzhev"
- STATE_247:0 "Kalinin"
- STATE_248:0 "Yaroslavl"
- STATE_249:0 "Kazan"
- STATE_250:0 "Ulyanovsky"
- STATE_251:0 "Kuibyshev"
- STATE_252:0 "Gorki"
- STATE_253:0 "Ivanovo"
- STATE_254:0 "Ryazan"
- STATE_255:0 "Penza"
- STATE_256:0 "Cheboksary"
- STATE_257:0 "Tambov"
- STATE_258:0 "Lipetsk"
- STATE_259:0 "Poltava"
- STATE_260:0 "Voronezh"
- STATE_261:0 "Ohio"
- STATE_262:0 "Pechora"
- STATE_263:0 "Novgorod"
- STATE_264:0 "Tikhvin"
- STATE_265:0 "Mikhaylovka"
- STATE_266:0 "Tehran"
- STATE_267:0 "Kabul"
- STATE_268:0 "French Somaliland"
- STATE_269:0 "British Somaliland"
- STATE_270:0 "Pitcairn Island"
- STATE_271:0 "Ethiopia"
- STATE_272:0 "Senegal"
- STATE_273:0 "Libyan Desert"
- STATE_274:0 "Ghana"
- STATE_275:0 "Transvaal"
- STATE_276:0 "Southern Ontario"
- STATE_277:0 "Mexico City"
- STATE_278:0 "Pampas"
- STATE_279:0 "Santiago"
- STATE_280:0 "Mato Grosso"
- STATE_281:0 "Maldives"
- STATE_282:0 "Kanto"
- STATE_283:0 "Gansu"
- STATE_284:0 "North Island"
- STATE_285:0 "New South Wales"
- STATE_286:1 "Southern Indochina"
- STATE_287:0 "Taklamakan"
- STATE_288:0 "Burma"
- STATE_289:0 "Siam"
- STATE_290:0 "Spanish Africa"
- STATE_291:0 "Baghdad"
- STATE_292:0 "Nejd"
- STATE_293:0 "Yemen"
- STATE_294:0 "Oman"
- STATE_295:0 "Leopoldville"
- STATE_296:0 "Portuguese Guinea"
- STATE_297:0 "Equatorial Guinea"
- STATE_298:0 "Liberia"
- STATE_299:0 "Falkland Islands"
- STATE_300:0 "Uruguay"
- STATE_301:0 "Paraguay"
- STATE_302:0 "La Paz"
- STATE_303:0 "Lima"
- STATE_304:1 "Panamá"
- STATE_305:0 "Ecuador"
- STATE_306:0 "Cundinamarca"
- STATE_307:0 "Miranda"
- STATE_308:0 "Leeward Islands"
- STATE_309:0 "Suriname"
- STATE_310:0 "French Guiana"
- STATE_311:1 "British Honduras"
- STATE_312:0 "Honduras"
- STATE_313:0 "Guatemala"
- STATE_314:0 "El Salvador"
- STATE_315:0 "Cuba"
- STATE_316:0 "Costa Rica"
- STATE_317:0 "Nicaragua"
- STATE_318:0 "Haiti"
- STATE_319:0 "Dominican Republic"
- STATE_320:0 "French India"
- STATE_321:0 "Goa"
- STATE_322:1 "Nagqu"
- STATE_323:0 "Nepal"
- STATE_324:0 "Bhutan"
- STATE_325:0 "Yunnan"
- STATE_326:0 "Hong Kong"
- STATE_327:0 "Manila"
- STATE_328:0 "Kirin"
- STATE_329:0 "Tannu Tuva"
- STATE_330:0 "Mongolia"
- STATE_331:0 "Newfoundland"
- STATE_332:0 "Labrador"
- STATE_333:1 "North Borneo"
- STATE_334:1 "Kalimantan"
- STATE_335:0 "Java"
- STATE_336:0 "Singapore"
- STATE_337:0 "Faroe Islands"
- STATE_338:0 "Gloucestershire"
- STATE_339:0 "Izmir"
- STATE_340:0 "Bursa"
- STATE_341:1 "Edirne"
- STATE_342:0 "Antalya"
- STATE_343:0 "Afyon"
- STATE_344:0 "Malatya"
- STATE_345:0 "Mersin"
- STATE_346:0 "Konya"
- STATE_347:0 "Izmit"
- STATE_348:0 "Kayseri"
- STATE_349:0 "Sivas"
- STATE_350:0 "Diyarbakır"
- STATE_351:0 "Vologda"
- STATE_352:0 "Hakkari"
- STATE_353:1 "Tunceli"
- STATE_354:0 "Trabzon"
- STATE_355:0 "Samsun"
- STATE_356:0 "Kastamonu"
- STATE_357:0 "New England"
- STATE_358:0 "New York"
- STATE_359:0 "New Jersey"
- STATE_360:0 "Pennsylvania"
- STATE_361:0 "Maryland"
- STATE_362:0 "Virginia"
- STATE_363:0 "North Carolina"
- STATE_364:0 "South Carolina"
- STATE_365:0 "Georgia"
- STATE_366:0 "Florida"
- STATE_367:0 "Alabama"
- STATE_368:0 "Tennessee"
- STATE_369:0 "Kentucky"
- STATE_370:0 "Mississippi"
- STATE_371:0 "Louisiana"
- STATE_372:0 "Arkansas"
- STATE_373:0 "Missouri"
- STATE_374:0 "Oklahoma"
- STATE_375:0 "Texas"
- STATE_376:0 "New Mexico"
- STATE_377:0 "Arizona"
- STATE_378:0 "California"
- STATE_379:0 "Nevada"
- STATE_380:0 "Utah"
- STATE_381:0 "Wyoming"
- STATE_382:0 "Colorado"
- STATE_383:0 "Kansas"
- STATE_384:0 "Nebraska"
- STATE_385:0 "Oregon"
- STATE_386:0 "Washington"
- STATE_387:0 "Idaho"
- STATE_388:0 "Montana"
- STATE_389:0 "North Dakota"
- STATE_390:0 "South Dakota"
- STATE_391:0 "Minnesota"
- STATE_392:0 "Iowa"
- STATE_393:0 "Michigan"
- STATE_394:0 "Wisconsin"
- STATE_395:0 "Illinois"
- STATE_396:0 "Indiana"
- STATE_397:0 "Syktyvkar"
- STATE_398:0 "Perm"
- STATE_399:0 "Izhevsk"
- STATE_400:0 "Kirov"
- STATE_401:0 "Engels"
- STATE_402:0 "Akhtubinsk"
- STATE_403:0 "Tyumen"
- STATE_404:0 "Kyzyl Orda"
- STATE_405:0 "Tashkent"
- STATE_406:1 "Guryev"
- STATE_407:1 "Ural'sk"
- STATE_408:0 "Vladivostok"
- STATE_409:0 "Khabarovsk"
- STATE_410:0 "Sistan"
- STATE_411:0 "Isfahan"
- STATE_412:0 "Fars"
- STATE_413:0 "Khuzestan"
- STATE_414:0 "Kerman"
- STATE_415:0 "Herat"
- STATE_416:0 "Khorasan"
- STATE_417:0 "Hamadan"
- STATE_418:0 "Semnan"
- STATE_419:1 "Tibriz"
- STATE_420:0 "Gilan"
- STATE_421:0 "Kurdistan"
- STATE_422:0 "Ceylon"
- STATE_423:0 "Madurai"
- STATE_424:0 "Madras"
- STATE_425:0 "Mysore"
- STATE_426:0 "Orissa"
- STATE_427:0 "Hyderabad"
- STATE_428:0 "Gujarat"
- STATE_429:0 "Bombay"
- STATE_430:0 "East Bengal"
- STATE_431:0 "West Bengal"
- STATE_432:0 "Assam"
- STATE_433:0 "Rajahsthan"
- STATE_434:0 "Arunachal Pradesh"
- STATE_435:0 "Bihar"
- STATE_436:0 "Jabalpur"
- STATE_437:0 "Indore"
- STATE_438:0 "Lucknow"
- STATE_439:0 "Delhi"
- STATE_440:0 "Punjab"
- STATE_441:0 "Kashmir"
- STATE_442:0 "Peshawar"
- STATE_443:0 "Sind"
- STATE_444:0 "Baluchistan"
- STATE_445:0 "Quetta"
- STATE_446:0 "Cairo"
- STATE_447:0 "Alexandria"
- STATE_448:0 "Tripoli"
- STATE_449:0 "El Agheila"
- STATE_450:0 "Benghasi"
- STATE_451:0 "Derna"
- STATE_452:0 "Matrouh"
- STATE_453:0 "Sinai"
- STATE_454:0 "Palestine"
- STATE_455:0 "Jordan"
- STATE_456:0 "Aswan"
- STATE_457:1 "Eastern Desert"
- STATE_458:0 "Tunisia"
- STATE_459:0 "Algiers"
- STATE_460:0 "Constantine"
- STATE_461:0 "Casablanca"
- STATE_462:0 "Marrakech"
- STATE_463:0 "Alaska"
- STATE_464:0 "Nova Scotia"
- STATE_465:0 "New Brunswick"
- STATE_466:0 "Quebec"
- STATE_467:0 "Manitoba"
- STATE_468:0 "Saint Lawrence"
- STATE_469:0 "Saskatchewan"
- STATE_470:0 "Alberta"
- STATE_471:0 "Northwestern Canada"
- STATE_472:0 "Northern Canada"
- STATE_473:0 "British Columbia"
- STATE_474:0 "Yucatan"
- STATE_475:0 "Chiapas"
- STATE_476:0 "Oaxaca"
- STATE_477:0 "Veracruz"
- STATE_478:0 "Jalisco"
- STATE_479:0 "Tamaulipas"
- STATE_480:0 "Coahuila"
- STATE_481:0 "Durango"
- STATE_482:0 "Chihuahua"
- STATE_483:0 "Sonora"
- STATE_484:0 "Baja California"
- STATE_485:0 "Guerrero"
- STATE_486:0 "Meta"
- STATE_487:0 "Santa Cruz"
- STATE_488:0 "Bolivar"
- STATE_489:0 "Zulia"
- STATE_490:0 "Pastaza"
- STATE_491:0 "Loreto"
- STATE_492:0 "Arequipa"
- STATE_493:0 "La Libertad"
- STATE_494:0 "Ucayali"
- STATE_495:0 "Amazonas"
- STATE_496:1 "Minas Gerais"
- STATE_497:0 "Maranhao"
- STATE_498:0 "Rio Grande"
- STATE_499:0 "Bahia"
- STATE_500:0 "Rio de Janeiro"
- STATE_501:0 "Sao Paulo"
- STATE_502:0 "Rio Grande Sul"
- STATE_503:0 "Santa Catarina"
- STATE_504:0 "Iguacu"
- STATE_505:0 "Goias"
- STATE_506:0 "Antofagasta"
- STATE_507:0 "Magallanes"
- STATE_508:0 "Tucuman"
- STATE_509:0 "Chaco Austral"
- STATE_510:0 "Mesopotamia"
- STATE_511:0 "Mendoza"
- STATE_512:0 "Patagonia"
- STATE_513:0 "Tlemcen"
- STATE_514:0 "Algerian Desert"
- STATE_515:0 "Southern Sahara"
- STATE_516:0 "Northwest Siberia"
- STATE_517:0 "Victoria"
- STATE_518:0 "Tasmania"
- STATE_519:0 "South Australia"
- STATE_520:0 "Northern Territory"
- STATE_521:0 "Queensland"
- STATE_522:0 "Western Australia"
- STATE_523:1 "Papua"
- STATE_524:0 "Taiwan"
- STATE_525:0 "South Korea"
- STATE_526:0 "Okinawa"
- STATE_527:0 "North Korea"
- STATE_528:0 "Kyushu"
- STATE_529:0 "Chugoku"
- STATE_530:0 "Shikoku"
- STATE_531:0 "Kansai"
- STATE_532:0 "Tokai"
- STATE_533:0 "Tohoku"
- STATE_534:0 "Hokuriku"
- STATE_535:0 "Koshinetsu"
- STATE_536:0 "Hokkaido"
- STATE_537:0 "South Sakhalin"
- STATE_538:0 "Central Congo"
- STATE_539:0 "Gabon"
- STATE_540:1 "South Angola"
- STATE_541:0 "South West Africa"
- STATE_542:0 "Bechuanaland"
- STATE_543:0 "Madagascar"
- STATE_544:0 "Mozambique"
- STATE_545:0 "Rhodesia"
- STATE_546:0 "Tanganyika"
- STATE_547:0 "Kenya"
- STATE_548:0 "Uganda"
- STATE_549:0 "Sudan"
- STATE_550:0 "Eritrea"
- STATE_551:0 "Khartoum"
- STATE_552:0 "Western Desert"
- STATE_553:0 "Lebanon"
- STATE_554:0 "Damascus"
- STATE_555:0 "Kuril Islands"
- STATE_556:1 "Mali"
- STATE_557:0 "Mauritania"
- STATE_558:0 "Nigeria"
- STATE_559:0 "Somaliland"
- STATE_560:0 "Nikolayevsk"
- STATE_561:0 "Amur"
- STATE_562:0 "Okhotsk"
- STATE_563:0 "Chita"
- STATE_564:0 "Ulan Ude"
- STATE_565:0 "Bodaybo"
- STATE_566:0 "Irkutsk"
- STATE_567:0 "Bratsk"
- STATE_568:0 "Krasnoyarsk"
- STATE_569:0 "Kemerovo"
- STATE_570:0 "Novosibirsk"
- STATE_571:0 "Omsk"
- STATE_572:0 "Chelyabinsk"
- STATE_573:0 "Zlatoust"
- STATE_574:0 "Yakutsk"
- STATE_575:0 "Kirensk"
- STATE_576:0 "Yeniseisk"
- STATE_577:0 "Surgut"
- STATE_578:0 "Tomsk"
- STATE_579:0 "Salekhard"
- STATE_580:0 "Tobolsk"
- STATE_581:0 "Northern Urals"
- STATE_582:0 "Magnitogorsk"
- STATE_583:0 "Kustanay"
- STATE_584:0 "Ashkhabad"
- STATE_585:0 "Urgench"
- STATE_586:0 "Alma-Ata"
- STATE_587:0 "Ust Urt"
- STATE_588:0 "Semipalatinsk"
- STATE_589:0 "Ayaguz"
- STATE_590:0 "Akmolinsk"
- STATE_591:0 "Hainan"
- STATE_592:0 "Guangzhou"
- STATE_593:0 "Guangdong"
- STATE_594:0 "Nanning"
- STATE_595:0 "Fujian"
- STATE_596:0 "Zhejiang"
- STATE_597:0 "Shandong"
- STATE_598:0 "Jiangsu"
- STATE_599:0 "Guangxi"
- STATE_600:0 "Jiangxi"
- STATE_601:0 "Xikang"
- STATE_602:0 "Hunan"
- STATE_603:0 "Guizhou"
- STATE_604:0 "Qinghai"
- STATE_605:0 "Sichuan"
- STATE_606:0 "Anhui"
- STATE_607:0 "Henan"
- STATE_608:0 "Beijing"
- STATE_609:0 "East Hebei"
- STATE_610:0 "Jehol"
- STATE_611:0 "South Chahar"
- STATE_612:0 "Chahar"
- STATE_613:2 "Shanghai"
- STATE_614:0 "Hebei"
- STATE_615:0 "Shanxi"
- STATE_616:0 "Ningxia"
- STATE_617:0 "Urumqi"
- STATE_618:0 "Dzungaria"
- STATE_619:0 "Yarkand"
- STATE_620:0 "Hubei"
- STATE_621:0 "Suiyuan"
- STATE_622:0 "Shaanxi"
- STATE_623:0 "Luzon"
- STATE_624:0 "Central islands"
- STATE_625:0 "Samar"
- STATE_626:0 "Palawan"
- STATE_627:0 "Mindanao"
- STATE_628:0 "Cebu"
- STATE_629:0 "Hawaii"
- STATE_630:0 "Johnston Atoll"
- STATE_631:0 "Midway Island"
- STATE_632:0 "Wake Island"
- STATE_633:0 "Marshall Islands"
- STATE_634:0 "Solomon Islands"
- STATE_635:0 "New Caledonia"
- STATE_636:0 "Fiji"
- STATE_637:0 "Kamchatka"
- STATE_638:0 "Guam"
- STATE_639:0 "Gilbert Islands"
- STATE_640:0 "Mandalay"
- STATE_641:0 "Tahiti"
- STATE_642:0 "Phoenix Island"
- STATE_643:0 "Ellice Islands"
- STATE_644:0 "Northeast Siberia"
- STATE_645:0 "Iwo Jima"
- STATE_646:0 "Saipan"
- STATE_647:0 "Palau"
- STATE_648:0 "Marcus Island"
- STATE_649:0 "Galapagos Islands"
- STATE_650:0 "Attu Island"
- STATE_651:0 "Ufa"
- STATE_652:0 "Orenburg"
- STATE_653:0 "Sverdlovsk"
- STATE_654:0 "Gorno-Altaysk"
- STATE_655:0 "North Sakhalin"
- STATE_656:0 "Kuwait"
- STATE_657:0 "Birobidzhan"
- STATE_658:0 "Abu Dhabi"
- STATE_659:0 "Aden"
- STATE_660:0 "Equatorial Africa"
- STATE_661:0 "Tripolitania"
- STATE_662:0 "Sirte"
- STATE_663:0 "Cyrenaica"
- STATE_664:0 "Southern Slovakia"
- STATE_665:1 "Gabès"
- STATE_666:0 "Lappland"
- STATE_667:0 "Lesser Sunda Islands"
- STATE_668:0 "The Moluccas"
- STATE_669:1 "West Papua"
- STATE_670:0 "Laos"
- STATE_671:0 "Tonkin"
- STATE_672:0 "Sumatra"
- STATE_673:0 "Sulawesi"
- STATE_674:0 "Central Australia"
- STATE_675:0 "Al Hajara"
- STATE_676:0 "Mosul"
- STATE_677:0 "Aleppo"
- STATE_678:0 "Rub al Khali"
- STATE_679:0 "Hejaz"
- STATE_680:0 "Deir-az-Zur"
- STATE_681:0 "Cape"
- STATE_682:0 "Northern Ontario"
- STATE_683:0 "Northeastern Canada"
- STATE_684:0 "Caroline Islands"
- STATE_685:1 "Panamá Canal"
- STATE_686:0 "Puerto Rico"
- STATE_687:0 "British Guyana"
- STATE_688:0 "Chaco Boreal"
- STATE_689:0 "Jamaica"
- STATE_690:0 "Northern Bahamas"
- STATE_691:0 "Trinidad"
- STATE_692:0 "Windward Islands"
- STATE_693:0 "Southern Bahamas"
- STATE_694:0 "French Caribbean"
- STATE_695:0 "Curaçao"
- STATE_696:0 "Bermuda"
- STATE_697:0 "Madeira"
- STATE_698:0 "Azores"
- STATE_699:0 "Rio de Oro"
- STATE_700:0 "Sierra Leone"
- STATE_701:0 "Gambia"
- STATE_702:0 "Cape Verde"
- STATE_703:0 "Ascension"
- STATE_704:0 "Saint Helena"
- STATE_705:0 "Sao Tome"
- STATE_706:0 "Reunion"
- STATE_707:0 "Mauritius"
- STATE_708:0 "Comoro Islands"
- STATE_709:0 "Seychelles"
- STATE_710:0 "Diego Garcia"
- STATE_711:0 "Christmas Island"
- STATE_712:0 "Cocos Islands"
- STATE_713:0 "Kerguelen"
- STATE_714:0 "Heilungkiang"
- STATE_715:0 "Liaoning"
- STATE_716:0 "Liaotung"
- STATE_717:0 "Sungkiang"
- STATE_718:0 "Stanleyville"
- STATE_719:0 "Natal"
- STATE_720:0 "South Georgia"
- STATE_721:0 "Portuguese Timor"
- STATE_722:0 "Petsamo"
- STATE_723:0 "South Island"
- STATE_724:0 "Northern Malay"
- STATE_725:0 "Nauru"
- STATE_726:0 "Samotkhe"
- STATE_727:0 "Line Islands"
- STATE_728:0 "Guangzhouwan"
- STATE_729:0 "Macau"
- STATE_730:0 "St Pierre and Miquelon"
- STATE_731:0 "Central Macedonia"
- STATE_732:0 "Pamir"
- STATE_733:0 "Andaman"
- STATE_734:0 "Nendo"
- STATE_735:0 "Savoy"
- STATE_736:0 "Istria"
- STATE_737:0 "Bismarck"
- STATE_738:0 "Aru Islands"
- STATE_739:0 "Haida Gwaii"
- STATE_740:0 "Vancouver Island"
- STATE_741:0 "Cambodia"
- STATE_742:0 "Stalinabad"
- STATE_743:0 "Qingdao"
- STATE_744:0 "Xian"
- STATE_745:0 "Dalian"
- STATE_746:0 "Ordos"
- STATE_747:0 "Dali"
- STATE_748:0 "Zunyi"
- STATE_749:0 "Huangshan"
- STATE_750:0 "Changde"
- STATE_751:0 "Liangshan"
- STATE_752:1 "Ganzi"
- STATE_753:0 "Gannan"
- STATE_754:0 "Golog"
- STATE_755:0 "Haixi"
- STATE_756:0 "Jiuquan"
- STATE_757:0 "Shigatse"
- STATE_758:0 "Ngari"
- STATE_759:1 "Kunlun Shan"
- STATE_760:0 "Dabancheng"
- STATE_761:0 "Hulunbuir"
- STATE_762:1 "Katowice"
- STATE_763:0 "Königsberg"
- STATE_764:0 "West Banat"
- STATE_765:0 "Qatar"
- STATE_766:0 "Southern Bessarabia"
- STATE_767:0 "North Darfur"
- STATE_768:0 "Rwanda"
- STATE_769:0 "Burundi"
- STATE_770:0 "Malawi"
- STATE_771:0 "Zambia"
- STATE_772:0 "Middle Congo"
- STATE_773:0 "Cameroon"
- STATE_774:0 "Chad"
- STATE_775:0 "B.E.T."
- STATE_776:0 "Dahomey"
- STATE_777:0 "Togo"
- STATE_778:0 "Upper Volta"
- STATE_779:0 "Ivory Coast"
- STATE_780:0 "Guinea"
- STATE_781:0 "Niger"
- STATE_782:0 "Tombouctou"
- STATE_783:0 "Sidi Ifni"
- STATE_784:1 "Wilno"
- STATE_785:0 "Picardy"
- STATE_786:0 "Mauritanian Desert"
- STATE_787:0 "Northern Kashmir"
- STATE_788:0 "Salamanca"
- STATE_789:0 "Córdoba"
- STATE_790:0 "Asturias"
- STATE_791:0 "Valladolid"
- STATE_792:0 "País Vasco"
- STATE_793:0 "Guadalajara"
- STATE_794:0 "Eastern Aragón"
- STATE_795:0 "Santarém"
- STATE_796:0 "North Angola"
- STATE_797:0 "Istanbul"
- STATE_798:0 "Amasya"
- STATE_799:0 "Hatay"
- STATE_800:0 "Van"
- STATE_801:0 "Moesia"
- STATE_802:0 "Kosovo"
- STATE_803:0 "Southern Serbia"
- STATE_804:0 "Herzegovina"
- STATE_805:0 "Northern Epirus"
- STATE_806:0 "Pyrénées-Atlantiques"
+﻿l_english: 
+ State_1:0 "State_1" # STATE_1
+ West Zhonghe:0 "West Zhonghe" # STATE_10
+ Hawkreath:0 "Hawkreath" # STATE_100
+ Tytsjerkstera:0 "Tytsjerkstera" # STATE_101
+ Spencton:0 "Spencton" # STATE_102
+ Oosterkoop:0 "Oosterkoop" # STATE_103
+ Poc'her:0 "Poc'her" # STATE_104
+ Darimh:0 "Darimh" # STATE_105
+ Rosraig:0 "Rosraig" # STATE_106
+ Eastrein:0 "Eastrein" # STATE_107
+ Buitenwoude:0 "Buitenwoude" # STATE_108
+ Rotte:0 "Rotte" # STATE_109
+ East Zhonghe:0 "East Zhonghe" # STATE_11
+ Hindelvega:0 "Hindelvega" # STATE_110
+ Steinsen:0 "Steinsen" # STATE_111
+ Idlerein:0 "Idlerein" # STATE_112
+ Tipslan:0 "Tipslan" # STATE_113
+ Abargabelozov:0 "Abargabelozov" # STATE_114
+ Astran:0 "Astran" # STATE_115
+ Dezovskaya:0 "Dezovskaya" # STATE_116
+ Sararovo:0 "Sararovo" # STATE_117
+ Sosnivika:0 "Sosnivika" # STATE_118
+ South Kryzhelovschina:0 "South Kryzhelovschina" # STATE_119
+ Enshi:0 "Enshi" # STATE_12
+ Zlata:0 "Zlata" # STATE_120
+ Lankong:0 "Lankong" # STATE_121
+ Niowanggiyan:0 "Niowanggiyan" # STATE_122
+ Sunggari:0 "Sunggari" # STATE_123
+ Siuku:0 "Siuku" # STATE_124
+ Siamei:0 "Siamei" # STATE_125
+ Hakha:0 "Hakha" # STATE_126
+ Maulamyine:0 "Maulamyine" # STATE_127
+ Sivegore:0 "Sivegore" # STATE_128
+ Annapolis:0 "Annapolis" # STATE_129
+ South Xinxing:0 "South Xinxing" # STATE_13
+ Guysborough:0 "Guysborough" # STATE_130
+ Maine:0 "Maine" # STATE_131
+ Claire:0 "Claire" # STATE_132
+ L'Ile-aux-Marins:0 "L'Ile-aux-Marins" # STATE_133
+ Provence:0 "Provence" # STATE_134
+ Frontenac:0 "Frontenac" # STATE_135
+ Plaisance:0 "Plaisance" # STATE_136
+ Saint Mary's:0 "Saint Mary's" # STATE_137
+ Sydney:0 "Sydney" # STATE_138
+ Wata Ame:0 "Wata Ame" # STATE_139
+ West Xinxing:0 "West Xinxing" # STATE_14
+ Koorizatou:0 "Koorizatou" # STATE_140
+ AKI 1:0 "AKI 1" # STATE_141
+ AKI 2:0 "AKI 2" # STATE_142
+ AKI 3:0 "AKI 3" # STATE_143
+ AKI 4:0 "AKI 4" # STATE_144
+ AKI 5:0 "AKI 5" # STATE_145
+ AKI 6:0 "AKI 6" # STATE_146
+ AKI 7:0 "AKI 7" # STATE_147
+ AKI 8:0 "AKI 8" # STATE_148
+ AKI 9:0 "AKI 9" # STATE_149
+ Qingcheng Mountains:0 "Qingcheng Mountains" # STATE_15
+ AKI 10:0 "AKI 10" # STATE_150
+ AKI 11:0 "AKI 11" # STATE_151
+ AKI 12:0 "AKI 12" # STATE_152
+ AKI 13:0 "AKI 13" # STATE_153
+ AKI 14:0 "AKI 14" # STATE_154
+ AKI 15:0 "AKI 15" # STATE_155
+ AKI 16:0 "AKI 16" # STATE_156
+ AKI 17:0 "AKI 17" # STATE_157
+ Kikyo:0 "Kikyo" # STATE_158
+ Waffuru:0 "Waffuru" # STATE_159
+ East Xinxing:0 "East Xinxing" # STATE_16
+ Carasovia:0 "Carasovia" # STATE_160
+ Chernyslaviya:0 "Chernyslaviya" # STATE_161
+ Koroyevsk:0 "Koroyevsk" # STATE_162
+ Prokovyurt:0 "Prokovyurt" # STATE_163
+ Rovskemlja Proper:0 "Rovskemlja Proper" # STATE_164
+ Zagoriya:0 "Zagoriya" # STATE_165
+ Krvnigrad:0 "Krvnigrad" # STATE_166
+ Kashubia:0 "Kashubia" # STATE_167
+ Moslavina:0 "Moslavina" # STATE_168
+ Sira-Svinyacheye:0 "Sira-Svinyacheye" # STATE_169
+ Sulotun:0 "Sulotun" # STATE_17
+ Novoreptsk:0 "Novoreptsk" # STATE_170
+ Virovitica:0 "Virovitica" # STATE_171
+ Dubrava:0 "Dubrava" # STATE_172
+ Osijekia:0 "Osijekia" # STATE_173
+ Sibenik:0 "Sibenik" # STATE_174
+ Amur:0 "Amur" # STATE_175
+ Don:0 "Don" # STATE_176
+ Kuban:0 "Kuban" # STATE_177
+ Semiryechensk:0 "Semiryechensk" # STATE_178
+ Transbaikal:0 "Transbaikal" # STATE_179
+ Clarimonde:0 "Clarimonde" # STATE_18
+ Voskrenovo:0 "Voskrenovo" # STATE_180
+ Zhisensk:0 "Zhisensk" # STATE_181
+ Lucanec:0 "Lucanec" # STATE_182
+ Zamakia:0 "Zamakia" # STATE_183
+ Kosinec:0 "Kosinec" # STATE_184
+ Trnava:0 "Trnava" # STATE_185
+ Presov:0 "Presov" # STATE_186
+ Darbandikhan:0 "Darbandikhan" # STATE_187
+ Naser:0 "Naser" # STATE_188
+ Amedi:0 "Amedi" # STATE_189
+ Beredria:0 "Beredria" # STATE_19
+ Madaristan:0 "Madaristan" # STATE_190
+ Maslahat:0 "Maslahat" # STATE_191
+ Naqadeh:0 "Naqadeh" # STATE_192
+ Tasmachi:0 "Tasmachi" # STATE_193
+ MIH 1:0 "MIH 1" # STATE_194
+ MIH 2:0 "MIH 2" # STATE_195
+ MIH 3:0 "MIH 3" # STATE_196
+ MIH 4:0 "MIH 4" # STATE_197
+ MIH 5:0 "MIH 5" # STATE_198
+ South East Sorani:0 "South East Sorani" # STATE_199
+ Chenghua:0 "Chenghua" # STATE_2
+ Zhimin:0 "Zhimin" # STATE_20
+ South Sorani:0 "South Sorani" # STATE_200
+ North Sorani:0 "North Sorani" # STATE_201
+ South West Chaldean:0 "South West Chaldean" # STATE_202
+ South Chaldean:0 "South Chaldean" # STATE_203
+ North East Chaldean:0 "North East Chaldean" # STATE_204
+ North Chaldean:0 "North Chaldean" # STATE_205
+ Eureka:0 "Eureka" # STATE_206
+ Kitoko:0 "Kitoko" # STATE_207
+ Trans-Traxi:0 "Trans-Traxi" # STATE_208
+ PRO 1:0 "PRO 1" # STATE_209
+ East Zhimin:0 "East Zhimin" # STATE_21
+ PRO 2:0 "PRO 2" # STATE_210
+ PRO 3:0 "PRO 3" # STATE_211
+ East Traxi:0 "East Traxi" # STATE_212
+ PRO 4:0 "PRO 4" # STATE_213
+ West Amomosean Islands:0 "West Amomosean Islands" # STATE_214
+ Aukalnia:0 "Aukalnia" # STATE_215
+ Ruchava:0 "Ruchava" # STATE_216
+ Sartland:0 "Sartland" # STATE_217
+ Taywu:0 "Taywu" # STATE_218
+ Xigong:0 "Xigong" # STATE_219
+ South Yu An:0 "South Yu An" # STATE_22
+ Quang Chau:0 "Quang Chau" # STATE_220
+ Yuefong:0 "Yuefong" # STATE_221
+ Tsih-Pa La:0 "Tsih-Pa La" # STATE_222
+ Tinh Nam Ho:0 "Tinh Nam Ho" # STATE_223
+ Trai Hon:0 "Trai Hon" # STATE_224
+ Siew Puiyi:0 "Siew Puiyi" # STATE_225
+ Lei Hou:0 "Lei Hou" # STATE_226
+ Phung Hai Biet:0 "Phung Hai Biet" # STATE_227
+ Panyu:0 "Panyu" # STATE_228
+ Su Kang:0 "Su Kang" # STATE_229
+ East Yu An:0 "East Yu An" # STATE_23
+ T'chunghai:0 "T'chunghai" # STATE_230
+ Dat Nam:0 "Dat Nam" # STATE_231
+ Gaam Lei :0 "Gaam Lei " # STATE_232
+ Sik Wa:0 "Sik Wa" # STATE_233
+ Tan-fo Han:0 "Tan-fo Han" # STATE_234
+ Moukam:0 "Moukam" # STATE_235
+ Gungbou:0 "Gungbou" # STATE_236
+ Yngse:0 "Yngse" # STATE_237
+ Man Saap:0 "Man Saap" # STATE_238
+ Namkang:0 "Namkang" # STATE_239
+ Yu An:0 "Yu An" # STATE_24
+ Lag-Xai:0 "Lag-Xai" # STATE_240
+ Hydar:0 "Hydar" # STATE_241
+ South Hydar:0 "South Hydar" # STATE_242
+ South East Hydar:0 "South East Hydar" # STATE_243
+ North Hydar:0 "North Hydar" # STATE_244
+ Kryzhelovschina:0 "Kryzhelovschina" # STATE_245
+ Peremorovka:0 "Peremorovka" # STATE_246
+ Pozdnyakovskya:0 "Pozdnyakovskya" # STATE_247
+ Smirnova:0 "Smirnova" # STATE_248
+ Bochinovka:0 "Bochinovka" # STATE_249
+ North Yu An:0 "North Yu An" # STATE_25
+ Irinovskiy:0 "Irinovskiy" # STATE_250
+ Leont'yevskaya:0 "Leont'yevskaya" # STATE_251
+ Kamenka:0 "Kamenka" # STATE_252
+ Kellerovo:0 "Kellerovo" # STATE_253
+ Otrada:0 "Otrada" # STATE_254
+ Roslapeysk:0 "Roslapeysk" # STATE_255
+ Shchyokov:0 "Shchyokov" # STATE_256
+ Buguznogorsk:0 "Buguznogorsk" # STATE_257
+ Khomustatskaya:0 "Khomustatskaya" # STATE_258
+ Irkursk:0 "Irkursk" # STATE_259
+ Linshan:0 "Linshan" # STATE_26
+ Sakha:0 "Sakha" # STATE_260
+ Slovogda:0 "Slovogda" # STATE_261
+ Glikaero:0 "Glikaero" # STATE_262
+ Sevada:0 "Sevada" # STATE_263
+ Fares Atrivo:0 "Fares Atrivo" # STATE_264
+ Fares Làmoso:0 "Fares Làmoso" # STATE_265
+ Faedes:0 "Faedes" # STATE_266
+ Rone:0 "Rone" # STATE_267
+ West Kaesami:0 "West Kaesami" # STATE_268
+ East Kaesami:0 "East Kaesami" # STATE_269
+ Yanhe:0 "Yanhe" # STATE_27
+ Perto:0 "Perto" # STATE_270
+ Tilae Kos:0 "Tilae Kos" # STATE_271
+ Sirenes:0 "Sirenes" # STATE_272
+ Tesares:0 "Tesares" # STATE_273
+ Kertae:0 "Kertae" # STATE_274
+ Limenae:0 "Limenae" # STATE_275
+ Ytrivae:0 "Ytrivae" # STATE_276
+ Ashae:0 "Ashae" # STATE_277
+ Lagora:0 "Lagora" # STATE_278
+ Telero:0 "Telero" # STATE_279
+ East Guangshui:0 "East Guangshui" # STATE_28
+ Martones:0 "Martones" # STATE_280
+ Lonema Oniso:0 "Lonema Oniso" # STATE_281
+ Iles de Baja:0 "Iles de Baja" # STATE_282
+ Umia:0 "Umia" # STATE_283
+ Vange-Leronde:0 "Vange-Leronde" # STATE_284
+ Caravino:0 "Caravino" # STATE_285
+ Meseres:0 "Meseres" # STATE_286
+ Haut-Mesere:0 "Haut-Mesere" # STATE_287
+ Pays de Jean-Renais:0 "Pays de Jean-Renais" # STATE_288
+ Cote de Caira:0 "Cote de Caira" # STATE_289
+ Guangshui:0 "Guangshui" # STATE_29
+ Zesha Kaero:0 "Zesha Kaero" # STATE_290
+ Zesha Tetiso:0 "Zesha Tetiso" # STATE_291
+ Zesha Letano:0 "Zesha Letano" # STATE_292
+ Tilae Erano:0 "Tilae Erano" # STATE_293
+ Ushera:0 "Ushera" # STATE_294
+ Atrivan Isles:0 "Atrivan Isles" # STATE_295
+ Hireno:0 "Hireno" # STATE_296
+ Doraso:0 "Doraso" # STATE_297
+ Brahestad:0 "Brahestad" # STATE_298
+ Hedastad:0 "Hedastad" # STATE_299
+ South Yulin:0 "South Yulin" # STATE_3
+ Nanbin:0 "Nanbin" # STATE_30
+ Kovera:0 "Kovera" # STATE_300
+ Raumo:0 "Raumo" # STATE_301
+ Verina:0 "Verina" # STATE_302
+ Radkrouji:0 "Radkrouji" # STATE_303
+ Seratof:0 "Seratof" # STATE_304
+ Heltia:0 "Heltia" # STATE_305
+ Venima:0 "Venima" # STATE_306
+ Sobruza:0 "Sobruza" # STATE_307
+ BORGO 1:0 "BORGO 1" # STATE_308
+ BORGO 2:0 "BORGO 2" # STATE_309
+ Zhongbin:0 "Zhongbin" # STATE_31
+ BORGO 3:0 "BORGO 3" # STATE_310
+ BORGO 4:0 "BORGO 4" # STATE_311
+ Corinzy:0 "Corinzy" # STATE_312
+ Pera-Ithisy:0 "Pera-Ithisy" # STATE_313
+ Albizy:0 "Albizy" # STATE_314
+ MERCUR 1:0 "MERCUR 1" # STATE_315
+ MERCUR 2:0 "MERCUR 2" # STATE_316
+ Okarina:0 "Okarina" # STATE_317
+ Esterel:0 "Esterel" # STATE_318
+ Werengo:0 "Werengo" # STATE_319
+ Xiabei:0 "Xiabei" # STATE_32
+ Qhapaq:0 "Qhapaq" # STATE_320
+ OMO:0 "OMO" # STATE_321
+ Latun:0 "Latun" # STATE_322
+ Killa:0 "Killa" # STATE_323
+ Zoloto:0 "Zoloto" # STATE_324
+ Cuntur:0 "Cuntur" # STATE_325
+ CCR:0 "CCR" # STATE_326
+ Kakhab:0 "Kakhab" # STATE_327
+ Seksoto:0 "Seksoto" # STATE_328
+ Katareina:0 "Katareina" # STATE_329
+ Anbei:0 "Anbei" # STATE_33
+ Coya-Urpi:0 "Coya-Urpi" # STATE_330
+ Chuk-Akh:0 "Chuk-Akh" # STATE_331
+ PRO 5:0 "PRO 5" # STATE_332
+ Protópoli:0 "Protópoli" # STATE_333
+ PRO 7:0 "PRO 7" # STATE_334
+ BAM 1:0 "BAM 1" # STATE_335
+ BAM 2:0 "BAM 2" # STATE_336
+ BAM 3:0 "BAM 3" # STATE_337
+ BAM 4:0 "BAM 4" # STATE_338
+ BAM 5:0 "BAM 5" # STATE_339
+ Beihai:0 "Beihai" # STATE_34
+ BAM 6:0 "BAM 6" # STATE_340
+ BAM 7:0 "BAM 7" # STATE_341
+ BAM 8:0 "BAM 8" # STATE_342
+ BAM 9:0 "BAM 9" # STATE_343
+ Alvastadt:0 "Alvastadt" # STATE_344
+ Victoria:0 "Victoria" # STATE_345
+ East Bank:0 "East Bank" # STATE_346
+ West Bank:0 "West Bank" # STATE_347
+ New Altmark:0 "New Altmark" # STATE_348
+ New Propyrgia:0 "New Propyrgia" # STATE_348
+ New Helinika:0 "New Helinika" # STATE_349
+ New Thalassia:0 "New Thalassia" # STATE_349
+ West Changbei:0 "West Changbei" # STATE_35
+ Alexandria:0 "Alexandria" # STATE_350
+ Dara-Suwaydif:0 "Dara-Suwaydif" # STATE_351
+ Hassakib:0 "Hassakib" # STATE_352
+ Qamishli:0 "Qamishli" # STATE_353
+ Oztov:0 "Oztov" # STATE_354
+ Bohdn:0 "Bohdn" # STATE_355
+ Virimez:0 "Virimez" # STATE_356
+ Popek:0 "Popek" # STATE_357
+ Nambrosi:0 "Nambrosi" # STATE_358
+ Saint Tomas:0 "Saint Tomas" # STATE_359
+ East Changbei:0 "East Changbei" # STATE_36
+ Biratov:0 "Biratov" # STATE_360
+ Gotka:0 "Gotka" # STATE_361
+ Nagusia:0 "Nagusia" # STATE_362
+ Western Alrayisiun:0 "Western Alrayisiun" # STATE_363
+ Eastern Alrayisiun:0 "Eastern Alrayisiun" # STATE_364
+ Barhan:0 "Barhan" # STATE_365
+ Zuloaga:0 "Zuloaga" # STATE_366
+ Tregonda:0 "Tregonda" # STATE_367
+ Koroasa:0 "Koroasa" # STATE_368
+ Mendieta:0 "Mendieta" # STATE_369
+ Xuemai:0 "Xuemai" # STATE_37
+ Abandia:0 "Abandia" # STATE_370
+ Ibaretta:0 "Ibaretta" # STATE_371
+ Luzarra:0 "Luzarra" # STATE_372
+ Bograna:0 "Bograna" # STATE_373
+ Santa Helena:0 "Santa Helena" # STATE_374
+ Ilhas:0 "Ilhas" # STATE_375
+ Santo Andre:0 "Santo Andre" # STATE_376
+ Svenskt:0 "Svenskt" # STATE_377
+ North Qurac:0 "North Qurac" # STATE_378
+ South Qurac:0 "South Qurac" # STATE_379
+ Beifu:0 "Beifu" # STATE_38
+ Condeixa-a-Nova:0 "Condeixa-a-Nova" # STATE_380
+ Povoa de Lanhoso:0 "Povoa de Lanhoso" # STATE_381
+ Serta:0 "Serta" # STATE_382
+ Pacos de Brandao:0 "Pacos de Brandao" # STATE_383
+ Tabua:0 "Tabua" # STATE_384
+ Takrouna:0 "Takrouna" # STATE_385
+ Castelo de Paiva:0 "Castelo de Paiva" # STATE_386
+ Zesha del Norte:0 "Zesha del Norte" # STATE_387
+ Los Recuerdos:0 "Los Recuerdos" # STATE_388
+ Bendición:0 "Bendición" # STATE_389
+ North Guangshen:0 "North Guangshen" # STATE_39
+ Despejado:0 "Despejado" # STATE_390
+ El Regalo:0 "El Regalo" # STATE_391
+ Valle del Mesera:0 "Valle del Mesera" # STATE_392
+ Roca de Pretzel:0 "Roca de Pretzel" # STATE_393
+ Makisona:0 "Makisona" # STATE_394
+ Murdon:0 "Murdon" # STATE_395
+ Azure:0 "Azure" # STATE_396
+ Serianne:0 "Serianne" # STATE_397
+ Roix:0 "Roix" # STATE_398
+ Atinia:0 "Atinia" # STATE_399
+ North Yulin:0 "North Yulin" # STATE_4
+ Guangshen:0 "Guangshen" # STATE_40
+ Johannia:0 "Johannia" # STATE_400
+ New Tiperyn:0 "New Tiperyn" # STATE_401
+ Greybeach:0 "Greybeach" # STATE_402
+ La Reproche:0 "La Reproche" # STATE_403
+ Teigne:0 "Teigne" # STATE_404
+ Skelelikosulasikra:0 "Skelelikosulasikra" # STATE_405
+ Felale:0 "Felale" # STATE_406
+ Nafale:0 "Nafale" # STATE_407
+ Vef Vese:0 "Vef Vese" # STATE_408
+ Sumoludane:0 "Sumoludane" # STATE_409
+ South Guangshen:0 "South Guangshen" # STATE_41
+ Mulal:0 "Mulal" # STATE_410
+ Paziskuseke:0 "Paziskuseke" # STATE_411
+ Sumoludanesiskusek:0 "Sumoludanesiskusek" # STATE_412
+ Siliwaskak:0 "Siliwaskak" # STATE_413
+ Fulmen:0 "Fulmen" # STATE_414
+ Macrima:0 "Macrima" # STATE_415
+ Cipertine:0 "Cipertine" # STATE_416
+ Lirona:0 "Lirona" # STATE_417
+ Caecus:0 "Caecus" # STATE_418
+ Lychnus:0 "Lychnus" # STATE_419
+ East Guanggu:0 "East Guanggu" # STATE_42
+ Acer:0 "Acer" # STATE_420
+ Caesames:0 "Caesames" # STATE_421
+ Kaesami Oriental:0 "Kaesami Oriental" # STATE_422
+ Ondatiere:0 "Ondatiere" # STATE_423
+ Pays de Laronne:0 "Pays de Laronne" # STATE_424
+ Lumières:0 "Lumières" # STATE_425
+ Lamere:0 "Lamere" # STATE_426
+ Ferrange:0 "Ferrange" # STATE_427
+ Lacrône:0 "Lacrône" # STATE_428
+ Dzinaravi:0 "Dzinaravi" # STATE_429
+ Guanggu:0 "Guanggu" # STATE_43
+ Dzinakade:0 "Dzinakade" # STATE_430
+ Naku'andali:0 "Naku'andali" # STATE_431
+ Badzeva:0 "Badzeva" # STATE_432
+ Kabevabaki:0 "Kabevabaki" # STATE_433
+ Zukiyalishi:0 "Zukiyalishi" # STATE_434
+ Filanadumi:0 "Filanadumi" # STATE_435
+ Gexie:0 "Gexie" # STATE_436
+ Watamori:0 "Watamori" # STATE_437
+ Shakan:0 "Shakan" # STATE_438
+ Bakayata:0 "Bakayata" # STATE_439
+ South Guanggu:0 "South Guanggu" # STATE_44
+ Xinji:0 "Xinji" # STATE_440
+ Fuijan:0 "Fuijan" # STATE_441
+ Schangau:0 "Schangau" # STATE_442
+ Neu-Austrasien:0 "Neu-Austrasien" # STATE_443
+ Celayeta:0 "Celayeta" # STATE_444
+ Sorland:0 "Sorland" # STATE_445
+ West Iere:0 "West Iere" # STATE_446
+ East Iere:0 "East Iere" # STATE_447
+ Lejosia:0 "Lejosia" # STATE_448
+ Kyabar Superior:0 "Kyabar Superior" # STATE_449
+ Xibei:0 "Xibei" # STATE_45
+ Central Kyabar:0 "Central Kyabar" # STATE_450
+ Kyabar Inferior:0 "Kyabar Inferior" # STATE_451
+ Abatuba:0 "Abatuba" # STATE_452
+ Bangui:0 "Bangui" # STATE_453
+ Paraté:0 "Paraté" # STATE_454
+ Serra Verde:0 "Serra Verde" # STATE_455
+ Diamantina:0 "Diamantina" # STATE_456
+ Itauá:0 "Itauá" # STATE_457
+ Pioca:0 "Pioca" # STATE_458
+ Maracaí:0 "Maracaí" # STATE_459
+ Hongfu:0 "Hongfu" # STATE_46
+ São Pedro:0 "São Pedro" # STATE_460
+ North Maracaí:0 "North Maracaí" # STATE_461
+ Morucá:0 "Morucá" # STATE_462
+ Ibirapiranga:0 "Ibirapiranga" # STATE_463
+ Trindade:0 "Trindade" # STATE_464
+ São Fransisco:0 "São Fransisco" # STATE_465
+ Santa Helena:0 "Santa Helena" # STATE_466
+ Santerre:0 "Santerre" # STATE_467
+ Batista:0 "Batista" # STATE_468
+ Montité:0 "Montité" # STATE_469
+ North Yueshan:0 "North Yueshan" # STATE_47
+ Catão:0 "Catão" # STATE_470
+ Borealis:0 "Borealis" # STATE_471
+ Occidentus:0 "Occidentus" # STATE_472
+ Mesis:0 "Mesis" # STATE_473
+ Subsolanus:0 "Subsolanus" # STATE_474
+ Zapadis:0 "Zapadis" # STATE_475
+ Axaria:0 "Axaria" # STATE_476
+ Ulterior:0 "Ulterior" # STATE_477
+ Raetium:0 "Raetium" # STATE_478
+ Tumultum:0 "Tumultum" # STATE_479
+ West Yueshan:0 "West Yueshan" # STATE_48
+ Feraxis:0 "Feraxis" # STATE_480
+ Pelagis:0 "Pelagis" # STATE_481
+ Austellum:0 "Austellum" # STATE_482
+ Exoticis:0 "Exoticis" # STATE_483
+ Arcanium:0 "Arcanium" # STATE_484
+ Sakchu:0 "Sakchu" # STATE_485
+ Hanju:0 "Hanju" # STATE_486
+ Kyeongsang:0 "Kyeongsang" # STATE_487
+ Cheolla:0 "Cheolla" # STATE_488
+ Sanuido:0 "Sanuido" # STATE_489
+ Yueshan:0 "Yueshan" # STATE_49
+ Silla:0 "Silla" # STATE_490
+ Kaya:0 "Kaya" # STATE_491
+ Janq'u Q'awa:0 "Janq'u Q'awa" # STATE_492
+ Ikjara:0 "Ikjara" # STATE_493
+ Royal Enclosure:0 "Royal Enclosure" # STATE_494
+ West Phinq'a:0 "West Phinq'a" # STATE_495
+ South Phinq'a:0 "South Phinq'a" # STATE_496
+ Ataniña:0 "Ataniña" # STATE_497
+ JAlsu:0 "JAlsu" # STATE_498
+ Lamara Suvu:0 "Lamara Suvu" # STATE_499
+ South Liujiang:0 "South Liujiang" # STATE_5
+ Shizhou:0 "Shizhou" # STATE_50
+ Hidquechua:0 "Hidquechua" # STATE_500
+ Port Hope:0 "Port Hope" # STATE_501
+ Suyu:0 "Suyu" # STATE_502
+ Teqi Lamara:0 "Teqi Lamara" # STATE_503
+ Jinhang:0 "Jinhang" # STATE_504
+ Sinaya:0 "Sinaya" # STATE_505
+ Arum:0 "Arum" # STATE_506
+ Pukara:0 "Pukara" # STATE_507
+ Hosuman:0 "Hosuman" # STATE_508
+ Floresta de Deus:0 "Floresta de Deus" # STATE_509
+ West Tianlin:0 "West Tianlin" # STATE_51
+ Reverencia:0 "Reverencia" # STATE_510
+ Sabiduría:0 "Sabiduría" # STATE_511
+ Ileno:0 "Ileno" # STATE_512
+ Disfrute:0 "Disfrute" # STATE_513
+ Novo Santa Helena:0 "Novo Santa Helena" # STATE_514
+ Nangkaji Islands:0 "Nangkaji Islands" # STATE_515
+ Isles Saint Croix:0 "Isles Saint Croix" # STATE_516
+ Princerly Isles:0 "Princerly Isles" # STATE_517
+ Turtle Isles:0 "Turtle Isles" # STATE_518
+ Dove Isles:0 "Dove Isles" # STATE_519
+ Tianlin:0 "Tianlin" # STATE_52
+ Arkady Island:0 "Arkady Island" # STATE_520
+ North Komishima Islands:0 "North Komishima Islands" # STATE_521
+ South Komishima Islands:0 "South Komishima Islands" # STATE_522
+ Komishima Main Island:0 "Komishima Main Island" # STATE_523
+ Shimakawa:0 "Shimakawa" # STATE_524
+ Yuhai Islands:0 "Yuhai Islands" # STATE_525
+ Diwin Isles:0 "Diwin Isles" # STATE_526
+ Microisles:0 "Microisles" # STATE_527
+ Lonely Isles:0 "Lonely Isles" # STATE_528
+ Ervilo Vorbeia Islands:0 "Ervilo Vorbeia Islands" # STATE_529
+ West Dachuan:0 "West Dachuan" # STATE_53
+ Hamburger Islands:0 "Hamburger Islands" # STATE_530
+ State Isles:0 "State Isles" # STATE_531
+ Yslanryk:0 "Yslanryk" # STATE_532
+ Deadmans Isles:0 "Deadmans Isles" # STATE_533
+ Oyashima:0 "Oyashima" # STATE_534
+ Kihei Islands:0 "Kihei Islands" # STATE_535
+ Hinojima:0 "Hinojima" # STATE_536
+ Among Uslands:0 "Among Uslands" # STATE_537
+ Tylakolia:0 "Tylakolia" # STATE_538
+ Yavin:0 "Yavin" # STATE_539
+ Dachuan:0 "Dachuan" # STATE_54
+ Bolukkia:0 "Bolukkia" # STATE_540
+ Vidarala:0 "Vidarala" # STATE_541
+ Szattara:0 "Szattara" # STATE_542
+ Rendozeshah:0 "Rendozeshah" # STATE_543
+ Ramay:0 "Ramay" # STATE_544
+ Ramay Islands:0 "Ramay Islands" # STATE_545
+ Urban Zone 10:0 "Urban Zone 10" # STATE_546
+ Urban Zone 9:0 "Urban Zone 9" # STATE_547
+ Urban Zone 8:0 "Urban Zone 8" # STATE_548
+ Urban Zone 7:0 "Urban Zone 7" # STATE_549
+ South Dazhong:0 "South Dazhong" # STATE_55
+ Urban Zone 6:0 "Urban Zone 6" # STATE_550
+ Urban Zone 5:0 "Urban Zone 5" # STATE_551
+ Urban Zone 4:0 "Urban Zone 4" # STATE_552
+ Urban Zone 3:0 "Urban Zone 3" # STATE_553
+ Urban Zone 2:0 "Urban Zone 2" # STATE_554
+ Urban Zone 1:0 "Urban Zone 1" # STATE_555
+ xxx_1:0 "xxx_1" # STATE_556
+ xxx_2:0 "xxx_2" # STATE_557
+ xxx_3:0 "xxx_3" # STATE_558
+ xxx_4:0 "xxx_4" # STATE_559
+ North Dazhong:0 "North Dazhong" # STATE_56
+ xxx_5:0 "xxx_5" # STATE_560
+ xxx_6:0 "xxx_6" # STATE_561
+ SAT_1:0 "SAT_1" # STATE_562
+ SAT_2:0 "SAT_2" # STATE_563
+ SAT_3:0 "SAT_3" # STATE_564
+ SAT_4:0 "SAT_4" # STATE_565
+ SAT_5:0 "SAT_5" # STATE_566
+ SAT_6:0 "SAT_6" # STATE_567
+ SAT_7:0 "SAT_7" # STATE_568
+ SAT_8:0 "SAT_8" # STATE_569
+ Dazhong:0 "Dazhong" # STATE_57
+ SAT_9:0 "SAT_9" # STATE_570
+ SAT_10:0 "SAT_10" # STATE_571
+ SAT_11:0 "SAT_11" # STATE_572
+ SAT_12:0 "SAT_12" # STATE_573
+ ALS_1:0 "ALS_1" # STATE_574
+ ALS_2:0 "ALS_2" # STATE_575
+ ALS_3:0 "ALS_3" # STATE_576
+ ALS_4:0 "ALS_4" # STATE_577
+ ALS_5:0 "ALS_5" # STATE_578
+ ALS_6:0 "ALS_6" # STATE_579
+ Bonamech:0 "Bonamech" # STATE_58
+ ALS_7:0 "ALS_7" # STATE_580
+ ALS_8:0 "ALS_8" # STATE_581
+ ALS_9:0 "ALS_9" # STATE_582
+ ALS_10:0 "ALS_10" # STATE_583
+ ALS_11:0 "ALS_11" # STATE_584
+ PAS_1:0 "PAS_1" # STATE_585
+ PAS_2:0 "PAS_2" # STATE_586
+ PAS_3:0 "PAS_3" # STATE_587
+ PAS_4:0 "PAS_4" # STATE_588
+ PAS_5:0 "PAS_5" # STATE_589
+ Nai:0 "Nai" # STATE_59
+ PAS_6:0 "PAS_6" # STATE_590
+ PAS_7:0 "PAS_7" # STATE_591
+ PAS_8:0 "PAS_8" # STATE_592
+ PAS_9:0 "PAS_9" # STATE_593
+ PAS_10:0 "PAS_10" # STATE_594
+ PAS_11:0 "PAS_11" # STATE_595
+ PAS_12:0 "PAS_12" # STATE_596
+ Someisae Island:0 "Someisae Island" # STATE_597
+ Last Hope:0 "Last Hope" # STATE_598
+ Sparrow Islands:0 "Sparrow Islands" # STATE_599
+ North Liujiang:0 "North Liujiang" # STATE_6
+ Lower Traxi:0 "Lower Traxi" # STATE_60
+ Barrier Islands:0 "Barrier Islands" # STATE_600
+ Ducal Islands:0 "Ducal Islands" # STATE_601
+ Dave's Islands:0 "Dave's Islands" # STATE_602
+ Rock Islands:0 "Rock Islands" # STATE_603
+ Ivrian Islands:0 "Ivrian Islands" # STATE_604
+ Upwind Islands:0 "Upwind Islands" # STATE_605
+ Downwind Islands:0 "Downwind Islands" # STATE_606
+ Homebound Islands:0 "Homebound Islands" # STATE_607
+ Ionian Islands:0 "Ionian Islands" # STATE_608
+ Tannayerum:0 "Tannayerum" # STATE_609
+ Stymphos:0 "Stymphos" # STATE_61
+ AFT 1:0 "AFT 1" # STATE_610
+ AFT 2:0 "AFT 2" # STATE_611
+ AFT 3:0 "AFT 3" # STATE_612
+ AFT 4:0 "AFT 4" # STATE_613
+ AFT 5:0 "AFT 5" # STATE_614
+ AFT 6:0 "AFT 6" # STATE_615
+ AFT 7:0 "AFT 7" # STATE_616
+ AFT 8:0 "AFT 8" # STATE_617
+ AFT 9:0 "AFT 9" # STATE_618
+ AFT 10:0 "AFT 10" # STATE_619
+ Aragon:0 "Aragon" # STATE_62
+ AFT 11:0 "AFT 11" # STATE_620
+ AFT 12:0 "AFT 12" # STATE_621
+ AFT 13:0 "AFT 13" # STATE_622
+ AFT 14:0 "AFT 14" # STATE_623
+ AFT 15:0 "AFT 15" # STATE_624
+ Maugorod Islands:0 "Maugorod Islands" # STATE_625
+ Reef Islands:0 "Reef Islands" # STATE_626
+ Snake Islands:0 "Snake Islands" # STATE_627
+ Christmas Isles:0 "Christmas Isles" # STATE_628
+ Moon Isles:0 "Moon Isles" # STATE_629
+ Rangae:0 "Rangae" # STATE_63
+ Gray Island:0 "Gray Island" # STATE_630
+ Outer Martones:0 "Outer Martones" # STATE_631
+ Ivoli Islands:0 "Ivoli Islands" # STATE_632
+ Free Rock:0 "Free Rock" # STATE_633
+ Farnsworth and Azul:0 "Farnsworth and Azul" # STATE_634
+ Curtis Islands:0 "Curtis Islands" # STATE_635
+ Hesperilla:0 "Hesperilla" # STATE_636
+ Taorongi:0 "Taorongi" # STATE_637
+ Northern Band Islands:0 "Northern Band Islands" # STATE_638
+ Tiny Bear Islands:0 "Tiny Bear Islands" # STATE_639
+ Calinae:0 "Calinae" # STATE_64
+ Westcook Island:0 "Westcook Island" # STATE_640
+ Richmond Islands:0 "Richmond Islands" # STATE_641
+ Grisham Islands:0 "Grisham Islands" # STATE_642
+ TST_1:0 "TST_1" # STATE_643
+ TST_2:0 "TST_2" # STATE_644
+ TST_3:0 "TST_3" # STATE_645
+ TST_4:0 "TST_4" # STATE_646
+ TST_5:0 "TST_5" # STATE_647
+ TST_6:0 "TST_6" # STATE_648
+ TST_7:0 "TST_7" # STATE_649
+ Timiphos:0 "Timiphos" # STATE_65
+ TST_8:0 "TST_8" # STATE_650
+ TST_9:0 "TST_9" # STATE_651
+ VEL_1:0 "VEL_1" # STATE_652
+ Vasconcelos:0 "Vasconcelos" # STATE_653
+ Vasconcelos Tail:0 "Vasconcelos Tail" # STATE_654
+ Banyuasin:0 "Banyuasin" # STATE_655
+ Banyuanayar:0 "Banyuanayar" # STATE_656
+ Glatri:0 "Glatri" # STATE_657
+ Tenjambe:0 "Tenjambe" # STATE_658
+ Bauksia:0 "Bauksia" # STATE_659
+ Spatha:0 "Spatha" # STATE_66
+ Awandina:0 "Awandina" # STATE_660
+ Pesisir Selatan:0 "Pesisir Selatan" # STATE_661
+ Pantai Barat:0 "Pantai Barat" # STATE_662
+ Gurun Jaya:0 "Gurun Jaya" # STATE_663
+ VYA_1:0 "VYA_1" # STATE_664
+ VYA_2:0 "VYA_2" # STATE_665
+ VYA_3:0 "VYA_3" # STATE_666
+ VYA_4:0 "VYA_4" # STATE_667
+ VYA_5:0 "VYA_5" # STATE_668
+ VYA_6:0 "VYA_6" # STATE_669
+ Meridos:0 "Meridos" # STATE_67
+ VYA_7:0 "VYA_7" # STATE_670
+ VYA_8:0 "VYA_8" # STATE_671
+ VYA_9:0 "VYA_9" # STATE_672
+ UMA_1:0 "UMA_1" # STATE_673
+ UMA_2:0 "UMA_2" # STATE_674
+ UMA_3:0 "UMA_3" # STATE_675
+ UMA_4:0 "UMA_4" # STATE_676
+ UMA_5:0 "UMA_5" # STATE_677
+ UMA_6:0 "UMA_6" # STATE_678
+ UMA_7:0 "UMA_7" # STATE_679
+ Dorna:0 "Dorna" # STATE_68
+ UMA_8:0 "UMA_8" # STATE_680
+ UMA_9:0 "UMA_9" # STATE_681
+ RAN_1:0 "RAN_1" # STATE_682
+ RAN_2:0 "RAN_2" # STATE_683
+ RAN_3:0 "RAN_3" # STATE_684
+ RAN_4:0 "RAN_4" # STATE_685
+ RAN_5:0 "RAN_5" # STATE_686
+ RAN_6:0 "RAN_6" # STATE_687
+ RAN_7:0 "RAN_7" # STATE_688
+ RAN_8:0 "RAN_8" # STATE_689
+ Voifros:0 "Voifros" # STATE_69
+ RAN_9:0 "RAN_9" # STATE_690
+ RAN_10:0 "RAN_10" # STATE_691
+ RAN_11:0 "RAN_11" # STATE_692
+ RAN_12:0 "RAN_12" # STATE_693
+ ALE_1:0 "ALE_1" # STATE_694
+ ALE_2:0 "ALE_2" # STATE_695
+ ALE_3:0 "ALE_3" # STATE_696
+ ALE_4:0 "ALE_4" # STATE_697
+ ALE_5:0 "ALE_5" # STATE_698
+ ALE_6:0 "ALE_6" # STATE_699
+ South Tianzhou:0 "South Tianzhou" # STATE_7
+ South Rovsklemja:0 "South Rovsklemja" # STATE_70
+ KOD_1:0 "KOD_1" # STATE_700
+ SEL_19:0 "SEL_19" # STATE_701
+ KOD_3:0 "KOD_3" # STATE_702
+ SEL_16:0 "SEL_16" # STATE_703
+ KOD_5:0 "KOD_5" # STATE_704
+ SEL_17:0 "SEL_17" # STATE_705
+ SEL_18:0 "SEL_18" # STATE_706
+ SEL_1:0 "SEL_1" # STATE_707
+ SEL_2:0 "SEL_2" # STATE_708
+ SEL_3:0 "SEL_3" # STATE_709
+ Phoinikas Coast:0 "Phoinikas Coast" # STATE_71
+ SEL_4:0 "SEL_4" # STATE_710
+ SEL_5:0 "SEL_5" # STATE_711
+ SEL_6:0 "SEL_6" # STATE_712
+ SEL_7:0 "SEL_7" # STATE_713
+ SEL_8:0 "SEL_8" # STATE_714
+ SEL_9:0 "SEL_9" # STATE_715
+ SEL_10:0 "SEL_10" # STATE_716
+ SEL_11:0 "SEL_11" # STATE_717
+ SEL_12:0 "SEL_12" # STATE_718
+ SEL_13:0 "SEL_13" # STATE_719
+ Lusjki:0 "Lusjki" # STATE_72
+ SEL_14:0 "SEL_14" # STATE_720
+ SEL_15:0 "SEL_15" # STATE_721
+ GAR_1:0 "GAR_1" # STATE_722
+ GAR_2:0 "GAR_2" # STATE_723
+ GAR_3:0 "GAR_3" # STATE_724
+ GAR_4:0 "GAR_4" # STATE_725
+ GAR_5:0 "GAR_5" # STATE_726
+ Thuyiquakliq:0 "Thuyiquakliq" # STATE_727
+ Sterndal:0 "Sterndal" # STATE_728
+ Midsvelt:0 "Midsvelt" # STATE_729
+ Rezno Valley:0 "Rezno Valley" # STATE_73
+ Sondervelt:0 "Sondervelt" # STATE_730
+ Verquinte:0 "Verquinte" # STATE_731
+ Lanzi:0 "Lanzi" # STATE_732
+ East Mespalia:0 "East Mespalia" # STATE_733
+ Nordland:0 "Nordland" # STATE_734
+ Kongensheim:0 "Kongensheim" # STATE_735
+ Larvik:0 "Larvik" # STATE_736
+ Heroy:0 "Heroy" # STATE_737
+ Pohjoinen Maa:0 "Pohjoinen Maa" # STATE_738
+ EMB_2:0 "EMB_2" # STATE_739
+ Pekadolina:0 "Pekadolina" # STATE_74
+ EMB_3:0 "EMB_3" # STATE_740
+ EMB_4:0 "EMB_4" # STATE_741
+ EMB_5:0 "EMB_5" # STATE_742
+ MOD_1:0 "MOD_1" # STATE_743
+ MOD_2:0 "MOD_2" # STATE_744
+ MOD_3:0 "MOD_3" # STATE_745
+ MOD_4:0 "MOD_4" # STATE_746
+ MOD_5:0 "MOD_5" # STATE_747
+ MOD_6:0 "MOD_6" # STATE_748
+ MOD_7:0 "MOD_7" # STATE_749
+ Belapecina:0 "Belapecina" # STATE_75
+ MOD_8:0 "MOD_8" # STATE_750
+ MOD_9:0 "MOD_9" # STATE_751
+ AIR_1:0 "AIR_1" # STATE_752
+ AIR_2:0 "AIR_2" # STATE_753
+ East Artemian Desert:0 "East Artemian Desert" # STATE_754
+ TST_10:0 "TST_10" # STATE_755
+ TST_11:0 "TST_11" # STATE_756
+ TST_12:0 "TST_12" # STATE_757
+ TST_13:0 "TST_13" # STATE_758
+ TST_14:0 "TST_14" # STATE_759
+ Falna Valley:0 "Falna Valley" # STATE_76
+ TST_15:0 "TST_15" # STATE_760
+ TST_16:0 "TST_16" # STATE_761
+ TST_17:0 "TST_17" # STATE_762
+ TST_18:0 "TST_18" # STATE_763
+ TST_19:0 "TST_19" # STATE_764
+ AYG_1:0 "AYG_1" # STATE_765
+ AYG_2:0 "AYG_2" # STATE_766
+ AYG_3:0 "AYG_3" # STATE_767
+ AYG_4:0 "AYG_4" # STATE_768
+ AYG_5:0 "AYG_5" # STATE_769
+ Antarrner:0 "Antarrner" # STATE_77
+ AYG_6:0 "AYG_6" # STATE_770
+ TEU_1:0 "TEU_1" # STATE_771
+ TEU_2:0 "TEU_2" # STATE_772
+ TEU_3:0 "TEU_3" # STATE_773
+ TEU_4:0 "TEU_4" # STATE_774
+ TEU_5:0 "TEU_5" # STATE_775
+ TEU_6:0 "TEU_6" # STATE_776
+ TEU_7:0 "TEU_7" # STATE_777
+ VAL_1:0 "VAL_1" # STATE_778
+ VAL_2:0 "VAL_2" # STATE_779
+ Qora Jarliklar:0 "Qora Jarliklar" # STATE_78
+ VAL_3:0 "VAL_3" # STATE_780
+ VAL_4:0 "VAL_4" # STATE_781
+ VAL_5:0 "VAL_5" # STATE_782
+ VAL_6:0 "VAL_6" # STATE_783
+ VAL_7:0 "VAL_7" # STATE_784
+ LEG_1:0 "LEG_1" # STATE_785
+ LEG_2:0 "LEG_2" # STATE_786
+ LEG_3:0 "LEG_3" # STATE_787
+ LEG_4:0 "LEG_4" # STATE_788
+ LEG_5:0 "LEG_5" # STATE_789
+ Adjinua :0 "Adjinua " # STATE_79
+ LEG_6:0 "LEG_6" # STATE_790
+ LEG_7:0 "LEG_7" # STATE_791
+ LEG_8:0 "LEG_8" # STATE_792
+ AUS_1:0 "AUS_1" # STATE_793
+ AUS_2:0 "AUS_2" # STATE_794
+ AUS_3:0 "AUS_3" # STATE_795
+ AUS_4:0 "AUS_4" # STATE_796
+ AUS_5:0 "AUS_5" # STATE_797
+ AUS_6:0 "AUS_6" # STATE_798
+ AUS_7:0 "AUS_7" # STATE_799
+ North Tianzhou:0 "North Tianzhou" # STATE_8
+ Heraq:0 "Heraq" # STATE_80
+ TST_20:0 "TST_20" # STATE_800
+ TST_21:0 "TST_21" # STATE_801
+ TST_22:0 "TST_22" # STATE_802
+ TST_23:0 "TST_23" # STATE_803
+ TST_24:0 "TST_24" # STATE_804
+ TST_25:0 "TST_25" # STATE_805
+ TST_26:0 "TST_26" # STATE_806
+ TST_27:0 "TST_27" # STATE_807
+ TST_28:0 "TST_28" # STATE_808
+ TST_29:0 "TST_29" # STATE_809
+ Dosnima:0 "Dosnima" # STATE_81
+ TST_30:0 "TST_30" # STATE_810
+ TST_31:0 "TST_31" # STATE_811
+ TST_32:0 "TST_32" # STATE_812
+ TST_33:0 "TST_33" # STATE_813
+ TST_34:0 "TST_34" # STATE_814
+ TST_35:0 "TST_35" # STATE_815
+ TST_36:0 "TST_36" # STATE_816
+ OST_1:0 "OST_1" # STATE_817
+ OST_2:0 "OST_2" # STATE_818
+ OST_3:0 "OST_3" # STATE_819
+ Thyrios:0 "Thyrios" # STATE_82
+ OST_4:0 "OST_4" # STATE_820
+ OST_5:0 "OST_5" # STATE_821
+ OST_6:0 "OST_6" # STATE_822
+ Forgotten Islands:0 "Forgotten Islands" # STATE_823
+ Stylyflysa:0 "Stylyflysa" # STATE_824
+ VEL_4:0 "VEL_4" # STATE_825
+ VEL_3:0 "VEL_3" # STATE_826
+ VEL_2:0 "VEL_2" # STATE_827
+ ARB_1:0 "ARB_1" # STATE_828
+ ARB_2:0 "ARB_2" # STATE_829
+ Zbenoria:0 "Zbenoria" # STATE_83
+ ARB_3:0 "ARB_3" # STATE_830
+ ARG_1:0 "ARG_1" # STATE_831
+ ARG_2:0 "ARG_2" # STATE_832
+ ARG_3:0 "ARG_3" # STATE_833
+ ARG_4:0 "ARG_4" # STATE_834
+ TST_40:0 "TST_40" # STATE_835
+ TST_41:0 "TST_41" # STATE_836
+ TST_42:0 "TST_42" # STATE_837
+ TST_43:0 "TST_43" # STATE_838
+ TST_44:0 "TST_44" # STATE_839
+ Chernarus:0 "Chernarus" # STATE_84
+ TST_45:0 "AAAAAAAAAAAAAAH" # STATE_840
+ TST_46:0 "ARS" # STATE_841
+ TST_47:0 "TST_47" # STATE_842
+ Nyland:0 "Nyland" # STATE_843
+ BRIG_1:0 "BRIG_1" # STATE_844
+ BRIG_2:0 "BRIG_2" # STATE_845
+ BRIG_3:0 "BRIG_3" # STATE_846
+ BRIG_4:0 "BRIG_4" # STATE_847
+ BRIG_5:0 "BRIG_5" # STATE_848
+ BRIG_6:0 "BRIG_6" # STATE_849
+ Liaria:0 "Liaria" # STATE_85
+ BRIG_7:0 "BRIG_7" # STATE_850
+ BRIG_8:0 "BRIG_8" # STATE_851
+ BRIG_9:0 "BRIG_9" # STATE_852
+ BRIG_10:0 "BRIG_10" # STATE_853
+ BRIG_11:0 "BRIG_11" # STATE_854
+ BRIG_12:0 "BRIG_12" # STATE_855
+ BRIG_13:0 "BRIG_13" # STATE_856
+ BRIG_14:0 "BRIG_14" # STATE_857
+ ALB_1:0 "ALB_1" # STATE_858
+ ALB_2:0 "ALB_2" # STATE_859
+ Aghmosavletit:0 "Aghmosavletit" # STATE_86
+ ALB_3:0 "ALB_3" # STATE_860
+ ALB_4:0 "ALB_4" # STATE_861
+ ALB_5:0 "ALB_5" # STATE_862
+ ALB_6:0 "ALB_6" # STATE_863
+ ALB_7:0 "ALB_7" # STATE_864
+ ALB_8:0 "ALB_8" # STATE_865
+ ALB_9:0 "ALB_9" # STATE_866
+ ALB_10:0 "ALB_10" # STATE_867
+ ALB_11:0 "ALB_11" # STATE_868
+ ALB_12:0 "ALB_12" # STATE_869
+ Gadasasvleli:0 "Gadasasvleli" # STATE_87
+ ALB_13:0 "ALB_13" # STATE_870
+ TST_60:0 "TST_60" # STATE_871
+ TST_61:0 "TST_61" # STATE_872
+ TST_62:0 "TST_62" # STATE_873
+ TST_63:0 "TST_63" # STATE_874
+ TST_64:0 "TST_64" # STATE_875
+ TST_65:0 "TST_65" # STATE_876
+ TST_66:0 "TST_66" # STATE_877
+ TST_67:0 "TST_67" # STATE_878
+ TST_68:0 "TST_68" # STATE_879
+ Sa'iroebi:0 "Sa'iroebi" # STATE_88
+ TST_69:0 "TST_69" # STATE_880
+ TST_70:0 "TST_70" # STATE_881
+ TST_71:0 "TST_71" # STATE_882
+ TST_72:0 "TST_72" # STATE_883
+ TST_73:0 "TST_73" # STATE_884
+ TST_74:0 "TST_74" # STATE_885
+ TST_75:0 "TST_75" # STATE_886
+ TST_76:0 "TST_76" # STATE_887
+ TST_77:0 "TST_77" # STATE_888
+ TST_78:0 "TST_78" # STATE_889
+ Maghalmtianebi:0 "Maghalmtianebi" # STATE_89
+ TST_79:0 "TST_79" # STATE_890
+ TST_80:0 "TST_80" # STATE_891
+ TST_81:0 "TST_81" # STATE_892
+ TST_82:0 "TST_82" # STATE_893
+ TST_83:0 "TST_83" # STATE_894
+ TST_84:0 "TST_84" # STATE_895
+ TST_85:0 "TST_85" # STATE_896
+ TST_86:0 "TST_86" # STATE_897
+ TST_87:0 "TST_87" # STATE_898
+ TST_88:0 "TST_88" # STATE_899
+ Wuwei:0 "Wuwei" # STATE_9
+ Coastal Samotkhe:0 "Coastal Samotkhe" # STATE_90
+ TST_89:0 "TST_89" # STATE_900
+ TST_90:0 "TST_90" # STATE_901
+ New Idlerein:0 "New Idlerein" # STATE_902
+ Anskos:0 "Anskos" # STATE_903
+ Oersegen:0 "Oersegen" # STATE_904
+ Lievewaal:0 "Lievewaal" # STATE_905
+ Meiland:0 "Meiland" # STATE_906
+ Himelingen:0 "Himelingen" # STATE_907
+ South Gesinia:0 "South Gesinia" # STATE_908
+ North Gesinia:0 "North Gesinia" # STATE_909
+ Orshi:0 "Orshi" # STATE_91
+ TST_91:0 "TST_91" # STATE_910
+ TST_92:0 "TST_92" # STATE_911
+ TST_93:0 "TST_93" # STATE_912
+ Dasavletit :0 "Dasavletit " # STATE_92
+ Buyuk Dasht:0 "Buyuk Dasht" # STATE_93
+ Hvallica:0 "Hvallica" # STATE_94
+ Dajavshna:0 "Dajavshna" # STATE_95
+ Yūksekent:0 "Yūksekent" # STATE_96
+ Grootshaven:0 "Grootshaven" # STATE_97
+ Kanaalbaken:0 "Kanaalbaken" # STATE_98
+ Wittenlan:0 "Wittenlan" # STATE_99
