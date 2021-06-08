@@ -1,6 +1,6 @@
 capital = 378
 
-#oob = "SCO_1936"
+oob = "KOD_1946"
 
 # Starting tech
 set_technology = {
@@ -43,7 +43,7 @@ create_country_leader = {
 	expire = "1970.1.1"
 	ideology = nazism
 	traits = {
-		Dictator
+		dictator
 		Grand_Marshall
 	}
 }
