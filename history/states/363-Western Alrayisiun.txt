@@ -2,7 +2,7 @@ state={
 		id = 363
 		name = "Western Alrayisiun"
 		manpower = 100000
-		state_category = pastoral
+		state_category = city
 
 		history = {
 			owner = ABL

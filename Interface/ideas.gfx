@@ -27,5 +27,5 @@ spriteTypes = {
 		name = "GFX_idea_Increasing_Bureaucracy"				# The 'GFX_idea_' part is required here
 		texturefile = "gfx/interface/ideas/idea_Increasing_Beurocracy.dds"
 	}
-
 }
+

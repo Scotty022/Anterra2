@@ -23,21 +23,26 @@ add_manpower = 5000
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 75
-	fascism = 5
-	communism = 13
-	neutrality = 7
+	democratic = 6
+	fascism = 28
+	communism = 22
+	neutrality = 44
 }
+add_ideas = {
+	soft_bickering
+}
+
 create_country_leader = {
-	name = "Someone"
-	desc = "POLITICS_RONALD_MCDONALD_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
+	name = "Musa Ajami"
+	desc = "POLITICS_Musa_Ajami_DESC"
+	picture = "gfx/leaders/ABL/Portrait_Musa_Ajami.dds"
+	expire = "1968.1.1"
+	ideology = oligarchism
 }
+

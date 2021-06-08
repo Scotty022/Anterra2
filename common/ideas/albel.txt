@@ -1,0 +1,58 @@
+ideas = {
+	country = {
+		soft_bickering = {
+			picture = generic_disjointed_gov
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.1 
+			}
+		}
+		loud_whispering = {
+			picture = idea_generic_army_war_college
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.2
+				stability_weekly_factor	= -0.01
+			}
+		}
+		abl_army_support = {
+			picture = idea_mex_politicised_army
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.05
+				recruitable_population = 0.01 
+			}
+		}
+		abl_industrial_support = {
+			picture = generic_production_bonus
+			
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				fascism_drift = 0.05
+				industrial_capacity_factory	= 0.02
+			}
+		}
+	}
+}
