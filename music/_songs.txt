@@ -290,3 +290,21 @@ music = {
 		}		
 	}
 }
+
+music = {
+	song = "National Anthem of the Tsardom of Bulgaria - Шуми Марица (Instrumental version)"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
+
+music = {
+	song = "Plants And Arable Lands (Instrumental)"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}		
+	}
+}
