@@ -3,3 +3,64 @@ music = {
 	file = "nothingtoseehere.ogg"
 	volume = 0.65
 }
+
+music = {
+	name = "dr_fauci_trap_nightcore"
+	file = "dr_fauci_trap_nightcore.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "horthy_miklós"
+	file = "horthy_miklós.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "İzmir_Marşı"
+	file = "İzmir_Marşı.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Marshi_UÇK"
+	file = "Marshi_UÇK.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "My_Pierwsza_Brygada"
+	file = "My_Pierwsza_Brygada.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "National Anthem of the Tsardom of Bulgaria - Шуми Марица (Instrumental version)"
+	file = "National Anthem of the Tsardom of Bulgaria - Шуми Марица (Instrumental version).ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Plants And Arable Lands (Instrumental)"
+	file = "Plants And Arable Lands (Instrumental).ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Suss_Bounce"
+	file = "Suss_Bounce.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Казаки_Берлине"
+	file = "Казаки_Берлине.ogg"
+	volume = 0.65
+}
+
+music = {
+	name = "Маршируют_Полки"
+	file = "Маршируют_Полки.ogg"
+	volume = 0.65
+}
+
