@@ -1,5 +1,4 @@
 form_volirian_conf_category = {
-	
 	form_volirian_conf = {
 		icon = generic_form_nation
 
@@ -60,6 +59,199 @@ form_volirian_conf_category = {
 			hidden_effect = {
 				news_event = { id = wtt_news.53 hours = 6 }  # Change the news event !!
 				set_global_flag = form_volirian_conf_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+form_sanqing_category = {
+	form_sanqing = {
+		icon = generic_form_nation
+
+		allowed = { 
+			OR = {
+				original_tag = KOD
+				original_tag = QIN
+				original_tag = HYD
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Kodeshia
+			custom_trigger_tooltip = {
+				tooltip = form_country_Kodesia_required_states_tt
+				controls_state = 22
+				controls_state = 23
+				controls_state = 24
+				controls_state = 25
+				controls_state = 26
+				controls_state = 27
+				controls_state = 28
+				controls_state = 29
+				controls_state = 30
+				controls_state = 31
+				controls_state = 32
+				controls_state = 34
+				controls_state = 35
+				controls_state = 36
+				controls_state = 37
+				controls_state = 38
+				controls_state = 39
+				controls_state = 40
+				controls_state = 41
+				controls_state = 42
+				controls_state = 43
+				controls_state = 44
+				controls_state = 45
+				controls_state = 46
+				controls_state = 47
+				controls_state = 48
+				controls_state = 49
+				controls_state = 50
+				controls_state = 51
+				controls_state = 52
+				controls_state = 53
+				controls_state = 54
+				controls_state = 55
+				controls_state = 56
+				controls_state = 57
+				controls_state = 525
+			}
+			# Qingcheng
+			custom_trigger_tooltip = {
+				tooltip = form_country_Qingcheng_required_states_tt
+				controls_state = 2
+				controls_state = 3
+				controls_state = 4
+				controls_state = 5
+				controls_state = 6
+				controls_state = 7
+				controls_state = 8
+				controls_state = 9
+				controls_state = 10
+				controls_state = 11
+				controls_state = 12
+				controls_state = 13
+				controls_state = 14
+				controls_state = 15
+				controls_state = 16
+				controls_state = 20
+				controls_state = 21
+			}
+			# Hydar
+			custom_trigger_tooltip = {
+				tooltip = form_country_Hydar_required_states_tt
+				controls_state = 241
+				controls_state = 242
+				controls_state = 243
+				controls_state = 244
+				controls_state = 351
+				controls_state = 352
+				controls_state = 353
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = KOD
+				original_tag = QIN
+				original_tag = HYD
+			}
+			NOT = { has_global_flag = form_sanqing_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = SAN_UNITED
+			# Kodeshia
+			custom_effect_tooltip = form_country_Kodeshia_coring_states_tt
+			hidden_effect = {
+				22 = { add_core_of = ROOT }
+				23 = { add_core_of = ROOT }
+				24 = { add_core_of = ROOT }
+				25 = { add_core_of = ROOT }
+				26 = { add_core_of = ROOT }
+				27 = { add_core_of = ROOT }
+				28 = { add_core_of = ROOT }
+				29 = { add_core_of = ROOT }
+				30 = { add_core_of = ROOT }
+				31 = { add_core_of = ROOT }
+				32 = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				36 = { add_core_of = ROOT }
+				37 = { add_core_of = ROOT }
+				38 = { add_core_of = ROOT }
+				39 = { add_core_of = ROOT }
+				40 = { add_core_of = ROOT }
+				41 = { add_core_of = ROOT }
+				42 = { add_core_of = ROOT }
+				43 = { add_core_of = ROOT }
+				44 = { add_core_of = ROOT }
+				45 = { add_core_of = ROOT }
+				46 = { add_core_of = ROOT }
+				47 = { add_core_of = ROOT }
+				48 = { add_core_of = ROOT }
+				49 = { add_core_of = ROOT }
+				50 = { add_core_of = ROOT }
+				51 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+				53 = { add_core_of = ROOT }
+				54 = { add_core_of = ROOT }
+				55 = { add_core_of = ROOT }
+				56 = { add_core_of = ROOT }
+				57 = { add_core_of = ROOT }
+				52 = { add_core_of = ROOT }
+			}
+			# Qingcheng
+			custom_effect_tooltip = form_country_Qingcheng_coring_states_tt
+			hidden_effect = {
+				2 = { add_core_of = ROOT }
+				3 = { add_core_of = ROOT }
+				4 = { add_core_of = ROOT }
+				5 = { add_core_of = ROOT }
+				6 = { add_core_of = ROOT }
+				7 = { add_core_of = ROOT }
+				8 = { add_core_of = ROOT }
+				9 = { add_core_of = ROOT }
+				10 = { add_core_of = ROOT }
+				11 = { add_core_of = ROOT }
+				12 = { add_core_of = ROOT }
+				13 = { add_core_of = ROOT }
+				14 = { add_core_of = ROOT }
+				15 = { add_core_of = ROOT }
+				16 = { add_core_of = ROOT }
+				20 = { add_core_of = ROOT }
+				21 = { add_core_of = ROOT }
+			}
+			# Hydar
+			custom_effect_tooltip = form_country_Hydar_coring_states_tt
+			hidden_effect = {
+				241 = { add_core_of = ROOT }
+				242 = { add_core_of = ROOT }
+				243 = { add_core_of = ROOT }
+				244 = { add_core_of = ROOT }
+				351 = { add_core_of = ROOT }
+				352 = { add_core_of = ROOT }
+				353 = { add_core_of = ROOT }
+			}
+			# Extra cores
+			33 = { add_core_of = ROOT } # Anbei
+			700 = { add_core_of = ROOT }
+			702 = { add_core_of = ROOT }
+			704 = { add_core_of = ROOT }
+	
+			hidden_effect = {
+				news_event = { id = wtt_news.53 hours = 6 }  # Change the news event !!
+				set_global_flag = form_sanqing_flag
 			}
 		}
 
