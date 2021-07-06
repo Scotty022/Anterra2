@@ -1,7 +1,7 @@
 
 capital = 308
 
-#oob = "SCO_1936"
+oob = "BOR_1946"
 
 # Starting tech
 set_technology = {
@@ -18,20 +18,35 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
-set_convoys = 20
+set_convoys = 40
 set_research_slots = 3
 add_manpower = 5000
 
-
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1936.1.1"
+	ruling_party = communism
+	last_election = "1909.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 5
-	neutrality = 85
+	democratic = 20
+	fascism = 10
+	communism = 65
+	neutrality = 5
+}
+
+#---------- Leaders ----------#
+create_country_leader = {
+	name = "Carlo Conti"
+	desc = "POLITICS_CARLO_CONTI_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+}
+
+#----------- Ideas -----------#
+add_ideas = {
+	low_economic_mobilisation
+	limited_exports
+	limited_conscription
 }

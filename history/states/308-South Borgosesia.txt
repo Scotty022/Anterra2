@@ -1,8 +1,8 @@
 state={
 		id = 308
 		name = "South Borgosesia"
-		manpower = 100000
-		state_category = pastoral
+		manpower = 3120000
+		state_category = large_town
 
 		history = {
 			owner = BOR
@@ -12,6 +12,11 @@ state={
 
 			buildings = {
 				
+				infrastructure = 4
+				industrial_complex = 4
+				dockyard  = 1
+				air_base  = 2
+				9290 = {naval_base = 2}
 			} 
 		}
 		provinces={

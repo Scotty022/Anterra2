@@ -231,11 +231,11 @@
  Heltia:0 "Heltia" # STATE_305
  Venima:0 "Venima" # STATE_306
  Sobruza:0 "Sobruza" # STATE_307
- BORGO 1:0 "BORGO 1" # STATE_308
- BORGO 2:0 "BORGO 2" # STATE_309
+ South Borgosesia:0 "South Borgosesia" # STATE_308
+ Sartezia:0 "Sartezia" # STATE_309
  Zhongbin:0 "Zhongbin" # STATE_31
- BORGO 3:0 "BORGO 3" # STATE_310
- BORGO 4:0 "BORGO 4" # STATE_311
+ Isella:0 "Isella" # STATE_310
+ Lutzo-Venia:0 "Lutzo-Venia" # STATE_311
  Corinzy:0 "Corinzy" # STATE_312
  Pera-Ithisy:0 "Pera-Ithisy" # STATE_313
  Albizy:0 "Albizy" # STATE_314
@@ -824,8 +824,8 @@
  TST_43:0 "TST_43" # STATE_838
  TST_44:0 "TST_44" # STATE_839
  Chernarus:0 "Chernarus" # STATE_84
- TST_45:0 "AAAAAAAAAAAAAAH" # STATE_840
- TST_46:0 "ARS" # STATE_841
+ TST_45:0 "TST_45" # STATE_840
+ TST_46:0 "TST_46" # STATE_841
  TST_47:0 "TST_47" # STATE_842
  Nyland:0 "Nyland" # STATE_843
  BRIG_1:0 "BRIG_1" # STATE_844

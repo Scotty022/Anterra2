@@ -1,8 +1,8 @@
 state={
 		id = 309
 		name = "Sartezia"
-		manpower = 100000
-		state_category = pastoral
+		manpower = 3805000
+		state_category = city
 
 		history = {
 			owner = BOR
@@ -13,6 +13,10 @@ state={
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 2
+				5378 = {naval_base = 1}
 			} 
 		}
 		provinces={
