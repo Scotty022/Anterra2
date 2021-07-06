@@ -1,6 +1,6 @@
 capital = 190
 
-#oob = "SCO_1936"
+oob = "HYD_1946"
 
 # Starting tech
 set_technology = {

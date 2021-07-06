@@ -1,6 +1,6 @@
 capital = 533
 
-#oob = "GPR_1946"
+oob = "GPR_1946"
 
 # Starting tech
 set_technology = {
