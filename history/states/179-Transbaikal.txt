@@ -2,7 +2,7 @@ state={
 		id = 179
 		name = "Transbaikal"
 		manpower = 1420000
-		state_category = pastoral
+		state_category = town
 
 		history = {
 			owner = LST

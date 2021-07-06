@@ -1,6 +1,6 @@
 state={
-		id = 311
-		name = "BORGO 4"
+		id = 308
+		name = "South Borgosesia"
 		manpower = 100000
 		state_category = pastoral
 
@@ -8,13 +8,13 @@ state={
 			owner = BOR
 			add_core_of = BOR
 
-			
+			victory_points = {9290 10}
 
 			buildings = {
 				
 			} 
 		}
 		provinces={
-		 4050 2824 5284 4621 5330
+			9290 2849 1522 782 17 4676 1805 5494
 		}
 }

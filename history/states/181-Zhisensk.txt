@@ -1,7 +1,7 @@
 state={
 		id = 181
 		name = "Zhisensk"
-		manpower = 100000
+		manpower = 35000
 		state_category = tiny_island
 
 		history = {

@@ -1,6 +1,6 @@
 state={
-		id = 309
-		name = "BORGO 2"
+		id = 311
+		name = "Lutzo-Venia"
 		manpower = 100000
 		state_category = pastoral
 
@@ -15,6 +15,6 @@ state={
 			} 
 		}
 		provinces={
-		 1805 782 4676 157 2117 2406
+		 2824 5284 4621 5330 1239 3312 5299
 		}
 }

@@ -2,7 +2,7 @@ state={
 		id = 365
 		name = "Barhan"
 		manpower = 100000
-		state_category = small_island
+		state_category = pastoral
 
 		history = {
 			owner = ABL

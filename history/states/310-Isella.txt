@@ -1,6 +1,6 @@
 state={
-		id = 308
-		name = "BORGO 1"
+		id = 310
+		name = "Isella"
 		manpower = 100000
 		state_category = pastoral
 
@@ -15,6 +15,6 @@ state={
 			} 
 		}
 		provinces={
-		 5494 2849 1522 5378 448 5383
+			2972 5384 3635 935
 		}
 }

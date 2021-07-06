@@ -1,9 +1,11 @@
 state={
 		id = 1
 		name = "State_1"
+		manpower = Read tooltips ^
 		state_category = pastoral
 
 		history = {
+			TST
 			
 
 			

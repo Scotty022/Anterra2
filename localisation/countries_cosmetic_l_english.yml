@@ -9,8 +9,8 @@
  #Formed nations
  VOL_CON_democratic:0 "Volirian Confederation"
  VOL_CON_democratic_DEF:0 "the Volirian Confederation"
- VOL_CON_authdemocracy:0 "Volirian Federation"
- VOL_CON_authdemocracy_DEF:0 "the Volirian Federation"
+ VOL_CON_communism:0 "Volirian Federation"
+ VOL_CON_communism_DEF:0 "the Volirian Federation"
  VOL_CON:0 "Volirian Empire"
  VOL_CON_DEF:0 "the Volirian Empire"
  VOL_CON_ADJ:0 "Volirian"

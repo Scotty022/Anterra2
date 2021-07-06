@@ -2,7 +2,7 @@ state={
 		id = 176
 		name = "Don"
 		manpower = 876000
-		state_category = pastoral
+		state_category = rural
 
 		history = {
 			owner = LST

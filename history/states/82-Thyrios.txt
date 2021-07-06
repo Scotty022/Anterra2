@@ -1,7 +1,7 @@
 state={
 		id = 82
 		name = "Thyrios"
-		manpower = 100000
+		manpower = 140400
 		state_category = pastoral
 
 		history = {

@@ -1,6 +1,6 @@
 state={
-		id = 310
-		name = "BORGO 3"
+		id = 309
+		name = "Sartezia"
 		manpower = 100000
 		state_category = pastoral
 
@@ -8,13 +8,14 @@ state={
 			owner = BOR
 			add_core_of = BOR
 
-			
+			victory_points = {2406 10}
+			victory_points = {5378 10}
 
 			buildings = {
 				
 			} 
 		}
 		provinces={
-		 5384 3635 2972 935 5299 476 3312 1239
+		2406 157 2117 5378 476 4050 5383 448
 		}
 }

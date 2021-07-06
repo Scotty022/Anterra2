@@ -2,7 +2,7 @@ state={
 		id = 362
 		name = "Nagusia"
 		manpower = 100000
-		state_category = city
+		state_category = pastoral
 
 		history = {
 			owner = ABL
