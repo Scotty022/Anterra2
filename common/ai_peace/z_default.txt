@@ -89,15 +89,10 @@ default_peace = {
 		}
 		modifier = {
 			factor = 0
-			#Is NOT a major
-			NOT = { num_of_factories > 100 }
-			NOT = { tag = GER }
-			NOT = { tag = ENG }
-			NOT = { tag = ITA }
-			NOT = { tag = FRA }
-			NOT = { tag = USA }
-			NOT = { tag = JAP }
-			NOT = { tag = SOV }
+			AND = {
+				is_major = no
+				NOT = { num_of_factories > 100 }
+			}
 		}
 		#modifier = {
 		#	factor = 0
@@ -114,26 +109,16 @@ default_peace = {
 				NOT = { is_owner_neighbor_of = FROM }
 				AND = { 
 					FROM = {
-						OR = {
-							num_of_factories > 100
-							tag = GER
-							tag = ENG
-							tag = ITA
-							tag = FRA
-							tag = USA
-							tag = JAP
-							tag = SOV
+						AND = {
+							is_major = no
+							NOT = { num_of_factories > 100 }
 						}
 					}
 					#Is NOT a major
-					NOT = { num_of_factories > 100 }
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = ITA }
-					NOT = { tag = FRA }
-					NOT = { tag = USA }
-					NOT = { tag = JAP }
-					NOT = { tag = SOV }
+					AND = {
+						is_major = no
+						NOT = { num_of_factories > 100 }
+					}
 				}
 			}
 		}
@@ -141,17 +126,7 @@ default_peace = {
 			factor = 0
 			FROM = { has_civil_war = yes }
 		}
-		modifier = { #Don't break up Czechoslovakia or Yugoslavia
-			factor = 0
-			YUG = { exists = yes }
-			FROM = {
-				OR = {
-					tag = CRO
-					tag = SER
-					tag = SLO
-				}
-			}
-		}
+		
 		modifier = {
 			factor = 0.2 #Strip colonies/liberate first - important vs GER and JAP
 			FROM = {
@@ -384,15 +359,10 @@ default_peace = {
 				NOT = { FROM = { is_on_continent = africa } }
 				NOT = { capital_scope = { is_on_continent = europe } }
 				AND = {
-					#Is NOT a major
-					NOT = { num_of_factories > 100 }
-					NOT = { tag = GER }
-					NOT = { tag = ENG }
-					NOT = { tag = ITA }
-					NOT = { tag = FRA }
-					NOT = { tag = USA }
-					NOT = { tag = JAP }
-					NOT = { tag = SOV }
+					AND = {
+						is_major = no
+						NOT = { num_of_factories > 100 }
+					}
 					NOT = {
 						any_owned_state = { is_on_continent = africa }
 					}
