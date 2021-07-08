@@ -652,11 +652,9 @@ demobilization = {
 			if = {
 				limit = { 
 					NOT = { 
-						OR = {
-							has_idea = strikes_1
-							has_idea = strikes_2
-							has_idea = strikes_3
-						}
+						has_idea = strikes_1
+						has_idea = strikes_2
+						has_idea = strikes_3
 					}
 				}
 				add_ideas = strikes_1
@@ -665,7 +663,7 @@ demobilization = {
 	}
 	demobilization_manpower = {
 
-		icon = generic_prepare_civil_war
+		#icon = generic_prepare_civil_war
 
 		icon = revolt
 		is_good = no

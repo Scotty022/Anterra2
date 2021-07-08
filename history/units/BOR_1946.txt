@@ -45,13 +45,49 @@ division_template = { # Cavalry Division
 ############# Units ##############
 ##################################
 units = {
-	# division = { 
-	# 	division_name = {
-	# 		is_name_ordered = yes
-	# 	}
-	# 	location = 1213
-	# 	division_template = "Infantry Division" 
-	# 	start_experience_factor = 0.4
-	# 	start_equipment_factor = 0.7
-	# }
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 9290
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 5378
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 2406
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 2406
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 5384
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
 }

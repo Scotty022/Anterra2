@@ -1,10 +1,7 @@
 ﻿####hi this is limit ai division lol####
 production_unit_0_ratios = {
 	enable = {
-		AND = {
-			num_of_factories < 0
-			num_divisions > 0
-		}
+		num_divisions > 0
 	}
 	abort = {
 		always = no
