@@ -1,0 +1,23 @@
+﻿l_english:
+ # Sanqing
+ form_sanqing_category:0 "Sanqing"
+ form_sanqing:0 "Form Sanqing"
+ # Volarian confederation
+ form_volirian_conf_category:0 "Volirian Confederation"
+ form_volirian_conf:0 "Proclaim the Volirian Confederation"
+ form_volirian_conf_DESC:0 "Although much has changed since the arrival of our forefathers, one thing has always stayed the same; the firey passion of the Volarian people! We have finally unified our homelands, so a fitting name is in place!"
+# General stuff
+ form_country_Kodesia_required_states_tt:0 "Controls all §YKodeshian§! starting states"  
+ form_country_Qingcheng_required_states_tt:0 "Controls all §YQingcheng§! starting states"
+ form_country_Hydar_required_states_tt:0 "Controls all §YHydar§! starting states"
+ form_country_Mursland_required_states_tt:0 "Controls all §YMursian§! starting states"  
+ form_country_Vrtgora_required_states_tt:0 "Controls all §YVrtgoran§! starting states"
+ form_country_Lusjki_required_states_tt:0 "Controls all §YLusjkian§! starting states"
+
+ form_country_Kodeshia_coring_states_tt:0 "Gain cores on all §YKodeshian§! states."
+ form_country_Qingcheng_coring_states_tt:0 "Gain cores on all §YQingcheng§! states."
+ form_country_Hydar_coring_states_tt:0 "Gain cores on all §YHydar§! states."
+ form_country_Mursland_coring_states_tt:0 "Gain cores on all §YMursland§! states." 
+ form_country_Vrtgora_coring_states_tt:0 "Gain cores on all §YVrtgora§! states."
+ form_country_Lusjki_coring_states_tt:0 "Gain cores on all §YLusjki§! states."
+
