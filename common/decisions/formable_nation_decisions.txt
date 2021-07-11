@@ -91,6 +91,92 @@ form_volirian_conf_category = {
 	}
 }
 
+form_grand_lusjkia_category = {
+	form_grand_lusjkia = {
+		icon = generic_form_nation
+		desc = form_grand_lusjkia_DESC
+
+		allowed = { # Lusjki can do this 
+			OR = {
+				original_tag = LUS
+			}
+		}
+
+		available = {
+			is_subject = no
+			# Lusjki
+			custom_trigger_tooltip = {
+				tooltip = form_country_Mursland_required_states_tt
+				controls_state = 58
+				controls_state = 59
+				controls_state = 60
+			}
+			# Vrtgora
+			custom_trigger_tooltip = {
+				tooltip = form_country_Vrtgora_required_states_tt
+				controls_state = 73
+				controls_state = 74
+				controls_state = 75
+				controls_state = 128
+			}
+			# Lusjki starting states
+			custom_trigger_tooltip = {
+				tooltip = form_country_Lusjki_required_states_tt
+				controls_state = 71
+				controls_state = 72
+			}
+		}
+
+		visible = {
+			OR = {
+				original_tag = LUS
+			}
+			NOT = { has_global_flag = form_grand_lusjkia_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = GRA_LUS
+			# Mursland
+			custom_effect_tooltip = form_country_Mursland_coring_states_tt
+			hidden_effect = {
+				58 = { add_core_of = ROOT }
+				59 = { add_core_of = ROOT }
+				60 = { add_core_of = ROOT }
+			}
+			# Vrtgora
+			custom_effect_tooltip = form_country_Vrtgora_coring_states_tt
+			hidden_effect = {
+				73 = { add_core_of = ROOT }
+				74 = { add_core_of = ROOT }
+				75 = { add_core_of = ROOT }
+				128 = { add_core_of = ROOT }
+			}
+			# Lusjki starting states
+			custom_effect_tooltip = form_country_Lusjki_coring_states_tt
+			hidden_effect = {
+				71 = { add_core_of = ROOT }
+				72 = { add_core_of = ROOT }
+			}
+			# Extra cores
+			208 = { add_core_of = ROOT } # Trans-Traxi, aka Lusjki border region in Propygria
+
+		
+			hidden_effect = {
+				news_event = { id = wtt_news.53 hours = 6 }  # Change the news event !!
+				set_global_flag = form_grand_lusjkia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
 form_sanqing_category = {
 	form_sanqing = {
 		icon = generic_form_nation
