@@ -49,6 +49,43 @@ ideas = {
 
 			}
 		}
+		
+		Without_Union = {
+			picture = QIN_FED		# refers to /Interface/ideas.gfx, later more
+			allowed = { 			# determines who can get it. Used for advisors and such
+				original_tag = QIN	# place your country tag here
+			}
+			available = {				
+			}
+
+			#cancel = { }
+
+			removal_cost = -1
+		
+			modifier = {
+				authdemocracy_drift = 0.1
+
+			}
+		}
+
+		State_Sub = {
+			picture = QIN_FED		# refers to /Interface/ideas.gfx, later more
+			allowed = { 			# determines who can get it. Used for advisors and such
+				original_tag = QIN	# place your country tag here
+			}
+			available = {				
+			}
+
+			#cancel = { }
+
+			removal_cost = -1
+		
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+
+			}
+		}
 	}
 }
 

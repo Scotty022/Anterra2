@@ -166,6 +166,10 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_the_constitution_endure_  }
+		completion_reward = {
+		add_ideas = Without_Union
+		add_political_power = 50
+		}
 	}
 	
 	#War is near
@@ -294,7 +298,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_a_bit }
-
+		available = {
+			KOD = {
+				has_war_with = SEL
+			}
+			}
 		completion_reward = {
 			if = {
 				limit = { has_idea = neutrality_idea }
@@ -307,7 +315,7 @@ focus_tree = {
 
 	#The country send medics in Kodeshia
 	focus = {
-		id = QIN_MEDICS_HOPSITALS
+		id = QIN_MEDICS_HOSPITALS
 		icon = GFX_focus_chi_united_front
 		x = 15
 		y = 6
@@ -316,6 +324,19 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_volunteers }
+		available = {
+			KOD = {
+				has_war_with = SEL
+			}
+			}
+		completion_reward = {
+		KOD = { country_event = 3.QINGCHENG }
+	add_tech_bonus = {
+	name = assembly_bonus
+	bonus = 0.75
+	uses = 1
+	technology = tech_field_hospital	}
+		}
 	}
 
 	#The country is arming himself
@@ -362,6 +383,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_Without_Union}
+		completion_reward = {
+		add_ideas = State_sub
+		}
 	}
 
 	#The country invest in railroads around the states
@@ -375,6 +399,52 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_STATE_SUBVENTIONS}
+		completion_reward = {
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					infrastructure < 6
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					infrastructure < 6
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					infrastructure < 6
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}	
+			random_owned_state = {
+				limit = { 
+					is_core_of = ROOT 
+					infrastructure < 6
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 
 	#The country devellop iron in the qingcheng mountains
@@ -388,6 +458,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_INVEST_TRANSPORT}
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 15
+			}
+		}
 	}
 
 	#The country developp capital city Chenghua
@@ -401,6 +478,18 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_Without_Union}
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 2 }
+				add_extra_state_shared_building_slots = 3
+			}
+			add_building_construction = {
+				prioritize = { 2 }
+				type = infrastructure
+				level = 1
+				instant_build = yes
+				}
+		}
 	}
 	
 	#Developp naval dockyards in Wenzhou
@@ -414,7 +503,22 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_DEVELOP_CHENGUA}
-	}
+		completion_reward = {
+			random_owned_state = {
+				prioritize = { 7 }
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 7 }
+				add_extra_state_shared_building_slots = 3
+				}
+			}
+		}
+	
 
 	#Add slots and factory in Bazhong state
 	focus = {
@@ -439,6 +543,10 @@ focus_tree = {
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = QIN_WENZHOU_DOCKYARDS} prerequisite = { focus = QIN_BAZHONG_MODEL}
+		prerequisite = { focus = QIN_MOUNTAIN_IRON} prerequisite = { focus = QIN_BAZHONG_MODEL}
+		completion_reward = {
+		add_research_slot = 1
+		research_bonus = 0.2
+		}
 	}
 }
