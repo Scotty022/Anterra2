@@ -23,3 +23,25 @@ country_event = {
 		complete_national_focus = QIN_YES
 	}
 }
+
+country_event = {
+	id = 2.QINGCHENG
+	title = QIN.2.t
+	desc = QIN.2.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		name = No
+		ai_chance = { factor = 30}
+	}
+	option = {
+		name = Yes
+		ai_chance = { factor = 70}
+	    QIN = { add_to_faction = KOD } 
+		KOD = {add_ai_strategy = { type = alliance id = QIN value = 200 } }
+		
+		add_opinion_modifier = { target = QIN modifier = huge_increase }
+		add_opinion_modifier = { target = QIN modifier = huge_increase }
+	}
+}

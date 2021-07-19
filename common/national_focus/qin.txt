@@ -36,6 +36,12 @@ focus_tree = {
 		}
 		prerequisite = { focus = QIN_a_leader_under_7_stars  }
 		mutually_exclusive = { focus = QIN_memory_from_the_revolution_of_1912  } mutually_exclusive = { focus = QIN_the_states_won_the_battle  } mutually_exclusive = { focus = QIN_yang_luoyang_increase_his_power }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = United_under_the_federation
+				add_idea = United_under_the_federation_2
+			}
+		}
 	}
 
 	#Yang Luoyang increase his power
@@ -173,6 +179,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_the_constitution_endure_ focus = QIN_the_states_won_the_battle }
+		completion_reward = {
+		add_war_support = 0.05
+		}
 	}
 	
 	#The states vote
@@ -253,6 +262,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_NO }
+		completion_reward = {
+		add_ideas = neutrality_idea
+		}
 	}
 	
 	#The country build fortifications
@@ -266,6 +278,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_ISOLATION }
+		completion_reward = {
+			add_ideas = deterrence
+		}
 	}
 
 	#The country send volunteers in Kodeshia
@@ -279,6 +294,15 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_a_bit }
+
+		completion_reward = {
+			if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}	
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150
+		}
 	}
 
 	#The country send medics in Kodeshia
@@ -305,6 +329,9 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_YES }
+	completion_reward = {
+		add_offsite_building = { type = arms_factory level = 3 }
+	}
 	}
 
 	#The country join Kodeshia faction
@@ -318,7 +345,11 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_BOOST_MILITARY}
-	}
+		completion_reward = {
+				create_faction = Guoyu_Entente
+					KOD = { country_event = 2.QINGCHENG }
+				}
+		}
 
 	#The country give subventions to states
 	focus = {
