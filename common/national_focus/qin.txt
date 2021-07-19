@@ -1,0 +1,413 @@
+focus_tree = {
+	id = qin
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = QIN
+		}
+	}
+	#A leader under 7 stars
+	focus = {
+		id = QIN_a_leader_under_7_stars
+		icon = GFX_focus_generic_china1
+		x = 15
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 100
+			
+		}
+	}
+
+	#The constitution endure !
+	focus = {
+		id = QIN_the_constitution_endure_
+		icon = GFX_focus_chi_united_front
+		x = 19
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_a_leader_under_7_stars  }
+		mutually_exclusive = { focus = QIN_memory_from_the_revolution_of_1912  } mutually_exclusive = { focus = QIN_the_states_won_the_battle  } mutually_exclusive = { focus = QIN_yang_luoyang_increase_his_power }
+	}
+
+	#Yang Luoyang increase his power
+	focus = {
+		id = QIN_yang_luoyang_increase_his_power
+		icon = GFX_QIN_yang_luoyang_increase_his_power-50
+		x = 5
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_a_leader_under_7_stars  }
+		mutually_exclusive = { focus = QIN_the_constitution_endure_ } mutually_exclusive = { focus = QIN_memory_from_the_revolution_of_1912  } mutually_exclusive = { focus = QIN_the_states_won_the_battle  }
+	}
+
+	#Memory from the revolution of 1912
+	focus = {
+		id = QIN_memory_from_the_revolution_of_1912
+		icon = GFX_focus_prc_agrarian_socialism
+		x = 25
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_a_leader_under_7_stars  }
+		mutually_exclusive = { focus = QIN_the_constitution_endure_ } mutually_exclusive = { focus = QIN_yang_luoyang_increase_his_power  } mutually_exclusive = { focus = QIN_the_constitution_endure_  }
+	}
+
+	#The states won the battle
+	focus = {
+		id = QIN_the_states_won_the_battle
+		icon = GFX_focus_prc_proclaim_the_peoples_republic
+		x = 11
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_a_leader_under_7_stars  }
+		mutually_exclusive = { focus = QIN_the_constitution_endure_  } mutually_exclusive = { focus = QIN_yang_luoyang_increase_his_power  } mutually_exclusive = { focus = QIN_memory_from_the_revolution_of_1912  }
+	}
+
+	#Democracy is abolished
+	focus = {
+		id = QIN_democracy_is_abolished
+		icon = GFX_QIN_democracy_is_abolished-149
+		x = 4
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_yang_luoyang_increase_his_power  }
+		mutually_exclusive = { focus = QIN_democracy_is_saved  }
+	}
+
+	#Yang Luoyang declare himself true leader
+	focus = {
+		id = QIN_yang_luoyang_declare_himself_true_leader
+		icon = GFX_goal_demand_sudetenland
+		x = 2
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_democracy_is_abolished  }
+		mutually_exclusive = { }
+	}
+
+	#Democracy is saved
+	focus = {
+		id = QIN_democracy_is_saved
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 6
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_yang_luoyang_increase_his_power  }
+		mutually_exclusive = { focus = QIN_democracy_is_abolished  }
+	}
+
+	#Federalism to his maximum
+	focus = {
+		id = QIN_federalism_to_his_maximum
+		icon = GFX_focus_usa_union_representation_act
+		x = 12
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_the_states_won_the_battle  }
+	}
+
+	#A true federal democracy
+	focus = {
+		id = QIN_a_true_federal_democracy
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 10
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_the_states_won_the_battle  }
+		mutually_exclusive = { focus = QIN_federalism_to_his_maximum  }
+	}
+	
+	#Without the union, there is no Qingcheng, UQP boost popularity
+	focus = {
+		id = QIN_Without_Union
+		icon = GFX_focus_chi_united_front
+		x = 19
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_the_constitution_endure_  }
+	}
+	
+	#War is near
+	focus = {
+		id = QIN_War_is_Near
+		icon = GFX_focus_chi_united_front
+		x = 15
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_the_constitution_endure_ focus = QIN_the_states_won_the_battle }
+	}
+	
+	#The states vote
+	focus = {
+		id = QIN_States_Vote
+		icon = GFX_focus_chi_united_front
+		x = 15
+		y = 3
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_War_is_Near }
+		completion_reward = {
+				country_event = { id = 1.QINGCHENG days = 1 }
+			}
+	}
+	
+	#The states vote NO
+	focus = {
+		id = QIN_NO
+		icon = GFX_focus_chi_united_front
+		x = 13
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_States_Vote }
+		mutually_exclusive = { focus = QIN_YES focus = QIN_a_bit }
+		available = {
+			hidden_trigger = { always = no }
+		}
+	}
+	
+	#The states vote a bit
+	focus = {
+		id = QIN_a_bit
+		icon = GFX_focus_chi_united_front
+		x = 15
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_States_Vote }
+		mutually_exclusive = { focus = QIN_YES focus = QIN_NO }
+		available = {
+			hidden_trigger = { always = no }
+		}
+	}
+
+	#The states vote yes
+	focus = {
+		id = QIN_YES
+		icon = GFX_focus_chi_united_front
+		x = 17
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_States_Vote }
+		mutually_exclusive = { focus = QIN_a_bit focus = QIN_NO }
+		available = {
+			hidden_trigger = { always = no }
+		}
+	}
+
+	#The country isolate
+	focus = {
+		id = QIN_ISOLATION
+		icon = GFX_focus_chi_united_front
+		x = 13
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_NO }
+	}
+	
+	#The country build fortifications
+	focus = {
+		id = QIN_BUILD_BUNKER
+		icon = GFX_focus_chi_united_front
+		x = 13
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_ISOLATION }
+	}
+
+	#The country send volunteers in Kodeshia
+	focus = {
+		id = QIN_volunteers
+		icon = GFX_focus_chi_united_front
+		x = 15
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_a_bit }
+	}
+
+	#The country send medics in Kodeshia
+	focus = {
+		id = QIN_MEDICS_HOPSITALS
+		icon = GFX_focus_chi_united_front
+		x = 15
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_volunteers }
+	}
+
+	#The country is arming himself
+	focus = {
+		id = QIN_BOOST_MILITARY
+		icon = GFX_focus_chi_united_front
+		x = 17
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_YES }
+	}
+
+	#The country join Kodeshia faction
+	focus = {
+		id = QIN_ALLY_KODESHIA
+		icon = GFX_focus_chi_united_front
+		x = 17
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_BOOST_MILITARY}
+	}
+
+	#The country give subventions to states
+	focus = {
+		id = QIN_STATE_SUBVENTIONS
+		icon = GFX_focus_chi_united_front
+		x = 19
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_Without_Union}
+	}
+
+	#The country invest in railroads around the states
+	focus = {
+		id = QIN_INVEST_TRANSPORT
+		icon = GFX_focus_chi_united_front
+		x = 19
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_STATE_SUBVENTIONS}
+	}
+
+	#The country devellop iron in the qingcheng mountains
+	focus = {
+		id = QIN_MOUNTAIN_IRON
+		icon = GFX_focus_chi_united_front
+		x = 19
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_INVEST_TRANSPORT}
+	}
+
+	#The country developp capital city Chenghua
+	focus = {
+		id = QIN_DEVELOP_CHENGUA
+		icon = GFX_focus_chi_united_front
+		x = 21
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_Without_Union}
+	}
+	
+	#Developp naval dockyards in Wenzhou
+	focus = {
+		id = QIN_WENZHOU_DOCKYARDS
+		icon = GFX_focus_chi_united_front
+		x = 21
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_DEVELOP_CHENGUA}
+	}
+
+	#Add slots and factory in Bazhong state
+	focus = {
+		id = QIN_BAZHONG_MODEL
+		icon = GFX_focus_chi_united_front
+		x = 21
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_WENZHOU_DOCKYARDS}
+	}
+
+	#Add one research slot
+	focus = {
+		id = NATIONAL_ACADEMY
+		icon = GFX_focus_chi_united_front
+		x = 21
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_WENZHOU_DOCKYARDS} prerequisite = { focus = QIN_BAZHONG_MODEL}
+	}
+}

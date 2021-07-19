@@ -1,0 +1,19 @@
+ideas = {
+	country = {
+
+		QIN_federation_under_the_tutor = {
+			picture = QIN_federation_under_the_tutor-1241
+			targeted_modifier = {
+				QIN = {
+
+}
+
+			}
+			modifier = {
+				political_power_gain = 0.3
+defensive_war_stability_factor = 0.5
+conscription = -0.02
+			}
+		}
+	}
+}

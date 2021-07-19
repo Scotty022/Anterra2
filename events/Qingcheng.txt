@@ -1,0 +1,25 @@
+add_namespace = votewar
+
+country_event = {
+	id = 1.QINGCHENG
+	title = QIN.1.t
+	desc = QIN.1.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		name = No
+		ai_chance = { factor = 30}
+		complete_national_focus = QIN_NO
+	}
+	option = {
+		name = A_bit
+		ai_chance = { factor = 30}
+		complete_national_focus = QIN_a_bit
+	}
+	option = {
+		name = Yes
+		ai_chance = { factor = 30}
+		complete_national_focus = QIN_YES
+	}
+}

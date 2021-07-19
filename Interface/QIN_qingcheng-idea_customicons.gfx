@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Federation under the tutor
+	SpriteType = { 
+		name = "GFX_idea_QIN_federation_under_the_tutor-1241"
+		texturefile = "gfx/interface/ideas/qingcheng-idea-ideas/QIN_federation_under_the_tutor-1241.dds"
+	}
+
+ 
+ }
