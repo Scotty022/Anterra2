@@ -12,7 +12,7 @@ focus_tree = {
 	focus = {
 		id = QIN_a_leader_under_7_stars
 		icon = GFX_focus_generic_china1
-		x = 15
+		x = 14
 		y = 0
 		cost = 10
 		search_filters = {
@@ -48,7 +48,7 @@ focus_tree = {
 	focus = {
 		id = QIN_yang_luoyang_increase_his_power
 		icon = GFX_QIN_yang_luoyang_increase_his_power-50
-		x = 5
+		x = 0
 		y = 1
 		cost = 10
 		search_filters = {
@@ -62,7 +62,7 @@ focus_tree = {
 	focus = {
 		id = QIN_memory_from_the_revolution_of_1912
 		icon = GFX_focus_prc_agrarian_socialism
-		x = 25
+		x = 29
 		y = 1
 		cost = 10
 		search_filters = {
@@ -76,7 +76,7 @@ focus_tree = {
 	focus = {
 		id = QIN_the_states_won_the_battle
 		icon = GFX_focus_prc_proclaim_the_peoples_republic
-		x = 11
+		x = 9
 		y = 1
 		cost = 10
 		search_filters = {
@@ -90,21 +90,20 @@ focus_tree = {
 	focus = {
 		id = QIN_democracy_is_abolished
 		icon = GFX_QIN_democracy_is_abolished-149
-		x = 4
+		x = 0
 		y = 3
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
 		}
-		prerequisite = { focus = QIN_yang_luoyang_increase_his_power  }
-		mutually_exclusive = { focus = QIN_democracy_is_saved  }
+		prerequisite = { focus = QIN_take_jusdicial_power  } prerequisite = { focus = QIN_end_federal_army } 
 	}
-
+	
 	#Yang Luoyang declare himself true leader
 	focus = {
 		id = QIN_yang_luoyang_declare_himself_true_leader
 		icon = GFX_goal_demand_sudetenland
-		x = 2
+		x = 0
 		y = 4
 		cost = 10
 		search_filters = {
@@ -114,26 +113,13 @@ focus_tree = {
 		mutually_exclusive = { }
 	}
 
-	#Democracy is saved
-	focus = {
-		id = QIN_democracy_is_saved
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 6
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = QIN_yang_luoyang_increase_his_power  }
-		mutually_exclusive = { focus = QIN_democracy_is_abolished  }
-	}
 
 	#Federalism to his maximum
 	focus = {
 		id = QIN_federalism_to_his_maximum
 		icon = GFX_focus_usa_union_representation_act
-		x = 12
-		y = 3
+		x = 10
+		y = 2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -145,8 +131,8 @@ focus_tree = {
 	focus = {
 		id = QIN_a_true_federal_democracy
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		x = 10
-		y = 3
+		x = 8
+		y = 2
 		cost = 10
 		search_filters = {
 			FOCUS_FILTER_POLITICAL
@@ -176,7 +162,7 @@ focus_tree = {
 	focus = {
 		id = QIN_War_is_Near
 		icon = GFX_focus_chi_united_front
-		x = 15
+		x = 14
 		y = 2
 		cost = 10
 		search_filters = {
@@ -192,7 +178,7 @@ focus_tree = {
 	focus = {
 		id = QIN_States_Vote
 		icon = GFX_focus_chi_united_front
-		x = 15
+		x = 14
 		y = 3
 		cost = 1
 		search_filters = {
@@ -208,7 +194,7 @@ focus_tree = {
 	focus = {
 		id = QIN_NO
 		icon = GFX_focus_chi_united_front
-		x = 13
+		x = 12
 		y = 4
 		cost = 10
 		search_filters = {
@@ -225,7 +211,7 @@ focus_tree = {
 	focus = {
 		id = QIN_a_bit
 		icon = GFX_focus_chi_united_front
-		x = 15
+		x = 14
 		y = 4
 		cost = 10
 		search_filters = {
@@ -242,7 +228,7 @@ focus_tree = {
 	focus = {
 		id = QIN_YES
 		icon = GFX_focus_chi_united_front
-		x = 17
+		x = 16
 		y = 4
 		cost = 10
 		search_filters = {
@@ -259,7 +245,7 @@ focus_tree = {
 	focus = {
 		id = QIN_ISOLATION
 		icon = GFX_focus_chi_united_front
-		x = 13
+		x = 12
 		y = 5
 		cost = 10
 		search_filters = {
@@ -275,7 +261,7 @@ focus_tree = {
 	focus = {
 		id = QIN_BUILD_BUNKER
 		icon = GFX_focus_chi_united_front
-		x = 13
+		x = 12
 		y = 6
 		cost = 10
 		search_filters = {
@@ -291,7 +277,7 @@ focus_tree = {
 	focus = {
 		id = QIN_volunteers
 		icon = GFX_focus_chi_united_front
-		x = 15
+		x = 14
 		y = 5
 		cost = 10
 		search_filters = {
@@ -317,7 +303,7 @@ focus_tree = {
 	focus = {
 		id = QIN_MEDICS_HOSPITALS
 		icon = GFX_focus_chi_united_front
-		x = 15
+		x = 14
 		y = 6
 		cost = 10
 		search_filters = {
@@ -343,7 +329,7 @@ focus_tree = {
 	focus = {
 		id = QIN_BOOST_MILITARY
 		icon = GFX_focus_chi_united_front
-		x = 17
+		x = 16
 		y = 5
 		cost = 10
 		search_filters = {
@@ -359,7 +345,7 @@ focus_tree = {
 	focus = {
 		id = QIN_ALLY_KODESHIA
 		icon = GFX_focus_chi_united_front
-		x = 17
+		x = 16
 		y = 6
 		cost = 10
 		search_filters = {
@@ -531,6 +517,13 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = QIN_WENZHOU_DOCKYARDS}
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 20 }
+				add_extra_state_shared_building_slots = 2		
+		}
+		add_ideas = Guoyu_Efficient
+	}
 	}
 
 	#Add one research slot
@@ -548,5 +541,67 @@ focus_tree = {
 		add_research_slot = 1
 		research_bonus = 0.2
 		}
+	}
+
+	#Taking control of the independent justice
+	focus = {
+		id = QIN_take_jusdicial_power
+		icon = GFX_QIN_democracy_is_abolished-149
+		x = -1
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_yang_luoyang_increase_his_power  }
+	}
+	
+	#Seize the federal army, in order to counter resistance
+	focus = {
+		id = QIN_end_federal_army
+		icon = GFX_QIN_democracy_is_abolished-149
+		x = 1
+		y = 2
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_yang_luoyang_increase_his_power  }
+	}
+	#Yang become army leader 
+	focus = {
+		id = QIN_lead_army
+		icon = GFX_QIN_democracy_is_abolished-149
+		x = 1
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_yang_luoyang_declare_himself_true_leader  }
+	}
+	#Purge military leaders in favor of federal states
+	focus = {
+		id = QIN_purge_fed_symp
+		icon = GFX_QIN_democracy_is_abolished-149
+		x = -1
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_yang_luoyang_declare_himself_true_leader  }
+	}
+	#Ally monarchist
+	focus = {
+		id = QIN_ally monarchist
+		icon = GFX_QIN_democracy_is_abolished-149
+		x = 1
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_lead_army }
 	}
 }
