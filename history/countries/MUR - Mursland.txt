@@ -28,7 +28,7 @@ add_manpower = 5000
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = 1942.8.1 # 1943.8.1 , but for testing its first of februari
 	election_frequency = 48
 	elections_allowed = yes
 }

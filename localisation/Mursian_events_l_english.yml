@@ -1,0 +1,26 @@
+﻿l_english:
+ # Mursland
+ MUR.1.t:0 "Election campaigns"
+
+ MUR.2.t:0 "National debates"
+
+ election.100.t:0 "Mursian province elections"
+ election.100.d:0 "The elections have arrived."
+ election.100.a:0 "Long live the king!"
+ election.100.b:0 "Long live the republic!"
+ election.100.c:0 "Long live democracy!"
+
+ MUR.11.t:0 "An attempt on Martins life!"
+ MUR.11.d:0 "While on a visit to the Brixivo Docks to inspect his new vessel Saint Zotic, Martin I was attacked by welder Hermolaos Antonis. He shot two one-inch nails into the king using a nailgun before being tackeled by security guards. Martin has been confirmed to bleed profusely, and has lost conscience several times during transport to the hospital. \n\nIt does not look wel for him..."
+ MUR.11.a:0 "Get the best medical experts in the world flown in, now!"
+ MUR.11.b:0 "Thought and prayers from everyone"
+
+ MUR.12.t:0 "Martin I is assassinated!"
+ MUR.12.d:0 "Sergeant Illov Kont, a new recruit of the Pazach royal guards, had placed a bomb under the desk in the office of Martin. The bomb had been set up to detonate when the office chair would be pulled back. \n\nHowever, it was not Martin who pulled the chair back, but Kaloyan Vaneus, one of the assistants of the Council of State. While Kaloyan was killed instantly by the blast, Martin was only hit by the fragmentation from the desktop. Although no official record has yet been made public, it was reported that between 20 and 65 shards entered the body of the king. \n\nHis condition appears to be highly critical as he was rushed to the hospital. In fact, so critical that various officials have started on preparing the succession process already."
+ MUR.12.a:0 "Praised by many, hated by even more."
+
+ MUR.13.t:0 "Martin I has been assassinated"
+ MUR.13.d:0 "Martin was shot in the dick on the toilet"
+ MUR.13.a:0 "What bastard would do something like that..."
+
+

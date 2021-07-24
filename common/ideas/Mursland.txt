@@ -6,6 +6,7 @@ ideas = {
 		# goes for changing spirits too). When you start with a spirit, you
 		# have to add this tou your histry/[country].txt file as well.
 
+		#----- Kings and lack there-of --------------------
 		Martin_I = {
 			picture = Martin_I 			# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
 			allowed = { 				# determines who can get it. Used for advisors and such
@@ -26,6 +27,134 @@ ideas = {
 				political_power_gain = -0.3
 				stability_factor = -0.1
 				ai_focus_aggressive_factor = -0.5
+			}
+		}
+
+		Arkady_III = {
+			picture = Arkady_III 		# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+				# always = no 
+			}
+			available = {				
+				NOT = {
+					has_government = neutrality # remove if King in power
+				}
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				experience_gain_air = 0.05
+				fascism_acceptance = 50
+				neutrality_acceptance = 50
+			}
+		}
+
+		Succesor_Crisis = {
+			picture = generic_disjointed_gov
+			allowed = {
+				original_tag = MUR
+			}
+			available = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.5
+				stability_weekly = -0.05
+				political_advisor_cost_factor = 0.5
+				army_chief_cost_factor = 0.5
+				air_chief_cost_factor = 0.5
+				navy_chief_cost_factor = 0.5
+				high_command_cost_factor = 0.5
+				economy_cost_factor = 0.5
+				conscription_factor = 0.5
+			}
+		}
+
+		Dimokratia = {
+			picture = generic_disjointed_gov
+			allowed = {
+				original_tag = MUR
+			}
+			available = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = -0.1
+				democratic_drift = 0.01
+			}
+		}
+
+		#----- Election support ---------
+		Support_republicanism = {
+			picture = generic_disjointed_gov 
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			cancel = { 
+				date < 1942.8.1 # Mursland election
+			} #determines on what conditions the idea is canceled, for example too low political power
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.025
+				neutrality_drift = -0.025
+				fascism_drift = -0.025
+			}
+		}
+
+		Support_the_crown = {
+			picture = generic_disjointed_gov 
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			cancel = { 
+				date < 1942.8.1 # Mursland election
+			} #determines on what conditions the idea is canceled, for example too low political power
+
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.10
+				fascism_drift = 0.05
+			}
+		}
+
+		Support_democracy = {
+			picture = generic_disjointed_gov 
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			cancel = { 
+				date < 1942.8.1 # Mursland election
+			} #determines on what conditions the idea is canceled, for example too low political power
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.05
+				authdemocracy_drift = 0.025
 			}
 		}
 

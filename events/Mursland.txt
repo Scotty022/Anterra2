@@ -1,0 +1,277 @@
+add_namespace = Mursland
+
+country_event = { # MUR_election_campaigns
+	id = MURSLAND.1
+	title = MUR.1.t
+	desc = MUR.1.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {	# Democracy
+		name = MUR.1.a	
+		ai_chance = { factor = 30 }
+		
+		add_ideas = Support_democracy
+	}
+	option = {	# Republicanism
+		name = MUR.1.b
+		ai_chance = { factor = 10 }
+		
+		add_ideas = Support_republicanism
+	}
+	option = { # Monarchism	
+		name = MUR.1.c
+		ai_chance = { factor = 15 }
+		
+		add_ideas = Support_the_crown
+	}
+}
+
+country_event = { # MUR_election_debates
+	id = MURSLAND.2
+	title = MUR.2.t
+	desc = MUR.2.d
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+
+	option = {
+		name = MUR.2.a			# democracy, ath-democracy
+		ai_chance = { factor = 30 }
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.075
+		}
+		add_popularity = {
+			ideology = authdemocracy
+			popularity = 0.05
+		}
+		add_war_support = -0.05
+		add_stability = 0.05
+	}
+	option = {
+		name = MUR.2.b			# neutrality, fascism
+		ai_chance = { factor = 30 }
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.10
+		}
+		add_war_support = 0.05
+		add_stability = -0.05
+	}
+	option = {
+		name = MUR.2.c			# neutrality, ath-democracy
+		ai_chance = { factor = 30 }
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+		add_popularity = {
+			ideology = authdemocracy
+			popularity = 0.05
+		}
+		add_stability = 0.05
+	}
+}
+
+# MURSIAN ELECTION at the start of the game
+country_event = { # Elections trigger event
+	id = election.100
+	title = election.100.t
+	desc = election.100.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = MUR
+		#date > 1948.8.1
+		AND = {
+			date > 1948.8.1
+			date < 1948.8.3
+		}
+	}
+
+	option = { # Long live the king!
+		name = election.100.a
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				neutrality < 0.15
+			}
+			modifier = {
+				factor = 100
+				neutrality > 0.30
+			}
+		}
+		add_stability = -0.10
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.10
+		}
+	}
+
+	option = { # Long live the republic!
+		name = election.100.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				democratic < 0.60
+			}
+		}
+		add_stability = -0.10
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.05
+		}
+		set_global_flag = KV_wins_election # Enables republic event
+	}
+
+	option = { # Long live democracy!
+		name = election.100.c
+		ai_chance = {
+			base = 5
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.15
+		}
+		add_popularity = {
+			ideology = authdemocracy
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+
+		set_party_name = { 
+			ideology = democratic 
+			long_name = MUR_KLD_LONG	#Konfederatsiya Liberalni Duurzhavi
+			name = MUR_KLD_SHORT		#KLD
+		}
+		#set_global_flag = KLD_in_power	#Rip K-V 
+	}
+}
+
+####################################################
+############### MARTIN ASSASSINATION ###############
+####################################################
+country_event = { # First assassination attempt
+	id = MURSLAND.11
+	title = MUR.11.t
+	desc = MUR.11.d
+	picture = GFX_report_event_german_speech
+
+	fire_only_once = yes
+
+	trigger = {
+		original_tag = MUR
+		date > 1946.2.1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = MUR.11.a			# save
+		ai_chance = { factor = 30 }
+	}
+
+	option = {
+		name = MUR.11.b			# kill
+		ai_chance = { factor = 10 }
+
+		add_stability = -0.25
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.1
+		}
+		
+		swap_ideas = {
+			remove_idea = Martin_I
+			add_idea = Succesor_Crisis
+		}
+		set_global_flag = Martin_I_died
+	}
+}
+
+country_event = { # Vervroegde assassination attempt
+	id = MURSLAND.13
+	title = MUR.13.t
+	desc = MUR.13.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	option = {
+		name = MUR.11.b			# kill
+		ai_chance = { factor = 10 }
+
+		add_stability = -0.25
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.1
+		}
+		
+		swap_ideas = {
+			remove_idea = Martin_I
+			add_idea = Succesor_Crisis
+		}
+		set_global_flag = Martin_I_died
+	}
+}
+
+country_event = { # Second assassination attempt
+	id = MURSLAND.12
+	title = MUR.12.t
+	desc = MUR.12.d
+	picture = GFX_report_event_german_speech
+
+	is_triggered_only = yes
+
+	trigger = {
+		date > 1953.8.19
+		NOT = { has_global_flag = Martin_I_died }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = MUR.12.a			# kill
+		ai_chance = { factor = 30 }
+
+		add_stability = -0.10
+
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = -0.1
+		}
+		
+		swap_ideas = {
+			remove_idea = Martin_I
+			add_idea = Succesor_Crisis
+		}
+		set_global_flag = Martin_I_died
+	}
+}

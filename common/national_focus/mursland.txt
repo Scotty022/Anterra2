@@ -1,0 +1,189 @@
+﻿###########################
+# Mursland Focus Tree
+# By Pjoot
+###########################
+
+focus_tree = {
+	id = MUR_focus
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 25
+			tag = MUR
+		}
+	}
+	default = no
+### Mursian Politics ###
+	focus = { # election introduction
+		id = MUR_election_campaigns
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		x = 17
+		y = 0
+		
+		completion_reward = {
+			# swap_ideas = {
+			# remove_idea = soft_bickering
+			# add_idea = loud_whispering
+			# }
+			add_political_power = 100
+			country_event = MURSLAND.1
+		}
+	}
+	focus = { # more detaling in elections
+		id = MUR_election_debates
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_election_campaigns
+		x = 0
+		y = 1
+
+		prerequisite = {
+		focus = MUR_election_campaigns
+		}
+		
+		completion_reward = {
+			# swap_ideas = {
+			# remove_idea = soft_bickering
+			# add_idea = loud_whispering
+			# }
+			add_political_power = 200
+			country_event = MURSLAND.2
+		}
+	}
+
+
+	focus = { # start republic tree
+		id = MUR_a_republic
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_election_campaigns
+		x = -6
+		y = 2
+
+		prerequisite = { focus = MUR_election_debates }
+		available = {	# Requires the elections event to have happened.
+			has_global_flag = KV_wins_election
+			democratic = 0.7
+		}
+		mutually_exclusive = { 
+			focus = MUR_free_mursland
+			focus = MUR_long_live_Martin_I
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # REPUBLIC!!
+		id = MUR_Dimokratia
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		x = 9
+		y = 4
+
+		prerequisite = { 
+			focus = MUR_a_republic
+		}
+		available = {	# Requires the elections event to have happened.
+			democratic = 0.7
+			has_global_flag = Martin_I_died
+		}
+		mutually_exclusive = { focus = MUR_Succession_preparations }
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Succesor_Crisis
+				add_idea = Dimokratia
+			}
+		}
+	}
+
+
+	focus = { # start historic tree
+		id = MUR_free_mursland
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_election_campaigns
+		x = 0
+		y = 2
+
+		prerequisite = { focus = MUR_election_debates }
+		mutually_exclusive = { 
+			focus = MUR_a_republic
+			focus = MUR_long_live_Martin_I
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	focus = { # start monarchist tree
+		id = MUR_long_live_Martin_I
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_election_campaigns
+		x = 6
+		y = 2
+
+		prerequisite = { focus = MUR_election_debates }
+		available = {
+			OR = {
+				neutrality > 0.3
+				fascism > 0.3
+			}
+			NOT = { has_global_flag = Martin_I_died }
+		}
+		mutually_exclusive = { 
+			focus = MUR_a_republic
+			focus = MUR_free_mursland
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+### Succession ###
+	focus = { # Succession_preparations
+		id = MUR_Succession_preparations
+		icon = GFX_goal_generic_propaganda
+		cost = 2.0
+		x = 5
+		y = 4
+
+		available = {
+			has_global_flag = Martin_I_died
+		}
+		mutually_exclusive = { focus = MUR_Dimokratia }
+		
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = MUR_Arkady_III
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_Succession_preparations
+		x = 0
+		y = 1
+
+		prerequisite = { focus = MUR_Succession_preparations }
+
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = Succesor_Crisis
+				add_idea = Arkady_III
+			}
+			add_stability = 0.1
+		}
+	}
+	
+### Military - Army ###
+#..........
+}

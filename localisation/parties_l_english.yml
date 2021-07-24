@@ -45,6 +45,8 @@
  MUR_neutrality_party:0 "Martinites"
  MUR_authdemocracy_party:0 "KFP"
  MUR_authdemocracy_party_long:0 "Kralskata Federatsiya Parti"
+ MUR_KLD_LONG:0 "Konfederatsiya Liberalni Duurzhavi" #event
+ MUR_KLD_SHORT:0 "KLD" #event
 
  ROV_communism_party:0 "Proletarijatska Stranka"
  ROV_democratic_party:0 "Studentska"
