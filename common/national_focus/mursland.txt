@@ -19,7 +19,7 @@ focus_tree = {
 		id = MUR_election_campaigns
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
-		x = 17
+		x = 19
 		y = 0
 		
 		completion_reward = {
@@ -76,6 +76,20 @@ focus_tree = {
 			add_political_power = 50
 		}
 	}
+	focus = { # end_of_monarchism
+		id = MUR_end_of_monarchism
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_a_republic
+		x = -2
+		y = 1
+
+		prerequisite = { focus = MUR_a_republic }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
 	focus = { # REPUBLIC!!
 		id = MUR_Dimokratia
 		icon = GFX_goal_generic_propaganda
@@ -84,7 +98,7 @@ focus_tree = {
 		y = 4
 
 		prerequisite = { 
-			focus = MUR_a_republic
+			focus = MUR_end_of_monarchism
 		}
 		available = {	# Requires the elections event to have happened.
 			democratic = 0.7
@@ -99,6 +113,187 @@ focus_tree = {
 			}
 		}
 	}
+	focus = { # equal people erdict
+		id = MUR_equality
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_a_republic
+		x = -3
+		y = 4
+
+		prerequisite = { 
+			focus = MUR_Dimokratia
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # release traxia process
+		id = MUR_Traxian_autonomy
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_equality
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_equality
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # release traxia process end
+		id = MUR_Traxian_freedom
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_equality
+		x = 0
+		y = 2
+
+		prerequisite = { 
+			focus = MUR_Traxian_autonomy
+		}
+
+		completion_reward = {
+			release_puppet = TRA
+		}
+	}
+	focus = { # puppet Lusjki
+		id = MUR_Freedom_in_lusjki
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_equality
+		x = -1
+		y = 3
+
+		prerequisite = { 
+			focus = MUR_Traxian_freedom
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				target = LUS
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = { # puppet Vrtgora
+		id = MUR_Freedom_in_vrtgora
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_equality
+		x = -1
+		y = 4
+
+		prerequisite = { 
+			focus = MUR_Freedom_in_lusjki
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				target = VRT
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = { # acquire trans-traxia       #----------- create event
+		id = MUR_acquire_trans_traxi
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_equality
+		x = 1
+		y = 4
+
+		prerequisite = { 
+			focus = MUR_Traxian_freedom
+		}
+
+		completion_reward = {
+			# create_wargoal = {
+			# 	target = PRO
+			# 	type = puppet_wargoal_focus
+			# }
+		}
+	}
+	focus = { # puppet Propygria
+		id = MUR_Freedom_in_propygria
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_equality
+		x = 3
+		y = 3
+
+		prerequisite = { 
+			focus = MUR_Traxian_freedom
+		}
+
+		completion_reward = {
+			create_wargoal = {
+				target = PRO
+				type = puppet_wargoal_focus
+			}
+		}
+	}
+	focus = { # puppet Volarian republic
+		id = MUR_Volarian_republic
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_equality
+		x = 0
+		y = 5
+
+		#prerequisite = { 
+		#	focus = MUR_Freedom_in_vrtgora
+		#}
+		available = {
+			LUS = {
+				is_subject_of = ROOT
+			}
+			VRT = {
+				is_subject_of = ROOT
+			}
+			TRA = {
+				is_subject_of = ROOT
+			}
+			OR = {
+				any_country = {
+					is_subject_of = ROOT
+					owns_state = 208
+				}
+			}			
+		}
+
+		completion_reward = {
+			set_cosmetic_tag = VOL_CON
+			annex_country = {
+				target = VRT
+			}
+			annex_country = {
+				target = LUS
+			}
+			annex_country = {
+				target = TRA
+			}
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = LUS
+						is_core_of = VRT
+						is_core_of = TRA
+					}
+				}
+				add_core_of = MUR
+			}
+			hidden_effect = {
+				news_event = { id = mursland.200 hours = 6 }  # Change the news event !!
+				set_global_flag = form_volirian_conf_flag
+			}
+		}
+	}
+
 
 
 	focus = { # start historic tree

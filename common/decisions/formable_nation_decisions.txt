@@ -76,7 +76,7 @@ form_volirian_conf_category = {
 
 		
 			hidden_effect = {
-				news_event = { id = wtt_news.53 hours = 6 }  # Change the news event !!
+				news_event = { id = mursland.200 hours = 6 }  # Change the news event !!
 				set_global_flag = form_volirian_conf_flag
 			}
 		}

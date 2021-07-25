@@ -215,7 +215,7 @@ country_event = { # Vervroegde assassination attempt
 	is_triggered_only = yes
 
 	option = {
-		name = MUR.11.b			# kill
+		name = MUR.13.a			# kill
 		ai_chance = { factor = 10 }
 
 		add_stability = -0.25
@@ -274,4 +274,8 @@ country_event = { # Second assassination attempt
 		}
 		set_global_flag = Martin_I_died
 	}
+}
+
+news_event = {
+	id = mursland.200
 }
