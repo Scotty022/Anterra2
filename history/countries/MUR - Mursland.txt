@@ -47,6 +47,9 @@ add_ideas = {
 	Martin_I
 }
 
+# set_variable = { right_support = neutrality_support }
+# add_to_variable = { right_support = fascism_support }
+
 #################################
 ######### Politicians ###########
 #################################

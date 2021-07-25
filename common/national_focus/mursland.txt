@@ -53,13 +53,13 @@ focus_tree = {
 		}
 	}
 
-
+	## REPUBLIC TREE ----------------------------
 	focus = { # start republic tree
 		id = MUR_a_republic
-		icon = GFX_goal_generic_propaganda
+		icon =  GFX_goal_support_democracy
 		cost = 10.0
 		relative_position_id = MUR_election_campaigns
-		x = -6
+		x = -4
 		y = 2
 
 		prerequisite = { focus = MUR_election_debates }
@@ -81,7 +81,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
 		relative_position_id = MUR_a_republic
-		x = -2
+		x = -4
 		y = 1
 
 		prerequisite = { focus = MUR_a_republic }
@@ -94,22 +94,50 @@ focus_tree = {
 		id = MUR_Dimokratia
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
-		x = 9
+		x = 11
 		y = 4
 
-		prerequisite = { 
-			focus = MUR_end_of_monarchism
-		}
+		prerequisite = { focus = MUR_end_of_monarchism }
+		prerequisite = { focus = MUR_relieve_the_reigns }
 		available = {	# Requires the elections event to have happened.
 			democratic = 0.7
 			has_global_flag = Martin_I_died
 		}
-		mutually_exclusive = { focus = MUR_Succession_preparations }
+		mutually_exclusive = { 
+			focus = MUR_Succession_preparations
+			focus = MUR_antovs_chance
+		}
 
 		completion_reward = {
 			swap_ideas = {
 				remove_idea = Succesor_Crisis
 				add_idea = Dimokratia
+			}
+		}
+	}
+	focus = { # Presidentalism
+		id = MUR_Presenidentalism
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_Dimokratia
+		x = 0
+		y = 1
+
+		prerequisite = { focus = MUR_Dimokratia }
+
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = authdemocracy
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.05
 			}
 		}
 	}
@@ -122,7 +150,7 @@ focus_tree = {
 		y = 4
 
 		prerequisite = { 
-			focus = MUR_Dimokratia
+			focus = MUR_Presenidentalism
 		}
 
 		completion_reward = {
@@ -237,7 +265,7 @@ focus_tree = {
 			}
 		}
 	}
-	focus = { # puppet Volarian republic
+	focus = { # Volarian republic
 		id = MUR_Volarian_republic
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
@@ -245,9 +273,8 @@ focus_tree = {
 		x = 0
 		y = 5
 
-		#prerequisite = { 
-		#	focus = MUR_Freedom_in_vrtgora
-		#}
+		prerequisite = { focus = MUR_Freedom_in_vrtgora	}
+		prerequisite = { focus = MUR_acquire_trans_traxi }
 		available = {
 			LUS = {
 				is_subject_of = ROOT
@@ -293,15 +320,29 @@ focus_tree = {
 			}
 		}
 	}
-
-
-
-	focus = { # start historic tree
-		id = MUR_free_mursland
+	focus = { # relieve_the_reigns
+		id = MUR_relieve_the_reigns
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
+		relative_position_id = MUR_a_republic
+		x = -2
+		y = 1
+
+		prerequisite = { focus = MUR_a_republic }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+
+
+	## HISTORIC TREE -----------------------------
+	focus = { # start historic tree
+		id = MUR_free_mursland
+		icon = GFX_goal_generic_neutrality_focus
+		cost = 10.0
 		relative_position_id = MUR_election_campaigns
-		x = 0
+		x = 2
 		y = 2
 
 		prerequisite = { focus = MUR_election_debates }
@@ -314,22 +355,127 @@ focus_tree = {
 			add_political_power = 50
 		}
 	}
+	focus = { # antonize the Dirish
+		id = MUR_antonize_the_Dirish
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_free_mursland
+		x = 3
+		y = 2
+
+		prerequisite = { 
+			focus = MUR_free_mursland
+			focus = MUR_long_live_Martin_I
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # sell state businesses
+		id = MUR_sell_last_state_businesses
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_free_mursland
+		x = -3
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_free_mursland
+			focus = MUR_a_republic
+		}
+
+		completion_reward = {
+			add_timed_idea = { idea = privitizing_businesses days = 600 }
+		}
+	}
+	focus = { # fund education programs
+		id = MUR_further_Education_funding
+		icon = GFX_focus_research
+		cost = 10.0
+		relative_position_id = MUR_sell_last_state_businesses
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_sell_last_state_businesses
+		}
+		available = {
+			not = { has_idea = privitizing_businesses }
+		}
+
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = { # neutrality
+		id = MUR_armed_neutrality
+		icon = GFX_goal_support_democracy
+		cost = 10.0
+		relative_position_id = MUR_free_mursland
+		x = 0
+		y = 4
+
+		prerequisite = { 
+			focus = MUR_free_mursland
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # bastion of neutrality
+		id = MUR_bastion_of_neutrality
+		icon = GFX_goal_support_democracy
+		cost = 10.0
+		relative_position_id = MUR_armed_neutrality
+		x = 1
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_armed_neutrality
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # beacon of democracy
+		id = MUR_beacon_of_democracy
+		icon = GFX_goal_support_democracy
+		cost = 10.0
+		relative_position_id = MUR_armed_neutrality
+		x = -1
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_armed_neutrality
+		}
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
 
 
+	## MONARCHY TREE ---------------------------	
 	focus = { # start monarchist tree
 		id = MUR_long_live_Martin_I
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
 		relative_position_id = MUR_election_campaigns
-		x = 6
+		x = 8
 		y = 2
 
 		prerequisite = { focus = MUR_election_debates }
 		available = {
 			OR = {
-				neutrality > 0.3
-				fascism > 0.3
+				neutrality > 0.2
+				fascism > 0.2
 			}
+			# ( neutrality + fascism ) > 0.3
+			# check_variable = { MUR.right_support > 0.3 }
 			NOT = { has_global_flag = Martin_I_died }
 		}
 		mutually_exclusive = { 
@@ -341,19 +487,92 @@ focus_tree = {
 			add_political_power = 50
 		}
 	}
+	focus = { # affirm lusjki cooperation
+		id = MUR_lusjki_cooperation
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_long_live_Martin_I
+		x = -1
+		y = 1
+
+		prerequisite = { focus = MUR_long_live_Martin_I }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # Mursian culture project
+		id = MUR_mursian_culture
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_lusjki_cooperation
+		x = 0
+		y = 1
+
+		prerequisite = { focus = MUR_lusjki_cooperation }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # Free Accessibility of Religion Act
+		id = MUR_reintroduce_Free_Accessibility_of_Religion_Act
+		icon = GFX_goal_generic_propaganda
+		cost = 15.0
+		relative_position_id = MUR_free_mursland
+		x = 4
+		y = 3
+
+		prerequisite = { focus = MUR_mursian_culture }
+		prerequisite = { focus = MUR_antonize_the_Dirish }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # ban non-Mursian newspapers
+		id = MUR_ban_non_mursian_newspapers
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_free_mursland
+		x = 6
+		y = 3
+
+		prerequisite = { focus = MUR_mursian_culture }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # Crack down on Traxians
+		id = MUR_crack_down_on_Traxians
+		icon = GFX_goal_generic_propaganda
+		cost = 15.0
+		relative_position_id = MUR_reintroduce_Free_Accessibility_of_Religion_Act
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = MUR_reintroduce_Free_Accessibility_of_Religion_Act }
+		prerequisite = { focus = MUR_ban_non_mursian_newspapers }
+
+		completion_reward = { }
+	}
 
 ### Succession ###
 	focus = { # Succession_preparations
 		id = MUR_Succession_preparations
 		icon = GFX_goal_generic_propaganda
 		cost = 2.0
-		x = 5
+		x = 7
 		y = 4
 
 		available = {
 			has_global_flag = Martin_I_died
 		}
-		mutually_exclusive = { focus = MUR_Dimokratia }
+		mutually_exclusive = { 
+			focus = MUR_Dimokratia 
+			focus = MUR_antovs_chance
+		}
 		
 		completion_reward = {
 			add_political_power = 50
@@ -378,7 +597,152 @@ focus_tree = {
 			add_stability = 0.1
 		}
 	}
+
+	focus = { # World orientation (Kesh intervention start)
+		id = MUR_world_orientation
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_Succession_preparations
+		x = 0
+		y = 2
+
+		prerequisite = { 
+			focus = MUR_Arkady_III 
+			focus = MUR_Palokist_Mursland
+			focus = MUR_Presenidentalism
+		}
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+	focus = { # Kesh pro democracy
+		id = MUR_kesh_democracy
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_Succession_preparations
+		x = 2
+		y = 3
+
+		prerequisite = { 
+			focus = MUR_world_orientation
+		}
+		prerequisite = { 
+			focus = MUR_Arkady_III
+			focus = MUR_Presenidentalism
+		}
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+	focus = { # artemia pro fascism
+		id = MUR_approach_samotkhe
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_Succession_preparations
+		x = -2
+		y = 3
+
+		prerequisite = { 
+			focus = MUR_world_orientation
+		}
+		prerequisite = { 
+			focus = MUR_Arkady_III
+			focus = MUR_Palokist_Mursland
+		}
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+	focus = { # fuck communists
+		id = MUR_communist_destruction
+		icon = GFX_focus_attack_soviet
+		cost = 5.0
+		relative_position_id = MUR_Succession_preparations
+		x = 0
+		y = 3
+
+		prerequisite = { 
+			focus = MUR_world_orientation
+		}
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+
+### Fascist tree ###
+	focus = {
+		id = MUR_antovs_vision
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.0
+		relative_position_id = MUR_Succession_preparations
+		x = -4
+		y = -1
+
+		prerequisite = { focus = MUR_a_republic }
+
+		completion_reward = { 
+			add_stability = -0.1
+			add_ideas = generic_fascist_demagogue
+		}
+	}
+	focus = {
+		id = MUR_antovs_chance
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_Succession_preparations
+		x = -4
+		y = 0
+
+		prerequisite = { focus = MUR_antovs_vision }
+		available = {
+			has_global_flag = Martin_I_died
+			fascism > 0.1
+		}
+		mutually_exclusive = { 
+			focus = MUR_Succession_preparations 
+			focus = MUR_Dimokratia
+		}
+
+		completion_reward = { 
+			#remove_ideas = Succesor_Crisis
+			add_stability = -0.1
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+			}
+		}
+	}
+	focus = {
+		id = MUR_Palokist_Mursland
+		icon = GFX_goal_support_fascism
+		#GFX_focus_generic_anti_fascist_diplomacy_shine
+		cost = 5.0
+		relative_position_id = MUR_antovs_chance
+		x = 0
+		y = 1
+
+		prerequisite = { focus = MUR_antovs_chance }
+		available = {
+			fascism > 0.5
+		}
+
+		completion_reward = { 
+			remove_ideas = Succesor_Crisis
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+		}
+	}
 	
 ### Military - Army ###
 #..........
+	continuous_focus_position = {
+		x = 0
+		y = 1600
+	}
 }
