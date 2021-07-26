@@ -189,6 +189,22 @@ focus_tree = {
 			release_puppet = TRA
 		}
 	}
+	focus = { # prepare for a storm
+		id = MUR_prepare_for_a_storm
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_equality
+		x = 2
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_equality
+		}
+
+		completion_reward = {
+			add_ideas = grand_recruitment_drive
+		}
+	}
 	focus = { # puppet Lusjki
 		id = MUR_Freedom_in_lusjki
 		icon = GFX_goal_generic_propaganda
@@ -415,7 +431,7 @@ focus_tree = {
 		cost = 10.0
 		relative_position_id = MUR_free_mursland
 		x = 0
-		y = 4
+		y = 6
 
 		prerequisite = { 
 			focus = MUR_free_mursland
@@ -455,6 +471,50 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 50
+		}
+	}
+
+	focus = { # woman recruitment
+		id = MUR_active_woman_reruitment
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.0
+		relative_position_id = MUR_armed_neutrality
+		x = -3
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_armed_neutrality
+			focus = MUR_prepare_for_a_storm
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = woman_recruitment1
+				add_idea = woman_recruitment2
+			}
+		}
+	}
+	focus = { # woman recruitment emergency
+		id = MUR_woman_recruitment_emergency
+		icon = GFX_goal_generic_political_pressure
+		cost = 2.0
+		relative_position_id = MUR_active_woman_reruitment
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_active_woman_reruitment
+		}
+		available = {
+			has_war = yes
+			surrender_progress > 0.2
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = woman_recruitment2
+				add_idea = woman_recruitment3
+			}
 		}
 	}
 
@@ -720,7 +780,7 @@ focus_tree = {
 		id = MUR_Palokist_Mursland
 		icon = GFX_goal_support_fascism
 		#GFX_focus_generic_anti_fascist_diplomacy_shine
-		cost = 5.0
+		cost = 10.0
 		relative_position_id = MUR_antovs_chance
 		x = 0
 		y = 1
@@ -738,9 +798,109 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = MUR_destroy_the_opposition
+		icon = GFX_goal_support_fascism
+		#GFX_focus_generic_anti_fascist_diplomacy_shine
+		cost = 10.0
+		relative_position_id = MUR_antovs_chance
+		x = 0
+		y = 2
+
+		prerequisite = { focus = MUR_Palokist_Mursland }
+		available = {
+			fascism > 0.65
+		}
+
+		completion_reward = { 
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+	focus = {
+		id = MUR_the_new_constitution
+		icon = GFX_goal_support_fascism
+		#GFX_focus_generic_anti_fascist_diplomacy_shine
+		cost = 10.0
+		relative_position_id = MUR_antovs_chance
+		x = -2
+		y = 2
+
+		prerequisite = { focus = MUR_Palokist_Mursland }
+		# available = {
+		# 	fascism > 0.5
+		# }
+
+		completion_reward = { 
+			add_political_power = 50
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.10
+			}
+		}
+	}
+	focus = {
+		id = MUR_union_state
+		icon = GFX_goal_support_fascism
+		#GFX_focus_generic_anti_fascist_diplomacy_shine
+		cost = 10.0
+		relative_position_id = MUR_antovs_chance
+		x = -2
+		y = 3
+
+		prerequisite = { focus = MUR_the_new_constitution }
+		prerequisite = { focus = MUR_destroy_the_opposition }
+		# available = {
+		# 	fascism > 0.5
+		# }
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = MUR_grand_mobilization
+		icon = GFX_goal_generic_political_pressure
+		#GFX_focus_generic_anti_fascist_diplomacy_shine
+		cost = 10.0
+		relative_position_id = MUR_antovs_chance
+		x = -2
+		y = 4
+
+		prerequisite = { focus = MUR_union_state }
+		available = {
+			has_war = yes
+		}
+
+		completion_reward = { 
+			add_ideas = grand_recruitment_drive
+			#enable creating Pazach units descisions, that also causes higher debuffs and stuff
+		}
+	}
+
+	# focus = { # mobilize the pazach
+	# 	id = MUR_mobilize_the_pazach
+	# 	icon = GFX_goal_generic_political_pressure
+	# 	cost = 10.0
+	# 	x = 18
+	# 	y = 14
+
+	# 	prerequisite = { 
+	# 		focus = MUR_grand_mobilization
+	# 		focus = MUR_Traxian_freedom
+	# 		focus = MUR_bastion_of_neutrality
+	# 		focus = MUR_crack_down_on_Traxians
+	# 	}
+
+	# 	completion_reward = { 
+	# 		add_ideas = mobilize_the_pazach1
+	# 		#enable creating Pazach units descisions, that also causes higher debuffs and stuff
+	# 	}
+	# }
 	
 ### Military - Army ###
 #..........
+
 	continuous_focus_position = {
 		x = 0
 		y = 1600

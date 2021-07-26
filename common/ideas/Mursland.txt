@@ -178,6 +178,117 @@ ideas = {
 			}
 		}
 
+		woman_recruitment1 = {
+			picture = GFX_goal_generic_political_pressure 		# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				#civilian_factory_use = 1
+				conscription_factor = 0.10
+			}
+		}
+
+		woman_recruitment2 = {
+			picture = GFX_goal_generic_political_pressure 		# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				#civilian_factory_use = 1
+				conscription_factor = 0.25
+				production_speed_arms_factory_factor = -0.05
+				production_speed_industrial_complex_factor = -0.05
+				production_speed_dockyard_factor = -0.05
+			}
+		}
+
+		woman_recruitment3 = {
+			picture = GFX_goal_generic_political_pressure 		# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				#civilian_factory_use = 1
+				conscription_factor = 0.4
+				production_speed_arms_factory_factor = -0.15
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_dockyard_factor = -0.15
+				war_support_weekly = -0.005
+			}
+		}
+
+		grand_recruitment_drive = {
+			picture = sentinel 		# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				#civilian_factory_use = 1
+				conscription = 0.01
+			}
+		}
+
+		mobilize_the_pazach1 = {
+			picture = industrial_complex 		# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				#civilian_factory_use = 1
+				conscription = 0.005
+				required_garrison_factor = 0.05
+			}
+		}
+
+		mobilize_the_pazach2 = {			# when Pazach is spawned 
+			picture = industrial_complex 		# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
+			allowed = { 				# determines who can get it. Used for advisors and such
+				original_tag = MUR
+			}
+			available = {				
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				#civilian_factory_use = 1
+				conscription = 0.007
+				required_garrison_factor = 0.1
+			}
+		}
+
 	}
 	
 	political_advisor = {

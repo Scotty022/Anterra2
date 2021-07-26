@@ -45,6 +45,7 @@ set_popularities = {
 #################################
 add_ideas = {
 	Martin_I
+	woman_recruitment1
 }
 
 # set_variable = { right_support = neutrality_support }
