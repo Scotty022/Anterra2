@@ -43,3 +43,22 @@ create_country_leader = {
 	#traits = {
 	#}
 }
+create_country_leader = {
+	name = "Kulikov Danilovich"
+	desc = "POLITICS_RONALD_MCDONALD_DESC"
+	picture = "Portrait_Lestykhol_Kulikov_Danilovich.dds"
+	expire = "1965.1.1"
+	ideology = fascism
+	#traits = {
+	#}
+}
+create_field_marshal = {
+	name = "Kulikov Danilovich"
+	picture = "Portrait_Lestykhol_Kulikov_Danilovich.dds"
+	traits = {  politically_connected trait_reckless media_personality}
+	skill = 2
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

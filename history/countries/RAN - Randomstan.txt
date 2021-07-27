@@ -41,3 +41,14 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 }
+
+create_corps_commander = {
+	name = "Hitler Adolf"
+	picture = "Portrait_Namibia_Adolf_Hitler.dds"
+	traits = {war_hero harsh_leader infantry_officer infantry_leader trait_mountaineer politically_connected}
+	skill = 5
+	attack_skill = 5
+	defense_skill = 0
+	planning_skill = 0
+	logistics_skill = 0
+}
