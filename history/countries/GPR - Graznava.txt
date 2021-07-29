@@ -54,6 +54,14 @@ create_country_leader = {
 	ideology = marxism	
 	}
 
+	create_country_leader = {
+	name = "Revolutionary Defense Council"
+	desc = "Staunch supporter of anti-volkovist communism and Graznavan independence"
+	picture = "Portrait_Graznava_Defense_Council.dds"
+	expire = "1965.1.1"
+	ideology = anarchism
+	}
+
 create_country_leader = {
 	name = "Alexander Khrenin"
 	desc = "pp poopoo"
