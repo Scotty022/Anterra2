@@ -56,3 +56,9 @@
  authdemocracy_desc:0 "Authoritarian Democratic Regime"
  authoritarian_democracy:0 "Authoritarian democratic"
  authoritarian_democracy_desc:0 "Authoritarian regimes are mostly aligned with right wing ideologies while maintaining certain democratic institutions. It is led by a strong central leader, but is still elected from the people."
+
+  libsoc:0 "Libertarian Socialism"
+ libsoc_noun:0 "Libertarian Socialism"
+ libsoc_desc:0 "Libertarian Socialist Regime"
+ libertarian_socialism:0 "Libertarian Socialist"
+ libertarian_socialism_desc:0 "Libertarian socialism is an anti-authoritarian, anti-statist and libertarian[9][10] political philosophy within the socialist movement which rejects the state socialist conception of socialism as a statist form where the state retains centralized control of the economy."
