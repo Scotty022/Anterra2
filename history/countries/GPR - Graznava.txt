@@ -56,10 +56,10 @@ create_country_leader = {
 
 	create_country_leader = {
 	name = "Revolutionary Defense Council"
-	desc = "Staunch supporter of anti-volkovist communism and Graznavan independence"
+	desc = "pp poopoo"
 	picture = "Portrait_Graznava_Defense_Council.dds"
 	expire = "1965.1.1"
-	ideology = anarchism
+	ideology = anarcho_communism
 	}
 
 create_country_leader = {
