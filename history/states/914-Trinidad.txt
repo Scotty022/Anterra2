@@ -1,0 +1,20 @@
+state={
+		id = 914
+		name = "Trinidad"
+		manpower = 100000
+		state_category = pastoral
+
+		history = {
+			owner = AYG
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			9044 819 9012
+	}
+}

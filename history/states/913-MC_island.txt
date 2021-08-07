@@ -1,0 +1,20 @@
+state={
+		id = 913
+		name = "MC_island"
+		manpower = 100000
+		state_category = pastoral
+
+		history = {
+			owner = MCU
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			9391
+	}
+}

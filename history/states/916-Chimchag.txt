@@ -1,0 +1,20 @@
+state={
+		id = 916
+		name = "Chimchag"
+		manpower = 100000
+		state_category = pastoral
+
+		history = {
+			owner = TIP
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			2618
+	}
+}

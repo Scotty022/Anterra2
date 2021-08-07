@@ -1,0 +1,20 @@
+state={
+		id = 915
+		name = "Satao"
+		manpower = 100000
+		state_category = pastoral
+
+		history = {
+			owner = JUN
+			
+
+			
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			1988
+	}
+}
