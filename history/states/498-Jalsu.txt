@@ -1,6 +1,6 @@
 state={
 		id = 498
-		name = "JAlsu"
+		name = "Jalsu"
 		manpower = 100000
 		state_category = pastoral
 

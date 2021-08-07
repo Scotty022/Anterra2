@@ -17,8 +17,6 @@ state={
 			buildings = {
 				
 				infrastructure = 1
-				industrial_complex = 0
-				arms_factory = 0
 				synthetic_refinery = 1
 			} 
 		}
