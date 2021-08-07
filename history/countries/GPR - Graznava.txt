@@ -17,6 +17,9 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
+set_stability = 0.1
+set_war_support = 0.05
+
 set_convoys = 20
 set_research_slots = 3
 add_manpower = 5000
@@ -29,10 +32,11 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 10
+	democratic = 5
 	fascism = 0
-	communism = 65
-	neutrality = 25
+	communism = 40
+	libsoc = 50
+	neutrality = 5
 }
 
 #################################
@@ -54,13 +58,13 @@ create_country_leader = {
 	ideology = marxism	
 	}
 
-	create_country_leader = {
+create_country_leader = {
 	name = "Revolutionary Defense Council"
 	desc = "pp poopoo"
 	picture = "Portrait_Graznava_Defense_Council.dds"
 	expire = "1965.1.1"
-	ideology = anarcho_communism
-	}
+	ideology = anarchist_communism
+}
 
 create_country_leader = {
 	name = "Alexander Khrenin"
@@ -68,4 +72,39 @@ create_country_leader = {
 	picture = "Portrait_Graznava_Alexander_Khrenin.dds"
 	expire = "1965.1.1"
 	ideology = despotism
+}
+
+#################################
+######### Generals ##############
+#################################
+
+create_corps_commander = {
+	name = "Boris Trofimov"
+	picture = "Portrait_Red_Star_Mkhitar_Ambartsumyan.dds"
+	traits = {war_hero harsh_leader infantry_officer infantry_leader trait_mountaineer politically_connected}
+	skill = 5
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}
+create_corps_commander = {
+	name = "Vassilis Ambartsumyan.dds"
+	picture = "Portrait_Vorkuta_Boris_Trofimov.dds"
+	traits = {war_hero hill_fighter cavalry_leader}
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+create_corps_commander = {
+	name = "Alexander Khrenin"
+	picture = "Portrait_Graznava_Alexander_Khrenin.dds"
+	traits = { hill_fighter trait_cautious politically_connected}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 1
 }

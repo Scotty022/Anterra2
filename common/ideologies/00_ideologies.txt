@@ -282,8 +282,11 @@ ideologies = {
 	libsoc = {
 	
 		types = {
+				
+			libertarian_socialism  = {
+			}
 		
-			anarcho_communism  = {
+			anarchist_communism  = {
 			}
 			
 			syndicalism  = {
@@ -296,7 +299,7 @@ ideologies = {
 			
 		}
 		
-		color = { 255 0 0 }
+		color = { 255 1 1 }
 			
 		war_impact_on_world_tension = 0.25		#no major danger
 		faction_impact_on_world_tension = 0.1
