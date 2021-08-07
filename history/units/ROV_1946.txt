@@ -85,7 +85,6 @@ units = {
 	# }
 }
 
-	}
 	division = { 
 		division_name = {
             is_name_ordered = yes
@@ -108,4 +107,15 @@ units = {
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.4
 	}
-}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 12
+        }
+		#name = "Test"
+		location = 2866
+		division_template = "Alpinistic Divisia" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+

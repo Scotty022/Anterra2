@@ -425,6 +425,8 @@
  GPR_communism_DEF:0 "Graznavan People's Republic"
  GPR_fascism:0 "Kryzhelovschina"
  GPR_fascism_DEF:0 "Greater Kryzhelovschina"
+ GPR_libsoc:0 "Revolutionary Defense Council"
+ GPR_libsoc_DEF:0 "Revolutionary Defense Council"
  GPR:0 "Kryzhelovschina"
  GPR_DEF:0 "Kryzhelovschina"
  GPR_ADJ:0 "Kryzhelovschina"

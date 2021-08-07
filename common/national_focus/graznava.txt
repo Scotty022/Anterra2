@@ -1,0 +1,646 @@
+﻿focus_tree = {
+	id = graznavan_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GPR
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = trusau_keeps_power
+		icon = IRK_the_response
+		x = -4
+		y = 1
+        relative_position_id = the_unpopular_rule
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 2
+		prerequisite = { focus = the_unpopular_rule }
+		mutually_exclusive = { focus = the_anarchists_strike }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				add_political_power = 69
+				add_stability = -0.1
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				YAR = { has_government = communism }
+				factor = 0
+			}
+		}
+	}
+	focus = {
+		id = the_unpopular_rule
+		icon = focus_spr_crush_the_revolution
+		x = 5
+		y = 5
+        #relative_position_id = AST_empower_the_workers
+
+		available = {
+			NOT = { is_in_faction_with = ROV }
+		}
+		bypass = {
+		}
+
+		cost = 2
+		#prerequisite = { focus = AST_workers_paradise }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.04
+			}
+				add_stability = -0.2
+		ai_will_do = {
+		}
+	}
+}
+	focus = {
+		id = the_anarchists_strike
+		icon = GFX_KHA_the_black_army
+		x = 5
+		y = 1
+        relative_position_id = the_unpopular_rule
+
+		available = {
+			NOT = { is_in_faction_with = RAZ }
+		}
+		bypass = {
+		}
+
+		cost = 5
+		prerequisite = { focus = the_unpopular_rule }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.04
+			}
+			add_stability = -0.3
+			set_politics = {
+				ruling_party = libsoc
+					elections_allowed = no
+					last_election = "1946.12.17"
+					election_frequency = 48
+			}
+		}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = welcome_rovsnoski_refugees
+		icon = GFX_KHA_assist_village_schools
+		x = 0
+		y = 1
+        relative_position_id = secure_the_revolution
+
+		available = {
+			NOT = { is_in_faction_with = ROV }
+		}
+		bypass = {
+		}
+
+		cost = 3
+		prerequisite = { focus = secure_the_revolution }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_manpower = 4000
+			add_stability = -.02
+            create_corps_commander = {
+				name = "Gabrijel Budić"
+				picture = "Portrait_FWRS_Gabrijel_Budić.dds"
+				traits = { hill_fighter trait_cautious politically_connected}
+				skill = 2
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 1
+		}
+		ai_will_do = {
+		}
+    }
+	}
+	focus = {
+		id = form_local_councils
+		icon = GFX_KHA_the_peoples_survey
+		x = 0
+		y = 1
+        relative_position_id = welcome_rovsnoski_refugees
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 3
+		prerequisite = { focus = welcome_rovsnoski_refugees }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = 75
+			add_stability = .05
+			add_popularity = {
+				ideology = libsoc
+				popularity = 0.05
+			}
+		}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = guiding_hand_of_the_revolutionary_council
+		icon = GFX_KHA_the_black_army
+		x = 0
+		y = 1
+        relative_position_id = form_local_councils
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 3
+		prerequisite = { focus = form_local_councils }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		    add_political_power = -100
+			add_stability = .1
+		}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = repair_UPRZ_infrastructure
+		icon = GFX_KHA_rural_production_nodes
+		x = 3
+		y = 2
+        relative_position_id = the_anarchists_strike
+
+		available = {
+			NOT = { is_in_faction_with = RAZ }
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { focus = the_anarchists_strike }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			set_building_level = {
+				type = infrastructure
+				level = 2
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+					level < 3
+				}
+				}
+			}
+		}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = communal_arms_plants
+		icon = GFX_KHA_enhanced_equipment_channels
+		x = -2
+		y = 1
+        relative_position_id = repair_UPRZ_infrastructure
+
+		available = {
+			NOT = { is_in_faction_with = RAZ }
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { focus = repair_UPRZ_infrastructure }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+					add_equipment_to_stockpile = {
+						type = infantry_equipment
+						amount = 600
+						producer = GPR
+					}
+				}
+			}
+		}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = formalizing_the_black_army
+		icon = GFX_KHA_learning_from_experience
+		x = 0
+		y = 1
+        relative_position_id = communal_arms_plants
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 2
+		prerequisite = { focus = communal_arms_plants }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = GPR
+			}
+			army_experience = 20
+			add_manpower = 5000
+			create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR }
+			create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR }
+			create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR }
+		}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = for_the_defense_of_the_revolution
+		icon = GFX_KHA_elite_units
+		x = -1
+		y = 1
+        relative_position_id = formalizing_the_black_army
+
+		available = {
+			NOT = { is_in_faction_with = RAZ }
+		}
+		bypass = {
+		}
+
+		cost = 3
+		prerequisite = { focus = formalizing_the_black_army }
+		mutually_exclusive = { focus = death_to_those_who_oppose_the_worker }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				army_experience = 20
+				add_manpower = 1000
+				random_owned_controlled_state = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+					}
+							add_building_construction = {
+						type = bunker
+						level = 5
+						instant_build = yes
+							}
+				add_tech_bonus = {
+					bonus = 1
+					uses = 2
+					category = infantry_weapons
+				}
+				
+				}
+			}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = death_to_those_who_oppose_the_worker
+		icon = GFX_KHA_elite_units
+		x = 1
+		y = 1
+        relative_position_id = formalizing_the_black_army
+
+		available = {
+			NOT = { is_in_faction_with = RAZ }
+		}
+		bypass = {
+		}
+
+		cost = 3
+		prerequisite = { focus = formalizing_the_black_army }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 1000
+				producer = GPR
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				army_experience = 20
+				add_tech_bonus = {
+					bonus = 1
+					uses = 2
+					category = land_doctrine
+				}
+		ai_will_do = {
+		}
+	}
+		}
+	}
+	focus = {
+		id = rally_the_councils
+		icon = GFX_KHA_the_foundation_laid
+		x = -1
+		y = 1.7
+        relative_position_id = death_to_those_who_oppose_the_worker
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { 
+		focus = death_to_those_who_oppose_the_worker
+		focus = for_the_defense_of_the_revolution
+	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				add_war_support = .2
+			}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = the_councils_stand_strong
+		icon = GFX_KHA_the_blade_honed
+		x = 1
+		y = 2
+        relative_position_id = death_to_those_who_oppose_the_worker
+
+		available = {
+			has_war = no
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { 
+		focus = rally_the_councils
+		focus = guiding_hand_of_the_revolutionary_council
+	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+				add_stability = .1
+			}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = put_down_the_dying_puppet
+		icon = GFX_KHA_elite_units
+		x = 0
+		y = 1
+        relative_position_id = the_councils_stand_strong
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { 
+		focus = the_councils_stand_strong
+	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = POZ
+			}
+			}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = destroy_the_gold_horders
+		icon = GFX_KHA_elite_units
+		x = 0
+		y = 1
+        relative_position_id = put_down_the_dying_puppet
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { 
+		focus = put_down_the_dying_puppet
+	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = LEI
+			}
+			}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = liberate_the_miners
+		icon = GFX_KHA_elite_units
+		x = 0
+		y = 1
+        relative_position_id = destroy_the_gold_horders
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { 
+		focus = destroy_the_gold_horders
+	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = HEL
+			}
+			}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = our_revolution_will_span_the_east
+		icon = GFX_KHA_elite_units
+		x = 0
+		y = 1
+        relative_position_id = liberate_the_miners
+
+		available = {
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { 
+		focus = liberate_the_miners
+	}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = YAR
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = ASS
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = LST
+			}
+			create_wargoal = {
+				type = annex_everything
+				target = POJ
+			}
+			}
+		ai_will_do = {
+		}
+    }
+	focus = {
+		id = secure_the_revolution
+		icon = GFX_KHA_the_contradictions_settled
+		x = 5
+		y = 2
+        relative_position_id = the_anarchists_strike
+
+		available = {
+			NOT = { is_in_faction_with = RAZ }
+		}
+		bypass = {
+		}
+
+		cost = 4
+		prerequisite = { focus = the_anarchists_strike }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.08
+			add_popularity = {
+				ideology = libsoc
+				popularity = 0.05
+			retire = Alexander Khrenin
+			}
+			remove_corps_commander = {
+				name = "Alexander Khrenin"
+				picture = "Portrait_Graznava_Alexander_Khrenin.dds"
+				traits = { hill_fighter trait_cautious politically_connected}
+				skill = 2
+				attack_skill = 1
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 1
+		}
+		}
+		ai_will_do = {
+		}
+    }
+}		
