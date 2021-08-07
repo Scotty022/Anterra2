@@ -4376,7 +4376,7 @@
 4375;194;240;127;land;false;desert;1
 4376;223;252;229;land;false;plains;1
 4377;231;207;127;land;true;plains;1
-4378;211;180;169;land;false;plains;1
+4378;211;180;169;land;true;urban;1
 4379;225;210;174;land;false;plains;1
 4380;209;212;141;land;true;mountain;1
 4381;250;124;134;land;false;plains;1
