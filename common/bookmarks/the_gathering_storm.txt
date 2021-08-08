@@ -7,8 +7,8 @@ bookmarks = {
 		default_country = "KOD"
 		default = yes
 		
-		TST={
-		 	history = "OTHER_GATHERING_STORM_DESC"
+		SEL={ #Kesh war east
+		 	history = "SEL_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
 				militarism_focus

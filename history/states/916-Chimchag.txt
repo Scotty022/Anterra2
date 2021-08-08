@@ -1,17 +1,20 @@
 state={
 		id = 916
 		name = "Chimchag"
-		manpower = 100000
-		state_category = pastoral
+		manpower = 4556200
+		state_category = city
+		buildings_max_level_factor = 0.5
 
 		history = {
 			owner = TIP
-			
+			add_core_of = KYA
 
-			
+			victory_points = {2618 10}
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 1
 			} 
 		}
 		provinces={

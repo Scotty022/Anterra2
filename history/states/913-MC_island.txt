@@ -2,16 +2,18 @@ state={
 		id = 913
 		name = "MC_island"
 		manpower = 100000
-		state_category = pastoral
+		state_category = small_island
 
 		history = {
 			owner = MCU
-			
+			add_core_of = MCU
+			add_core_of = RAM
 
 			
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={
