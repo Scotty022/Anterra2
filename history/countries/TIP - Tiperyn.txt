@@ -39,7 +39,7 @@ create_country_leader = {
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = despotism
 }
 
 set_autonomy = { #Nyland
@@ -50,7 +50,7 @@ set_autonomy = { #Nyland
 
 set_autonomy = { #Kitiko
 	target = KTK
-	autonomous_state = autonomy_colony
+	autonomous_state = autonomy_dominion
 	freedom_level = 0.35
 }
 

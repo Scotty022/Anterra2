@@ -28,10 +28,8 @@ division_template = { # Cavalry Division
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
 		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }	
+		cavalry = { x = 1 y = 1 }	
 	}
 }
 
@@ -39,13 +37,43 @@ division_template = { # Cavalry Division
 ############# Units ##############
 ##################################
 units = {
-	# division = { 
-	# 	division_name = {
-	# 		is_name_ordered = yes
-	# 	}
-	# 	location = 1213	
-	# 	division_template = "Infantry Division" 
-	# 	start_experience_factor = 0.4
-	# 	start_equipment_factor = 0.7
-	# }
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 7853	
+		division_template = "Infantry Division" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	division = { 
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 7853	
+		division_template = "Cavalry Division" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}
+
+air_wings = {
+	207 = { 
+		fighter_equipment_0 = { owner = "KTK"  amount = 50 }
+		nav_bomber_equipment_1 = { owner = "KTK"  amount = 30 }	
+		tac_bomber_equipment_0 = { owner = "KTK"  amount = 30 }
+	}
+}
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KTK"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 80
+	}
 }
