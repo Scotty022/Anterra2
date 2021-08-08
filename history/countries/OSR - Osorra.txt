@@ -40,7 +40,7 @@ create_country_leader = {
 	desc = "POLITICS_YANG_LUOYANG_DESC"
 	picture = "Portrait_Qingcheng_YangLuoyang.dds"
 	expire = "1970.1.1"
-	ideology = leninism_ideology
+	ideology = leninism
 	# traits = {
 
 	# }

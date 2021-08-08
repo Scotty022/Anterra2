@@ -39,5 +39,5 @@ create_country_leader = {
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "Portrait_KIR_Kaarlo_Juho_Stahlberg.dds"
 	expire = "1965.1.1"
-	ideology = oligarchic
+	ideology = oligarchism
 }

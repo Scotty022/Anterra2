@@ -66,3 +66,4 @@ units = {
 		location = 1131
 		start_equipment_factor = 0.7
 	}
+}

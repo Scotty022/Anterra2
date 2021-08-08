@@ -315,9 +315,25 @@
 			}
 			army_experience = 20
 			add_manpower = 5000
-			create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR }
-			create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR }
-			create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR }
+			#create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR location = 533}
+			#create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR location = 533}
+			#create_unit = { division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" owner = GPR location = 533}
+			random_owned_controlled_state = {
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				prioritize = { 119 }
+				create_unit = {
+					division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" 
+					owner = GPR
+				}
+				create_unit = {
+					division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" 
+					owner = GPR
+				}
+				create_unit = {
+					division = "name = \"Communal Militia\" division_template = \"Infantry Division\" start_experience_factor = 0.5 start_equipment_factor = 0.5" 
+					owner = GPR
+				}
+			}
 		}
 		ai_will_do = {
 		}
@@ -456,9 +472,11 @@
 
 		cost = 4
 		prerequisite = { 
-		focus = rally_the_councils
-		focus = guiding_hand_of_the_revolutionary_council
-	}
+			focus = rally_the_councils
+		}
+		prerequisite = {
+			focus = guiding_hand_of_the_revolutionary_council
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
