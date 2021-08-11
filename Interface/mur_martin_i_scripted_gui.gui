@@ -1,0 +1,80 @@
+# @HEADERS_Y = 0
+@LEFT_ALLIGN = 10
+@RIGHT_ALLIGN = 450
+@CENTER_ALLIGN = 230
+#450
+guiTypes = {
+
+	containerWindowType = {
+		name = "mur_martin_i_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 200 }
+
+		#ICONS and NAMES
+		iconType = {
+			name ="zveno_icon"
+			spriteType = "GFX_decision_faction_bul_zveno"
+			position = { x = @LEFT_ALLIGN y = 5 }
+			orientation = UPPER_LEFT
+		}
+		iconType = {
+			name ="zveno_icon2"
+			spriteType = "GFX_decision_faction_bul_zveno"
+			position = { x = @RIGHT_ALLIGN y = 5 }
+			orientation = UPPER_RIGHT
+		}
+		instantTextBoxType = {
+			name ="Pro_martin_name_text"
+			position = { x = @LEFT_ALLIGN y = 55 }
+			font = "hoi_18mbs"
+			text = "Pro_martin_name"
+			format = left
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="Anti_martin_name_text"
+			position = { x = 288          y = 55 }
+			font = "hoi_18mbs"
+			text = "Anti_martin_name"
+			orientation = right
+			format = right
+			maxHeight = 24
+		}
+
+		# NUMBERS
+		instantTextBoxType = {
+			name ="Pro_martin_number"
+			position = { x = 54 y = 22 }
+			font = "hoi_18mbs"
+			text = "Pro_martin_support_amount"
+			format = left
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="Anti_martin_number"
+			position = { x = 245          y = 22 }
+			font = "hoi_18mbs"
+			text = "Anti_martin_support_amount"
+			orientation = right
+			format = right
+			maxHeight = 24
+		}
+
+
+		# SUPPORT diagram
+		# iconType = {
+		# 	name ="province_room"
+		# 	spriteType = "GFX_decision_category_mur_political_progress_ui"
+		# 	#"GFX_decision_category_MUR_political_progress_ui"    # STILL NEEDS FIXING
+		# 	position = { x= 0 y = 60 }
+		# 	#orientation = center
+		# 	#position = { x= 10 y= 76 }
+		# }
+		iconType = {
+			name ="province_room"
+			spriteType = "GFX_province_room"
+			position = { x = @LEFT_ALLIGN y = 100 }
+		}
+
+	}
+}

@@ -26,6 +26,9 @@ set_research_slots = 3
 add_manpower = 5000
 
 
+##################################
+############ Politics ############
+##################################
 set_politics = {
 	ruling_party = democratic
 	last_election = 1942.8.1 # 1943.8.1 , but for testing its first of februari
@@ -48,8 +51,11 @@ add_ideas = {
 	woman_recruitment1
 }
 
-# set_variable = { right_support = neutrality_support }
-# add_to_variable = { right_support = fascism_support }
+set_variable = { province_room_total = 157 }
+set_variable = { required_support = 105 } # 2/3 of 157 
+set_variable = { Martin_support = 58 }   # 8 Martinites + 50 influenced
+set_variable = { Republic_support = 42 } # 39 seats + 3 indepedents
+#set_variable = { neutral_support = 57 }  # 157 - 58 - 42 = 57
 
 #################################
 ######### Politicians ###########

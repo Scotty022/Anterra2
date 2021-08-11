@@ -1,0 +1,5 @@
+﻿l_english:
+ Pro_martin_name:0 "Martin conspirators"
+ Anti_martin_name:0 "Republic supporters"
+ Pro_martin_support_amount:0 "§G[?MUR.Martin_support]§! / §Y[?MUR.province_room_total]§!"
+ Anti_martin_support_amount:0 "§G[?MUR.Republic_support]§! / §Y[?MUR.province_room_total]§!"

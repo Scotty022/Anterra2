@@ -1,0 +1,106 @@
+###################################
+# Mursland Costum Kings influence
+# By Pjoot
+###################################
+
+MUR_Martin_I = {
+	MUR_pro_martin1 = {
+		icon = generic_political_discourse
+		available = {
+			OR = {
+				check_variable = { Martin_support < province_room_total }
+			}
+			OR = {
+				political_power_daily > 0.3
+				has_political_power > 10
+			}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+			political_power_gain = -0.3
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = Martin_support
+				value = 1
+			}
+		}
+		days_remove = 30
+	}
+
+	MUR_anti_martin1 = {
+		icon = generic_political_discourse
+		available = {
+			OR = {
+				check_variable = { Republic_support < province_room_total }
+			}
+			OR = {
+				political_power_daily > 0.3
+				has_political_power > 10
+			}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+			# modifier = {
+			# 	congress_medium_support_trigger = yes
+			# 	factor = 0.5
+			# }
+			# modifier = {
+			# 	congress_low_support_trigger = yes
+			# 	factor = 0.5
+			# }
+			# modifier = {
+			# 	congress_high_support_trigger = yes
+			# 	factor = 0
+			# }
+		}
+		modifier = {
+			political_power_gain = -0.3
+		}
+		remove_effect = {
+			add_to_variable = {
+				var = Martin_support
+				value = -1
+			}
+		}
+		days_remove = 30
+	}
+}
+
+#TEST DESCISION
+MUR_aid_britain = {
+	MUR_arsenal_of_democracy_decision = {
+
+		icon = generic_industry
+
+		allowed = {
+			original_tag = MUR
+		}
+
+		cost = 50
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		visible = {
+			always = yes
+		}
+
+		modifier = {
+			war_support_weekly = 0.001		
+			industrial_capacity_factory = 0.02
+			industrial_capacity_dockyard = 0.02
+			consumer_goods_factor = -0.05
+		}
+
+		days_remove = 360
+
+		complete_effect = {
+		}
+	}
+}
