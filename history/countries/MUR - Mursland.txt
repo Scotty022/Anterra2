@@ -51,10 +51,11 @@ add_ideas = {
 	woman_recruitment1
 }
 
-set_variable = { province_room_total = 157 }
+set_variable = { province_room_total = 155 }
 set_variable = { required_support = 105 } # 2/3 of 157 
-set_variable = { Martin_support = 58 }   # 8 Martinites + 50 influenced
-set_variable = { Republic_support = 42 } # 39 seats + 3 indepedents
+set_variable = { Martin_support = 50 }   # 8 Martinites + 42 influenced
+set_variable = { Republic_support = 45 } # 39 seats + 6 indepedents
+set_variable = { Neutral_support = 60 } #155 - 50 - 45
 #set_variable = { neutral_support = 57 }  # 157 - 58 - 42 = 57
 
 #################################
