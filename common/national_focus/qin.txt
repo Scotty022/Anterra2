@@ -604,4 +604,90 @@ focus_tree = {
 		}
 		prerequisite = { focus = QIN_lead_army }
 	}
+
+	focus = {
+		id = QIN_give_power_parliament
+		icon = GFX_focus_usa_union_representation_act
+		x = 10
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_federalism_to_his_maximum  }
+	}
+
+	focus = {
+		id = QIN_reduce_president_power
+		icon = GFX_focus_usa_union_representation_act
+		x = 10
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_give_power_parliament  }
+	}
+
+	focus = {
+		id = QIN_States_Total_Autonomy
+		icon = GFX_focus_usa_union_representation_act
+		x = 10
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_reduce_president_power }
+	}
+
+	focus = {
+		id = QIN_States_Subsidies
+		icon = GFX_focus_usa_union_representation_act
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_a_true_federal_democracy focus = QIN_federalism_to_his_maximum }
+	}
+
+	focus = {
+		id = QIN_Grant_People_Rights
+		icon = GFX_focus_usa_union_representation_act
+		x = 8
+		y = 4
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_States_Subsidies }
+	}
+
+	focus = {
+		id = QIN_States_Industrial_Autonomy
+		icon = GFX_focus_usa_union_representation_act
+		x = 8
+		y = 5
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_Grant_People_Rights }
+	}
+
+	focus = {
+		id = QIN_Infra_State_Cohesion
+		icon = GFX_focus_usa_union_representation_act
+		x = 8
+		y = 6
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = QIN_States_Industrial_Autonomy }
+	}
+}
+	
 }
