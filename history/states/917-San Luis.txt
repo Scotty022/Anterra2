@@ -1,0 +1,22 @@
+state={
+		id = 917
+		name = "San Luis"
+		manpower = 100000
+		state_category = small_island
+
+		history = {
+			owner = AYG
+			add_core_of = AYG
+
+			
+
+			buildings = {
+				
+				infrastructure = 1
+				9326 = {naval_base = 2}
+			} 
+		}
+		provinces={
+			9326 3881 9306
+	}
+}

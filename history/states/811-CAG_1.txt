@@ -1,0 +1,24 @@
+state={
+		id = 811
+		name = "CAG_1"
+		manpower = 100000
+		state_category = city
+
+		history = {
+			owner = CAG
+			add_core_of = CAG
+
+			
+
+			buildings = {
+				
+				infrastructure = 2
+				industrial_complex = 3
+				arms_factory = 1
+				1969 = {naval_base = 2}
+			} 
+		}
+		provinces={
+		1505 1969 8793 8788 8781 3372 8726 8700 8762 718 4379 8675 8750 575 8688 1901 8761 8735 3040 
+	}
+}

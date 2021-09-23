@@ -75,6 +75,9 @@ ideologies = {
 			
 			anti_revisionism = {
 			}
+
+			directivism = { # Cervera ideology
+			}
 			
 		}
 		
