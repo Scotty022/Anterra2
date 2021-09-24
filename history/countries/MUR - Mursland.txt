@@ -10,12 +10,14 @@ set_war_support = 0.3
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	gwtank = 1
+	motorised_infantry = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
-	interwar_antiair = 1
+	antitank1 = 1
 	early_fighter = 1
 	early_bomber = 1
 	naval_bomber1 = 1
@@ -26,18 +28,21 @@ set_research_slots = 3
 add_manpower = 5000
 
 
+##################################
+############ Politics ############
+##################################
 set_politics = {
 	ruling_party = democratic
-	last_election = "1936.1.1"
+	last_election = 1943.8.1 # 1943.8.1 , but for testing its first of februari
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 67
-	fascism = 7
-	communism = 0
-	neutrality = 18
-	authdemocracy = 8
+	democratic = 60
+	fascism = 9 #13/157
+	communism = 2
+	neutrality = 11
+	authdemocracy = 18
 }
 
 #################################
@@ -45,7 +50,16 @@ set_popularities = {
 #################################
 add_ideas = {
 	Martin_I
+	woman_recruitment1
+	Backstab_politics
 }
+
+set_variable = { province_room_total = 155 }
+set_variable = { required_support = 105 } # 2/3 of 157 
+set_variable = { Martin_support = 50 }   # 8 Martinites + 42 influenced
+set_variable = { Republic_support = 45 } # 39 seats + 6 indepedents
+set_variable = { Neutral_support = 60 } #155 - 50 - 45
+#set_variable = { neutral_support = 57 }  # 157 - 58 - 42 = 57
 
 #################################
 ######### Politicians ###########

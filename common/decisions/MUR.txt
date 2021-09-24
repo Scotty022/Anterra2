@@ -1,0 +1,100 @@
+###################################
+# Mursland Costum Kings influence
+# By Pjoot
+###################################
+
+MUR_Martin_I = {
+	MUR_pro_martin1 = {
+		icon = generic_political_discourse
+		available = {
+			AND = {
+				check_variable = { Martin_support < required_support }
+				check_variable = { Neutral_support > 1 }
+			}
+			political_power_daily > 0.3
+			has_political_power > 10
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+			political_power_gain = -0.1
+			civilian_factory_use = 1
+		}
+		remove_effect = {
+			MUR_Pro_Martin_5_support = yes
+		}
+		days_remove = 1 #30
+	}
+
+	MUR_anti_martin1 = {
+		icon = generic_political_discourse
+		available = {
+			AND = {
+				check_variable = { Neutral_support < required_support }
+				check_variable = { Martin_support > 1 }
+			}
+			political_power_daily > 0.3
+			has_political_power > 10
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+			political_power_gain = -0.3
+		}
+		remove_effect = {
+			MUR_Pro_Martin_5_oppose = yes
+		}
+		days_remove = 1 #30
+	}
+
+	MUR_pro_martin2 = {
+		icon = generic_political_discourse
+		available = {
+			AND = {
+				check_variable = { Neutral_support < required_support }
+				check_variable = { Republic_support > 1 }
+			}
+			political_power_daily > 0.3
+			has_political_power > 10
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+			political_power_gain = -0.1
+			civilian_factory_use = 1
+		}
+		remove_effect = {
+			MUR_Republic_5_oppose = yes
+		}
+		days_remove = 1 #30
+	}
+
+	MUR_anti_martin2 = {
+		icon = generic_political_discourse
+		available = {
+			AND = {
+				check_variable = { Republic_support < required_support }
+				check_variable = { Neutral_support > 1 }
+			}
+			political_power_daily > 0.3
+			has_political_power > 10
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+		modifier = {
+			political_power_gain = -0.3
+		}
+		remove_effect = {
+			MUR_Republic_5_support = yes
+		}
+		days_remove = 1 #30
+	}
+}

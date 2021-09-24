@@ -1,0 +1,36 @@
+spriteTypes = {
+	
+	# spriteType = {
+	# 	name = "GFX_decision_category_mur_political_progress_ui"
+	# 	texturefile = "gfx/interface/decisions/decision_category_mur_political_progress_bar_vier.dds" 
+	# 	#"gfx/interface/decisions/decision_category_MUR_political_progress_bar3.dds"
+	# 	noOfFrames = 21
+	# }
+
+	# spriteType = {
+	# 	name = "GFX_province_room"
+	# 	texturefile = "/gfx/interface/decisions/decision_category_mur_political_progress_bar.dds"
+	# 	noOfFrames = 10
+	# }
+
+	spriteType = {
+		name = "GFX_decision_category_mur_martinites_support"
+		texturefile = "/gfx/interface/decisions/decision_cat_MUR_martinites_support.dds"
+		noOfFrames = 24
+	}
+	spriteType = {
+		name = "GFX_decision_category_mur_republicans_support"
+		texturefile = "/gfx/interface/decisions/decision_cat_MUR_republicans_support.dds"
+		noOfFrames = 24
+	}
+	spriteType = {
+		name = "GFX_decision_category_mur_neutral_support"
+		texturefile = "/gfx/interface/decisions/decision_cat_MUR_neutral_support.dds"
+		noOfFrames = 24
+	}
+	spriteType = {
+		name = "GFX_decision_category_mur_support_background"
+		texturefile = "/gfx/interface/decisions/decision_cat_MUR_support_background.dds"
+	}
+
+}

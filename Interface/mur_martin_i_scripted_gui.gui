@@ -1,0 +1,104 @@
+# @HEADERS_Y = 0
+@LEFT_ALLIGN = 10
+@RIGHT_ALLIGN = 480
+@CENTER_ALLIGN = 245
+#450
+guiTypes = {
+
+	containerWindowType = {
+		name = "mur_martin_i_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 260 }
+
+		#ICONS and NAMES
+		iconType = {
+			name ="zveno_icon"
+			spriteType = "GFX_decision_faction_bul_zveno"
+			position = { x = @LEFT_ALLIGN y = 2 }
+			#orientation = UPPER_LEFT
+		}
+		iconType = {
+			name ="zveno_icon2" #38 px wide
+			spriteType = "GFX_decision_faction_bul_zveno"
+			position = { x = 442 y = 2 }
+			#orientation = UPPER_RIGHT
+		}
+		instantTextBoxType = {
+			name ="Pro_martin_name_text"
+			position = { x = @LEFT_ALLIGN y = 50 }
+			font = "hoi_18mbs"
+			text = "Pro_martin_name"
+			format = left
+			maxHeight = 24
+		}
+		instantTextBoxType = {
+			name ="Anti_martin_name_text"
+			position = { x = 288          y = 50 }
+			font = "hoi_18mbs"
+			text = "Anti_martin_name"
+			format = right
+			maxHeight = 24
+		}
+		instantTextBoxType = { #245 - (200/2)
+			name ="Neutral_martin_name_text"
+			position = { x = 145 y = -8 }
+			font = "hoi_18mbs"
+			text = "Neutral_martin_name"
+			format = centre
+			maxHeight = 24
+		}
+
+		# NUMBERS
+		instantTextBoxType = {
+			name ="Pro_martin_number"
+			position = { x = 54           y = 10 }
+			font = "hoi_18mbs"
+			text = "Pro_martin_support_amount"
+			format = left
+			maxHeight = 24
+		}
+		instantTextBoxType = { #480 - 200 - 44 = 236
+			name ="Anti_martin_number"
+			position = { x = 236          y = 10 }
+			font = "hoi_18mbs"
+			text = "Anti_martin_support_amount"
+			format = right
+			maxHeight = 24
+		}
+
+
+		# SUPPORT diagram
+		# iconType = {
+		# 	name ="province_room"
+		# 	spriteType = "GFX_decision_category_mur_political_progress_ui"
+		# 	#"GFX_decision_category_MUR_political_progress_ui"    # STILL NEEDS FIXING
+		# 	position = { x= 0 y = 60 }
+		# 	#orientation = center
+		# 	#position = { x= 10 y= 76 }
+		# }
+		iconType = { #width = 245 - (300/2)
+			name ="province_room"
+			spriteType = "GFX_decision_category_mur_support_background"
+			position = { x = 95  y = 0 }
+			#orientation = center
+		}
+
+		iconType = { #245 - (50/2) - 80
+			name ="Pro_martin_graph"
+			spriteType = "GFX_decision_category_mur_martinites_support"
+			position = { x = 140 y = 20 }
+		}
+		iconType = { #245 - (50/2)
+			name ="neutral_graph"
+			spriteType = "GFX_decision_category_mur_neutral_support"
+			position = { x = 220 y = 20 }
+		}
+		iconType = { #245 - (50/2) + 80
+			name ="Anti_martin_graph"
+			spriteType = "GFX_decision_category_mur_republicans_support"
+			position = { x = 300 y = 20 }
+		}
+
+
+	}
+}
