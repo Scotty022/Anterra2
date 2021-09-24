@@ -93,6 +93,25 @@ ideas = {
 			}
 		}
 
+		Backstab_politics = {
+			picture = generic_disjointed_gov
+			allowed = {
+				original_tag = MUR
+			}
+			available = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				mobilization_laws_cost_factor = 2
+				economy_cost_factor = 2
+				trade_laws_cost_factor = 2
+				political_advisor_cost_factor = 2
+			}
+		}
+
 		#----- Election support ------------
 		Support_republicanism = {
 			picture = generic_disjointed_gov 

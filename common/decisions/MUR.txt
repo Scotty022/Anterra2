@@ -98,37 +98,3 @@ MUR_Martin_I = {
 		days_remove = 1 #30
 	}
 }
-
-#TEST DESCISION
-MUR_aid_britain = {
-	MUR_arsenal_of_democracy_decision = {
-
-		icon = generic_industry
-
-		allowed = {
-			original_tag = MUR
-		}
-
-		cost = 50
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		visible = {
-			always = yes
-		}
-
-		modifier = {
-			war_support_weekly = 0.001		
-			industrial_capacity_factory = 0.02
-			industrial_capacity_dockyard = 0.02
-			consumer_goods_factor = -0.05
-		}
-
-		days_remove = 360
-
-		complete_effect = {
-		}
-	}
-}

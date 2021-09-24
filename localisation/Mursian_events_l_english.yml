@@ -1,5 +1,30 @@
 ﻿l_english:
- # Mursland
+ #----------- Ideas ---------------------------------------------------------
+ Martin_I:0 "Martin I"
+ Martin_I_desc:0 "Overlord of Bonamech and Traxí, Duke of Circe, Heleovo and Visia. Also known as 'Martin the Stern', Martin I is the de facto king of Mursland. Assending power in 1922 after his fathers death, his reign has been busy. The 1926 Barxia war with Lusjki was his fireproof, which was greatly won by the Mursian troops. Since then, he has used his nationalist and anti-communist platform to oppress opposition to his political interventions. His scheming has greatly impacted the political landscape in the country; not only did it saw the rise of the MPP and Martinites, but also Katá-Vasiliko which was formed as a direct response to the former."
+ Arkady_III:0 "Arkady III"
+ Arkady_III_desc:0 "Overlord of Bonamech and Traxí, Duke of Circe, Heleovo and Visia, de facto king of Mursland. Arkady Kristiyan Hristofor is the oldest son of Martin I. Although sharing blood, they do not share much in political view. Arkady is less politically engaged as his father, but more so with the militairy, specifically the air force."
+ Succesor_Crisis:0 "Succesor Crisis"
+ Succesor_Crisis_desc:0 "With the recent death of Martin, a replacement has to be found quickly. Obvious is the crownprince Arkady Kristiyan, but his high-fly temprament and aggresive stance on Mursland in international politics makes him an undesired character in government official circles. Perhaps, a different solution can be found..."
+ Dimokratia:0 "Dimokratía"
+ Dimokratia_desc:0 "The Republic is now! No king needed over here :)"
+ Support_republicanism:0 "Support Republicanism"
+ Support_the_crown:0 "Support Monarchism"
+ Support_democracy:0 "Support Democracy"
+ privitizing_businesses:0 "Privitize Businesses"
+ privitizing_businesses_dec:0 "After abdication of Mihalou II (1869-1930, rule 1912-1922) many businesses and lands in private ownership of the royal family were nationalized. A large part of these companies were privitized from the 30s onwards to finance the 'Act of Education Support'. This enabled many families to send their children to highschool while still recieving an income. These funds have now run to their ends, so the last of the state-owned companies will have to be sold to give the final boost needed for the program."
+ woman_recruitment1:0 "Woman recruitment"
+ woman_recruitment1_desc:0 "Since 1915, women have been allowed to join the service, with recruitment starting in 1920. Although they did not see deployment in the Grand Campaigns, they did fight in the Braxia Conflict in support battalions. To this day, a significant number of young women still serve the army in technical, administrative and medical services."
+ woman_recruitment2:0 "Woman recruitment"
+ woman_recruitment2_desc:0 "The threat of war has deemed it necessary to not only start active recruitment of men, but of women too. By allowing them to be active in frontline units more, a better propaganda system can be set up, motivating more ladies to join the armed forces!"
+ woman_recruitment3:0 "Woman recruitment"
+ woman_recruitment3_desc:0 "The situation has become dire, and all women will have to join the armed forces to bring glory to our nation!"
+ grand_recruitment_drive:0 "Grand Recruitment Drive"
+ mobilize_the_pazach1:0 "Mobilize the Pazach"
+ mobilize_the_pazach2:0 "Mobilize the Pazach"
+ Backstab_politics:0 "Backstab politics"
+ Backstab_politics_desc:0 "The political climate in Mursland is very turbulent. Politicans are plotting behind each others back, votes are blocked for no reason, and scandals are made of every small inconvience. And to make matters worse - Overlord Martin is involved as well!"
+ #----------- Events ------------------------------------------------
  MUR.1.t:0 "Election campaigns"
 
  MUR.2.t:0 "National debates"
@@ -23,8 +48,42 @@
  MUR.13.d:0 "Martin was shot in the dick on the toilet"
  MUR.13.a:0 "What bastard would do something like that..."
 
+ #----------- Decisions -----------------------------------------------
+ MUR_Martin_I:0 "Martin I's Influence"
+ #MUR_Martin_I_desc:0 "Conflict in government!"
+ Pro_martin_name:0 "Martin \nconspirators"
+ Anti_martin_name:0 "Republic \nsupporters"
+ Neutral_martin_name:0 "Neutrals"
+ Pro_martin_support_amount:0 "§G[?MUR.Martin_support]§! / §Y[?MUR.province_room_total]§!"
+ Anti_martin_support_amount:0 "§G[?MUR.Republic_support]§! / §Y[?MUR.province_room_total]§!"
 
- #----------- focussses but I dont want to make a seperate file because shits gonna have to merge anyway
+ MUR_anti_martin1:0 "Search for bribed politicians"
+ MUR_pro_martin1:0  "Bribe a province department"
+ MUR_anti_martin2:0 "Leak scandal of Martin supporter"
+ MUR_pro_martin2:0  "Find hook on political figures"
+ MUR_anti_martin3:0 "Arrangements with partyless politicians"
+ MUR_pro_martin3:0  "Threaten blockade of politician"
+ MUR_anti_martin4:0 "Fuel anti-Martin sentiments"
+ MUR_pro_martin4:0  "Fuel nationalist sentiments"
+
+ #----------- Effects ---------------------------------------------------
+ MUR_martin_small_support_tt:0   "§Y+5§! Martin conspirators"
+ MUR_martin_medium_support_tt:0 "§Y+10§! Martin conspirators"
+ MUR_martin_large_support_tt:0  "§Y+15§! Martin conspirators"
+ MUR_martin_small_oppose_tt:0    "§B-5§! Martin conspirators"
+ MUR_martin_medium_oppose_tt:0  "§B-10§! Martin conspirators"
+ MUR_martin_large_oppose_tt:0   "§B-15§! Martin conspirators"
+
+ MUR_republic_small_support_tt:0   "§Y+5§! Republic supporters"
+ MUR_republic_medium_support_tt:0 "§Y+10§! Republic supporters"
+ MUR_republic_large_support_tt:0  "§Y+15§! Republic supporters"
+ MUR_republic_small_oppose_tt:0    "§B-5§! Republic supporters"
+ MUR_republic_medium_oppose_tt:0  "§B-10§! Republic supporters"
+ MUR_republic_large_oppose_tt:0   "§B-15§! Republic supporters"
+
+
+
+ #----------- focussses ---------------------------------------------------
  MUR_election_campaigns:0 "Election Campaigns"
  MUR_election_debates:0 "Election Debates"
  MUR_a_republic:0 "A Republic"
