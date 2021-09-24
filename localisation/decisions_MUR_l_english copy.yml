@@ -15,3 +15,18 @@
  MUR_pro_martin3:0  "Threaten blockade of politician"
  MUR_anti_martin4:0 "Fuel anti-Martin sentiments"
  MUR_pro_martin4:0  "Fuel nationalist sentiments"
+
+ #----------- Effects --------------------------------------------------
+ MUR_martin_small_support_tt:0   "§Y+5§! Martin conspirators"
+ MUR_martin_medium_support_tt:0 "§Y+10§! Martin conspirators"
+ MUR_martin_large_support_tt:0  "§Y+15§! Martin conspirators"
+ MUR_martin_small_oppose_tt:0    "§B-5§! Martin conspirators"
+ MUR_martin_medium_oppose_tt:0  "§B-10§! Martin conspirators"
+ MUR_martin_large_oppose_tt:0   "§B-15§! Martin conspirators"
+
+ MUR_republic_small_support_tt:0   "§Y+5§! Republic supporters"
+ MUR_republic_medium_support_tt:0 "§Y+10§! Republic supporters"
+ MUR_republic_large_support_tt:0  "§Y+15§! Republic supporters"
+ MUR_republic_small_oppose_tt:0    "§B-5§! Republic supporters"
+ MUR_republic_medium_oppose_tt:0  "§B-10§! Republic supporters"
+ MUR_republic_large_oppose_tt:0   "§B-15§! Republic supporters"
