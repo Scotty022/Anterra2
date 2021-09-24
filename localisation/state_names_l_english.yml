@@ -275,10 +275,8 @@
  Victoria:0 "Victoria" # STATE_345
  East Bank:0 "East Bank" # STATE_346
  West Bank:0 "West Bank" # STATE_347
- New Altmark:0 "New Altmark" # STATE_348
  New Propyrgia:0 "New Propyrgia" # STATE_348
  New Helinika:0 "New Helinika" # STATE_349
- New Thalassia:0 "New Thalassia" # STATE_349
  West Changbei:0 "West Changbei" # STATE_35
  Alexandria:0 "Alexandria" # STATE_350
  Dara-Suwaydif:0 "Dara-Suwaydif" # STATE_351
@@ -443,7 +441,7 @@
  West Phinq'a:0 "West Phinq'a" # STATE_495
  South Phinq'a:0 "South Phinq'a" # STATE_496
  Ataniña:0 "Ataniña" # STATE_497
- JAlsu:0 "JAlsu" # STATE_498
+ Jalsu:0 "Jalsu" # STATE_498
  Lamara Suvu:0 "Lamara Suvu" # STATE_499
  South Liujiang:0 "South Liujiang" # STATE_5
  Shizhou:0 "Shizhou" # STATE_50
@@ -792,10 +790,10 @@
  TST_29:0 "TST_29" # STATE_809
  Dosnima:0 "Dosnima" # STATE_81
  TST_30:0 "TST_30" # STATE_810
- TST_31:0 "TST_31" # STATE_811
- TST_32:0 "TST_32" # STATE_812
- TST_33:0 "TST_33" # STATE_813
- TST_34:0 "TST_34" # STATE_814
+ CAG_1:0 "CAG_1" # STATE_811
+ CAG_2:0 "CAG_2" # STATE_812
+ CAG_3:0 "CAG_3" # STATE_813
+ CAG_4:0 "CAG_4" # STATE_814
  TST_35:0 "TST_35" # STATE_815
  TST_36:0 "TST_36" # STATE_816
  OST_1:0 "OST_1" # STATE_817
@@ -905,6 +903,12 @@
  TST_91:0 "TST_91" # STATE_910
  TST_92:0 "TST_92" # STATE_911
  TST_93:0 "TST_93" # STATE_912
+ Sind Florian:0 "Sind Florian" # STATE_913
+ Trinidad:0 "Trinidad" # STATE_914
+ Satao:0 "Satao" # STATE_915
+ Chimchag:0 "Chimchag" # STATE_916
+ San Luis:0 "San Luis" # STATE_917
+ CAG_5:0 "CAG_5" # STATE_918
  Dasavletit :0 "Dasavletit " # STATE_92
  Buyuk Dasht:0 "Buyuk Dasht" # STATE_93
  Hvallica:0 "Hvallica" # STATE_94

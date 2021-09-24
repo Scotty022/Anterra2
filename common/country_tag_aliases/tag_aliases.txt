@@ -49,6 +49,10 @@ MAR = {
 	original_tag = CER
 }
 
+UMA = {
+	original_tag = HEI
+}
+
 # SPB = {
 # 	original_tag = SPR
 # 	has_country_flag = SPR_carlist_spain_flag

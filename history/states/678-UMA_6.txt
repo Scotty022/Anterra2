@@ -3,15 +3,19 @@ state={
 		name = "UMA_6"
 		manpower = 100000
 		state_category = pastoral
+		resources = {
+			aluminium = 40
+		}
 
 		history = {
-			owner = UMA
-			add_core_of = UMA
+			owner = HEI
+			add_core_of = HEI
 
 			
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={

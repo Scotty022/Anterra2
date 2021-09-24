@@ -1,6 +1,6 @@
-capital = 378
+capital = 674
 
-oob = "UMA_1946"
+oob = "HEI_1946"
 
 # Starting tech
 set_technology = {
@@ -23,14 +23,13 @@ add_manpower = 5000
 
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
-	fascism = 5
-	communism = 5
-	neutrality = 85
+	democratic = 10
+	authdemocracy = 10
+	neutrality = 80
 }

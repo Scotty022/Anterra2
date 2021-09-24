@@ -2,16 +2,23 @@ state={
 		id = 541
 		name = "Vidarala"
 		manpower = 100000
-		state_category = pastoral
+		state_category = large_city
 
 		history = {
 			owner = PRA
 			add_core_of = PRA
 
-			
+			victory_points = {3545 10}
+			victory_points = {970 10}
+			victory_points = {9033 10}
 
 			buildings = {
 				
+				infrastructure = 4
+				industrial_complex = 1
+				arms_factory = 2
+				dockyard  = 1
+				3545 = {naval_base = 2}
 			} 
 		}
 		provinces={

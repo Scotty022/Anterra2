@@ -2,7 +2,7 @@ state={
 		id = 688
 		name = "RAN_7"
 		manpower = 100000
-		state_category = pastoral
+		state_category = wasteland
 
 		history = {
 			owner = RAN
