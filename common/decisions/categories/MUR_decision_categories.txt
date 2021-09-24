@@ -8,4 +8,7 @@ MUR_Martin_I = {
 	allowed = {
 		original_tag = MUR
 	}
+	available = {
+		has_completed_focus = MUR_the_martin_conspiracy
+	}
 }

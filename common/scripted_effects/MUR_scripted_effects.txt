@@ -55,6 +55,73 @@ MUR_Republic_5_oppose = {
 }
 
 
+MUR_Pro_Martin_10_support = {
+	custom_effect_tooltip = MUR_martin_medium_support_tt
+	add_to_variable = { Martin_support = 10 }
+	subtract_from_variable = { Neutral_support = 10 }
+	clamp_variable = { var = Martin_support max = province_room_total min = 0 }
+	clamp_variable = { var = Neutral_support max = province_room_total min = 0 }
+	MUR_recalc_support_icon_frames = yes
+}
+MUR_Pro_Martin_10_oppose = {
+	custom_effect_tooltip = MUR_martin_medium_oppose_tt
+	subtract_from_variable = { Martin_support = 10 }
+	add_to_variable = { Neutral_support = 10 }
+	clamp_variable = { var = Martin_support max = province_room_total min = 0 }
+	clamp_variable = { var = Neutral_support max = province_room_total min = 0 }
+	MUR_recalc_support_icon_frames = yes
+}
+MUR_Republic_10_support = {
+	custom_effect_tooltip = MUR_republic_medium_support_tt
+	add_to_variable = { Republic_support = 10 }
+	subtract_from_variable = { Neutral_support = 10 }
+	clamp_variable = { var = Republic_support max = province_room_total min = 0 }
+	clamp_variable = { var = Neutral_support max = province_room_total min = 0 }
+	MUR_recalc_support_icon_frames = yes
+}
+MUR_Republic_10_oppose = {
+	custom_effect_tooltip = MUR_republic_medium_oppose_tt
+	subtract_from_variable = { Republic_support = 10 }
+	add_to_variable = { Neutral_support = 10 }
+	clamp_variable = { var = Republic_support max = province_room_total min = 0 }
+	clamp_variable = { var = Neutral_support max = province_room_total min = 0 }
+	MUR_recalc_support_icon_frames = yes
+}
+
+
+MUR_Pro_Martin_15_support = {
+	custom_effect_tooltip = MUR_martin_large_support_tt
+	add_to_variable = { Martin_support = 15 }
+	subtract_from_variable = { Neutral_support = 15 }
+	clamp_variable = { var = Martin_support max = province_room_total min = 0 }
+	clamp_variable = { var = Neutral_support max = province_room_total min = 0 }
+	MUR_recalc_support_icon_frames = yes
+}
+MUR_Pro_Martin_15_oppose = {
+	custom_effect_tooltip = MUR_martin_large_oppose_tt
+	subtract_from_variable = { Martin_support = 15 }
+	add_to_variable = { Neutral_support = 15 }
+	clamp_variable = { var = Martin_support max = province_room_total min = 0 }
+	clamp_variable = { var = Neutral_support max = province_room_total min = 0 }
+	MUR_recalc_support_icon_frames = yes
+}
+MUR_Republic_15_support = {
+	custom_effect_tooltip = MUR_republic_large_support_tt
+	add_to_variable = { Republic_support = 15 }
+	subtract_from_variable = { Neutral_support = 15 }
+	clamp_variable = { var = Republic_support max = province_room_total min = 0 }
+	clamp_variable = { var = Neutral_support max = province_room_total min = 0 }
+	MUR_recalc_support_icon_frames = yes
+}
+MUR_Republic_15_oppose = {
+	custom_effect_tooltip = MUR_republic_large_oppose_tt
+	subtract_from_variable = { Republic_support = 15 }
+	add_to_variable = { Neutral_support = 15 }
+	clamp_variable = { var = Republic_support max = province_room_total min = 0 }
+	clamp_variable = { var = Neutral_support max = province_room_total min = 0 }
+	MUR_recalc_support_icon_frames = yes
+}
+
 
 
 #USA_recalc_congress_icon_frames = {

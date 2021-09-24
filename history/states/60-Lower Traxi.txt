@@ -6,7 +6,6 @@ state={
 
 		history = {
 			owner = MUR
-			add_core_of = MUR
 			add_core_of = TRA
 
 			victory_points = {3330 10}

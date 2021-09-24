@@ -40,13 +40,22 @@
  MUR.11.a:0 "Get the best medical experts in the world flown in, now!"
  MUR.11.b:0 "Thought and prayers from everyone"
 
- MUR.12.t:0 "Martin I is assassinated!"
- MUR.12.d:0 "Sergeant Illov Kont, a new recruit of the Pazach royal guards, had placed a bomb under the desk in the office of Martin. The bomb had been set up to detonate when the office chair would be pulled back. \n\nHowever, it was not Martin who pulled the chair back, but Kaloyan Vaneus, one of the assistants of the Council of State. While Kaloyan was killed instantly by the blast, Martin was only hit by the fragmentation from the desktop. Although no official record has yet been made public, it was reported that between 20 and 65 shards entered the body of the king. \n\nHis condition appears to be highly critical as he was rushed to the hospital. In fact, so critical that various officials have started on preparing the succession process already."
- MUR.12.a:0 "Praised by many, hated by even more."
+ MUR.13.t:0 "Martin I is assassinated!"
+ MUR.13.d:0 "Sergeant Illov Kont, a new recruit of the Pazach royal guards, had placed a bomb under the desk in the office of Martin. The bomb had been set up to detonate when the office chair would be pulled back. \n\nHowever, it was not Martin who pulled the chair back, but Kaloyan Vaneus, one of the assistants of the Council of State. While Kaloyan was killed instantly by the blast, Martin was only hit by the fragmentation from the desktop. Although no official record has yet been made public, it was reported that between 20 and 65 shards entered the body of the king. \n\nHis condition appears to be highly critical as he was rushed to the hospital. In fact, so critical that various officials have started on preparing the succession process already."
+ MUR.13.a:0 "Praised by many, hated by even more."
 
- MUR.13.t:0 "Martin I has been assassinated"
- MUR.13.d:0 "Martin was shot in the dick on the toilet"
- MUR.13.a:0 "What bastard would do something like that..."
+#  MUR.13.t:0 "Martin I has been assassinated"
+#  MUR.13.d:0 "Martin was shot in the dick on the toilet"
+#  MUR.13.a:0 "What bastard would do something like that..."
+
+ MUR.15.t:0 "The Zombie King"
+ MUR.15.d:0 "Uhhhhh guyss... He didn't die after all?"
+ MUR.15.a:0 "A second term for the bastard"
+
+ MUR.100.t:0 "The great Martin conspiracy!"
+ MUR.100.d:0 "A democracy is always susceptible to external inlfunces and corruption. However, sometimes these disturbances come from closer by than one expects.\n\nMartin I, overlord of Bonamech and Traxí, has been in power for 24 years, and has not been sitting idly on his throne. The power of the royal house might be limited by the constitution, this has not stopped him from influencing politicians to do his bidding. Bribery, chantage and false promises are everyday activities of our 'king'. \n\nLuckily for democracy, he is opposed by the republicans, under the name of Katá-Vasiliko. Formed as a protest movement against Martin's statements, they now are the largest party in the Province-Room. They goal - depose of the king!\n\nBut soon, they will discover there is more going on than just radical speeches."
+ MUR.100.a:0 "Lest Mursland fall..."
+ MUR_unlock_politics_tt:0 "Unlocks the §YMartin I's Influence§! decisions group"
 
  #----------- Decisions -----------------------------------------------
  MUR_Martin_I:0 "Martin I's Influence"
@@ -70,16 +79,16 @@
  MUR_martin_small_support_tt:0   "§Y+5§! Martin conspirators"
  MUR_martin_medium_support_tt:0 "§Y+10§! Martin conspirators"
  MUR_martin_large_support_tt:0  "§Y+15§! Martin conspirators"
- MUR_martin_small_oppose_tt:0    "§B-5§! Martin conspirators"
- MUR_martin_medium_oppose_tt:0  "§B-10§! Martin conspirators"
- MUR_martin_large_oppose_tt:0   "§B-15§! Martin conspirators"
+ MUR_martin_small_oppose_tt:0    "§Y-5§! Martin conspirators"
+ MUR_martin_medium_oppose_tt:0  "§Y-10§! Martin conspirators"
+ MUR_martin_large_oppose_tt:0   "§Y-15§! Martin conspirators"
 
  MUR_republic_small_support_tt:0   "§Y+5§! Republic supporters"
  MUR_republic_medium_support_tt:0 "§Y+10§! Republic supporters"
  MUR_republic_large_support_tt:0  "§Y+15§! Republic supporters"
- MUR_republic_small_oppose_tt:0    "§B-5§! Republic supporters"
- MUR_republic_medium_oppose_tt:0  "§B-10§! Republic supporters"
- MUR_republic_large_oppose_tt:0   "§B-15§! Republic supporters"
+ MUR_republic_small_oppose_tt:0    "§Y-5§! Republic supporters"
+ MUR_republic_medium_oppose_tt:0  "§Y-10§! Republic supporters"
+ MUR_republic_large_oppose_tt:0   "§Y-15§! Republic supporters"
 
 
 
