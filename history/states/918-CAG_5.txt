@@ -1,0 +1,25 @@
+state={
+		id = 918
+		name = "CAG_5"
+		manpower = 100000
+		state_category = rural
+		resources = {
+			steel = 20
+			tungsten = 10
+		}
+
+		history = {
+			owner = CAG
+			add_core_of = CAG
+
+			
+
+			buildings = {
+				
+				infrastructure = 2
+			} 
+		}
+		provinces={
+		492 2244 2408 3413 8670 8701 8710 8711 
+	}
+}

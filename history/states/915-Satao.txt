@@ -1,0 +1,22 @@
+state={
+		id = 915
+		name = "Satao"
+		manpower = 88349
+		state_category = town
+		buildings_max_level_factor = 0.5
+
+		history = {
+			owner = JUN
+			add_core_of = KYA
+
+			victory_points = {1988 10}
+
+			buildings = {
+				
+				infrastructure = 3
+			} 
+		}
+		provinces={
+			1988
+	}
+}

@@ -2,7 +2,7 @@ state={
 		id = 668
 		name = "VYA_5"
 		manpower = 100000
-		state_category = pastoral
+		state_category = wasteland
 
 		history = {
 			owner = VYA

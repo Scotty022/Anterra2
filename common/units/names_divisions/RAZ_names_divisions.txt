@@ -34,7 +34,7 @@ RAZ_INF_01 =
 {
 	name = "Infantry Division"
 
-	for_countries = { RAZ }
+	for_countries = { RAZ ROV GPR ZAP }
 
 	can_use = { always = yes }
 

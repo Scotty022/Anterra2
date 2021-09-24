@@ -41,3 +41,14 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 }
+
+create_corps_commander = {
+	name = "Nikolai Masalov"
+	picture = "Portrait_RovZap_Nikolai_Masalov.dds"
+	traits = {war_hero harsh_leader infantry_officer infantry_leader trait_mountaineer politically_connected}
+	skill = 5
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
+}

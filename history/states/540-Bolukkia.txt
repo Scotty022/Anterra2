@@ -2,16 +2,18 @@ state={
 		id = 540
 		name = "Bolukkia"
 		manpower = 100000
-		state_category = pastoral
+		state_category = rural
 
 		history = {
 			owner = PRA
 			add_core_of = PRA
 
-			
+			victory_points = {4648 10}
 
 			buildings = {
 				
+				infrastructure = 1
+				industrial_complex = 1
 			} 
 		}
 		provinces={

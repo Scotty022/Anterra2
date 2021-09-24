@@ -1,0 +1,25 @@
+state={
+		id = 812
+		name = "CAG_2"
+		manpower = 100000
+		state_category = town
+		resources = {
+			chromium = 10
+		}
+
+		history = {
+			owner = CAG
+			add_core_of = CAG
+
+			
+
+			buildings = {
+				
+				infrastructure = 2
+				industrial_complex = 1
+			} 
+		}
+		provinces={
+		539 4832 8508 8484 3619 712 8480 8462 8426 3907 1430 8437 41 8521 8573 8613 1158 938 8642 8608 8574 1136 1942 8488 1787 8669 1446 3618 8572 306
+	}
+}

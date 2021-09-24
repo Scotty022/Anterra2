@@ -17,9 +17,9 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
-set_convoys = 20
+set_convoys = 40
 set_research_slots = 3
-add_manpower = 5000
+add_manpower = 10000
 
 
 set_politics = {
@@ -29,15 +29,16 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 5
+	democratic = 25
 	fascism = 5
 	communism = 5
-	neutrality = 85
+	neutrality = 60
+	authdemocracy = 5
 }
 create_country_leader = {
-	name = "Ho Chi Minh"
+	name = "John Doe"
 	desc = "POLITICS_RONALD_MCDONALD_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = despotism
 }

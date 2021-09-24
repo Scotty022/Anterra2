@@ -17,28 +17,57 @@ division_template = { # Infantry Division
 		infantry = { x = 2 y = 2 }
 	}
 	# support = {
-	# 	anti_tank = { x = 0 y = 0 }
-	# 	artillery = { x = 0 y = 1 }
-	# 	recon = { x = 0 y = 2 }
+	# 	artillery = { x = 0 y = 0 }
+	# 	recon = { x = 0 y = 1 }
 	# }
 }
-division_template = { # Cavalry Division
-	name = "Cavalry Division" 				
-	#division_names_group = MUR_CAV_01
+division_template = {
+	name = "Alpinistic Divisia" 				
+	division_names_group = RAZ_MNT_01
+	
+	regiments = {
+		mountaineers = { x = 0 y = 0 }	
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }	
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }	
+	}
+	support = {
+		engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Cavalry" 				
+	division_names_group = RAZ_CAV_01
 	
 	regiments = {
 		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
+                cavalry = { x = 0 y = 1 }
 		cavalry = { x = 1 y = 0 }
 		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
 		
 	}
-	# support = {
-	# 	artillery = { x = 0 y = 0 }
-	# 	anti_tank = { x = 0 y = 1 }
-	# }
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Partisan Brigade" 				
+	division_names_group = RAZ_MEC_01
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
 }
 
 ##################################
@@ -54,4 +83,39 @@ units = {
 	# 	start_experience_factor = 0.4
 	# 	start_equipment_factor = 0.7
 	# }
+
+	division = { 
+		division_name = {
+            is_name_ordered = yes
+            name_order = 1
+        }
+		#name = "Test"
+		location = 1028
+		division_template = "Partisan Brigade" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.2
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 12
+        }
+		#name = "Test"
+		location = 2866
+		division_template = "Alpinistic Divisia" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division = {
+		division_name = {
+            is_name_ordered = yes
+            name_order = 12
+        }
+		#name = "Test"
+		location = 2866
+		division_template = "Alpinistic Divisia" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+
 }

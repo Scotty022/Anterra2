@@ -2,16 +2,19 @@ state={
 		id = 676
 		name = "UMA_4"
 		manpower = 100000
-		state_category = pastoral
+		state_category = large_town
 
 		history = {
-			owner = UMA
-			add_core_of = UMA
+			owner = HEI
+			add_core_of = HEI
 
-			
+			victory_points = {8981 10}
+			victory_points = {3138 10}
 
 			buildings = {
 				
+				infrastructure = 1
+				industrial_complex = 1
 			} 
 		}
 		provinces={

@@ -2,16 +2,23 @@ state={
 		id = 543
 		name = "Rendozeshah"
 		manpower = 100000
-		state_category = pastoral
+		state_category = large_city
 
 		history = {
 			owner = PRA
 			add_core_of = PRA
 
-			
+			victory_points = {456 10}
+			victory_points = {4843 10}
+			victory_points = {625 10}
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 3
+				arms_factory = 1
+				dockyard  = 1
+				456 = {naval_base = 1}
 			} 
 		}
 		provinces={

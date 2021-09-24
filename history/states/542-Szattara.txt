@@ -2,16 +2,19 @@ state={
 		id = 542
 		name = "Szattara"
 		manpower = 100000
-		state_category = pastoral
+		state_category = city
 
 		history = {
 			owner = PRA
 			add_core_of = PRA
 
-			
+			victory_points = {2018 10}
+			victory_points = {8997 10}
 
 			buildings = {
 				
+				infrastructure = 2
+				industrial_complex = 1
 			} 
 		}
 		provinces={

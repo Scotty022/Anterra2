@@ -41,3 +41,17 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 }
+create_country_leader = {
+	name = "Pepelyaev"
+	desc = "POLITICS_Velichko_Thunone_DESC"
+	picture = "Portrait_Pozrika_Sergey_Wojciechowski.dds"
+	expire = "1970.1.1"
+	ideology = rexism
+}
+create_country_leader = {
+	name = "Pepelyaev"
+	desc = "POLITICS_Velichko_Thunone_DESC"
+	picture = "Portrait_Pozrika_Pepelyaev.dds"
+	expire = "1970.1.1"
+	ideology = despotism
+}

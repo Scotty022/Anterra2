@@ -8,13 +8,13 @@ state={
 			owner = KSH
 			add_core_of = KSH
 
-			
+			victory_points = {2867 10}
 
 			buildings = {
 				
 			} 
 		}
 		provinces={
- 		9075 3370 9054 9070 2692 967
+ 		9075 3370 9054 9070 2692 967 2867
 }
 }

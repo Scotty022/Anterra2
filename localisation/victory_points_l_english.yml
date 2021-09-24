@@ -20,6 +20,11 @@
  VICTORY_POINTS_3894:0 "Peranthrun"
  VICTORY_POINTS_5469:0 "Sathia"
  VICTORY_POINTS_3809:0 "Sind Petir"
+ #Govic South Kesh
+ VICTORY_POINTS_3073:0 "Samarand"
+ VICTORY_POINTS_3888:0 "Placeholder Name"
+ VICTORY_POINTS_1251:0 "Isanz"
+ VICTORY_POINTS_313:0 "Another Placeholder"
  #Jung
  VICTORY_POINTS_6238:0 "Santo André"
  VICTORY_POINTS_2624:0 "Brezeira"
@@ -88,10 +93,49 @@
  VICTORY_POINTS_533:0 "Apazov"
  VICTORY_POINTS_4682:0 "Abargabelozov"
  VICTORY_POINTS_5400:0 "Koroyevsk"
+ #South Kesh
+ VICTORY_POINTS_2398:0 "Klitren"
+ VICTORY_POINTS_4378:0 "Waton"
+ VICTORY_POINTS_3442:0 "Sragen" #Kotamaju
+ VICTORY_POINTS_9103:0 "Tebih"
+ VICTORY_POINTS_2867:0 "Bauksia"
+ VICTORY_POINTS_2300:0 "Nambi" #Kesh Jaya
+ VICTORY_POINTS_3348:0 "Pantaibarat"
+ VICTORY_POINTS_106:0 "Banyuanyar"
  #Borgosesia
  VICTORY_POINTS_9290:0 "Seso"
  VICTORY_POINTS_2406:0 "Valsesia"
  VICTORY_POINTS_5378:0 "Cittavecchia"
+# Prabhat
+ VICTORY_POINTS_625:0 "Anaratta" #small
+ VICTORY_POINTS_4854:0 "Abhaya" #small
+ VICTORY_POINTS_8997:0 "Pascatyana" #large
+ #VICTORY_POINTS_...:0 Thiruvadar #large, shares with Firakendra
+ VICTORY_POINTS_456:0 "Firakendra" #large
+ VICTORY_POINTS_2018:0 "Szattara" #sall
+ VICTORY_POINTS_9033:0 "Rizaknow" #small
+ VICTORY_POINTS_970:0 "Vidarala" #large
+ VICTORY_POINTS_3545:0 "Bhagya" #capital
+ VICTORY_POINTS_4648:0 "Nandurashi" #small
+ VICTORY_POINTS_9102:0 "Tyladabad" #large
+ # Heiban
+ VICTORY_POINTS_9025:0 "Qifeng"
+ VICTORY_POINTS_3933:0 "Suriawan"
+ VICTORY_POINTS_8935:0 "Qiancheng"
+ VICTORY_POINTS_8889:0 "Dongkou"
+ VICTORY_POINTS_1118:0 "Beiliang"
+ VICTORY_POINTS_8910:0 "Guomen"
+ VICTORY_POINTS_4434:0 "Nameless City"
+ VICTORY_POINTS_8981:0 "Jayadi"
+ VICTORY_POINTS_3138:0 "Sedaya"
+ VICTORY_POINTS_4412:0 "Urdalapan" 
+ VICTORY_POINTS_8999:0 "Selantor"
+ VICTORY_POINTS_8940:0 "Shenghou"
+ # Argata
+ VICTORY_POINTS_5684:0 "Asgano"
+ VICTORY_POINTS_1813:0 "Elega"
+ VICTORY_POINTS_3373:0 "Đagun"
+ VICTORY_POINTS_4261:0 "Bêgåhas" #smaller but still decent sized
  #others
  VICTORY_POINTS_980:0 "Lumynia" #Stylyflysa
  VICTORY_POINTS_6910:0 "São Nicolau" #Vasconcelos
@@ -99,3 +143,4 @@
  VICTORY_POINTS_2022:0 "Dobele" #Kironia second
  VICTORY_POINTS_2405:0 "Verina" #Destland
  VICTORY_POINTS_2462:0 "Kaasøeborg" #Svenskt
+ VICTORY_POINTS_7853:0 "Mbanza-Kitoko" #Kitoko

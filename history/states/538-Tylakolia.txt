@@ -2,16 +2,19 @@ state={
 		id = 538
 		name = "Tylakolia"
 		manpower = 100000
-		state_category = pastoral
+		state_category = town
 
 		history = {
 			owner = PRA
 			add_core_of = PRA
 
-			
+			victory_points = {9102 10}
 
 			buildings = {
 				
+				infrastructure = 2
+				industrial_complex = 1
+				9102 = {naval_base = 2}
 			} 
 		}
 		provinces={

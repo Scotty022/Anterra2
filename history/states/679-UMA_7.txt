@@ -2,16 +2,20 @@ state={
 		id = 679
 		name = "UMA_7"
 		manpower = 100000
-		state_category = pastoral
+		state_category = rural
+		resources = {
+			oil = 5
+		}
 
 		history = {
-			owner = UMA
-			add_core_of = UMA
+			owner = HEI
+			add_core_of = HEI
 
-			
+			victory_points = {1118 10}
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={

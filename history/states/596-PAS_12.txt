@@ -2,7 +2,7 @@ state={
 		id = 596
 		name = "PAS_12"
 		manpower = 100000
-		state_category = pastoral
+		state_category = rural
 
 		history = {
 			owner = PAS

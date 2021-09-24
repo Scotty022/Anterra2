@@ -1,0 +1,25 @@
+state={
+		id = 813
+		name = "CAG_3"
+		manpower = 100000
+		state_category = pastoral
+		resources = {
+			steel = 24
+			tungsten = 30
+		}
+
+		history = {
+			owner = CAG
+			add_core_of = CAG
+
+			
+
+			buildings = {
+				
+				infrastructure = 1
+			} 
+		}
+		provinces={
+		2421 8352 654 1079 3604 8348 4695 8331 1902 868 2332 1806 4559 4835 3412 8452 8409 4405 8256 8189 8225 1373 3302 8409 8452
+	}
+}
