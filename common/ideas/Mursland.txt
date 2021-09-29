@@ -177,6 +177,46 @@ ideas = {
 			}
 		}
 
+		#----- Traxia -----------------------
+		Protests_in_traxia = {
+			picture = generic_disjointed_gov
+			allowed = {
+				original_tag = MUR
+			}
+			available = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				industrial_capacity_factory = -0.10
+				# required_garrison_factor = 1
+				resistance_growth = 0.5
+				compliance_growth = -0.5
+			}
+		}
+
+		Revolts_in_traxia = {
+			picture = generic_disjointed_gov
+			allowed = {
+				original_tag = MUR
+			}
+			available = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				required_garrison_factor = 1
+				resistance_damage_to_garrison = 1.5
+				industrial_capacity_factory = -0.15
+				resistance_growth = 1
+				compliance_growth = -1
+			}
+		}
+
 		#----- Other stuff ------------------
 		privitizing_businesses = {
 			picture = industrial_complex 		# refers to /Interface/ideas.gfx; the 'GFX_idea_' part is not needed here
@@ -228,9 +268,9 @@ ideas = {
 			modifier = {
 				#civilian_factory_use = 1
 				conscription_factor = 0.25
-				production_speed_arms_factory_factor = -0.05
-				production_speed_industrial_complex_factor = -0.05
-				production_speed_dockyard_factor = -0.05
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_speed_buildings_factor = -0.05
 			}
 		}
 
@@ -248,9 +288,9 @@ ideas = {
 			modifier = {
 				#civilian_factory_use = 1
 				conscription_factor = 0.4
-				production_speed_arms_factory_factor = -0.15
-				production_speed_industrial_complex_factor = -0.15
-				production_speed_dockyard_factor = -0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.15
 				war_support_weekly = -0.005
 			}
 		}

@@ -14,12 +14,13 @@ focus_tree = {
 		}
 	}
 	default = no
-### Mursian Politics ###
+
+## MURSIAN POLITICS ---------------------------------------
 	focus = { # election introduction
 		id = MUR_election_debates
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
-		x = 18
+		x = 20
 		y = 0
 		
 		completion_reward = {
@@ -37,7 +38,7 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
 		relative_position_id = MUR_election_debates
-		x = 2
+		x = 10
 		y = 0
 		
 		completion_reward = {
@@ -45,7 +46,27 @@ focus_tree = {
 		}
 	}
 
-	
+	focus = { # more detaling in elections
+		id = MUR_Politic_efforts
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_election_debates
+		x = 0
+		y = 1
+
+		prerequisite = { focus = MUR_election_debates }
+		prerequisite = { focus = MUR_the_martin_conspiracy }
+		
+		completion_reward = {
+			# swap_ideas = {
+			# remove_idea = soft_bickering
+			# add_idea = loud_whispering
+			# }
+			add_political_power = 150
+			#country_event = MURSLAND.1
+		}
+	}
+## ----- END Mursian politics
 
 
 ## Death of Martin I -------------------------
@@ -54,13 +75,17 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
 		#relative_position_id = MUR_Assign_republican
-		x = 6
+		x = 7
 		y = 4
 
 		#prerequisite = { focus = MUR_the_right_of_people }
 		available = {
 			democratic < 0.4
 			#if republicans got sufficient support and there are no free seats left
+		}
+
+		bypass = {
+			has_global_flag = Martin_I_died
 		}
 
 		completion_reward = {
@@ -79,8 +104,9 @@ focus_tree = {
 		prerequisite = {
 			focus = MUR_if_we_must
 		}
-		available = {
-			
+
+		bypass = {
+			has_global_flag = Martin_I_died
 		}
 
 		available = {
@@ -93,20 +119,22 @@ focus_tree = {
 			country_event = MURSLAND.13
 		}
 	}
+
+	
 ## ----- END Death of Martin I
 
 
-## HISTORIC TREE -----------------------------
+## CENTRIST TREE -----------------------------
 	focus = { # start historic tree
 		id = MUR_free_mursland
 		icon = GFX_goal_generic_neutrality_focus
 		cost = 10.0
-		relative_position_id = MUR_election_debates
-		x = 1
+		relative_position_id = MUR_Politic_efforts
+		x = 0
 		y = 1
 
-		prerequisite = { focus = MUR_election_debates }
-		prerequisite = { focus = MUR_the_martin_conspiracy }
+		prerequisite = { focus = MUR_Politic_efforts }
+		#prerequisite = { focus = MUR_the_martin_conspiracy }
 		mutually_exclusive = { 
 			#focus = MUR_a_republic
 			#focus = MUR_long_live_Martin_I
@@ -114,25 +142,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 150
-		}
-	}
-	focus = { # antagonize the Dirish
-		id = MUR_antonize_the_Dirish
-		icon = GFX_goal_generic_propaganda
-		cost = 10.0
-		relative_position_id = MUR_free_mursland
-		x = 3
-		y = 2
-
-		prerequisite = { 
-			focus = MUR_free_mursland
-			focus = MUR_long_live_Martin_I
-		}
-
-		completion_reward = {
-			add_political_power = 50
-			MUR_Pro_Martin_5_support = yes
-			MUR_Republic_5_support = yes
 		}
 	}
 	focus = { # sell state businesses
@@ -175,7 +184,7 @@ focus_tree = {
 	focus = { # adress budget gaps1
 		id = MUR_discuss_budget_gaps1
 		icon = GFX_goal_generic_propaganda
-		cost = 15.0
+		cost = 10.0
 		relative_position_id = MUR_free_mursland
 		x = -1
 		y = 1
@@ -191,7 +200,7 @@ focus_tree = {
 	focus = { # adress budget gaps2
 		id = MUR_discuss_budget_gaps2
 		icon = GFX_goal_generic_propaganda
-		cost = 15.0
+		cost = 10.0
 		relative_position_id = MUR_discuss_budget_gaps1
 		x = 0
 		y = 1
@@ -207,7 +216,7 @@ focus_tree = {
 	focus = { # adress budget gaps3
 		id = MUR_discuss_budget_gaps3
 		icon = GFX_goal_generic_propaganda
-		cost = 15.0
+		cost = 10.0
 		relative_position_id = MUR_discuss_budget_gaps2
 		x = 0
 		y = 1
@@ -278,7 +287,7 @@ focus_tree = {
 			#some advisor available and assigned
 		}
 	}
-## ----- END Historic
+## ----- END CENTRIST
 
 ## MONARCHY TREE ------------------------------	
 	focus = { # start monarchist tree
@@ -289,7 +298,7 @@ focus_tree = {
 		x = 6
 		y = 0
 
-		prerequisite = { focus = MUR_the_martin_conspiracy }
+		prerequisite = { focus = MUR_Politic_efforts }
 		available = {
 			OR = {
 				neutrality > 0.2
@@ -311,17 +320,28 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
 		relative_position_id = MUR_long_live_Martin_I
-		x = -1
+		x = -2
 		y = 1
 
 		prerequisite = { focus = MUR_long_live_Martin_I }
 
 		completion_reward = {
-			add_political_power = 50
+			LUS = {
+				add_opinion_modifier = {
+					target = MUR
+					modifier = large_increase
+				}
+
+			}
+			diplomatic_relation = {
+				country = LUS
+				relation = non_aggression_pact
+			}
+
 		}
 	}
-	focus = { # Mursian culture project
-		id = MUR_mursian_culture
+	focus = { # guarantees of Lusjki
+		id = MUR_mursian_lusjkian_agreement
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
 		relative_position_id = MUR_lusjki_cooperation
@@ -330,19 +350,83 @@ focus_tree = {
 
 		prerequisite = { focus = MUR_lusjki_cooperation }
 
+		available = {
+			LUS = {
+				NOT = {
+					has_war = yes
+					has_wargoal_against = MUR
+					is_puppet = yes
+				}
+			}
+			MUR = {
+				NOT = {
+					has_war = yes
+					has_wargoal_against = LUS
+					is_puppet = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			LUS = {
+				add_opinion_modifier = {
+					target = MUR
+					modifier = large_increase
+				}
+				give_guarantee = MUR
+			}
+			MUR = {
+				add_opinion_modifier = {
+					target = LUS
+					modifier = large_increase
+				}
+				give_guarantee = LUS
+			}
+		}
+	}
+	focus = { # Mursian culture project
+		id = MUR_mursian_culture
+		icon = GFX_goal_generic_propaganda
+		cost = 15.0
+		relative_position_id = MUR_long_live_Martin_I
+		x = 0
+		y = 1
+
+		prerequisite = { focus = MUR_long_live_Martin_I }
+
 		completion_reward = {
 			add_political_power = 50
+			#increases chance of anti-republic events
+		}
+	}
+	focus = { # antagonize the Dirish
+		id = MUR_antonize_the_Dirish
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_mursian_culture
+		x = 1
+		y = 1
+
+		prerequisite = { 
+			#focus = MUR_free_mursland
+			focus = MUR_mursian_culture
+		}
+
+		completion_reward = {
+			add_political_power = 50
+			MUR_Pro_Martin_5_support = yes
+			MUR_Republic_5_support = yes
 		}
 	}
 	focus = { # Free Accessibility of Religion Act
 		id = MUR_reintroduce_Free_Accessibility_of_Religion_Act
 		icon = GFX_goal_generic_propaganda
 		cost = 15.0
-		relative_position_id = MUR_mursian_culture
-		x = -1
+		relative_position_id = MUR_antonize_the_Dirish
+		x = 1
 		y = 1
 
-		prerequisite = { focus = MUR_mursian_culture }
+		prerequisite = { focus = MUR_ban_non_mursian_newspapers }
 		prerequisite = { focus = MUR_antonize_the_Dirish }
 
 		available = {
@@ -377,32 +461,13 @@ focus_tree = {
 			MUR_Republic_10_oppose = yes
 		}
 	}
-	focus = { # Crack down on Traxians
-		id = MUR_crack_down_on_Traxians
-		icon = GFX_goal_generic_propaganda
-		cost = 15.0
-		relative_position_id = MUR_ban_non_mursian_newspapers
-		x = 0
-		y = 1
-		
-		#prerequisite = { focus = MUR_reintroduce_Free_Accessibility_of_Religion_Act }
-		prerequisite = { focus = MUR_ban_non_mursian_newspapers }
-
-		completion_reward = { 
-			60 = {               # ADD THICC RESISTANCE MODIFIER TO LOWER TRAXI
-				add_resistance = -40  
-				add_compliance = 30
-			}
-			add_manpower = -2000
-		}
-	}
 	focus = { # Assign pro martin
 		id = MUR_Assign_pro_martin
 		icon = GFX_goal_generic_propaganda
 		cost = 15.0
 		relative_position_id = MUR_mursian_culture
-		x = 1
-		y = 2
+		x = -1
+		y = 3
 		
 		#prerequisite = { focus = MUR_reintroduce_Free_Accessibility_of_Religion_Act }
 		prerequisite = { focus = MUR_mursian_culture }
@@ -428,11 +493,11 @@ focus_tree = {
 		id = MUR_the_right_of_people
 		icon =  GFX_goal_support_democracy
 		cost = 10.0
-		relative_position_id = MUR_the_martin_conspiracy
-		x = -8
+		relative_position_id = MUR_Politic_efforts
+		x = -7
 		y = 1
 
-		prerequisite = { focus = MUR_the_martin_conspiracy }
+		prerequisite = { focus = MUR_Politic_efforts }
 		available = {	# Requires the elections event to have happened.
 			has_global_flag = KV_wins_election
 			democratic = 0.7
@@ -520,6 +585,149 @@ focus_tree = {
 	}
 	
 ## ----- END Republican
+
+## TRAXIAN FREEDOM ----------------------------------
+	focus = {
+		id = MUR_traxian_struggle
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_the_martin_conspiracy
+		x = 4
+		y = 1
+
+		prerequisite = { focus = MUR_the_martin_conspiracy }
+
+		completion_reward = { 
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = MUR_go_hard
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		relative_position_id = MUR_traxian_struggle
+		x = -1
+		y = 1
+
+		prerequisite = { focus = MUR_traxian_struggle }
+
+		mutually_exclusive = { focus= MUR_go_soft }
+
+		completion_reward = { 
+			add_political_power = 50
+			MUR_Republic_10_support = yes
+		}
+	}
+	focus = {
+		id = MUR_go_soft
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		relative_position_id = MUR_traxian_struggle
+		x = 1
+		y = 1
+
+		prerequisite = { focus = MUR_traxian_struggle }
+
+		mutually_exclusive = { focus= MUR_go_hard }
+
+		completion_reward = { 
+			add_political_power = 50
+			MUR_Republic_10_oppose = yes
+		}
+	}
+
+	focus = { # Crack down on Traxians
+		id = MUR_crack_down_on_Traxians
+		icon = GFX_goal_generic_propaganda
+		cost = 15.0
+		relative_position_id = MUR_reintegrate_Traxia
+		x = -2
+		y = 0
+		
+		#prerequisite = { focus = MUR_reintroduce_Free_Accessibility_of_Religion_Act }
+		prerequisite = { focus = MUR_ban_non_mursian_newspapers }
+
+		mutually_exclusive = { 
+			focus = MUR_reintegrate_Traxia 
+			focus = MUR_Traxian_freedom
+		}
+
+		completion_reward = { 
+			60 = {
+				add_resistance = -40  
+				add_compliance = 30
+			}
+			remove_ideas = Protests_in_traxia
+			remove_ideas = Revolts_in_traxia
+			add_manpower = -2000
+		}
+	}
+
+	focus = {
+		id = MUR_reintegrate_Traxia
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		relative_position_id = MUR_Traxian_freedom
+		x = -2
+		y = 0
+
+		#prerequisite = { focus = MUR_traxian_struggle }
+
+		mutually_exclusive = { 
+			focus = MUR_Traxian_freedom 
+			focus = MUR_crack_down_on_Traxians
+		}
+
+		completion_reward = { 
+			60 = {
+				add_core_of = MUR
+			}
+			remove_ideas = Protests_in_traxia
+			remove_ideas = Revolts_in_traxia
+		}
+	}
+
+	focus = { # release traxia process
+		id = MUR_Traxian_autonomy
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_go_soft
+		x = 1
+		y = 3
+
+		# prerequisite = { 
+		# 	focus = MUR_equality
+		# }
+
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # release traxia process end
+		id = MUR_Traxian_freedom
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_Traxian_autonomy
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_Traxian_autonomy
+		}
+
+		mutually_exclusive = { 
+			focus = MUR_reintegrate_Traxia 
+			focus = MUR_crack_down_on_Traxians
+		}
+
+		completion_reward = {
+			release_puppet = TRA
+			remove_ideas = Protests_in_traxia
+			remove_ideas = Revolts_in_traxia
+		}
+	}
+## ----- End Traxian freedom
+
 ## THE TRUE TREE -------------------------------------
 	focus = { # beacon of democracy
 		id = MUR_beacon_of_democracy
@@ -603,39 +811,6 @@ focus_tree = {
 ## ----- End True Tree
 
 ## -------- Democratic conquering --------------------
-	
-	focus = { # release traxia process
-		id = MUR_Traxian_autonomy
-		icon = GFX_goal_generic_propaganda
-		cost = 10.0
-		#relative_position_id = MUR_equality
-		x = 10
-		y = 8
-
-		# prerequisite = { 
-		# 	focus = MUR_equality
-		# }
-
-		completion_reward = {
-			add_political_power = 50
-		}
-	}
-	focus = { # release traxia process end
-		id = MUR_Traxian_freedom
-		icon = GFX_goal_generic_propaganda
-		cost = 10.0
-		relative_position_id = MUR_Traxian_autonomy
-		x = 0
-		y = 1
-
-		prerequisite = { 
-			focus = MUR_Traxian_autonomy
-		}
-
-		completion_reward = {
-			release_puppet = TRA
-		}
-	}
 	# focus = { # prepare for a storm
 	# 	id = MUR_prepare_for_a_storm
 	# 	icon = GFX_goal_generic_propaganda
@@ -652,137 +827,137 @@ focus_tree = {
 	# 		add_ideas = grand_recruitment_drive
 	# 	}
 	# }
-	focus = { # puppet Lusjki
-		id = MUR_Freedom_in_lusjki
-		icon = GFX_goal_generic_propaganda
-		cost = 10.0
-		relative_position_id = MUR_Traxian_freedom
-		x = -1
-		y = 1
+	# focus = { # puppet Lusjki
+	# 	id = MUR_Freedom_in_lusjki
+	# 	icon = GFX_goal_generic_propaganda
+	# 	cost = 10.0
+	# 	relative_position_id = MUR_Traxian_freedom
+	# 	x = -1
+	# 	y = 1
 
-		prerequisite = { 
-			focus = MUR_Traxian_freedom
-		}
+	# 	prerequisite = { 
+	# 		focus = MUR_Traxian_freedom
+	# 	}
 
-		completion_reward = {
-			create_wargoal = {
-				target = LUS
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = { # puppet Vrtgora
-		id = MUR_Freedom_in_vrtgora
-		icon = GFX_goal_generic_propaganda
-		cost = 10.0
-		relative_position_id = MUR_Freedom_in_lusjki
-		x = 0
-		y = 1
+	# 	completion_reward = {
+	# 		create_wargoal = {
+	# 			target = LUS
+	# 			type = puppet_wargoal_focus
+	# 		}
+	# 	}
+	# }
+	# focus = { # puppet Vrtgora
+	# 	id = MUR_Freedom_in_vrtgora
+	# 	icon = GFX_goal_generic_propaganda
+	# 	cost = 10.0
+	# 	relative_position_id = MUR_Freedom_in_lusjki
+	# 	x = 0
+	# 	y = 1
 
-		prerequisite = { 
-			focus = MUR_Freedom_in_lusjki
-		}
+	# 	prerequisite = { 
+	# 		focus = MUR_Freedom_in_lusjki
+	# 	}
 
-		completion_reward = {
-			create_wargoal = {
-				target = VRT
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = { # acquire trans-traxia       #----------- create event
-		id = MUR_acquire_trans_traxi
-		icon = GFX_goal_generic_propaganda
-		cost = 10.0
-		relative_position_id = MUR_Traxian_freedom
-		x = 1
-		y = 2
+	# 	completion_reward = {
+	# 		create_wargoal = {
+	# 			target = VRT
+	# 			type = puppet_wargoal_focus
+	# 		}
+	# 	}
+	# }
+	# focus = { # acquire trans-traxia       #----------- create event
+	# 	id = MUR_acquire_trans_traxi
+	# 	icon = GFX_goal_generic_propaganda
+	# 	cost = 10.0
+	# 	relative_position_id = MUR_Traxian_freedom
+	# 	x = 1
+	# 	y = 2
 
-		prerequisite = { 
-			focus = MUR_Traxian_freedom
-		}
+	# 	prerequisite = { 
+	# 		focus = MUR_Traxian_freedom
+	# 	}
 
-		completion_reward = {
-			# create_wargoal = {
-			# 	target = PRO
-			# 	type = puppet_wargoal_focus
-			# }
-		}
-	}
-	focus = { # puppet Propygria
-		id = MUR_Freedom_in_propygria
-		icon = GFX_goal_generic_propaganda
-		cost = 10.0
-		relative_position_id = MUR_Traxian_freedom
-		x = 3
-		y = 1
+	# 	completion_reward = {
+	# 		# create_wargoal = {
+	# 		# 	target = PRO
+	# 		# 	type = puppet_wargoal_focus
+	# 		# }
+	# 	}
+	# }
+	# focus = { # puppet Propygria
+	# 	id = MUR_Freedom_in_propygria
+	# 	icon = GFX_goal_generic_propaganda
+	# 	cost = 10.0
+	# 	relative_position_id = MUR_Traxian_freedom
+	# 	x = 3
+	# 	y = 1
 
-		prerequisite = { 
-			focus = MUR_Traxian_freedom
-		}
+	# 	prerequisite = { 
+	# 		focus = MUR_Traxian_freedom
+	# 	}
 
-		completion_reward = {
-			create_wargoal = {
-				target = PRO
-				type = puppet_wargoal_focus
-			}
-		}
-	}
-	focus = { # Volarian republic
-		id = MUR_Volarian_republic
-		icon = GFX_goal_generic_propaganda
-		cost = 10.0
-		relative_position_id = MUR_acquire_trans_traxi
-		x = -1
-		y = 1
+	# 	completion_reward = {
+	# 		create_wargoal = {
+	# 			target = PRO
+	# 			type = puppet_wargoal_focus
+	# 		}
+	# 	}
+	# }
+	# focus = { # Volarian republic
+	# 	id = MUR_Volarian_republic
+	# 	icon = GFX_goal_generic_propaganda
+	# 	cost = 10.0
+	# 	relative_position_id = MUR_acquire_trans_traxi
+	# 	x = -1
+	# 	y = 1
 
-		prerequisite = { focus = MUR_Freedom_in_vrtgora	}
-		prerequisite = { focus = MUR_acquire_trans_traxi }
-		available = {
-			LUS = {
-				is_subject_of = ROOT
-			}
-			VRT = {
-				is_subject_of = ROOT
-			}
-			TRA = {
-				is_subject_of = ROOT
-			}
-			OR = {
-				any_country = {
-					is_subject_of = ROOT
-					owns_state = 208
-				}
-			}			
-		}
+	# 	prerequisite = { focus = MUR_Freedom_in_vrtgora	}
+	# 	prerequisite = { focus = MUR_acquire_trans_traxi }
+	# 	available = {
+	# 		LUS = {
+	# 			is_subject_of = ROOT
+	# 		}
+	# 		VRT = {
+	# 			is_subject_of = ROOT
+	# 		}
+	# 		TRA = {
+	# 			is_subject_of = ROOT
+	# 		}
+	# 		OR = {
+	# 			any_country = {
+	# 				is_subject_of = ROOT
+	# 				owns_state = 208
+	# 			}
+	# 		}			
+	# 	}
 
-		completion_reward = {
-			set_cosmetic_tag = VOL_CON
-			annex_country = {
-				target = VRT
-			}
-			annex_country = {
-				target = LUS
-			}
-			annex_country = {
-				target = TRA
-			}
-			every_state = {
-				limit = {
-					OR = {
-						is_core_of = LUS
-						is_core_of = VRT
-						is_core_of = TRA
-					}
-				}
-				add_core_of = MUR
-			}
-			hidden_effect = {
-				news_event = { id = mursland.200 hours = 6 }  # Change the news event !!
-				set_global_flag = form_volirian_conf_flag
-			}
-		}
-	}
+	# 	completion_reward = {
+	# 		set_cosmetic_tag = VOL_CON
+	# 		annex_country = {
+	# 			target = VRT
+	# 		}
+	# 		annex_country = {
+	# 			target = LUS
+	# 		}
+	# 		annex_country = {
+	# 			target = TRA
+	# 		}
+	# 		every_state = {
+	# 			limit = {
+	# 				OR = {
+	# 					is_core_of = LUS
+	# 					is_core_of = VRT
+	# 					is_core_of = TRA
+	# 				}
+	# 			}
+	# 			add_core_of = MUR
+	# 		}
+	# 		hidden_effect = {
+	# 			news_event = { id = mursland.200 hours = 6 }  # Change the news event !!
+	# 			set_global_flag = form_volirian_conf_flag
+	# 		}
+	# 	}
+	# }
 ## ----- End Democratic Conquering
 
 ## MILITAIRY -----------------------------------------
@@ -790,7 +965,7 @@ focus_tree = {
 		id = MUR_economic_developments
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
-		x = 34
+		x = 44
 		y = 0
 		
 		#prerequisite = { focus = MUR_mursian_culture }
@@ -883,430 +1058,395 @@ focus_tree = {
 	}
 ## ----- End Militairy
 
-	# focus = { # more detaling in elections
-	# 	id = MUR_election_debates
-	# 	icon = GFX_goal_generic_propaganda
-	# 	cost = 10.0
-	# 	relative_position_id = MUR_election_campaigns
-	# 	x = 0
-	# 	y = 1
 
-	# 	prerequisite = {
-	# 	focus = MUR_election_campaigns
-	# 	}
+
+
+
+
+
+
+## Succession ---------------------------------------------
+	focus = { # Succession_preparations
+		id = MUR_Succession_preparations
+		icon = GFX_goal_generic_propaganda
+		cost = 2.0
+		relative_position_id = MUR_the_second_assassination
+		x = 0
+		y = 1
+
+		prerequisite = { focus = MUR_the_second_assassination }
+
+		available = {
+			has_global_flag = Martin_I_died
+		}
+		mutually_exclusive = { 
+			focus = MUR_Dimokratia 
+			focus = MUR_antovs_chance
+		}
 		
-	# 	completion_reward = {
-	# 		# swap_ideas = {
-	# 		# remove_idea = soft_bickering
-	# 		# add_idea = loud_whispering
-	# 		# }
-	# 		add_political_power = 200
-	# 		country_event = MURSLAND.2
-	# 	}
-	# }
+		completion_reward = {
+			add_political_power = 50
+		}
+	}
+	focus = { # the Pilot Prince
+		id = MUR_Arkady_III
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_Succession_preparations
+		x = 0
+		y = 1
 
-## REPUBLIC TREE ----------------------------
+		prerequisite = { focus = MUR_Succession_preparations }
 
-# 	focus = { # end_of_monarchism
-# 		id = MUR_end_of_monarchism
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 10.0
-# 		#relative_position_id = MUR_a_republic
-# 		x = 15
-# 		y = 5
+		completion_reward = { 
+			swap_ideas = {
+				remove_idea = Succesor_Crisis
+				add_idea = Arkady_III
+			}
+			add_stability = 0.1
+		}
+	}
 
-# 		# prerequisite = { focus = MUR_a_republic }
+	focus = { # REPUBLIC!!
+		id = MUR_Dimokratia
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_the_second_assassination
+		x = 3
+		y = 1
 
-# 		completion_reward = {
-# 			add_political_power = 50
-# 		}
-# 	}
+		prerequisite = { focus = MUR_Assign_republican }
+		prerequisite = { focus = MUR_the_second_assassination }
+		available = {	# Requires the elections event to have happened.
+			democratic = 0.7
+			has_global_flag = Martin_I_died
+		}
+		mutually_exclusive = { 
+			focus = MUR_Succession_preparations
+			focus = MUR_antovs_chance
+		}
 
-# 	focus = { # REPUBLIC!!
-# 		id = MUR_Dimokratia
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 10.0
-# 		x = 16
-# 		y = 7
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = Succesor_Crisis
+				add_idea = Dimokratia
+			}
+		}
+	}
+	focus = { # Presidentalism
+		id = MUR_Presenidentalism
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_Dimokratia
+		x = 0
+		y = 1
 
-# 		prerequisite = { focus = MUR_end_of_monarchism }
-# 		prerequisite = { focus = MUR_relieve_the_reigns }
-# 		available = {	# Requires the elections event to have happened.
-# 			democratic = 0.7
-# 			has_global_flag = Martin_I_died
-# 		}
-# 		mutually_exclusive = { 
-# 			focus = MUR_Succession_preparations
-# 			focus = MUR_antovs_chance
-# 		}
+		prerequisite = { focus = MUR_Dimokratia }
 
-# 		completion_reward = {
-# 			swap_ideas = {
-# 				remove_idea = Succesor_Crisis
-# 				add_idea = Dimokratia
-# 			}
-# 		}
-# 	}
-# 	focus = { # Presidentalism
-# 		id = MUR_Presenidentalism
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 10.0
-# 		relative_position_id = MUR_Dimokratia
-# 		x = 0
-# 		y = 1
+		completion_reward = {
+			add_political_power = 50
+			add_popularity = {
+				ideology = authdemocracy
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.05
+			}
+		}
+	}
 
-# 		prerequisite = { focus = MUR_Dimokratia }
+	focus = { # World orientation (Kesh intervention start)
+		id = MUR_world_orientation
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_Succession_preparations
+		x = 0
+		y = 4
 
-# 		completion_reward = {
-# 			add_political_power = 50
-# 			add_popularity = {
-# 				ideology = authdemocracy
-# 				popularity = 0.1
-# 			}
-# 			add_popularity = {
-# 				ideology = neutrality
-# 				popularity = -0.05
-# 			}
-# 			add_popularity = {
-# 				ideology = democratic
-# 				popularity = -0.05
-# 			}
-# 		}
-# 	}
-# ### -------- END REPUBLIC
+		prerequisite = { 
+			focus = MUR_Arkady_III 
+			focus = MUR_Palokist_Mursland
+			focus = MUR_Presenidentalism
+		}
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+	focus = { # Kesh pro democracy
+		id = MUR_kesh_democracy
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_world_orientation
+		x = 2
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_world_orientation
+		}
+		prerequisite = { 
+			focus = MUR_Arkady_III
+			focus = MUR_Presenidentalism
+		}
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+	focus = { # artemia pro fascism
+		id = MUR_approach_samotkhe
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_world_orientation
+		x = -2
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_world_orientation
+		}
+		prerequisite = { 
+			focus = MUR_Arkady_III
+			focus = MUR_Palokist_Mursland
+		}
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+	focus = { # fuck communists
+		id = MUR_communist_destruction
+		icon = GFX_focus_attack_soviet
+		cost = 5.0
+		relative_position_id = MUR_world_orientation
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_world_orientation
+		}
+
+		completion_reward = { 
+			add_political_power = 50
+		}
+	}
+## ----- END Succession
+
+## Fascist tree ------------------------------------------------
+		# focus = {
+		# 	id = MUR_antovs_vision
+		# 	icon = GFX_goal_generic_political_pressure
+		# 	cost = 10.0
+		# 	relative_position_id = MUR_Succession_preparations
+		# 	x = -4
+		# 	y = -1
+
+		# 	#prerequisite = { focus = MUR_a_republic }
+
+		# 	completion_reward = { 
+		# 		add_stability = -0.1
+		# 		add_ideas = generic_fascist_demagogue
+		# 	}
+		# }
+		# focus = {
+		# 	id = MUR_antovs_chance
+		# 	icon = GFX_goal_generic_propaganda
+		# 	cost = 5.0
+		# 	relative_position_id = MUR_Succession_preparations
+		# 	x = -4
+		# 	y = 0
+
+		# 	prerequisite = { focus = MUR_antovs_vision }
+		# 	available = {
+		# 		has_global_flag = Martin_I_died
+		# 		fascism > 0.1
+		# 	}
+		# 	mutually_exclusive = { 
+		# 		focus = MUR_Succession_preparations 
+		# 		focus = MUR_Dimokratia
+		# 	}
+
+		# 	completion_reward = { 
+		# 		#remove_ideas = Succesor_Crisis
+		# 		add_stability = -0.1
+		# 		add_popularity = {
+		# 			ideology = fascism
+		# 			popularity = 0.15
+		# 		}
+		# 	}
+		# }
+		# focus = {
+		# 	id = MUR_Palokist_Mursland
+		# 	icon = GFX_goal_support_fascism
+		# 	#GFX_focus_generic_anti_fascist_diplomacy_shine
+		# 	cost = 10.0
+		# 	relative_position_id = MUR_antovs_chance
+		# 	x = 0
+		# 	y = 1
+
+		# 	prerequisite = { focus = MUR_antovs_chance }
+		# 	available = {
+		# 		fascism > 0.5
+		# 	}
+
+		# 	completion_reward = { 
+		# 		remove_ideas = Succesor_Crisis
+		# 		set_politics = {
+		# 			ruling_party = fascism
+		# 			elections_allowed = no
+		# 		}
+		# 	}
+		# }
+		# focus = {
+		# 	id = MUR_destroy_the_opposition
+		# 	icon = GFX_goal_support_fascism
+		# 	#GFX_focus_generic_anti_fascist_diplomacy_shine
+		# 	cost = 10.0
+		# 	relative_position_id = MUR_antovs_chance
+		# 	x = 0
+		# 	y = 2
+
+		# 	prerequisite = { focus = MUR_Palokist_Mursland }
+		# 	available = {
+		# 		fascism > 0.65
+		# 	}
+
+		# 	completion_reward = { 
+		# 		add_stability = 0.1
+		# 		add_war_support = 0.1
+		# 	}
+		# }
+		# focus = {
+		# 	id = MUR_the_new_constitution
+		# 	icon = GFX_goal_support_fascism
+		# 	#GFX_focus_generic_anti_fascist_diplomacy_shine
+		# 	cost = 10.0
+		# 	relative_position_id = MUR_antovs_chance
+		# 	x = -2
+		# 	y = 2
+
+		# 	prerequisite = { focus = MUR_Palokist_Mursland }
+		# 	# available = {
+		# 	# 	fascism > 0.5
+		# 	# }
+
+		# 	completion_reward = { 
+		# 		add_political_power = 50
+		# 		add_popularity = {
+		# 			ideology = democratic
+		# 			popularity = -0.10
+		# 		}
+		# 	}
+		# }
+		# focus = {
+		# 	id = MUR_union_state
+		# 	icon = GFX_goal_support_fascism
+		# 	#GFX_focus_generic_anti_fascist_diplomacy_shine
+		# 	cost = 10.0
+		# 	relative_position_id = MUR_antovs_chance
+		# 	x = -2
+		# 	y = 3
+
+		# 	prerequisite = { focus = MUR_the_new_constitution }
+		# 	prerequisite = { focus = MUR_destroy_the_opposition }
+		# 	# available = {
+		# 	# 	fascism > 0.5
+		# 	# }
+
+		# 	completion_reward = { 
+		# 		add_political_power = 50
+		# 	}
+		# }
+		# focus = {
+		# 	id = MUR_grand_mobilization
+		# 	icon = GFX_goal_generic_political_pressure
+		# 	#GFX_focus_generic_anti_fascist_diplomacy_shine
+		# 	cost = 10.0
+		# 	relative_position_id = MUR_antovs_chance
+		# 	x = -2
+		# 	y = 4
+
+		# 	prerequisite = { focus = MUR_union_state }
+		# 	available = {
+		# 		has_war = yes
+		# 	}
+
+		# 	completion_reward = { 
+		# 		add_ideas = grand_recruitment_drive
+		# 		#enable creating Pazach units descisions, that also causes higher debuffs and stuff
+		# 	}
+		# }
+## ----- END Fascism
+
+	focus = { # mobilize the pazach
+		id = MUR_mobilize_the_pazach
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.0
+		x = 18
+		y = 14
+
+		# prerequisite = { 
+		# 	focus = MUR_grand_mobilization
+		# 	focus = MUR_Traxian_freedom
+		# 	focus = MUR_bastion_of_neutrality
+		# 	focus = MUR_crack_down_on_Traxians
+		# }
+
+		completion_reward = { 
+			add_ideas = mobilize_the_pazach1
+			#enable creating Pazach units descisions, that also causes higher debuffs and stuff
+		}
+	}
+
+	focus = { # woman recruitment
+		id = MUR_active_woman_reruitment
+		icon = GFX_goal_generic_political_pressure
+		cost = 10.0
+		relative_position_id = MUR_mobilize_the_pazach
+		x = 2
+		y = 0
+
+		prerequisite = { 
+			#focus = MUR_armed_neutrality
+			focus = MUR_prepare_for_a_storm
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = woman_recruitment1
+				add_idea = woman_recruitment2
+			}
+		}
+	}
+	focus = { # woman recruitment emergency
+		id = MUR_woman_recruitment_emergency
+		icon = GFX_goal_generic_political_pressure
+		cost = 2.0
+		relative_position_id = MUR_active_woman_reruitment
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_active_woman_reruitment
+		}
+		available = {
+			has_war = yes
+			surrender_progress > 0.2
+		}
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = woman_recruitment2
+				add_idea = woman_recruitment3
+			}
+		}
+	}
 
 
-# 	focus = { # woman recruitment
-# 		id = MUR_active_woman_reruitment
-# 		icon = GFX_goal_generic_political_pressure
-# 		cost = 10.0
-# 		relative_position_id = MUR_prepare_for_a_storm
-# 		x = 4
-# 		y = 1
-
-# 		prerequisite = { 
-# 			#focus = MUR_armed_neutrality
-# 			focus = MUR_prepare_for_a_storm
-# 		}
-
-# 		completion_reward = {
-# 			swap_ideas = {
-# 				remove_idea = woman_recruitment1
-# 				add_idea = woman_recruitment2
-# 			}
-# 		}
-# 	}
-# 	focus = { # woman recruitment emergency
-# 		id = MUR_woman_recruitment_emergency
-# 		icon = GFX_goal_generic_political_pressure
-# 		cost = 2.0
-# 		relative_position_id = MUR_active_woman_reruitment
-# 		x = 0
-# 		y = 1
-
-# 		prerequisite = { 
-# 			focus = MUR_active_woman_reruitment
-# 		}
-# 		available = {
-# 			has_war = yes
-# 			surrender_progress > 0.2
-# 		}
-
-# 		completion_reward = {
-# 			swap_ideas = {
-# 				remove_idea = woman_recruitment2
-# 				add_idea = woman_recruitment3
-# 			}
-# 		}
-# 	}
-# ### -------- END Democratic conquering
-
-
-
-
-
-
-# ### Succession ###
-# 	focus = { # Succession_preparations
-# 		id = MUR_Succession_preparations
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 2.0
-# 		x = 10
-# 		y = 7
-
-# 		available = {
-# 			has_global_flag = Martin_I_died
-# 		}
-# 		mutually_exclusive = { 
-# 			focus = MUR_Dimokratia 
-# 			focus = MUR_antovs_chance
-# 		}
-		
-# 		completion_reward = {
-# 			add_political_power = 50
-# 		}
-# 	}
-
-# 	focus = {
-# 		id = MUR_Arkady_III
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 5.0
-# 		relative_position_id = MUR_Succession_preparations
-# 		x = 0
-# 		y = 1
-
-# 		prerequisite = { focus = MUR_Succession_preparations }
-
-# 		completion_reward = { 
-# 			swap_ideas = {
-# 				remove_idea = Succesor_Crisis
-# 				add_idea = Arkady_III
-# 			}
-# 			add_stability = 0.1
-# 		}
-# 	}
-
-# 	focus = { # World orientation (Kesh intervention start)
-# 		id = MUR_world_orientation
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 5.0
-# 		relative_position_id = MUR_Succession_preparations
-# 		x = 0
-# 		y = 4
-
-# 		prerequisite = { 
-# 			focus = MUR_Arkady_III 
-# 			focus = MUR_Palokist_Mursland
-# 			focus = MUR_Presenidentalism
-# 		}
-
-# 		completion_reward = { 
-# 			add_political_power = 50
-# 		}
-# 	}
-# 	focus = { # Kesh pro democracy
-# 		id = MUR_kesh_democracy
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 5.0
-# 		relative_position_id = MUR_world_orientation
-# 		x = 2
-# 		y = 1
-
-# 		prerequisite = { 
-# 			focus = MUR_world_orientation
-# 		}
-# 		prerequisite = { 
-# 			focus = MUR_Arkady_III
-# 			focus = MUR_Presenidentalism
-# 		}
-
-# 		completion_reward = { 
-# 			add_political_power = 50
-# 		}
-# 	}
-# 	focus = { # artemia pro fascism
-# 		id = MUR_approach_samotkhe
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 5.0
-# 		relative_position_id = MUR_world_orientation
-# 		x = -2
-# 		y = 1
-
-# 		prerequisite = { 
-# 			focus = MUR_world_orientation
-# 		}
-# 		prerequisite = { 
-# 			focus = MUR_Arkady_III
-# 			focus = MUR_Palokist_Mursland
-# 		}
-
-# 		completion_reward = { 
-# 			add_political_power = 50
-# 		}
-# 	}
-# 	focus = { # fuck communists
-# 		id = MUR_communist_destruction
-# 		icon = GFX_focus_attack_soviet
-# 		cost = 5.0
-# 		relative_position_id = MUR_world_orientation
-# 		x = 0
-# 		y = 1
-
-# 		prerequisite = { 
-# 			focus = MUR_world_orientation
-# 		}
-
-# 		completion_reward = { 
-# 			add_political_power = 50
-# 		}
-# 	}
-# ### ------- END Succession
-
-# ### Fascist tree ###
-# 	focus = {
-# 		id = MUR_antovs_vision
-# 		icon = GFX_goal_generic_political_pressure
-# 		cost = 10.0
-# 		relative_position_id = MUR_Succession_preparations
-# 		x = -6
-# 		y = -1
-
-# 		#prerequisite = { focus = MUR_a_republic }
-
-# 		completion_reward = { 
-# 			add_stability = -0.1
-# 			add_ideas = generic_fascist_demagogue
-# 		}
-# 	}
-# 	focus = {
-# 		id = MUR_antovs_chance
-# 		icon = GFX_goal_generic_propaganda
-# 		cost = 5.0
-# 		relative_position_id = MUR_Succession_preparations
-# 		x = -6
-# 		y = 0
-
-# 		prerequisite = { focus = MUR_antovs_vision }
-# 		available = {
-# 			has_global_flag = Martin_I_died
-# 			fascism > 0.1
-# 		}
-# 		mutually_exclusive = { 
-# 			focus = MUR_Succession_preparations 
-# 			focus = MUR_Dimokratia
-# 		}
-
-# 		completion_reward = { 
-# 			#remove_ideas = Succesor_Crisis
-# 			add_stability = -0.1
-# 			add_popularity = {
-# 				ideology = fascism
-# 				popularity = 0.15
-# 			}
-# 		}
-# 	}
-# 	focus = {
-# 		id = MUR_Palokist_Mursland
-# 		icon = GFX_goal_support_fascism
-# 		#GFX_focus_generic_anti_fascist_diplomacy_shine
-# 		cost = 10.0
-# 		relative_position_id = MUR_antovs_chance
-# 		x = 0
-# 		y = 1
-
-# 		prerequisite = { focus = MUR_antovs_chance }
-# 		available = {
-# 			fascism > 0.5
-# 		}
-
-# 		completion_reward = { 
-# 			remove_ideas = Succesor_Crisis
-# 			set_politics = {
-# 				ruling_party = fascism
-# 				elections_allowed = no
-# 			}
-# 		}
-# 	}
-# 	focus = {
-# 		id = MUR_destroy_the_opposition
-# 		icon = GFX_goal_support_fascism
-# 		#GFX_focus_generic_anti_fascist_diplomacy_shine
-# 		cost = 10.0
-# 		relative_position_id = MUR_antovs_chance
-# 		x = 0
-# 		y = 2
-
-# 		prerequisite = { focus = MUR_Palokist_Mursland }
-# 		available = {
-# 			fascism > 0.65
-# 		}
-
-# 		completion_reward = { 
-# 			add_stability = 0.1
-# 			add_war_support = 0.1
-# 		}
-# 	}
-# 	focus = {
-# 		id = MUR_the_new_constitution
-# 		icon = GFX_goal_support_fascism
-# 		#GFX_focus_generic_anti_fascist_diplomacy_shine
-# 		cost = 10.0
-# 		relative_position_id = MUR_antovs_chance
-# 		x = -2
-# 		y = 2
-
-# 		prerequisite = { focus = MUR_Palokist_Mursland }
-# 		# available = {
-# 		# 	fascism > 0.5
-# 		# }
-
-# 		completion_reward = { 
-# 			add_political_power = 50
-# 			add_popularity = {
-# 				ideology = democratic
-# 				popularity = -0.10
-# 			}
-# 		}
-# 	}
-# 	focus = {
-# 		id = MUR_union_state
-# 		icon = GFX_goal_support_fascism
-# 		#GFX_focus_generic_anti_fascist_diplomacy_shine
-# 		cost = 10.0
-# 		relative_position_id = MUR_antovs_chance
-# 		x = -2
-# 		y = 3
-
-# 		prerequisite = { focus = MUR_the_new_constitution }
-# 		prerequisite = { focus = MUR_destroy_the_opposition }
-# 		# available = {
-# 		# 	fascism > 0.5
-# 		# }
-
-# 		completion_reward = { 
-# 			add_political_power = 50
-# 		}
-# 	}
-# 	focus = {
-# 		id = MUR_grand_mobilization
-# 		icon = GFX_goal_generic_political_pressure
-# 		#GFX_focus_generic_anti_fascist_diplomacy_shine
-# 		cost = 10.0
-# 		relative_position_id = MUR_antovs_chance
-# 		x = -2
-# 		y = 4
-
-# 		prerequisite = { focus = MUR_union_state }
-# 		available = {
-# 			has_war = yes
-# 		}
-
-# 		completion_reward = { 
-# 			add_ideas = grand_recruitment_drive
-# 			#enable creating Pazach units descisions, that also causes higher debuffs and stuff
-# 		}
-# 	}
-# ### ------- END Fascism
-
-# 	# focus = { # mobilize the pazach
-# 	# 	id = MUR_mobilize_the_pazach
-# 	# 	icon = GFX_goal_generic_political_pressure
-# 	# 	cost = 10.0
-# 	# 	x = 18
-# 	# 	y = 14
-
-# 	# 	prerequisite = { 
-# 	# 		focus = MUR_grand_mobilization
-# 	# 		focus = MUR_Traxian_freedom
-# 	# 		focus = MUR_bastion_of_neutrality
-# 	# 		focus = MUR_crack_down_on_Traxians
-# 	# 	}
-
-# 	# 	completion_reward = { 
-# 	# 		add_ideas = mobilize_the_pazach1
-# 	# 		#enable creating Pazach units descisions, that also causes higher debuffs and stuff
-# 	# 	}
-# 	# }
 	
 
 

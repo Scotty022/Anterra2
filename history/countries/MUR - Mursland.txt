@@ -52,6 +52,7 @@ add_ideas = {
 	Martin_I
 	woman_recruitment1
 	Backstab_politics
+	Protests_in_traxia
 }
 
 set_variable = { province_room_total = 155 }
