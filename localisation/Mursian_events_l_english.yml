@@ -24,6 +24,9 @@
  mobilize_the_pazach2:0 "Mobilize the Pazach"
  Backstab_politics:0 "Backstab politics"
  Backstab_politics_desc:0 "The political climate in Mursland is very turbulent. Politicans are plotting behind each others back, votes are blocked for no reason, and scandals are made of every small inconvience. And to make matters worse - Overlord Martin is involved as well!"
+
+ Protests_in_traxia:0 "Protests in Traxia"
+ Protests_in_traxia_desc:0 "The value crash of the Pette and unfair distribution of economic resources has caused large unemployment rates in the Traxia region, mostly along the native population. People have amassed on the streets of cities across the region, and the atmosphere is getting grim. We have to take action soon!"
  #----------- Events ------------------------------------------------
  MUR.1.t:0 "Election campaigns"
 
@@ -139,4 +142,5 @@
  MUR_union_state:0 "The Union State"
  MUR_grand_mobilization:0 "Grand Mobilization"
  MUR_mobilize_the_pazach:0 "Mobilize the Pazach"
+ MUR_traxian_struggle:0 "Adress Traxian concerns"
 

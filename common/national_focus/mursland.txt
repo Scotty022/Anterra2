@@ -387,7 +387,7 @@ focus_tree = {
 	focus = { # Mursian culture project
 		id = MUR_mursian_culture
 		icon = GFX_goal_generic_propaganda
-		cost = 15.0
+		cost = 5.0
 		relative_position_id = MUR_long_live_Martin_I
 		x = 0
 		y = 1
@@ -405,7 +405,7 @@ focus_tree = {
 		cost = 10.0
 		relative_position_id = MUR_mursian_culture
 		x = 1
-		y = 1
+		y = 2
 
 		prerequisite = { 
 			#focus = MUR_free_mursland
@@ -448,7 +448,7 @@ focus_tree = {
 		cost = 10.0
 		relative_position_id = MUR_mursian_culture
 		x = 3
-		y = 1
+		y = 2
 
 		prerequisite = { focus = MUR_mursian_culture }
 		available = {
@@ -636,6 +636,152 @@ focus_tree = {
 		}
 	}
 
+	focus = {
+		id = MUR_redistribute_jobs
+		icon = GFX_goal_generic_propaganda
+		cost = 15
+		relative_position_id = MUR_go_soft
+		x = 1
+		y = 1
+
+		prerequisite = { focus = MUR_go_soft }
+		prerequisite = { focus = MUR_puclic_planning }
+
+		completion_reward = { 
+			60 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+				}
+			}
+			59 = {
+				remove_building = {
+					type = industrial_complex
+					level = 1
+				}
+			}
+			MUR_Republic_10_oppose = yes
+		}
+	}
+
+	focus = {
+		id = MUR_roundtable_meeting
+		icon = GFX_goal_generic_propaganda
+		cost = 15
+		relative_position_id = MUR_social_work
+		x = 1
+		y = 1
+
+		prerequisite = { focus = MUR_redistribute_jobs }
+		prerequisite = { focus = MUR_social_work }
+
+		completion_reward = { 
+			add_political_power = 100
+			MUR_Republic_10_oppose = yes
+		}
+	}
+
+	focus = {
+		id = MUR_social_work
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		relative_position_id = MUR_go_soft
+		x = -1
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_go_soft 
+			focus = MUR_go_hard
+		}
+
+		completion_reward = { 
+			add_political_power = 100
+			MUR_Republic_5_oppose = yes
+		}
+	}
+
+	focus = {
+		id = MUR_guarantee_mursian_job_security
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		relative_position_id = MUR_go_hard
+		x = -1
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_go_hard
+		}
+
+		completion_reward = { 
+			60 = {
+				add_compliance = 25
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.05
+			}
+			MUR_Republic_10_support = yes
+		}
+	}
+
+	focus = {
+		id = MUR_all_are_equal_under_law
+		icon = GFX_goal_generic_propaganda
+		cost = 2
+		relative_position_id = MUR_social_work
+		x = -1
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_social_work
+			focus = MUR_guarantee_mursian_job_security
+		}
+
+		completion_reward = { 
+			add_war_support = 0.1
+			swap_ideas = {
+				remove_idea = Protests_in_traxia
+				add_idea = Revolts_in_traxia
+			}
+		}
+	}
+
+	focus = {
+		id = MUR_so_start_working_harder
+		icon = GFX_goal_generic_propaganda
+		cost = 5
+		relative_position_id = MUR_all_are_equal_under_law
+		x = -1
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_all_are_equal_under_law
+		}
+
+		completion_reward = { 
+			add_political_power = 100
+			MUR_Republic_10_support = yes
+			60 = {
+				add_resistance = 40
+			}
+		}
+	}
+	focus = {
+		id = MUR_so_let_us_aid_you
+		icon = GFX_goal_generic_propaganda
+		cost = 10
+		relative_position_id = MUR_all_are_equal_under_law
+		x = 1
+		y = 1
+
+		prerequisite = { focus = MUR_all_are_equal_under_law }
+		prerequisite = { focus = MUR_roundtable_meeting }
+
+		completion_reward = { 
+			add_political_power = 100
+		}
+	}
+
 	focus = { # Crack down on Traxians
 		id = MUR_crack_down_on_Traxians
 		icon = GFX_goal_generic_propaganda
@@ -644,8 +790,14 @@ focus_tree = {
 		x = -2
 		y = 0
 		
-		#prerequisite = { focus = MUR_reintroduce_Free_Accessibility_of_Religion_Act }
+		prerequisite = { focus = MUR_so_start_working_harder }
 		prerequisite = { focus = MUR_ban_non_mursian_newspapers }
+
+		available = {
+			has_equipment = { 				# BUG this still needs fixing
+				infantry_equipment = 1001
+			}
+		}
 
 		mutually_exclusive = { 
 			focus = MUR_reintegrate_Traxia 
@@ -654,16 +806,42 @@ focus_tree = {
 
 		completion_reward = { 
 			60 = {
-				add_resistance = -40  
-				add_compliance = 30
+				add_resistance = -80  
+				add_compliance = 50
 			}
 			remove_ideas = Protests_in_traxia
 			remove_ideas = Revolts_in_traxia
-			add_manpower = -2000
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -1000
+			}
+			MUR_Republic_5_support = yes
+			MUR_Pro_Martin_5_support = yes
 		}
 	}
 
-	focus = {
+	focus = { # Conscript Mursians in Traxia
+		id = MUR_conscript_mursians_in_traxia
+		icon = GFX_goal_generic_propaganda
+		cost = 5.0
+		relative_position_id = MUR_crack_down_on_Traxians
+		x = 0
+		y = 1
+		
+		#prerequisite = { focus = MUR_reintroduce_Free_Accessibility_of_Religion_Act }
+		prerequisite = { focus = MUR_crack_down_on_Traxians }
+
+		mutually_exclusive = { 
+			focus = MUR_reintegrate_Traxia 
+			focus = MUR_Traxian_freedom
+		}
+
+		completion_reward = { 
+			add_manpower = 40000
+		}
+	}
+
+	focus = { # Reintegrate Traxia
 		id = MUR_reintegrate_Traxia
 		icon = GFX_goal_generic_propaganda
 		cost = 10
@@ -671,7 +849,7 @@ focus_tree = {
 		x = -2
 		y = 0
 
-		#prerequisite = { focus = MUR_traxian_struggle }
+		prerequisite = { focus = MUR_so_let_us_aid_you }
 
 		mutually_exclusive = { 
 			focus = MUR_Traxian_freedom 
@@ -695,9 +873,7 @@ focus_tree = {
 		x = 1
 		y = 3
 
-		# prerequisite = { 
-		# 	focus = MUR_equality
-		# }
+		prerequisite = { focus = MUR_roundtable_meeting }
 
 		completion_reward = {
 			add_political_power = 50
@@ -965,7 +1141,7 @@ focus_tree = {
 		id = MUR_economic_developments
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
-		x = 44
+		x = 40
 		y = 0
 		
 		#prerequisite = { focus = MUR_mursian_culture }
@@ -1007,7 +1183,7 @@ focus_tree = {
 		}
 	}
 	focus = { # public planning
-		id = MUR_economic_planning
+		id = MUR_puclic_planning
 		icon = GFX_goal_generic_propaganda
 		cost = 10.0
 		relative_position_id = MUR_economic_developments
