@@ -1,0 +1,23 @@
+state={
+		id = 919
+		name = "Zanza"
+		manpower = 21135663
+		state_category = megalopolis
+		buildings_max_level_factor = 0.5
+
+		history = {
+			owner = IOK
+			add_core_of = IOK
+
+			victory_points = {4826 50}
+			victory_points = {7774 30}
+
+			buildings = {
+				
+				infrastructure = 10
+			} 
+		}
+		provinces={
+ 		4826 7774
+}
+}
