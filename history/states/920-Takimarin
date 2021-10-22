@@ -1,0 +1,22 @@
+state={
+		id = 920
+		name = "Takimarin"
+		manpower = 1989506
+		state_category = city
+		buildings_max_level_factor = 0.5
+
+		history = {
+			owner = IOK
+			add_core_of = IOK
+
+			victory_points = {2626 20}
+
+			buildings = {
+				
+				infrastructure = 10
+			} 
+		}
+		provinces={
+ 		2626
+}
+}
