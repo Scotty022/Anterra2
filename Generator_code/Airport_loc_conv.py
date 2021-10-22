@@ -22,7 +22,7 @@ with open(States_Raw, 'r') as datalist:
 
 	for row in csv_reader:	# Airfield locations
 		state_ID = row[0]
-		prov_ID  = row[18]
+		prov_ID  = row[21]
 
 		# if int(state_ID) > 50:
 		# 	continue
@@ -87,7 +87,7 @@ with open(States_Raw, 'r') as datalist:
 	
 	for row in csv_reader:	# Rocket site locations
 		state_ID = row[0]
-		prov_ID  = row[19]
+		prov_ID  = row[22]
 
 		# if int(state_ID) > 50:
 		# 	continue

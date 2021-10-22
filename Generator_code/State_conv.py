@@ -109,8 +109,8 @@ with open(States_Raw, 'r') as datalist:
 		else:
 			build_factor = ''
 
-		if row[21]:																		# airbase / air_base
-			air_base = f"\n				air_base  = {row[21]}"
+		if row[20]:																		# airbase / air_base
+			air_base = f"\n				air_base  = {row[20]}"
 		else:
 			air_base = ''
 

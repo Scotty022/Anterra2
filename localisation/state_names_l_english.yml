@@ -646,19 +646,19 @@
  Dorna:0 "Dorna" # STATE_68
  UMA_8:0 "UMA_8" # STATE_680
  UMA_9:0 "UMA_9" # STATE_681
- RAN_1:0 "RAN_1" # STATE_682
- RAN_2:0 "RAN_2" # STATE_683
- RAN_3:0 "RAN_3" # STATE_684
- RAN_4:0 "RAN_4" # STATE_685
- RAN_5:0 "RAN_5" # STATE_686
- RAN_6:0 "RAN_6" # STATE_687
- RAN_7:0 "RAN_7" # STATE_688
- RAN_8:0 "RAN_8" # STATE_689
+ Koruzemara:0 "Koruzemara" # STATE_682
+ IOK_2:0 "IOK_2" # STATE_683
+ Kamajiva:0 "Kamajiva" # STATE_684
+ IOK_4:0 "IOK_4" # STATE_685
+ IOK_5:0 "IOK_5" # STATE_686
+ Zakahuna:0 "Zakahuna" # STATE_687
+ Adekamara:0 "Adekamara" # STATE_688
+ IOK_8:0 "IOK_8" # STATE_689
  Voifros:0 "Voifros" # STATE_69
- RAN_9:0 "RAN_9" # STATE_690
- RAN_10:0 "RAN_10" # STATE_691
- RAN_11:0 "RAN_11" # STATE_692
- RAN_12:0 "RAN_12" # STATE_693
+ IOK_9:0 "IOK_9" # STATE_690
+ IOK_10:0 "IOK_10" # STATE_691
+ Okunoshona:0 "Okunoshona" # STATE_692
+ IOK_12:0 "IOK_12" # STATE_693
  ALE_1:0 "ALE_1" # STATE_694
  ALE_2:0 "ALE_2" # STATE_695
  ALE_3:0 "ALE_3" # STATE_696
@@ -909,7 +909,9 @@
  Chimchag:0 "Chimchag" # STATE_916
  San Luis:0 "San Luis" # STATE_917
  CAG_5:0 "CAG_5" # STATE_918
+ Zanza:0 "Zanza" # STATE_919
  Dasavletit :0 "Dasavletit " # STATE_92
+ Takimarin:0 "Takimarin" # STATE_920
  Buyuk Dasht:0 "Buyuk Dasht" # STATE_93
  Hvallica:0 "Hvallica" # STATE_94
  Dajavshna:0 "Dajavshna" # STATE_95

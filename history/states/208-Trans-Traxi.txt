@@ -16,7 +16,6 @@ state={
 				
 				infrastructure = 1
 				industrial_complex = 1
-				air_base  = 5372
 			} 
 		}
 		provinces={
