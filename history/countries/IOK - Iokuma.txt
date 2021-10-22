@@ -1,6 +1,6 @@
-capital = 207
+capital = 919
 
-oob = "RAN_1946"
+oob = "IOK_1946"
 
 # Starting tech
 set_technology = {
@@ -34,13 +34,24 @@ set_popularities = {
 	communism = 5
 	neutrality = 85
 }
+
+#################################
+######### Politicians ###########
+#################################
+
 create_country_leader = {
-	name = "Mashal Horthy"
-	desc = "POLITICS_YANG_LUOYANG_DESC"
-	picture = "Portrait_Randomistan_Mashal_Horthy.dds"
-	expire = "1965.1.1"
+	name = "Vihozhak II"
+	desc = "POLITICS_Vihozhak_II_DESC"
+	picture = "Portrait_Iokuma_Vihozhak_II.dds"
+	expire = "1953.9.22"
 	ideology = despotism
+	traits = {
+		staunch_monarchist
 }
+
+#################################
+########### Generals ############
+#################################
 
 create_corps_commander = {
 	name = "Hitler Adolf"
