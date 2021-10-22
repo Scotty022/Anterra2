@@ -1,26 +1,22 @@
 state={
-		id = 684
-		name = "Kamajiva"
-		manpower = 7920200
-		state_category = city
-		resources = {
-			steel = 4
-		}
+		id = 682
+		name = "Koruzemara"
+		manpower = 12436303
+		state_category = metropolis
 
 		history = {
 			owner = IOK
 			add_core_of = IOK
 
-			
+			victory_points = {7628 20}
+			victory_points = {7520 5}
 
 			buildings = {
 				
-				infrastructure = 5
-				industrial_complex = 2
-				arms_factory = 2
+				infrastructure = 8
 			} 
 		}
 		provinces={
- 		544 8347 4461 8308 8293 2993 3211 4702 128 446 8154 2122 8248 1569 2218 4714 4887 8294 8173 8204
+ 		1406 2576 2707 4355 4504 4829 7496 7520 7628 7631 7651 7686
 }
 }
