@@ -23,9 +23,9 @@ division_template = { # Infantry Division
 		recon = { x = 0 y = 2 }
 	}
 }
-division_template = { # Reserve Division
+division_template = { # Garrison Division
 	name = "Hâkīvâkīn Uvokīn"
-	divison_names_group = IOK_INF_02
+	divison_names_group = IOK_GAR_01
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
