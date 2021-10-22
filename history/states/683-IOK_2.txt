@@ -14,8 +14,6 @@ state={
 			owner = IOK
 			add_core_of = IOK
 
-			
-
 			buildings = {
 				
 				infrastructure = 7
@@ -24,6 +22,6 @@ state={
 			} 
 		}
 		provinces={
- 		4390 8340 3695 8230 2681 8172 1077 2842
+ 		1525 1603 2555 2768 2930 4458 7576 7661 7793
 }
 }
