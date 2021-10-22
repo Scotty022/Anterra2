@@ -8,7 +8,7 @@ state={
 			owner = MUR
 			add_core_of = MUR
 
-			victory_points = {1213 10}
+			victory_points = {1213 25}
 
 			buildings = {
 				
@@ -16,7 +16,8 @@ state={
 				industrial_complex = 2
 				arms_factory = 1
 				dockyard  = 1
-				air_base  = 1
+				synthetic_refinery = 1
+				air_base  = 5670
 			} 
 		}
 		provinces={

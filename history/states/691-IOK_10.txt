@@ -1,0 +1,27 @@
+state={
+		id = 691
+		name = "IOK_10"
+		manpower = 2677890
+		state_category = city
+		resources = {
+			chromium = 14
+			oil = 20
+		}
+
+		history = {
+			owner = IOK
+			add_core_of = IOK
+
+			
+
+			buildings = {
+				
+				infrastructure = 4
+				industrial_complex = 1
+				synthetic_refinery = 2
+			} 
+		}
+		provinces={
+ 		4504 1406 7631 4355 7496 2555 2768 7661 7576 768 1752 1247 4458 
+}
+}

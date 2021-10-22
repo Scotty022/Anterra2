@@ -12,7 +12,7 @@ state={
 			add_core_of = ASS
 			add_core_of = SAR
 
-			victory_points = {521 10}
+			victory_points = {521 5}
 
 			buildings = {
 				

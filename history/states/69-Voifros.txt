@@ -12,12 +12,13 @@ state={
 			owner = HEL
 			add_core_of = HEL
 
-			victory_points = {2951 10}
+			victory_points = {2951 5}
 
 			buildings = {
 				
 				infrastructure = 3
 				industrial_complex = 1
+				air_base  = 2951
 			} 
 		}
 		provinces={

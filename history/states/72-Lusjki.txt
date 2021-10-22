@@ -12,14 +12,14 @@ state={
 			owner = LUS
 			add_core_of = LUS
 
-			victory_points = {9187 10}
+			victory_points = {9187 5}
 
 			buildings = {
 				
 				infrastructure = 2
-				industrial_complex = 1
+				industrial_complex = 2
 				arms_factory = 1
-				air_base  = 1
+				air_base  = 2
 			} 
 		}
 		provinces={

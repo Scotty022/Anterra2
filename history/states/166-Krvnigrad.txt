@@ -12,14 +12,14 @@ state={
 			add_core_of = RAZ
 			add_core_of = ROV
 
-			victory_points = {1028 10}
+			victory_points = {1028 5}
 
 			buildings = {
 				
 				infrastructure = 6
 				industrial_complex = 4
 				arms_factory = 3
-				air_base  = 4
+				air_base  = 5325
 			} 
 		}
 		provinces={

@@ -8,14 +8,15 @@ state={
 			owner = LUS
 			add_core_of = LUS
 
-			victory_points = {2017 10}
+			victory_points = {2017 5}
 
 			buildings = {
 				
 				infrastructure = 3
-				industrial_complex = 1
+				industrial_complex = 2
 				arms_factory = 0
 				dockyard  = 1
+				air_base  = 2017
 				2017 = {naval_base = 2}
 			} 
 		}

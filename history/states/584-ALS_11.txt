@@ -8,9 +8,9 @@ state={
 			owner = ALS
 			add_core_of = ALS
 
-			victory_points = {6855 10}
-			victory_points = {6875 10}
-			victory_points = {1179 10}
+			victory_points = {6855 5}
+			victory_points = {6875 5}
+			victory_points = {1179 5}
 
 			buildings = {
 				
@@ -18,7 +18,7 @@ state={
 				industrial_complex = 3
 				arms_factory = 2
 				dockyard  = 1
-				air_base  = 3
+				air_base  = 6875
 				6855 = {naval_base = 3}
 			} 
 		}

@@ -1,14 +1,14 @@
 state={
 		id = 833
 		name = "ARG_3"
-		manpower = town
-		state_category = pastoral
+		manpower = 3800000
+		state_category = town
 
 		history = {
 			owner = ARG
 			add_core_of = ARG
 
-			victory_points = {4261 10}
+			victory_points = {4261 5}
 
 			buildings = {
 				

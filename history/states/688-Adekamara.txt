@@ -1,17 +1,22 @@
 state={
 		id = 688
-		name = "RAN_7"
-		manpower = 100000
+		name = "Adekamara"
+		manpower = 2367739
 		state_category = wasteland
+		resources = {
+			rubber = 30
+			oil = 5
+		}
 
 		history = {
-			owner = RAN
-			add_core_of = RAN
+			owner = IOK
+			add_core_of = IOK
 
 			
 
 			buildings = {
 				
+				infrastructure = 3
 			} 
 		}
 		provinces={

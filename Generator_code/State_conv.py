@@ -56,87 +56,97 @@ with open(States_Raw, 'r') as datalist:
 		else:
 			core3 = '' 
 
-		if row[8]:																		# Victory points (up to 3)
-			vp1 = 'victory_points = {'+ f"{row[8]} 10" + '}'
+		# Victory points (up to 3)
+		if row[8]:																		# VP 1																
+			if row[11]:	# if VP value is given
+				vp1 = 'victory_points = {'+ f"{row[8]} {row[11]}" + '}'
+			else:		# else give it 5
+				vp1 = 'victory_points = {'+ f"{row[8]} 5" + '}'
 		else:
 			vp1 = ''
-		if row[9]:																		
-			vp2 = '\n			victory_points = {'+ f"{row[9]} 10" + '}'
+		if row[9]:																		# VP 2
+			if row[12]: # if VP value is given
+				vp2 = '\n			victory_points = {'+ f"{row[9]} {row[12]}" + '}'
+			else:		# else give it 5														
+				vp2 = '\n			victory_points = {'+ f"{row[9]} 5" + '}'
 		else:
 			vp2 = ''
-		if row[10]:																		
-			vp3 = '\n			victory_points = {'+ f"{row[10]} 10" + '}'
+		if row[10]:	 																	# VP 3
+			if row [13]: # if VP value is given
+				vp3 = '\n			victory_points = {'+ f"{row[10]} {row[13]}" + '}'
+			else:		 # else give it 5															
+				vp3 = '\n			victory_points = {'+ f"{row[10]} 5" + '}'
 		else:
 			vp3 = ''
 
-		if row[11]:																		# infrastructure
-			infrastructure = f"\n				infrastructure = {row[11]}"
+		if row[14]:																		# infrastructure
+			infrastructure = f"\n				infrastructure = {row[14]}"
 		else:
 			infrastructure = ''
 
-		if row[12]:																		# Civil / industrial complex
-			civil_fac = f"\n				industrial_complex = {row[12]}"
+		if row[15]:																		# Civil / industrial complex
+			civil_fac = f"\n				industrial_complex = {row[15]}"
 		else:
 			civil_fac = ''
 		
-		if row[13]:																		# mili / arms factory
-			mil_fac = f"\n				arms_factory = {row[13]}"
+		if row[16]:																		# mili / arms factory
+			mil_fac = f"\n				arms_factory = {row[16]}"
 		else:
 			mil_fac = ''
 
-		if row[14]:																		# synthetic_refinery
-			refinery = f"\n				synthetic_refinery = {row[14]}"
+		if row[17]:																		# synthetic_refinery
+			refinery = f"\n				synthetic_refinery = {row[17]}"
 		else:
 			refinery = ''
 		
-		if row[15]:																		# dockyard
-			dockyard = f"\n				dockyard  = {row[15]}"
+		if row[18]:																		# dockyard
+			dockyard = f"\n				dockyard  = {row[18]}"
 		else:
 			dockyard = ''
 
-		if row[16]:																		# buildings_max_level_factor
-			build_factor = f"\n		buildings_max_level_factor = {row[16]}"
+		if row[19]:																		# buildings_max_level_factor
+			build_factor = f"\n		buildings_max_level_factor = {row[19]}"
 		else:
 			build_factor = ''
 
-		if row[17]:																		# airbase / air_base
-			air_base = f"\n				air_base  = {row[17]}"
+		if row[21]:																		# airbase / air_base
+			air_base = f"\n				air_base  = {row[21]}"
 		else:
 			air_base = ''
 
-		if row[21]:																		# navalbase / naval_base
-			naval_base = f"\n				{row[21]} = " + '{' + f"naval_base = {row[20]}" + '}'
+		if row[24]:																		# navalbase / naval_base
+			naval_base = f"\n				{row[24]} = " + '{' + f"naval_base = {row[23]}" + '}'
 		else:
 			naval_base = ''
 		
-		if row[22] or row[23] or row[24] or row[25] or row[26] or row[27]:				# Resources section
-			if row[22]:	
-				steel = f'\n			steel = {row[22]}'
+		if row[25] or row[26] or row[27] or row[28] or row[29] or row[30]:				# Resources section
+			if row[25]:	
+				steel = f'\n			steel = {row[25]}'
 			else:
 				steel = ''
 
-			if row[23]:	
-				aluminium = f'\n			aluminium = {row[23]}'
+			if row[26]:	
+				aluminium = f'\n			aluminium = {row[26]}'
 			else:
 				aluminium = ''
 
-			if row[24]:	
-				rubber = f'\n			rubber = {row[24]}'
+			if row[27]:	
+				rubber = f'\n			rubber = {row[27]}'
 			else:
 				rubber = ''
 
-			if row[25]:	
-				tungsten = f'\n			tungsten = {row[25]}'
+			if row[28]:	
+				tungsten = f'\n			tungsten = {row[28]}'
 			else:
 				tungsten = ''
 			
-			if row[26]:	
-				chromium = f'\n			chromium = {row[26]}'
+			if row[29]:	
+				chromium = f'\n			chromium = {row[29]}'
 			else:
 				chromium = ''
 
-			if row[27]:	
-				oil = f'\n			oil = {row[27]}'
+			if row[30]:	
+				oil = f'\n			oil = {row[30]}'
 			else:
 				oil = ''
 			

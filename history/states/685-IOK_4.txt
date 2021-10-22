@@ -1,0 +1,27 @@
+state={
+		id = 685
+		name = "IOK_4"
+		manpower = 3842848
+		state_category = city
+		resources = {
+			steel = 12
+			aluminium = 10
+			chromium = 22
+		}
+
+		history = {
+			owner = IOK
+			add_core_of = IOK
+
+			
+
+			buildings = {
+				
+				infrastructure = 4
+				industrial_complex = 2
+			} 
+		}
+		provinces={
+ 		4028 8041 8004 8067 4455 8130 8057 3192 7987 7942 8021 2529 8103 527 8034 3855 7959 7914 541
+}
+}

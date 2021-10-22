@@ -8,8 +8,8 @@ state={
 			owner = YAR
 			add_core_of = YAR
 
-			victory_points = {910 10}
-			victory_points = {5290 10}
+			victory_points = {910 5}
+			victory_points = {5290 5}
 
 			buildings = {
 				

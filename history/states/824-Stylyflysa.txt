@@ -9,7 +9,7 @@ state={
 			add_core_of = STY
 			add_core_of = VEL
 
-			victory_points = {980 10}
+			victory_points = {980 5}
 
 			buildings = {
 				

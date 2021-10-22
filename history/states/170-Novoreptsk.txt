@@ -13,7 +13,7 @@ state={
 			add_core_of = ZAP
 			add_core_of = ROV
 
-			victory_points = {5334 10}
+			victory_points = {5334 5}
 
 			buildings = {
 				

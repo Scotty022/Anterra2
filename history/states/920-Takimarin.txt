@@ -3,17 +3,17 @@ state={
 		name = "Takimarin"
 		manpower = 1989506
 		state_category = city
-		buildings_max_level_factor = 0.5
 
 		history = {
 			owner = IOK
 			add_core_of = IOK
 
-			victory_points = {2626 20}
+			victory_points = {2626 5}
 
 			buildings = {
 				
-				infrastructure = 10
+				infrastructure = 8
+				industrial_complex = 1
 			} 
 		}
 		provinces={

@@ -9,12 +9,13 @@ state={
 			owner = TIP
 			add_core_of = KYA
 
-			victory_points = {2618 10}
+			victory_points = {2618 5}
 
 			buildings = {
 				
 				infrastructure = 3
 				industrial_complex = 1
+				air_base  = 2618
 			} 
 		}
 		provinces={

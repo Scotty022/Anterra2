@@ -8,9 +8,9 @@ state={
 			owner = PRA
 			add_core_of = PRA
 
-			victory_points = {456 10}
-			victory_points = {4843 10}
-			victory_points = {625 10}
+			victory_points = {456 5}
+			victory_points = {4843 5}
+			victory_points = {625 5}
 
 			buildings = {
 				

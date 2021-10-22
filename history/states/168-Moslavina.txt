@@ -12,7 +12,7 @@ state={
 			add_core_of = RAZ
 			add_core_of = ROV
 
-			victory_points = {3366 10}
+			victory_points = {3366 5}
 
 			buildings = {
 				

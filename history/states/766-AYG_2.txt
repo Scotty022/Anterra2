@@ -8,8 +8,8 @@ state={
 			owner = AYG
 			add_core_of = AYG
 
-			victory_points = {5680 10}
-			victory_points = {4779 10}
+			victory_points = {5680 5}
+			victory_points = {4779 5}
 
 			buildings = {
 				

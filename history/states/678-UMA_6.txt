@@ -1,7 +1,7 @@
 state={
 		id = 678
 		name = "UMA_6"
-		manpower = 100000
+		manpower = 3888889
 		state_category = pastoral
 		resources = {
 			aluminium = 40

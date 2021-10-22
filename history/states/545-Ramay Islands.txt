@@ -8,13 +8,13 @@ state={
 			owner = RAM
 			add_core_of = RAM
 
-			victory_points = {313 10}
+			victory_points = {313 5}
 
 			buildings = {
 				
 				infrastructure = 2
 				industrial_complex = 1
-				air_base  = 2
+				air_base  = 313
 			} 
 		}
 		provinces={

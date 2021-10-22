@@ -8,8 +8,8 @@ state={
 			owner = NVL
 			add_core_of = NVL
 
-			victory_points = {6814 10}
-			victory_points = {3774 10}
+			victory_points = {6814 5}
+			victory_points = {3774 5}
 
 			buildings = {
 				

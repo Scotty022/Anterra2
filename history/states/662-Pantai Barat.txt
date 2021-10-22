@@ -8,8 +8,8 @@ state={
 			owner = KSH
 			add_core_of = KSH
 
-			victory_points = {4378 10}
-			victory_points = {3348 10}
+			victory_points = {4378 5}
+			victory_points = {3348 5}
 
 			buildings = {
 				

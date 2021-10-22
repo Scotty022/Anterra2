@@ -9,7 +9,7 @@ state={
 			add_core_of = SAM
 			add_core_of = TII
 
-			victory_points = {18254 10}
+			victory_points = {18254 5}
 
 			buildings = {
 				

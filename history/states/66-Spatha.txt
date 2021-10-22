@@ -13,7 +13,7 @@ state={
 			owner = HEL
 			add_core_of = HEL
 
-			victory_points = {5583 10}
+			victory_points = {5583 5}
 
 			buildings = {
 				
@@ -21,6 +21,7 @@ state={
 				industrial_complex = 2
 				arms_factory = 1
 				dockyard  = 2
+				air_base  = 5553
 				5583 = {naval_base = 3}
 			} 
 		}

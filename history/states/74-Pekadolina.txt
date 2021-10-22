@@ -8,13 +8,14 @@ state={
 			owner = VRT
 			add_core_of = VRT
 
-			victory_points = {9190 10}
+			victory_points = {9190 5}
 
 			buildings = {
 				
 				infrastructure = 5
 				industrial_complex = 2
 				arms_factory = 3
+				air_base  = 9190
 			} 
 		}
 		provinces={

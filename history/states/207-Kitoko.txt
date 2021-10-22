@@ -11,7 +11,7 @@ state={
 			owner = KTK
 			add_core_of = KTK
 
-			victory_points = {7853 10}
+			victory_points = {7853 5}
 
 			buildings = {
 				
@@ -19,7 +19,7 @@ state={
 				industrial_complex = 4
 				arms_factory = 1
 				dockyard  = 1
-				air_base  = 5
+				air_base  = 7853
 				7853 = {naval_base = 4}
 			} 
 		}

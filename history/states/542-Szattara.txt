@@ -8,8 +8,8 @@ state={
 			owner = PRA
 			add_core_of = PRA
 
-			victory_points = {2018 10}
-			victory_points = {8997 10}
+			victory_points = {2018 5}
+			victory_points = {8997 5}
 
 			buildings = {
 				

@@ -8,7 +8,7 @@ state={
 			owner = MCU
 			add_core_of = MCU
 
-			victory_points = {3809 10}
+			victory_points = {3809 5}
 
 			buildings = {
 				

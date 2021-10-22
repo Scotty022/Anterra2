@@ -8,14 +8,14 @@ state={
 			owner = BOR
 			add_core_of = BOR
 
-			victory_points = {9290 10}
+			victory_points = {9290 5}
 
 			buildings = {
 				
 				infrastructure = 4
 				industrial_complex = 4
 				dockyard  = 1
-				air_base  = 2
+				air_base  = 1522
 				9290 = {naval_base = 2}
 			} 
 		}

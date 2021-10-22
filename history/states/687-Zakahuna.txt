@@ -1,17 +1,19 @@
 state={
 		id = 687
-		name = "RAN_6"
-		manpower = 100000
-		state_category = pastoral
+		name = "Zakahuna"
+		manpower = 2851877
+		state_category = rural
 
 		history = {
-			owner = RAN
-			add_core_of = RAN
+			owner = IOK
+			add_core_of = IOK
 
 			
 
 			buildings = {
 				
+				infrastructure = 3
+				arms_factory = 1
 			} 
 		}
 		provinces={

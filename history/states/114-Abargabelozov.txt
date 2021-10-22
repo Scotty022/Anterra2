@@ -9,7 +9,7 @@ state={
 			add_core_of = RAZ
 			add_core_of = ZAP
 
-			victory_points = {4682 10}
+			victory_points = {4682 5}
 
 			buildings = {
 				

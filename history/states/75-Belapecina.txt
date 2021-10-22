@@ -9,13 +9,14 @@ state={
 			add_core_of = VRT
 			add_core_of = LUS
 
-			victory_points = {2677 10}
+			victory_points = {2677 5}
 
 			buildings = {
 				
 				infrastructure = 4
 				industrial_complex = 3
 				dockyard  = 1
+				air_base  = 2677
 			} 
 		}
 		provinces={

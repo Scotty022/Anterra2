@@ -8,7 +8,7 @@ state={
 			owner = TIP
 			add_core_of = TIP
 
-			victory_points = {2602 10}
+			victory_points = {2602 5}
 
 			buildings = {
 				

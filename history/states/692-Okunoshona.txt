@@ -1,0 +1,26 @@
+state={
+		id = 692
+		name = "Okunoshona"
+		manpower = 6422397
+		state_category = large_city
+
+		history = {
+			owner = IOK
+			add_core_of = IOK
+
+			victory_points = {1192 5}
+
+			buildings = {
+				
+				infrastructure = 6
+				industrial_complex = 2
+				arms_factory = 2
+				dockyard  = 4
+				air_base  = 1192
+				1192 = {naval_base = 3}
+			} 
+		}
+		provinces={
+ 		7704 2576 7628 7651 7686 4155 7774 4826 7854 3677 2626 2330 7906
+}
+}

@@ -8,7 +8,7 @@ state={
 			owner = DES
 			add_core_of = DES
 
-			victory_points = {2405 10}
+			victory_points = {2405 5}
 
 			buildings = {
 				

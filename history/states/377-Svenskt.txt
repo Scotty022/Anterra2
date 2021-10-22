@@ -8,14 +8,13 @@ state={
 			owner = SVX
 			add_core_of = SVX
 
-			victory_points = {2462 10}
+			victory_points = {2462 5}
 
 			buildings = {
 				
 				infrastructure = 4
 				industrial_complex = 4
 				arms_factory = 3
-				air_base  = 2
 			} 
 		}
 		provinces={

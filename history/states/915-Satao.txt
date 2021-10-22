@@ -9,11 +9,12 @@ state={
 			owner = JUN
 			add_core_of = KYA
 
-			victory_points = {1988 10}
+			victory_points = {1988 5}
 
 			buildings = {
 				
 				infrastructure = 3
+				air_base  = 1988
 			} 
 		}
 		provinces={

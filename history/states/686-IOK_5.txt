@@ -1,0 +1,27 @@
+state={
+		id = 686
+		name = "IOK_5"
+		manpower = 1611273
+		state_category = rural
+		resources = {
+			steel = 5
+			aluminium = 20
+		}
+
+		history = {
+			owner = IOK
+			add_core_of = IOK
+
+			
+
+			buildings = {
+				
+				infrastructure = 2
+				industrial_complex = 1
+				arms_factory = 1
+			} 
+		}
+		provinces={
+ 		1335 7915 3593 7847 7769 1101 7792 613 1842 7797 7741 2435 7707 7761 7833
+}
+}

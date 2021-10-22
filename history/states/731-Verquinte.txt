@@ -8,8 +8,8 @@ state={
 			owner = MES
 			add_core_of = MES
 
-			victory_points = {9165 10}
-			victory_points = {4861 10}
+			victory_points = {9165 5}
+			victory_points = {4861 5}
 
 			buildings = {
 				

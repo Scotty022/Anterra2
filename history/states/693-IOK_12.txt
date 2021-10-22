@@ -1,17 +1,24 @@
 state={
 		id = 693
-		name = "RAN_12"
-		manpower = 100000
+		name = "IOK_12"
+		manpower = 771595
 		state_category = pastoral
+		resources = {
+			steel = 14
+			aluminium = 18
+			tungsten = 14
+			chromium = 4
+		}
 
 		history = {
-			owner = RAN
-			add_core_of = RAN
+			owner = IOK
+			add_core_of = IOK
 
 			
 
 			buildings = {
 				
+				infrastructure = 1
 			} 
 		}
 		provinces={
