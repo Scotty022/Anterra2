@@ -1,22 +1,22 @@
 state={
-		id = 682
-		name = "Koruzemara"
-		manpower = 12436303
-		state_category = metropolis
+		id = 684
+		name = "Kamajiva"
+		manpower = 7920200
+		state_category = city
 
 		history = {
 			owner = IOK
 			add_core_of = IOK
 
-			victory_points = {7628 20}
-			victory_points = {7520 5}
+			victory_points = {7792 20}
+			victory_points = {7704 10}
 
 			buildings = {
 				
-				infrastructure = 8
+				infrastructure = 1
 			} 
 		}
 		provinces={
- 		1406 2576 2707 4355 4504 4829 7496 7520 7628 7631 7651 7686
+ 		613 1101 1842 3593 3855 4155 7704 7741 7761 7769 7792 7796 7797 7833 7847 7854 7914 7915 7942 7959
 }
 }
