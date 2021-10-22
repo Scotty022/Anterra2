@@ -24,7 +24,7 @@
 #           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
 #           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
 #           1st argument = The name. It must contain either: 
-#                          %d (for decimal number placement)
+#                          %s (for decimal number placement)
 #                          %s (for string number placement - ROMAN numbers like XIV).
 #           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
 #                                      where you choose the historical division name.
@@ -43,32 +43,33 @@ IOK_INF_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { IOK_INF_01 }
 
-	fallback_name = "%ad Vâkorânīn Uvokīn"
+	fallback_name = "%s Vâkorânīn Uvokīn"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%ad Vâkorânīn Uvokīn" }
-		2 = { "%ad Vâkorânīn Uvokīn" }
-		3 = { "%ad Vâkorânīn Uvokīn" }
-		4 = { "%ad Vâkorânīn Uvokīn" }
-		5 = { "%ad Vâkorânīn Uvokīn" }
-		6 = { "%ad Vâkorânīn Uvokīn" }
-		7 = { "%ad Vâkorânīn Uvokīn" }
-		8 = { "%ad Vâkorânīn Uvokīn" }
-		9 = { "%ad Vâkorânīn Uvokīn" }
-		10 = { "%ad Vâkorânīn Uvokīn" }
-		11 = { "%ad Vâkorânīn Uvokīn" }
-		12 = { "%ad Vâkorânīn Uvokīn" }
-		14 = { "%ad Vâkorânīn Uvokīn" }
+		1 = { "%s Vâkorânīn Uvokīn" }
+		1 = { "%s Vâkorânīn Uvokīn" }
+		2 = { "%s Vâkorânīn Uvokīn" }
+		3 = { "%s Vâkorânīn Uvokīn" }
+		4 = { "%s Vâkorânīn Uvokīn" }
+		5 = { "%s Vâkorânīn Uvokīn" }
+		6 = { "%s Vâkorânīn Uvokīn" }
+		7 = { "%s Vâkorânīn Uvokīn" }
+		8 = { "%s Vâkorânīn Uvokīn" }
+		9 = { "%s Vâkorânīn Uvokīn" }
+		10 = { "%s Vâkorânīn Uvokīn" }
+		11 = { "%s Vâkorânīn Uvokīn" }
+		12 = { "%s Vâkorânīn Uvokīn" }
+		14 = { "%s Vâkorânīn Uvokīn" }
 
 	}
 }
 
 IOK_CAV_01 = 
 {
-	name = "Cavalry"
+	name = "Noravâkīn Uvokīn"
 
 	for_countries = { IOK }
 
@@ -77,24 +78,24 @@ IOK_CAV_01 =
 	division_types = { "cavalry" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RAZ_INF_01 }
+	#link_numbering_with = { IOK_INF_01 }
 
-	fallback_name = "%s Cavaleria"
+	fallback_name = "%s Noravâkīn Uvokīn"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%s Cavaleria" }
-		2 = { "%s Cavaleria" }
-		3 = { "%s Cavaleria" }
-		4 = { "%s Cavaleria" }
-		5 = { "%s Cavaleria" }
-		6 = { "%s Cavaleria" }
-		7 = { "%s Cavaleria" }
-		8 = { "%s Cavaleria" }
-		9 = { "%s Cavaleria" }
-		10 = { "%s Cavaleria" }
+		1 = { "%s Noravâkīn Uvokīn" }
+		2 = { "%s Noravâkīn Uvokīn" }
+		3 = { "%s Noravâkīn Uvokīn" }
+		4 = { "%s Noravâkīn Uvokīn" }
+		5 = { "%s Noravâkīn Uvokīn" }
+		6 = { "%s Noravâkīn Uvokīn" }
+		7 = { "%s Noravâkīn Uvokīn" }
+		8 = { "%s Noravâkīn Uvokīn" }
+		9 = { "%s Noravâkīn Uvokīn" }
+		10 = { "%s Noravâkīn Uvokīn" }
 	}
 }
 
@@ -109,7 +110,7 @@ IOK_MOT_01 =
 	division_types = { "motorized" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { RAZ_INF_01 }
+	link_numbering_with = { IOK_INF_01 }
 
 	fallback_name = "%s Motorizovannaya Pechota"
 
@@ -134,7 +135,7 @@ IOK_MEC_01 =
 	division_types = { "infantry" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { RAZ_INF_01 }
+	link_numbering_with = { IOK_INF_01 }
 
 	fallback_name = "%s MGB Pogranichnaya Diviziya"
 
@@ -167,7 +168,7 @@ IOK_ARM_01 =
 	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { RAZ_INF_01 }
+	link_numbering_with = { IOK_INF_01 }
 
 	fallback_name = "%s Tankovaya Brigade"
 
@@ -176,24 +177,24 @@ IOK_ARM_01 =
 	ordered =
 	{
 		
-		1 = { "%dst Tankovaya Brigade" }
-		2 = { "%dnd Tankovaya Brigade" }
-		3 = { "%drd Tankovaya Brigade" }
+		1 = { "%sst Tankovaya Brigade" }
+		2 = { "%snd Tankovaya Brigade" }
+		3 = { "%srd Tankovaya Brigade" }
 	}
 }
 
-RAZ_PAR_01 = 
+IOK_PAR_01 = 
 {
 	name = "Paratrooper Division"
 
-	for_countries = { RAZ }
+	for_countries = { IOK }
 
 	can_use = { always = yes }
 
 	division_types = { "paratrooper" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RAZ_INF_01 }
+	#link_numbering_with = { IOK_INF_01 }
 
 	fallback_name = "%s Des Desantnik Divisia"
 
@@ -209,18 +210,18 @@ RAZ_PAR_01 =
 	}
 }
 
-RAZ_MAR_01 = 
+IOK_MAR_01 = 
 {
 	name = "Marine Division"
 
-	for_countries = { RAZ }
+	for_countries = { IOK }
 
 	can_use = { always = yes }
 
 	division_types = { "marine" }
 
 	# Number reservation system will tie to another group.
-	#link_numbering_with = { RAZ_INF_01 }
+	#link_numbering_with = { IOK_INF_01 }
 
 	fallback_name = "%s Morskaya Pechota"
 
@@ -236,18 +237,18 @@ RAZ_MAR_01 =
 	}
 }
 
-RAZ_MNT_01 = 
+IOK_MNT_01 = 
 {
 	name = "Alpinistic Divisia"
 
-	for_countries = { RAZ }
+	for_countries = { IOK }
 
 	can_use = { always = yes }
 
 	division_types = { "mountaineers" }
 
 	# Number reservation system will tie to another group.
-	link_numbering_with = { RAZ_INF_01 }
+	link_numbering_with = { IOK_INF_01 }
 
 	fallback_name = "%s Alpinistic Divisia"
 
@@ -279,25 +280,25 @@ IOK_GAR_01 =
 	# Number reservation system will tie to another group.
 	#link_numbering_with = { IOK_INF_01 }
 
-	fallback_name = "%ad Hâkīvâkīn Uvokīn"
+	fallback_name = "%s Hâkīvâkīn Uvokīn"
 
 	# Names with numbers (only one number per entry). 
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 = { "%ad Hâkīvâkīn Uvokīn" }
-		2 = { "%ad Hâkīvâkīn Uvokīn" }
-		3 = { "%ad Hâkīvâkīn Uvokīn" }
-		4 = { "%ad Hâkīvâkīn Uvokīn" }
-		5 = { "%ad Hâkīvâkīn Uvokīn" }
-		6 = { "%ad Hâkīvâkīn Uvokīn" }
-		7 = { "%ad Hâkīvâkīn Uvokīn" }
-		8 = { "%ad Hâkīvâkīn Uvokīn" }
-		9 = { "%ad Hâkīvâkīn Uvokīn" }
-		10 = { "%ad Hâkīvâkīn Uvokīn" }
-		11 = { "%ad Hâkīvâkīn Uvokīn" }
-		12 = { "%ad Hâkīvâkīn Uvokīn" }
-		14 = { "%ad Hâkīvâkīn Uvokīn" }
+		1 = { "%s Hâkīvâkīn Uvokīn" }
+		2 = { "%s Hâkīvâkīn Uvokīn" }
+		3 = { "%s Hâkīvâkīn Uvokīn" }
+		4 = { "%s Hâkīvâkīn Uvokīn" }
+		5 = { "%s Hâkīvâkīn Uvokīn" }
+		6 = { "%s Hâkīvâkīn Uvokīn" }
+		7 = { "%s Hâkīvâkīn Uvokīn" }
+		8 = { "%s Hâkīvâkīn Uvokīn" }
+		9 = { "%s Hâkīvâkīn Uvokīn" }
+		10 = { "%s Hâkīvâkīn Uvokīn" }
+		11 = { "%s Hâkīvâkīn Uvokīn" }
+		12 = { "%s Hâkīvâkīn Uvokīn" }
+		14 = { "%s Hâkīvâkīn Uvokīn" }
 
 	}
 }
