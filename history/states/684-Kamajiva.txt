@@ -3,17 +3,21 @@ state={
 		name = "Kamajiva"
 		manpower = 7920200
 		state_category = city
+		resources = {
+			steel = 4
+		}
 
 		history = {
 			owner = IOK
 			add_core_of = IOK
 
-			victory_points = {7792 20}
-			victory_points = {7704 10}
+			
 
 			buildings = {
 				
-				infrastructure = 1
+				infrastructure = 5
+				industrial_complex = 2
+				arms_factory = 2
 			} 
 		}
 		provinces={
