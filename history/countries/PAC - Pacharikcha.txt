@@ -1,6 +1,6 @@
-capital = 363
+capital = 879
 
-oob = "SIW_1946"
+oob = "PAC_1946"
 
 # Starting tech
 set_technology = {
@@ -40,24 +40,4 @@ create_country_leader = {
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = liberalism
-}
-
-set_autonomy = { #Pukara
-	target = PUK 
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = { #Sinaya
-	target = SIN 
-	autonomous_state = autonomy_puppet
-}
-
-set_autonomy = { #Arum
-	target = ARR 
-	autonomous_state = autonomy_satellite
-}
-
-set_autonomy = { #Konagher-Tsensawa
-	target = KON
-	autonomy_state = autonomy_satellite
 }
