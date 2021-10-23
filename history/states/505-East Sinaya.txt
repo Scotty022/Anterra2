@@ -1,6 +1,6 @@
 state={
 		id = 505
-		name = "Sinaya"
+		name = "East Sinaya"
 		manpower = 100000
 		state_category = pastoral
 
@@ -8,7 +8,9 @@ state={
 			owner = SIN
 			add_core_of = SIN
 
-			
+			victory_points = {1698 25}
+			victory_points = {837 10}
+			victory_points = {990 15}
 
 			buildings = {
 				

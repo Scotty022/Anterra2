@@ -8,7 +8,7 @@ state={
 			owner = QIN
 			add_core_of = QIN
 
-			victory_points = {8736 5}
+			victory_points = {8736 25}
 
 			buildings = {
 				

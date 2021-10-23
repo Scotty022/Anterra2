@@ -9,7 +9,7 @@ state={
 			add_core_of = VRT
 			add_core_of = LUS
 
-			victory_points = {2677 5}
+			victory_points = {2677 12}
 
 			buildings = {
 				

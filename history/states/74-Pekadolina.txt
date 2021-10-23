@@ -8,7 +8,7 @@ state={
 			owner = VRT
 			add_core_of = VRT
 
-			victory_points = {9190 5}
+			victory_points = {9190 30}
 
 			buildings = {
 				

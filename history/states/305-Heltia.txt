@@ -8,7 +8,7 @@ state={
 			owner = SER
 			add_core_of = SER
 
-			victory_points = {4331 5}
+			victory_points = {4331 15}
 
 			buildings = {
 				

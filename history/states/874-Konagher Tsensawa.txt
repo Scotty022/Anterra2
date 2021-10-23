@@ -1,14 +1,14 @@
 state={
 		id = 874
-		name = "TST_63"
+		name = "Konagher Tsensawa"
 		manpower = 100000
-		state_category = wasteland
+		state_category = city
 
 		history = {
-			owner = TST
-			
+			owner = KON
+			add_core_of = KON
 
-			
+			victory_points = {2236 20}
 
 			buildings = {
 				

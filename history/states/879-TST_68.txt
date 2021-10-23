@@ -2,11 +2,11 @@ state={
 		id = 879
 		name = "TST_68"
 		manpower = 100000
-		state_category = wasteland
+		state_category = pastoral
 
 		history = {
-			owner = TST
-			
+			owner = PAC
+			add_core_of = PAC
 
 			
 

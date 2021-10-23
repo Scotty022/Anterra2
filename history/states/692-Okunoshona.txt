@@ -8,7 +8,9 @@ state={
 			owner = IOK
 			add_core_of = IOK
 
-			victory_points = {1192 5}
+			victory_points = {1192 25}
+			victory_points = {4494 10}
+			victory_points = {4390 3}
 
 			buildings = {
 				

@@ -8,7 +8,9 @@ state={
 			owner = ARR
 			add_core_of = ARR
 
-			
+			victory_points = {9035 35}
+			victory_points = {8990 10}
+			victory_points = {364 10}
 
 			buildings = {
 				

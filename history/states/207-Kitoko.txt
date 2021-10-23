@@ -11,7 +11,7 @@ state={
 			owner = KTK
 			add_core_of = KTK
 
-			victory_points = {7853 5}
+			victory_points = {7853 25}
 
 			buildings = {
 				

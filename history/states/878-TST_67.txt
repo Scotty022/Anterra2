@@ -5,8 +5,8 @@ state={
 		state_category = pastoral
 
 		history = {
-			owner = TST
-			
+			owner = KAS
+			add_core_of = KAS
 
 			
 

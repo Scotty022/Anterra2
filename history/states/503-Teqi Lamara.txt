@@ -8,7 +8,7 @@ state={
 			owner = SIW
 			add_core_of = SIW
 
-			
+			victory_points = {2387 60}
 
 			buildings = {
 				
