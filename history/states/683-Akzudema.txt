@@ -1,0 +1,27 @@
+state={
+		id = 683
+		name = "Akzudema"
+		manpower = 8563196
+		state_category = large_city
+		resources = {
+			steel = 35
+			aluminium = 15
+			tungsten = 12
+			chromium = 6
+		}
+
+		history = {
+			owner = IOK
+			add_core_of = IOK
+
+			buildings = {
+				
+				infrastructure = 7
+				industrial_complex = 4
+				arms_factory = 1
+			} 
+		}
+		provinces={
+ 		1525 1603 2555 2768 2930 4458 7576 7661 7793
+}
+}
