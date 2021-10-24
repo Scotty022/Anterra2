@@ -46,6 +46,26 @@ create_country_leader = {
 	expire = "1953.9.22"
 	ideology = despotism
 	traits = {
+		popular_figurehead
+}
+
+create_country_leader = {
+	name = "Kayuka Tekashona"
+	desc = "POLITICS_Kayuka_Tekashona_DESC"
+	picture = "Portrait_Iokuma_Kayuka_Tekashona.dds"
+	expire = "1960.1.1"
+	ideology = despotism
+	traits = {
+		warmonger
+}
+
+create_country_leader = {
+	name = "Shihoya Konashika"
+	desc = "POLITICS_Shihoya_Konashika_DESC"
+	picture = "Portrait_Iokuma_Shihoya_Konashika.dds"
+	expire = "1960.1.1"
+	ideology = despotism
+	traits = {
 		staunch_monarchist
 }
 
@@ -54,8 +74,8 @@ create_country_leader = {
 #################################
 
 create_corps_commander = {
-	name = "Hitler Adolf"
-	picture = "Portrait_Namibia_Adolf_Hitler.dds"
+	name = "Zhadina Koruzekin"
+	picture = "Portrait_Iokuma_Zhadina_Koruzekin.dds"
 	traits = {war_hero harsh_leader infantry_officer infantry_leader trait_mountaineer politically_connected}
 	skill = 5
 	attack_skill = 5
