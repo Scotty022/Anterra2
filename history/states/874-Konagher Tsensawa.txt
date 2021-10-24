@@ -1,0 +1,20 @@
+state={
+		id = 874
+		name = "Konagher Tsensawa"
+		manpower = 100000
+		state_category = city
+
+		history = {
+			owner = KON
+			add_core_of = KON
+
+			victory_points = {2236 20}
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			2236 4431 1083 2107 2641
+		}
+}

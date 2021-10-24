@@ -5,8 +5,8 @@ state={
 		state_category = pastoral
 
 		history = {
-			owner = TST
-			
+			owner = KAS
+			add_core_of = KAS
 
 			
 
@@ -15,6 +15,6 @@ state={
 			} 
 		}
 		provinces={
-		2461 8843 8830 4222 8768 816 8812 1155 
+			2461 816 8812 8768 4222 8831 2587 8862 628 8875 8892 8874 8843 1368 8830 8846 1155
 	}
 }

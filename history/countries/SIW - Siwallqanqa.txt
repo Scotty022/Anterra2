@@ -56,3 +56,8 @@ set_autonomy = { #Arum
 	target = ARR 
 	autonomous_state = autonomy_satellite
 }
+
+set_autonomy = { #Konagher-Tsensawa
+	target = KON
+	autonomy_state = autonomy_satellite
+}

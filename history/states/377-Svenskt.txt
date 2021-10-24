@@ -8,7 +8,7 @@ state={
 			owner = SVX
 			add_core_of = SVX
 
-			victory_points = {2462 5}
+			victory_points = {2462 25}
 
 			buildings = {
 				

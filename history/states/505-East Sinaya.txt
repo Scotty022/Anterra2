@@ -1,0 +1,22 @@
+state={
+		id = 505
+		name = "East Sinaya"
+		manpower = 100000
+		state_category = pastoral
+
+		history = {
+			owner = SIN
+			add_core_of = SIN
+
+			victory_points = {1698 25}
+			victory_points = {837 10}
+			victory_points = {990 15}
+
+			buildings = {
+				
+			} 
+		}
+		provinces={
+			1632 1050 9091 3391 16 990 798 990 9108 4538 1923 109 837 9088 1698 9115
+       	}
+}

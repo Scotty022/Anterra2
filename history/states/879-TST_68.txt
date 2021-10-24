@@ -2,11 +2,11 @@ state={
 		id = 879
 		name = "TST_68"
 		manpower = 100000
-		state_category = wasteland
+		state_category = pastoral
 
 		history = {
-			owner = TST
-			
+			owner = PAC
+			add_core_of = PAC
 
 			
 
@@ -15,6 +15,6 @@ state={
 			} 
 		}
 		provinces={
-		529 8875 8846 628 220 3688 8862 714 2448 8849 8880 4893 2016 4772 757 2887 2835
+			594 3498 1545 2448 3198 757 8930 2887 2835 3576 3724 9014 1110 160 1710 1087 2855 3365
 	}
 }

@@ -8,7 +8,7 @@ state={
 			owner = SAM
 			add_core_of = SAM
 
-			victory_points = {18259 5}
+			victory_points = {18259 25}
 
 			buildings = {
 				

@@ -14,6 +14,8 @@ state={
 			owner = IOK
 			add_core_of = IOK
 
+			
+
 			buildings = {
 				
 				infrastructure = 7

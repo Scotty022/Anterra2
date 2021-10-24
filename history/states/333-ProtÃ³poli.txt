@@ -8,7 +8,7 @@ state={
 			owner = PRO
 			add_core_of = PRO
 
-			victory_points = {5629 5}
+			victory_points = {5629 50}
 
 			buildings = {
 				

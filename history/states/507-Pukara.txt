@@ -8,7 +8,7 @@ state={
 			owner = PUK
 			add_core_of = PUK
 
-			
+			victory_points = {2939 25}
 
 			buildings = {
 				

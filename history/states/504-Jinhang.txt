@@ -8,7 +8,7 @@ state={
 			owner = JIN
 			add_core_of = JIN
 
-			
+			victory_points = {1040 20}
 
 			buildings = {
 				
