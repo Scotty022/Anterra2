@@ -111,3 +111,25 @@ create_country_leader = {
 	expire = "1979.12.9"
 	ideology = authoritarian_democracy
 }
+
+create_field_marshal = {
+	name = "Andrej u Stratonpolis"
+		picture = "Portrait_Mursland_general_1.dds"
+	skill = 3
+	attack_skill = 2
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 3
+	traits = { inflexible_strategist }
+}
+
+create_corps_commander = {
+	name = "Artur Sermiirh "
+		picture = "Portrait_Mursland_general_2.dds"
+	skill = 2
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+	traits = { panzer_leader }
+}
