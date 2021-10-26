@@ -10,5 +10,28 @@ MUR_Martin_I = {
 	}
 	available = {
 		has_completed_focus = MUR_the_martin_conspiracy
+		NOT = {
+			has_country_flag = MUR_end_political_scabbles
+		}
+	}
+	visible = {
+		has_completed_focus = MUR_the_martin_conspiracy
+	}
+}
+
+MUR_Pazach_mob = {
+
+	priority = 50
+
+	#icon = generic_formable_nations
+
+	allowed = {
+		original_tag = MUR
+	}
+	available = {
+		has_completed_focus = MUR_mobilize_the_pazach
+	}
+	visible = {
+		has_completed_focus = MUR_mobilize_the_pazach
 	}
 }

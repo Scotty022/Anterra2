@@ -23,21 +23,22 @@ division_template = { # Infantry Division
 		recon = { x = 0 y = 2 }
 	}
 }
-division_template = { # Guard Brigade
-	name = "Guard Bridage" 				
-	division_names_group = MUR_INF_02
+# division_template = { # Guard Brigade
+# 	name = "Guard Bridage" 				
+# 	division_names_group = MUR_INF_02
 	
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		cavalry  = { x = 1 y = 0 }
-		cavalry  = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 }
-	}
-}
+# 	regiments = {
+# 		infantry = { x = 0 y = 0 }
+# 		infantry = { x = 0 y = 1 }
+# 		infantry = { x = 0 y = 2 }
+# 		cavalry  = { x = 1 y = 0 }
+# 		cavalry  = { x = 1 y = 1 }
+# 	}
+# 	support = {
+# 		recon = { x = 0 y = 0 }
+# 		military_police = { x = 0 y = 1	}
+# 	}
+# }
 division_template = { # Mountain Division
 	name = "Mountain Division" 				
 	division_names_group = MUR_MNT_01

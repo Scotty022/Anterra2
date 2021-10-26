@@ -98,3 +98,80 @@ MUR_Martin_I = {
 		days_remove = 1 #30
 	}
 }
+
+MUR_Pazach_mob = {
+	Activate_the_Pazach = {
+		icon = generic_prepare_civil_war
+	
+		available = { has_idea = mobilize_the_pazach1 }
+		visible   = { has_idea = mobilize_the_pazach1 }
+		cost = 100
+		ai_will_do = {
+			factor = 0
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = mobilize_the_pazach1
+				add_idea = mobilize_the_pazach2
+			}
+
+			hidden_effect = {
+				division_template = { # Guard Brigade
+					name = "Pazach Guards" 				
+					division_names_group = MUR_INF_02
+					is_locked = yes
+		
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						armored_car = { x = 2 y = 0 } 
+						cavalry  = { x = 1 y = 0 }
+						cavalry  = { x = 1 y = 1 }
+					}
+					support = {
+						recon = { x = 0 y = 0 }
+						military_police = { x = 0 y = 1	}
+					}
+				}
+			}
+			random_owned_controlled_state = {
+				limit = { ROOT = { has_full_control_of_state = PREV } }
+				prioritize = { 58 }
+				create_unit = {
+					division = "division_template = \"Pazach Guards\" start_experience_factor  = 1"
+					owner = MUR
+				}
+				create_unit = {
+					division = "division_template = \"Pazach Guards\" start_experience_factor  = 1"
+					owner = MUR
+				}
+				create_unit = {
+					division = "division_template = \"Pazach Guards\" start_experience_factor  = 1"
+					owner = MUR 
+				}
+			}
+		}
+		days_remove = 5 
+	}
+
+	Demobilize_the_Pazach = {
+		icon = generic_political_discourse
+
+		available = { has_idea = mobilize_the_pazach2 }
+		visible   = { has_idea = mobilize_the_pazach2 }
+		cost = 0
+		ai_will_do = {
+			factor = 10
+		}
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = mobilize_the_pazach2
+				add_idea = mobilize_the_pazach1
+			}
+
+			delete_unit_template_and_units = {
+				division_template = "Pazach Guards" 
+			}
+		}
+	}
+}

@@ -90,6 +90,7 @@ ideas = {
 				stability_factor = 0.1
 				war_support_factor = -0.1
 				democratic_drift = 0.01
+				authdemocracy_drift = 0.01
 			}
 		}
 
@@ -326,7 +327,7 @@ ideas = {
 			modifier = {
 				#civilian_factory_use = 1
 				conscription = 0.005
-				required_garrison_factor = 0.05
+				#required_garrison_factor = 0.05
 			}
 		}
 
@@ -343,8 +344,8 @@ ideas = {
 			
 			modifier = {
 				#civilian_factory_use = 1
-				conscription = 0.007
-				required_garrison_factor = 0.1
+				conscription = 0.005
+				required_garrison_factor = 0.2
 			}
 		}
 
