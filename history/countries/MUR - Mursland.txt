@@ -85,16 +85,16 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Arkady III"
-	desc = "POLITICS_Arkady_III_DESC"
-	picture = "Portrait_Mursland_Arkady_III.dds"
-	expire = "1955.7.7"
-	ideology = despotism
-	traits = {
-		the_director inexperienced_monarch
-	}
-}
+# create_country_leader = {
+# 	name = "Arkady III"
+# 	desc = "POLITICS_Arkady_III_DESC"
+# 	picture = "Portrait_Mursland_Arkady_III.dds"
+# 	expire = "1955.7.7"
+# 	ideology = despotism
+# 	traits = {
+# 		the_director inexperienced_monarch
+# 	}
+# }
 
 create_country_leader = {
 	name = "Kiril Antov"

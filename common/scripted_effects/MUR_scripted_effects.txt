@@ -21,6 +21,9 @@
 # 	USA_recalc_congress_icon_frames = yes
 # }
 
+##################################################################################
+########################## SUPPORTS AND OPPOSE ###################################
+##################################################################################
 MUR_Pro_Martin_5_support = {
 	custom_effect_tooltip = MUR_martin_small_support_tt
 	add_to_variable = { Martin_support = 5 }
@@ -123,7 +126,9 @@ MUR_Republic_15_oppose = {
 }
 
 
-
+##################################################################################
+########################## UPDATES ICON FRAME ####################################
+##################################################################################
 #USA_recalc_congress_icon_frames = {
 MUR_recalc_support_icon_frames = {
 	#-------------------------------------- PRO MARTIN --------------------------------
@@ -182,4 +187,22 @@ MUR_recalc_support_icon_frames = {
 	}
 	set_variable = { current_Neutral_graph_frame = neutral_temp }
 
+}
+
+##################################################################################
+########################## SCHEMING VICOTORY #####################################
+##################################################################################
+MUR_Martin_victory = {
+	custom_effect_tooltip = MUR_martin_victory_tt
+	set_country_flag = victory_of_martin
+}
+
+MUR_Republic_victory = {
+	custom_effect_tooltip = MUR_republic_victory_tt
+	set_country_flag = victory_of_republicans
+}
+
+MUR_end_political_scabbles = {
+	custom_effect_tooltip = MUR_end_political_scabbles_tt
+	set_country_flag = political_scabbles_over
 }

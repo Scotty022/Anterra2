@@ -93,7 +93,14 @@
  MUR_republic_medium_oppose_tt:0  "§Y-10§! Republic supporters"
  MUR_republic_large_oppose_tt:0   "§Y-15§! Republic supporters"
 
+ victory_of_martin:0 "§YMartins conspirators§! have succeeded"
+ victory_of_republicans:0 "§YRepublic supporters§! have succeeded"
+ political_scabbles_over:0 "The §Ypolicial conflict§! is over"
+ MUR_martin_victory_tt:0 "§C§YThe martinites§! have take over power!§!"
+ MUR_republic_victory_tt:0 "§C§YThe republicans§! proclaim a presidential republic!§!"
+ MUR_end_political_scabbles_tt:0 "§CThe §Ypolicial conflict§! is over!§!"
 
+ Martin_I_died:0 "§YMartin I has died§!"
 
  #----------- focussses ---------------------------------------------------
  MUR_election_campaigns:0 "Election Campaigns"

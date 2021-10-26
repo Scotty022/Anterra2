@@ -43,6 +43,9 @@ focus_tree = {
 		
 		completion_reward = {
 			country_event = MURSLAND.100
+			hidden_effect = {
+				MUR_recalc_support_icon_frames = yes
+			}
 		}
 	}
 
@@ -93,6 +96,9 @@ focus_tree = {
 			add_stability = -0.20
 		}
 	}
+
+	# FAILING THE ASSASSINATION ATTEMPT WILL LEAD TO GREAT CIVIL UNREST, AND THE FASCIST TREE
+	# TO DO, FASCIST TREE  <-----------------------------------------------------------------------------------
 	focus = { # The second assassination attempt
 		id = MUR_the_second_assassination 
 		icon = GFX_goal_generic_propaganda
@@ -950,17 +956,72 @@ focus_tree = {
 			}
 		}
 	}
+	focus = { 
+		id = MUR_guarantees_of_a_better_future	
+		icon = GFX_goal_support_democracy
+		cost = 10.0
+		relative_position_id = MUR_Assign_the_best
+		x = 1
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_Assign_the_best
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = { # 
+		id = MUR_economic_boosts
+		icon = GFX_goal_support_democracy
+		cost = 10.0
+		relative_position_id = MUR_reinvestments
+		x = 0
+		y = 1
+
+		prerequisite = { 
+			focus = MUR_reinvestments
+		}
+
+		completion_reward = {
+			add_political_power = 150
+		}
+	}
+	focus = { # 
+		id = MUR_tie_the_boots_right
+		icon = GFX_goal_support_democracy
+		cost = 10.0
+		relative_position_id = MUR_economic_boosts
+		x = 1
+		y = 1
+
+		prerequisite = { focus = MUR_economic_boosts }
+		prerequisite = { focus = MUR_guarantees_of_a_better_future }
+		available = {
+			NOT = {
+				has_country_flag = victory_of_martin
+				has_country_flag = victory_of_republicans
+			}
+		}
+
+		completion_reward = {
+			MUR_end_political_scabbles = yes
+		}
+	}
+
 	focus = { # neutrality
 		id = MUR_armed_neutrality
 		icon = GFX_goal_support_democracy
 		cost = 10.0
-		#relative_position_id = MUR_free_mursland
-		x = 22
-		y = 8
+		relative_position_id = MUR_guarantees_of_a_better_future
+		x = 1
+		y = 3
 
-		# prerequisite = { 
-		# 	focus = MUR_free_mursland
-		# }
+		prerequisite = { 
+			focus = MUR_guarantees_of_a_better_future
+			focus = MUR_constitutional_reconstruction
+		}
 
 		completion_reward = {
 			add_political_power = 50
@@ -1057,6 +1118,78 @@ focus_tree = {
 
 		prerequisite = { focus = MUR_ban_on_discrimation }
 		prerequisite = { focus = MUR_pride_in_equality }
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+
+	focus = { # Free reign
+		id = MUR_Free_reign
+		icon = GFX_goal_generic_political_pressure
+		cost = 20.0
+		relative_position_id = MUR_Assign_pro_martin
+		x = 0
+		y = 1
+
+		prerequisite = { focus = MUR_Assign_pro_martin }
+
+		available = {
+			has_country_flag = victory_of_martin
+		}
+
+		completion_reward = {
+			set_politics = {
+				ruling_party = neutrality
+			}
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.20
+			}
+			remove_ideas = { Martin_I }
+
+			MUR_end_political_scabbles = yes
+		}
+	}
+	focus = { # 
+		id = MUR_constitutional_reconstruction
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_Assign_pro_martin
+		x = -2
+		y = 1
+
+		prerequisite = { focus = MUR_Assign_pro_martin }
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = { # 
+		id = MUR_Mursland_above
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_Assign_pro_martin
+		x = 2
+		y = 1
+
+		prerequisite = { focus = MUR_Assign_pro_martin }
+		prerequisite = { focus = MUR_reintroduce_Free_Accessibility_of_Religion_Act }
+
+		completion_reward = {
+			add_political_power = 100
+		}
+	}
+	focus = { # 
+		id = MUR_Secure_the_presidents
+		icon = GFX_goal_generic_propaganda
+		cost = 10.0
+		relative_position_id = MUR_Free_reign
+		x = -1
+		y = 1
+
+		prerequisite = { focus = MUR_Free_reign }
+		prerequisite = { focus = MUR_constitutional_reconstruction }
 
 		completion_reward = {
 			add_political_power = 100
@@ -1387,8 +1520,13 @@ focus_tree = {
 		prerequisite = { focus = MUR_Assign_republican }
 		prerequisite = { focus = MUR_the_second_assassination }
 		available = {	# Requires the elections event to have happened.
-			democratic > 0.7
-			has_global_flag = Martin_I_died
+			OR = {
+				has_country_flag = victory_of_republicans
+				AND = { 
+					democratic > 0.7
+					has_global_flag = Martin_I_died
+				}
+			}	
 		}
 		mutually_exclusive = { 
 			focus = MUR_Succession_preparations
@@ -1400,6 +1538,7 @@ focus_tree = {
 				remove_idea = Succesor_Crisis
 				add_idea = Dimokratia
 			}
+			MUR_end_political_scabbles = yes
 		}
 	}
 	focus = { # Presidentalism
@@ -1413,18 +1552,12 @@ focus_tree = {
 		prerequisite = { focus = MUR_Dimokratia }
 
 		completion_reward = {
-			add_political_power = 50
+			set_politics = {
+				ruling_party = authdemocracy
+			}
 			add_popularity = {
 				ideology = authdemocracy
-				popularity = 0.1
-			}
-			add_popularity = {
-				ideology = neutrality
-				popularity = -0.05
-			}
-			add_popularity = {
-				ideology = democratic
-				popularity = -0.05
+				popularity = 0.20
 			}
 		}
 	}
@@ -1655,15 +1788,13 @@ focus_tree = {
 		id = MUR_mobilize_the_pazach
 		icon = GFX_goal_generic_political_pressure
 		cost = 10.0
-		x = 18
-		y = 14
+		relative_position_id = MUR_bastion_of_neutrality
+		x = -1
+		y = 1
 
-		# prerequisite = { 
-		# 	focus = MUR_grand_mobilization
-		# 	focus = MUR_Traxian_freedom
-		# 	focus = MUR_bastion_of_neutrality
-		# 	focus = MUR_crack_down_on_Traxians
-		# }
+		prerequisite = { 
+			focus = MUR_bastion_of_neutrality
+		}
 
 		completion_reward = { 
 			add_ideas = mobilize_the_pazach1
@@ -1681,7 +1812,7 @@ focus_tree = {
 
 		prerequisite = { 
 			focus = MUR_bastion_of_neutrality
-			focus = MUR_prepare_for_a_storm
+			#focus = MUR_prepare_for_a_storm
 		}
 
 		completion_reward = {
