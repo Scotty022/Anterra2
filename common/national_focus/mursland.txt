@@ -1689,6 +1689,16 @@ focus_tree = {
 				remove_idea = woman_recruitment1
 				add_idea = woman_recruitment2
 			}
+			create_corps_commander = {
+				name = "Iveta Martinek"
+					picture = "Portrait_Mursland_general_4.dds"
+				skill = 3
+				attack_skill = 3
+				defense_skill = 2
+				planning_skill = 2
+				logistics_skill = 1
+				traits = { infantry_officer infantry_leader trickster }
+			}
 		}
 	}
 	focus = { # woman recruitment emergency

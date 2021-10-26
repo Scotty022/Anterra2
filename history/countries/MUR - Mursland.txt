@@ -124,12 +124,23 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Artur Sermiirh "
+	name = "Artur Sermiirh"
 		picture = "Portrait_Mursland_general_2.dds"
 	skill = 2
 	attack_skill = 3
 	defense_skill = 1
 	planning_skill = 2
 	logistics_skill = 1
-	traits = { panzer_leader }
+	traits = { armor_officer }
+}
+
+create_corps_commander = {
+	name = "Vlastimil Krall"
+		picture = "Portrait_Mursland_general_3.dds"
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+	traits = { hill_fighter }
 }
