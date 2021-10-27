@@ -57,7 +57,7 @@ MUR_INF_02 =
 	# It's okay to have gaps in numbering.
 	ordered =
 	{
-		1 =  { "%d. Pazach Brigada 'Martin"}
+		1 =  { "%d. Pazach Brigada 'Martin'"}
 		2 =  { "%d. Pazach Brigada 'Mihalou I'" }
 		3 =  { "%d. Pazach Brigada 'Arkady I'" }
 		4 =  { "%d. Pazach Brigada 'Miroslau I'" }

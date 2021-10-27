@@ -1,0 +1,19 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_MUR_Martin_I_focus"
+		texturefile = "gfx/interface/goals/goal_MUR_Martin_I.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_MUR_Royal_stuff"
+		texturefile = "gfx/interface/goals/goal_MUR_Royal_stuff.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_Tear_Treaty"
+		texturefile = "gfx/interface/goals/goal_Tear_Treaty.dds"
+	}
+
+}
+

@@ -35,7 +35,7 @@ focus_tree = {
 
 	focus = { # Martin's Conspiracy
 		id = MUR_the_martin_conspiracy 
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_MUR_Royal_stuff
 		cost = 10.0
 		relative_position_id = MUR_election_debates
 		x = 10
@@ -609,7 +609,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MUR_go_hard
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_generic_political_pressure
 		cost = 10
 		relative_position_id = MUR_traxian_struggle
 		x = -1
@@ -626,7 +626,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MUR_go_soft
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_focus_generic_concessions
 		cost = 10
 		relative_position_id = MUR_traxian_struggle
 		x = 1
@@ -1126,7 +1126,7 @@ focus_tree = {
 
 	focus = { # Free reign
 		id = MUR_Free_reign
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_MUR_Martin_I_focus
 		cost = 20.0
 		relative_position_id = MUR_Assign_pro_martin
 		x = 0
@@ -1153,7 +1153,7 @@ focus_tree = {
 	}
 	focus = { # 
 		id = MUR_constitutional_reconstruction
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_focus_Tear_Treaty
 		cost = 10.0
 		relative_position_id = MUR_Assign_pro_martin
 		x = -2
@@ -1288,7 +1288,7 @@ focus_tree = {
 	}
 	focus = { # puppet Propygria
 		id = MUR_Freedom_in_propygria
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_generic_position_armies
 		cost = 10.0
 		relative_position_id = MUR_Traxia_free
 		x = 3
@@ -1365,7 +1365,7 @@ focus_tree = {
 ## MILITAIRY -----------------------------------------
 	focus = { # economic developments
 		id = MUR_economic_developments
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_generic_production
 		cost = 10.0
 		x = 40
 		y = 0
@@ -1383,7 +1383,7 @@ focus_tree = {
 	}
 	focus = { # economic planning
 		id = MUR_economic_planning
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_generic_production2
 		cost = 10.0
 		relative_position_id = MUR_economic_developments
 		x = -2
