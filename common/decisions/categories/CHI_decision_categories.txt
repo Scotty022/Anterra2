@@ -1,0 +1,10 @@
+TEST_BORDER_WAR = {
+
+	priority = 100
+	picture = generic_border_conflicts
+	icon = border_conflicts
+
+	allowed = {
+		original_tag = KOD
+	}
+}

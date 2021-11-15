@@ -276,6 +276,6 @@ country_event = { # Second assassination attempt
 	}
 }
 
-news_event = {
-	id = mursland.200
-}
+# news_event = {
+# 	id = mursland.200
+# }
