@@ -1,0 +1,151 @@
+characters = {
+
+	#######################
+	### COUNTRY LEADERS ###
+	#######################
+	MUR_Velichko_Thunone = {
+		name = "Velichko Thunone"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MUR/Portrait_Mursland_Velichko_Thunone.dds"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1970.1.1"
+			id = -1
+		}
+	}
+
+	MUR_Martin_I = {
+		name = "Martin I"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MUR/Portrait_Mursland_Martin_I.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				staunch_monarchist unpopular_monarch
+			}
+			expire = "1955.7.7"
+			id = -1
+		}
+	}
+
+	MUR_Arkady_III = {
+		name = "Arkady III"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MUR/Portrait_Mursland_Arkady_III.dds" 
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {
+				the_director inexperienced_monarch
+			}
+			expire = "1970.1.1"
+			id = -1
+		}
+	}
+
+	MUR_Kiril_Antov = {
+		name = "Kiril Antov"
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MUR/Portrait_Mursland_Kiril_Antov.dds" 
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1970.1.1"
+			id = -1
+		}
+	}
+	
+	MUR_Kyriakos_Metaxas = {
+		name = "Kyriakos Metaxas"
+		portraits = {
+			army = {
+				small = "GFX_idea_generic_army_europe_2" #TO DO
+			}
+			civilian = {
+				large = "gfx/leaders/MUR/Portrait_Mursland_Kyriakos_Metaxas.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MUR_Kyriakos_Metaxas
+			allowed = {
+				original_tag = MUR
+			}
+			traits = {
+				army_chief_defensive_2
+			}
+		cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		
+		country_leader = {
+			ideology = authoritarian_democracy
+			expire = "1979.12.9"
+			id = -1
+		}
+	}
+
+
+##     ## ##    ## #### ########    ##       ########    ###    ########  ######## ########   ######  
+##     ## ###   ##  ##     ##       ##       ##         ## ##   ##     ## ##       ##     ## ##    ## 
+##     ## ####  ##  ##     ##       ##       ##        ##   ##  ##     ## ##       ##     ## ##       
+##     ## ## ## ##  ##     ##       ##       ######   ##     ## ##     ## ######   ########   ######  
+##     ## ##  ####  ##     ##       ##       ##       ######### ##     ## ##       ##   ##         ## 
+##     ## ##   ###  ##     ##       ##       ##       ##     ## ##     ## ##       ##    ##  ##    ## 
+ #######  ##    ## ####    ##       ######## ######## ##     ## ########  ######## ##     ##  ######  
+
+
+##     ## #### ##       #### ########    ###    ########  ##    ##       ###    ########  ##     ## ####  ######   #######  ########   ######  
+###   ###  ##  ##        ##     ##      ## ##   ##     ##  ##  ##       ## ##   ##     ## ##     ##  ##  ##    ## ##     ## ##     ## ##    ## 
+#### ####  ##  ##        ##     ##     ##   ##  ##     ##   ####       ##   ##  ##     ## ##     ##  ##  ##       ##     ## ##     ## ##       
+## ### ##  ##  ##        ##     ##    ##     ## ########     ##       ##     ## ##     ## ##     ##  ##   ######  ##     ## ########   ######  
+##     ##  ##  ##        ##     ##    ######### ##   ##      ##       ######### ##     ##  ##   ##   ##        ## ##     ## ##   ##         ## 
+##     ##  ##  ##        ##     ##    ##     ## ##    ##     ##       ##     ## ##     ##   ## ##    ##  ##    ## ##     ## ##    ##  ##    ## 
+##     ## #### ######## ####    ##    ##     ## ##     ##    ##       ##     ## ########     ###    ####  ######   #######  ##     ##  ######  
+
+
+#################
+### THEORISTS ###
+#################
+
+###################
+### CHIEFS ARMY ###
+###################
+
+###################
+### CHIEFS NAVY ###
+###################
+
+#######################
+### CHIEFS AIRFORCE ###
+#######################
+
+#############################
+### MILITARY HIGH COMMAND ###
+#############################
+
+
+########   #######  ##       #### ######## ####  ######     ###    ##             ###    ########  ##     ## ####  ######   #######  ########   ######  
+##     ## ##     ## ##        ##     ##     ##  ##    ##   ## ##   ##            ## ##   ##     ## ##     ##  ##  ##    ## ##     ## ##     ## ##    ## 
+##     ## ##     ## ##        ##     ##     ##  ##        ##   ##  ##           ##   ##  ##     ## ##     ##  ##  ##       ##     ## ##     ## ##       
+########  ##     ## ##        ##     ##     ##  ##       ##     ## ##          ##     ## ##     ## ##     ##  ##   ######  ##     ## ########   ######  
+##        ##     ## ##        ##     ##     ##  ##       ######### ##          ######### ##     ##  ##   ##   ##        ## ##     ## ##   ##         ## 
+##        ##     ## ##        ##     ##     ##  ##    ## ##     ## ##          ##     ## ##     ##   ## ##    ##  ##    ## ##     ## ##    ##  ##    ## 
+##         #######  ######## ####    ##    ####  ######  ##     ## ########    ##     ## ########     ###    ####  ######   #######  ##     ##  ######  
+
+}
+
+
+

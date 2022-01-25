@@ -65,48 +65,8 @@ set_variable = { Neutral_support = 60 } #155 - 50 - 45
 ######### Politicians ###########
 #################################
 
-create_country_leader = {
-	name = "Velichko Thunone"
-	desc = "POLITICS_Velichko_Thunone_DESC"
-	picture = "Portrait_Mursland_Velichko_Thunone.dds"
-	expire = "1970.1.1"
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Martin I"
-	desc = "POLITICS_Martin_I_DESC"
-	picture = "Portrait_Mursland_Martin_I.dds"
-	expire = "1955.7.7"
-	ideology = despotism
-	traits = {
-		staunch_monarchist unpopular_monarch
-	}
-}
-
-create_country_leader = {
-	name = "Arkady III"
-	desc = "POLITICS_Arkady_III_DESC"
-	picture = "Portrait_Mursland_Arkady_III.dds"
-	expire = "1955.7.7"
-	ideology = despotism
-	traits = {
-		the_director inexperienced_monarch
-	}
-}
-
-create_country_leader = {
-	name = "Kiril Antov"
-	desc = "POLITICS_Kiril_Antov_DESC"
-	picture = "Portrait_Mursland_Kiril_Antov.dds"
-	expire = "1979.12.9"
-	ideology = fascism_ideology
-}
-
-create_country_leader = {
-	name = "Kyriakos Metaxas"
-	desc = "POLITICS_Kyriakos_Metaxas_DESC"
-	picture = "Portrait_Mursland_Kyriakos_Metaxas.dds"
-	expire = "1979.12.9"
-	ideology = authoritarian_democracy
-}
+recruit_character = MUR_Velichko_Thunone
+recruit_character = MUR_Martin_I
+recruit_character = MUR_Arkady_III
+recruit_character = MUR_Kiril_Antov
+recruit_character = MUR_Kyriakos_Metaxas
