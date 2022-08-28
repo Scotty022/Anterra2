@@ -2,6 +2,7 @@ state={
 		id = 305
 		name = "Heltia"
 		manpower = 2900000
+		local_supplies=0.0 
 		state_category = town
 
 		history = {

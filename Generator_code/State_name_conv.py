@@ -20,9 +20,15 @@ for region in List:
 
 	ID = region.split("-",1)[0]
 	Pre_NAME = region.split("-",1)[1]
-	NAME = Pre_NAME.split(".")[0]
-	#STRATEGICREGION_4:0 "Ireland"
-	Entry = f' {NAME}:0 "{NAME}" # STATE_{ID}\n'
+	DISP_NAME = Pre_NAME.split(".")[0]
+
+	if " " in DISP_NAME:
+		PROG_NAME = DISP_NAME.replace(" ", "_")
+	else:
+		PROG_NAME = DISP_NAME
+
+	#West_Amomosean_Islands:0 "West Amomosean Islands" # STATE_214
+	Entry = f' {PROG_NAME}:0 "{DISP_NAME}" # STATE_{ID}\n'
 	print(Entry)
 
 	TXT += Entry

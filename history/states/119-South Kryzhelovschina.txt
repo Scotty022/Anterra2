@@ -1,16 +1,16 @@
 state={
 		id = 119
-		name = "South Kryzhelovschina"
+		name = "South_Kryzhelovschina"
 		manpower = 1050000
+		local_supplies=0.0 
 		state_category = large_city
 		resources = {
 			oil = 17
 		}
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = GPR
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {533 5}
 

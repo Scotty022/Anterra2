@@ -1,17 +1,20 @@
 state={
 		id = 768
 		name = "AYG_4"
-		manpower = 100000
-		state_category = pastoral
+		manpower = 2976667
+		local_supplies=0.0 
+		state_category = town
 
 		history = {
 			owner = AYG
 			add_core_of = AYG
 
-			victory_points = {5608 5}
+			victory_points = {5608 10}
 
 			buildings = {
 				
+				infrastructure = 4
+				industrial_complex = 3
 			} 
 		}
 		provinces={

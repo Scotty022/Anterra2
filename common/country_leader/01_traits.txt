@@ -1,0 +1,12 @@
+leader_traits = {
+	presidential_spindoctor = {
+		random = no
+		# Boosts Authorian Democracy
+		sprite = 13
+		authdemocracy_drift = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

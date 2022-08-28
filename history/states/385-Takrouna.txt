@@ -2,13 +2,14 @@ state={
 		id = 385
 		name = "Takrouna"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
 			owner = JUN
 			add_core_of = JUN
 
-			victory_points = {6465 5}
+			victory_points = {6465 10}
 
 			buildings = {
 				

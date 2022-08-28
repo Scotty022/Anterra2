@@ -1,0 +1,28 @@
+state={
+		id = 693
+		name = "TST_M"
+		manpower = 771595
+		local_supplies=0.0 
+		state_category = pastoral
+		resources = {
+			steel = 14
+			aluminium = 18
+			tungsten = 14
+			chromium = 4
+		}
+
+		history = {
+			owner = TST
+			add_core_of = TST
+
+			
+
+			buildings = {
+				
+				infrastructure = 1
+			} 
+		}
+		provinces={
+ 		768 1644 1752 1924 2225 2385 2566 2588 2882 4309 4440 7217 7264 7265 7315 7394 7460 7510 7582 7647 7652 7676 7733 7801
+}
+}

@@ -2,13 +2,14 @@ state={
 		id = 506
 		name = "Arum"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
-			owner = ARR
-			add_core_of = ARR
+			owner = SIW
+			add_core_of = SIW
 
-			victory_points = {9035 35}
+			victory_points = {9036 35}
 			victory_points = {8990 10}
 			victory_points = {364 10}
 

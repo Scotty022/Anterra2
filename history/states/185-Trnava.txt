@@ -2,14 +2,15 @@ state={
 		id = 185
 		name = "Trnava"
 		manpower = 953915
+		local_supplies=0.0 
 		state_category = city
 		resources = {
 			chromium = 1
 		}
 
 		history = {
-			owner = POZ
-			add_core_of = POZ
+			owner = TST
+			add_core_of = TST
 
 			
 

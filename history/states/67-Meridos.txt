@@ -2,6 +2,7 @@ state={
 		id = 67
 		name = "Meridos"
 		manpower = 1998423
+		local_supplies=0.0 
 		state_category = large_town
 		resources = {
 			steel = 15
@@ -11,10 +12,10 @@ state={
 		}
 
 		history = {
-			owner = HEL
-			add_core_of = HEL
+			owner = TST
+			add_core_of = TST
 
-			victory_points = {5528 5}
+			victory_points = {5528 10}
 
 			buildings = {
 				

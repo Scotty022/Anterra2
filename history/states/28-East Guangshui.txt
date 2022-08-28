@@ -1,7 +1,8 @@
 state={
 		id = 28
-		name = "East Guangshui"
+		name = "East_Guangshui"
 		manpower = 2412094
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

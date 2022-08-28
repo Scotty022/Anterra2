@@ -1,17 +1,21 @@
 state={
 		id = 360
 		name = "Biratov"
-		manpower = 100000
+		manpower = 2753853
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
 			owner = VKA
 			add_core_of = VKA
 
-			victory_points = {18274 5}
+			victory_points = {18274 25}
 
 			buildings = {
 				
+				infrastructure = 3
+				industrial_complex = 3
+				dockyard  = 1
 			} 
 		}
 		provinces={

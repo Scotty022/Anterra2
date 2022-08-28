@@ -1,0 +1,28 @@
+state={
+		id = 685
+		name = "TST_D"
+		manpower = 3842848
+		local_supplies=0.0 
+		state_category = city
+		resources = {
+			steel = 12
+			aluminium = 10
+			chromium = 22
+		}
+
+		history = {
+			owner = TST
+			add_core_of = TST
+
+			
+
+			buildings = {
+				
+				infrastructure = 4
+				industrial_complex = 2
+			} 
+		}
+		provinces={
+ 		1247 2101 2273 3271 4073 4889 7705 7798 7799 7881 7943 7953 7954 8005
+}
+}

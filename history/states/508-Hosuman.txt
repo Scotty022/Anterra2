@@ -1,8 +1,9 @@
 state={
 		id = 508
 		name = "Hosuman"
-		manpower = 100000
-		state_category = pastoral
+		manpower = 1045040
+		local_supplies=0.0 
+		state_category = city
 
 		history = {
 			owner = HOS

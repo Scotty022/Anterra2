@@ -2,16 +2,15 @@ state={
 		id = 170
 		name = "Novoreptsk"
 		manpower = 2350000
+		local_supplies=0.0 
 		state_category = city
 		resources = {
 			steel = 4
 		}
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ZAP
-			add_core_of = ROV
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {5334 5}
 

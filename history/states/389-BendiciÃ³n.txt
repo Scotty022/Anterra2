@@ -2,6 +2,7 @@ state={
 		id = 389
 		name = "Bendición"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

@@ -1,7 +1,8 @@
 state={
 		id = 222
-		name = "Tsih-Pa La"
+		name = "Tsih-Pa_La"
 		manpower = 740000
+		local_supplies=0.0 
 		state_category = enclave
 
 		history = {

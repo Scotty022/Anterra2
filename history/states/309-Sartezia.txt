@@ -2,6 +2,7 @@ state={
 		id = 309
 		name = "Sartezia"
 		manpower = 3805000
+		local_supplies=0.0 
 		state_category = city
 
 		history = {

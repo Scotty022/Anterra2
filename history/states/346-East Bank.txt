@@ -1,7 +1,8 @@
 state={
 		id = 346
-		name = "East Bank"
+		name = "East_Bank"
 		manpower = 500000
+		local_supplies=0.0 
 		state_category = rural
 		resources = {
 			oil = 8

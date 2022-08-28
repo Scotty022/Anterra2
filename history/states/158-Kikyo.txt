@@ -2,6 +2,7 @@ state={
 		id = 158
 		name = "Kikyo"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
@@ -9,7 +10,7 @@ state={
 			add_core_of = AKI
 			add_core_of = AKC
 
-			
+			victory_points = {6834 50}
 
 			buildings = {
 				

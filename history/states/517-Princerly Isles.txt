@@ -1,7 +1,8 @@
 state={
 		id = 517
-		name = "Princerly Isles"
+		name = "Princerly_Isles"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = tiny_island
 
 		history = {

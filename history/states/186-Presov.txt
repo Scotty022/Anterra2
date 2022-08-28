@@ -2,14 +2,15 @@ state={
 		id = 186
 		name = "Presov"
 		manpower = 81000
+		local_supplies=0.0 
 		state_category = rural
 		resources = {
 			oil = 3
 		}
 
 		history = {
-			owner = POZ
-			add_core_of = POZ
+			owner = TST
+			add_core_of = TST
 
 			
 

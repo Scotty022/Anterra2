@@ -2,6 +2,7 @@ state={
 		id = 123
 		name = "Sunggari"
 		manpower = 9043000
+		local_supplies=0.0 
 		state_category = large_city
 		buildings_max_level_factor = 0.7
 

@@ -1,16 +1,16 @@
 state={
 		id = 164
-		name = "Rovskemlja Proper"
+		name = "Rovskemlja_Proper"
 		manpower = 2200000
+		local_supplies=0.0 
 		state_category = rural
 		resources = {
 			steel = 13
 		}
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ROV
+			owner = TST
+			add_core_of = TST
 
 			
 

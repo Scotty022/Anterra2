@@ -1,3 +1,0 @@
-You need a sound.asset file here before anything can be loaded into the game. 
-You can also assign custom voices/sounds to custom leaders. 
-Create a folder of the leader's name and add the sound file as a .wav

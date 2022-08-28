@@ -2,12 +2,12 @@ state={
 		id = 114
 		name = "Abargabelozov"
 		manpower = 4600000
+		local_supplies=0.0 
 		state_category = large_city
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ZAP
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {4682 5}
 

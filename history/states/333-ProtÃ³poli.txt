@@ -2,6 +2,7 @@ state={
 		id = 333
 		name = "Protópoli"
 		manpower = 5100000
+		local_supplies=0.0 
 		state_category = large_city
 
 		history = {

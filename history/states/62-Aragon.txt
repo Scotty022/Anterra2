@@ -2,11 +2,12 @@ state={
 		id = 62
 		name = "Aragon"
 		manpower = 1284471
+		local_supplies=0.0 
 		state_category = town
 
 		history = {
-			owner = HEL
-			add_core_of = HEL
+			owner = TST
+			add_core_of = TST
 
 			
 

@@ -2,6 +2,7 @@ state={
 		id = 571
 		name = "SAT_10"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

@@ -2,11 +2,12 @@ state={
 		id = 576
 		name = "ALS_3"
 		manpower = 10000
+		local_supplies=0.0 
 		state_category = wasteland
 
 		history = {
-			owner = ALS
-			add_core_of = ALS
+			owner = TST
+			add_core_of = TST
 
 			
 

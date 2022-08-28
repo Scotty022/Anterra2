@@ -1,7 +1,8 @@
 state={
 		id = 496
-		name = "South Phinq'a"
-		manpower = 100000
+		name = "South_Phinq'a"
+		manpower = 2692308
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

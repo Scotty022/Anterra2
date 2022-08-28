@@ -1,7 +1,8 @@
 state={
 		id = 212
-		name = "East Traxi"
+		name = "East_Traxi"
 		manpower = 1000000
+		local_supplies=0.0 
 		state_category = large_town
 
 		history = {

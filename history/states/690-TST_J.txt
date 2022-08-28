@@ -1,0 +1,26 @@
+state={
+		id = 690
+		name = "TST_J"
+		manpower = 1346510
+		local_supplies=0.0 
+		state_category = town
+		resources = {
+			oil = 10
+		}
+
+		history = {
+			owner = TST
+			add_core_of = TST
+
+			
+
+			buildings = {
+				
+				infrastructure = 2
+				synthetic_refinery = 1
+			} 
+		}
+		provinces={
+ 		128 446 541 1077 2122 2681 2842 2993 3211 4702 8154 8172 8230
+}
+}

@@ -2,6 +2,7 @@ state={
 		id = 217
 		name = "Sartland"
 		manpower = 612000
+		local_supplies=0.0 
 		state_category = pastoral
 		resources = {
 			steel = 3

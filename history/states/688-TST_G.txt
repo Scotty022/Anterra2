@@ -1,0 +1,26 @@
+state={
+		id = 688
+		name = "TST_G"
+		manpower = 2367739
+		local_supplies=0.0 
+		state_category = wasteland
+		resources = {
+			rubber = 30
+			oil = 5
+		}
+
+		history = {
+			owner = TST
+			add_core_of = TST
+
+			
+
+			buildings = {
+				
+				infrastructure = 3
+			} 
+		}
+		provinces={
+ 		893 1335 1501 1764 2251 2330 2783 3492 3677 7848 7906 7920 7952 7965 8004 8022 8025 8041 8058 8063 8075 8084 8098 8104 8116
+}
+}

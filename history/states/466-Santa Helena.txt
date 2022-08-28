@@ -1,12 +1,13 @@
 state={
 		id = 466
-		name = "Santa Helena"
+		name = "Santa_Helena"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
-			owner = MAR
-			add_core_of = MAR
+			owner = TST
+			add_core_of = TST
 
 			
 

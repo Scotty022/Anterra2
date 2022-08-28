@@ -2,6 +2,7 @@ state={
 		id = 125
 		name = "Siamei"
 		manpower = 6000000
+		local_supplies=0.0 
 		state_category = town
 		buildings_max_level_factor = 0.7
 

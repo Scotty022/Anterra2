@@ -2,11 +2,12 @@ state={
 		id = 183
 		name = "Zamakia"
 		manpower = 472000
+		local_supplies=0.0 
 		state_category = town
 
 		history = {
-			owner = POZ
-			add_core_of = POZ
+			owner = TST
+			add_core_of = TST
 
 			
 

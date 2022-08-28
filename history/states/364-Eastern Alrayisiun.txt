@@ -1,7 +1,8 @@
 state={
 		id = 364
-		name = "Eastern Alrayisiun"
+		name = "Eastern_Alrayisiun"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

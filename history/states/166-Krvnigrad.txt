@@ -2,15 +2,15 @@ state={
 		id = 166
 		name = "Krvnigrad"
 		manpower = 6290000
+		local_supplies=0.0 
 		state_category = Metropolis
 		resources = {
 			steel = 7
 		}
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ROV
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {1028 5}
 

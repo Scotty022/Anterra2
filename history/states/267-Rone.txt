@@ -2,6 +2,7 @@ state={
 		id = 267
 		name = "Rone"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = rural
 
 		history = {

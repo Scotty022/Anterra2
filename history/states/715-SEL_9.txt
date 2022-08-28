@@ -2,6 +2,7 @@ state={
 		id = 715
 		name = "SEL_9"
 		manpower = 22000000
+		local_supplies=0.0 
 		state_category = city
 
 		history = {

@@ -2,12 +2,12 @@ state={
 		id = 180
 		name = "Voskrenovo"
 		manpower = 90000
+		local_supplies=0.0 
 		state_category = small_island
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ZAP
+			owner = TST
+			add_core_of = TST
 
 			
 

@@ -1,14 +1,15 @@
 state={
 		id = 376
-		name = "Santo Andre"
+		name = "Santo_Andre"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
 			owner = JUN
 			add_core_of = JUN
 
-			victory_points = {6238 5}
+			victory_points = {6238 50}
 
 			buildings = {
 				

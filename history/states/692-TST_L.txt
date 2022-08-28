@@ -1,0 +1,29 @@
+state={
+		id = 692
+		name = "TST_L"
+		manpower = 6422397
+		local_supplies=0.0 
+		state_category = large_city
+
+		history = {
+			owner = TST
+			add_core_of = TST
+
+			victory_points = {1192 25}
+			victory_points = {4494 10}
+			victory_points = {4390 3}
+
+			buildings = {
+				
+				infrastructure = 6
+				industrial_complex = 2
+				arms_factory = 2
+				dockyard  = 4
+				air_base  = 3
+				1192 = {naval_base = 3}
+			} 
+		}
+		provinces={
+ 		1192 2148 3695 4390 4494 8340 8436 8478
+}
+}

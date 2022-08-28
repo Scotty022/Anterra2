@@ -2,6 +2,7 @@ state={
 		id = 65
 		name = "Timiphos"
 		manpower = 3274234
+		local_supplies=0.0 
 		state_category = city
 		resources = {
 			steel = 10
@@ -11,11 +12,11 @@ state={
 		}
 
 		history = {
-			owner = HEL
-			add_core_of = HEL
+			owner = TST
+			add_core_of = TST
 
-			victory_points = {5443 5}
-			victory_points = {5458 5}
+			victory_points = {5443 40}
+			victory_points = {5458 10}
 
 			buildings = {
 				

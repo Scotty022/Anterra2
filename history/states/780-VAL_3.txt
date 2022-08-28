@@ -2,12 +2,12 @@ state={
 		id = 780
 		name = "VAL_3"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
-			owner = VAL
-			add_core_of = VAL
-			add_core_of = LEG
+			owner = TST
+			add_core_of = TST
 
 			
 

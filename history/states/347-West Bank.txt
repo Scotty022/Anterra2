@@ -1,7 +1,8 @@
 state={
 		id = 347
-		name = "West Bank"
+		name = "West_Bank"
 		manpower = 300000
+		local_supplies=0.0 
 		state_category = pastoral
 		resources = {
 			oil = 15

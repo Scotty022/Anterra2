@@ -1,7 +1,8 @@
 state={
 		id = 403
-		name = "La Reproche"
+		name = "La_Reproche"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

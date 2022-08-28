@@ -1,12 +1,13 @@
 state={
 		id = 461
-		name = "North Maracaí"
+		name = "North_Maracaí"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
-			owner = MAR
-			add_core_of = MAR
+			owner = TST
+			add_core_of = TST
 
 			
 

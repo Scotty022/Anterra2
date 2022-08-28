@@ -2,6 +2,7 @@ state={
 		id = 99
 		name = "Wittenlan"
 		manpower = 12986000
+		local_supplies=0.0 
 		state_category = city
 
 		history = {

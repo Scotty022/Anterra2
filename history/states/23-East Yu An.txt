@@ -1,14 +1,15 @@
 state={
 		id = 23
-		name = "East Yu An"
+		name = "East_Yu_An"
 		manpower = 14141666
+		local_supplies=0.0 
 		state_category = large_city
 
 		history = {
 			owner = KOD
 			add_core_of = KOD
 
-			
+			victory_points = {8304 50}
 
 			buildings = {
 				

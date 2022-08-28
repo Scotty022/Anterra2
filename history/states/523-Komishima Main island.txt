@@ -1,7 +1,8 @@
 state={
 		id = 523
-		name = "Komishima Main Island"
+		name = "Komishima_Main_Island"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

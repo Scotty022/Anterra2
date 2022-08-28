@@ -1,12 +1,13 @@
 state={
 		id = 874
-		name = "Konagher Tsensawa"
+		name = "Konagher_Tsensawa"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = city
 
 		history = {
-			owner = KON
-			add_core_of = KON
+			owner = SIW
+			add_core_of = SIW
 
 			victory_points = {2236 20}
 

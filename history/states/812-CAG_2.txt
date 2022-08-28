@@ -2,6 +2,7 @@ state={
 		id = 812
 		name = "CAG_2"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = town
 		resources = {
 			chromium = 10

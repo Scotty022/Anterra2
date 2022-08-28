@@ -1,7 +1,8 @@
 state={
 		id = 334
-		name = "PRO 7"
+		name = "PRO_7"
 		manpower = 2950000
+		local_supplies=0.0 
 		state_category = city
 
 		history = {

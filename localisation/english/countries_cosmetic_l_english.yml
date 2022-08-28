@@ -1,0 +1,29 @@
+﻿l_english:
+ # Colonies
+ RAM_MCU_subject:0 "Govic South Kesh"
+ RAM_MCU_subject_DEF:0 "the Dominion of Govic South Kesh"
+ RAM_subject:0 "$OVERLORDADJ$ South Kesh"
+ RAM_subject_DEF:0 "the $OVERLORDADJ$ South Kesh"
+ RAM_subject_ADJ:0 "South Keshian"
+ 
+ KTK_TIP_subject:0 "Realm Dominion of Kitoko"
+ KTK_TIP_subject_DEF:0 "the Realm Dominion of Kitoko"
+ KTK_subject:0 "Kitoko"
+ KTK_subject_DEF:0 "the Protected City of Kitoko" 
+
+ #Formed nations
+ VOL_CON_democratic:0 "Volirian Confederation"
+ VOL_CON_democratic_DEF:0 "the Volirian Confederation"
+ VOL_CON_communism:0 "Volirian Federation"
+ VOL_CON_communism_DEF:0 "the Volirian Federation"
+ VOL_CON:0 "Volirian Empire"
+ VOL_CON_DEF:0 "the Volirian Empire"
+ VOL_CON_ADJ:0 "Volirian"
+
+ SAN_UNITED:0 "Sanqing"
+ SAN_UNITED_DEF:0 "Sanqing"
+ SAN_UNITED_ADJ:0 "Sanqinese"
+
+ GRAND_LUSJKIA:0 "Grand Lusjkia"
+ GRAND_LUSJKIA_DEF:0 "Grand Lusjki"
+ GRAND_LUSJKIA_ADJ:0 "Lusjkian"

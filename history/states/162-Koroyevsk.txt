@@ -2,16 +2,15 @@ state={
 		id = 162
 		name = "Koroyevsk"
 		manpower = 3000000
+		local_supplies=0.0 
 		state_category = city
 		resources = {
 			aluminium = 6
 		}
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ZAP
-			add_core_of = PER
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {5400 5}
 

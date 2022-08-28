@@ -2,6 +2,7 @@ state={
 		id = 524
 		name = "Shimakawa"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = tiny_island
 
 		history = {

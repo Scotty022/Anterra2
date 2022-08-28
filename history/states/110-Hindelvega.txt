@@ -2,6 +2,7 @@ state={
 		id = 110
 		name = "Hindelvega"
 		manpower = 1806000
+		local_supplies=0.0 
 		state_category = rural
 
 		history = {

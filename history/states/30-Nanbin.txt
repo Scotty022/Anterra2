@@ -2,6 +2,7 @@ state={
 		id = 30
 		name = "Nanbin"
 		manpower = 7155010
+		local_supplies=0.0 
 		state_category = town
 
 		history = {

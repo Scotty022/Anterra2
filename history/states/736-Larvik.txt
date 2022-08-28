@@ -2,6 +2,7 @@ state={
 		id = 736
 		name = "Larvik"
 		manpower = 3050000
+		local_supplies=0.0 
 		state_category = town
 
 		history = {

@@ -2,13 +2,12 @@ state={
 		id = 167
 		name = "Kashubia"
 		manpower = 470000
+		local_supplies=0.0 
 		state_category = rural
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ROV
-			add_core_of = POZ
+			owner = TST
+			add_core_of = TST
 
 			
 

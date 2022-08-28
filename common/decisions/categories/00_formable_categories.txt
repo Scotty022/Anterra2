@@ -1,20 +1,9 @@
-#formable_nations = {
-#
-#	icon = generic_formable_nations
-#
-#}
-
-# form_scandinavia_category = {
+# form_volirian_conf_category = {
 # 	icon = generic_formable_nations
-# 	picture = GFX_decision_cat_generic_scandinavia
+# 	picture = GFX_decision_cat_generic_nordic_league
 # }
 
-form_volirian_conf_category = {
-	icon = generic_formable_nations
-	picture = GFX_decision_cat_generic_nordic_league
-}
-
-form_sanqing_category = {
-	icon = generic_formable_nations
-	picture = GFX_decision_cat_generic_nordic_league
-}
+# form_sanqing_category = {
+# 	icon = generic_formable_nations
+# 	picture = GFX_decision_cat_generic_nordic_league
+# }

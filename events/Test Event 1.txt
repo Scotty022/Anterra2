@@ -1,5 +1,0 @@
-###########################
-# Test Event 1 Events
-###########################
-
-add_namespace = test event 1

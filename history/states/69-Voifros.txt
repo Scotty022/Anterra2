@@ -2,6 +2,7 @@ state={
 		id = 69
 		name = "Voifros"
 		manpower = 1203243
+		local_supplies=0.0 
 		state_category = town
 		resources = {
 			steel = 5
@@ -9,8 +10,8 @@ state={
 		}
 
 		history = {
-			owner = HEL
-			add_core_of = HEL
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {2951 5}
 

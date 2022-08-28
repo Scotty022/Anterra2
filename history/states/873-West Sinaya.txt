@@ -1,12 +1,13 @@
 state={
 		id = 873
-		name = "West Sinaya"
+		name = "West_Sinaya"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {
-			owner = SIN
-			add_core_of = SIN
+			owner = SIW
+			add_core_of = SIW
 
 			victory_points = {3186 15}
 			victory_points = {2293 10}

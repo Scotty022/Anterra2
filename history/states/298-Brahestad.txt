@@ -2,6 +2,7 @@ state={
 		id = 298
 		name = "Brahestad"
 		manpower = 750000
+		local_supplies=0.0 
 		state_category = rural
 
 		history = {

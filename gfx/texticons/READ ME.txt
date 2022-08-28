@@ -1,1 +1,0 @@
-Any custom unit added, like helicopters or amphibious tanks, will require a custom icon image placed here. .DDS file only!

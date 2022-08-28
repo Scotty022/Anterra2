@@ -2,6 +2,7 @@ state={
 		id = 306
 		name = "Venima"
 		manpower = 3600000
+		local_supplies=0.0 
 		state_category = large_town
 
 		history = {

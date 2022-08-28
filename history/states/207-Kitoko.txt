@@ -2,6 +2,7 @@ state={
 		id = 207
 		name = "Kitoko"
 		manpower = 2850000
+		local_supplies=0.0 
 		state_category = city
 		resources = {
 			oil = 10

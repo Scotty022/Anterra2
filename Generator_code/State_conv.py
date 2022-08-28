@@ -1,5 +1,5 @@
 # Set limit on what range to generate
-LimitL = 1
+LimitL = 2
 LimitU = 1000
 
 from csv import reader
@@ -26,7 +26,12 @@ with open(States_Raw, 'r') as datalist:
 
 #-------------------- Determining all values --------------------#
 		file_id = row[0]																# id
-		name = row[1]																	# name
+		disp_name = row[1]																# disp_name; without underscores
+		if " " in disp_name:															# prog_name; with underscores
+			prog_name = disp_name.replace(" ", "_")
+		else:
+			prog_name = disp_name
+	
 		if row[2]:
 			state_category = f"state_category = {row[2]}"								# state_category
 		else:
@@ -177,13 +182,13 @@ with open(States_Raw, 'r') as datalist:
 			split4 = split3[-1].split("-")			
 
 			FoundFile = split4[-1].split(".")		# removes suffix from file name
-			if name != FoundFile[0]:				# checks of the stripped file name matches the new name, otherwise give errors
+			if disp_name != FoundFile[0]:				# checks of the stripped file name matches the new name, otherwise give errors
 				if FoundFile[0] == 'txt':
-					print(f"! The OG file didnt have a name (pushed file has name: {name})")
-				if not name:
+					print(f"! The OG file didnt have a name (pushed file has name: {disp_name})")
+				if not disp_name:
 					print(f"! The new file has no name specified (pulled name was: {FoundFile[0]})")
 				else:
-					print(f"! The file pulled and pushed have different names ({FoundFile[0]} pulled, {name} pushed). You might want to double check the names")
+					print(f"! The file pulled and pushed have different names ({FoundFile[0]} pulled, {prog_name} pushed). You might want to double check the names")
 			
 			g = open(Source+RightFile[0], "r")		#opens the OG file
 			split1 = g.read().split("provinces")		#cuts the file after 'provinces'
@@ -196,8 +201,9 @@ with open(States_Raw, 'r') as datalist:
 			f.write(
 				'state={' + f"""
 		id = {file_id}
-		name = "{name}"
+		name = "{prog_name}"
 		{population}
+		local_supplies=0.0 
 		{state_category}{build_factor}{resources}
 
 		history = """ + '{' + f"""
@@ -219,7 +225,7 @@ with open(States_Raw, 'r') as datalist:
 			else:
 				print(f"!!! The ID {file_id} name could not be found! There might be a file missing.")
 		except:
-			print(f"!!! attempting to find/create ID {file_id} ({name}) has failed")
+			print(f"!!! attempting to find/create ID {file_id} ({disp_name}) has failed")
 			print(sys.exc_info())
 print("- The script has ended. Thank you for using! -")
 

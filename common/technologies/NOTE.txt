@@ -1,0 +1,4 @@
+# Nothing has been changed to electronic_mechanical_engineering except 
+# that a acertaintrigger that mentioned Japan has been commented, or 
+# otherwise the game wouldnt start. IDK why they added it there in the 
+# code underelated to nateions, but that is just how PDX works /shrug.

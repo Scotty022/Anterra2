@@ -2,12 +2,12 @@ state={
 		id = 118
 		name = "Sosnivika"
 		manpower = 6903490
+		local_supplies=0.0 
 		state_category = metropolis
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ZAP
+			owner = TST
+			add_core_of = TST
 
 			
 

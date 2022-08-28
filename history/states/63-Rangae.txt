@@ -2,11 +2,12 @@ state={
 		id = 63
 		name = "Rangae"
 		manpower = 320842
+		local_supplies=0.0 
 		state_category = rural
 
 		history = {
-			owner = HEL
-			add_core_of = HEL
+			owner = TST
+			add_core_of = TST
 
 			
 

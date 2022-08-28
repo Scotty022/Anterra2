@@ -2,15 +2,15 @@ state={
 		id = 168
 		name = "Moslavina"
 		manpower = 1830000
+		local_supplies=0.0 
 		state_category = rural
 		resources = {
 			oil = 6
 		}
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ROV
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {3366 5}
 

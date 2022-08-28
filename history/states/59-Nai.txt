@@ -2,6 +2,7 @@ state={
 		id = 59
 		name = "Nai"
 		manpower = 2908488
+		local_supplies=0.0 
 		state_category = large_town
 
 		history = {

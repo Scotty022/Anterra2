@@ -2,6 +2,7 @@ state={
 		id = 219
 		name = "Xigong"
 		manpower = 6050000
+		local_supplies=0.0 
 		state_category = metropolis
 
 		history = {

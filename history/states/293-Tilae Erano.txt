@@ -1,7 +1,8 @@
 state={
 		id = 293
-		name = "Tilae Erano"
+		name = "Tilae_Erano"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

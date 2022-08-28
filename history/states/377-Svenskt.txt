@@ -2,6 +2,7 @@ state={
 		id = 377
 		name = "Svenskt"
 		manpower = 4158000
+		local_supplies=0.0 
 		state_category = city
 
 		history = {

@@ -2,16 +2,15 @@ state={
 		id = 163
 		name = "Prokovyurt"
 		manpower = 800000
+		local_supplies=0.0 
 		state_category = rural
 		resources = {
 			aluminium = 4
 		}
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ZAP
-			add_core_of = PER
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {5323 5}
 

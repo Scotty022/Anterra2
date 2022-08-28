@@ -2,13 +2,14 @@ state={
 		id = 54
 		name = "Dachuan"
 		manpower = 28772427
+		local_supplies=0.0 
 		state_category = city
 
 		history = {
 			owner = KOD
 			add_core_of = KOD
 
-			
+			victory_points = {3922 70}
 
 			buildings = {
 				

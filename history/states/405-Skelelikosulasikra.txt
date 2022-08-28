@@ -2,6 +2,7 @@ state={
 		id = 405
 		name = "Skelelikosulasikra"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = pastoral
 
 		history = {

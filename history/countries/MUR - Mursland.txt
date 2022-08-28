@@ -1,16 +1,20 @@
-capital = 58
+﻿capital = 58
 
 oob = "MUR_1946"
 
-set_research_slots = 3
 set_stability = 0.6
 set_war_support = 0.3
+set_convoys = 70
+set_research_slots = 3
+add_manpower = 3000
 
-# Starting tech
+####################################
+############### TECH ###############
+####################################
+
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	gwtank = 1
 	motorised_infantry = 1
 	tech_recon = 1
 	tech_support = 1		
@@ -23,17 +27,35 @@ set_technology = {
 	naval_bomber1 = 1
 }
 
-set_convoys = 20
-set_research_slots = 3
-add_manpower = 5000
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = { #vanilla keeps the old system, nsb afghanistan will no longer produce some of the most advanced tanks in the world
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
 
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = { 
+		gwtank_chassis = 1
+		
+	}
+}
+
+#recruit_character = AFG_mohammed_zahir_shah
 
 ##################################
 ############ Politics ############
 ##################################
+
 set_politics = {
 	ruling_party = democratic
-	last_election = 1943.8.1 # 1943.8.1 , but for testing its first of februari
+	last_election = 1943.8.1
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -45,68 +67,3 @@ set_popularities = {
 	authdemocracy = 18
 }
 
-#################################
-######### Nat Spirits ###########
-#################################
-add_ideas = {
-	Martin_I
-	woman_recruitment1
-	Backstab_politics
-}
-
-set_variable = { province_room_total = 155 }
-set_variable = { required_support = 105 } # 2/3 of 157 
-set_variable = { Martin_support = 50 }   # 8 Martinites + 42 influenced
-set_variable = { Republic_support = 45 } # 39 seats + 6 indepedents
-set_variable = { Neutral_support = 60 } #155 - 50 - 45
-#set_variable = { neutral_support = 57 }  # 157 - 58 - 42 = 57
-
-#################################
-######### Politicians ###########
-#################################
-
-create_country_leader = {
-	name = "Velichko Thunone"
-	desc = "POLITICS_Velichko_Thunone_DESC"
-	picture = "Portrait_Mursland_Velichko_Thunone.dds"
-	expire = "1970.1.1"
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Martin I"
-	desc = "POLITICS_Martin_I_DESC"
-	picture = "Portrait_Mursland_Martin_I.dds"
-	expire = "1955.7.7"
-	ideology = despotism
-	traits = {
-		staunch_monarchist unpopular_monarch
-	}
-}
-
-create_country_leader = {
-	name = "Arkady III"
-	desc = "POLITICS_Arkady_III_DESC"
-	picture = "Portrait_Mursland_Arkady_III.dds"
-	expire = "1955.7.7"
-	ideology = despotism
-	traits = {
-		the_director inexperienced_monarch
-	}
-}
-
-create_country_leader = {
-	name = "Kiril Antov"
-	desc = "POLITICS_Kiril_Antov_DESC"
-	picture = "Portrait_Mursland_Kiril_Antov.dds"
-	expire = "1979.12.9"
-	ideology = fascism_ideology
-}
-
-create_country_leader = {
-	name = "Kyriakos Metaxas"
-	desc = "POLITICS_Kyriakos_Metaxas_DESC"
-	picture = "Portrait_Mursland_Kyriakos_Metaxas.dds"
-	expire = "1979.12.9"
-	ideology = authoritarian_democracy
-}

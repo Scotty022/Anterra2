@@ -2,11 +2,12 @@ state={
 		id = 739
 		name = "EMB_2"
 		manpower = 2850000
+		local_supplies=0.0 
 		state_category = town
 
 		history = {
-			owner = EMB
-			add_core_of = EMB
+			owner = RIN
+			add_core_of = RIN
 
 			
 

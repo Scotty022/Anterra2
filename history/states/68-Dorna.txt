@@ -2,6 +2,7 @@ state={
 		id = 68
 		name = "Dorna"
 		manpower = 398742
+		local_supplies=0.0 
 		state_category = rural
 		resources = {
 			steel = 5
@@ -10,8 +11,8 @@ state={
 		}
 
 		history = {
-			owner = HEL
-			add_core_of = HEL
+			owner = TST
+			add_core_of = TST
 
 			
 

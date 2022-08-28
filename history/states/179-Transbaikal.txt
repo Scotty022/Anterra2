@@ -2,6 +2,7 @@ state={
 		id = 179
 		name = "Transbaikal"
 		manpower = 1420000
+		local_supplies=0.0 
 		state_category = town
 
 		history = {

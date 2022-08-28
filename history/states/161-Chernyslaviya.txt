@@ -2,15 +2,15 @@ state={
 		id = 161
 		name = "Chernyslaviya"
 		manpower = 615384
+		local_supplies=0.0 
 		state_category = rural
 		resources = {
 			steel = 6
 		}
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ZAP
+			owner = TST
+			add_core_of = TST
 
 			
 

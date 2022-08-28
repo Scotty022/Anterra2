@@ -2,8 +2,8 @@ state={
 		id = 914
 		name = "Trinidad"
 		manpower = 136500
-		state_category = large_town
-		buildings_max_level_factor = 0.5
+		local_supplies=0.0 
+		state_category = pastoral
 
 		history = {
 			owner = AYG
@@ -14,6 +14,7 @@ state={
 			buildings = {
 				
 				infrastructure = 3
+				819 = {naval_base = 4}
 			} 
 		}
 		provinces={

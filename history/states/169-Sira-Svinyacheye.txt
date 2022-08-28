@@ -2,12 +2,12 @@ state={
 		id = 169
 		name = "Sira-Svinyacheye"
 		manpower = 63192
+		local_supplies=0.0 
 		state_category = rural
 
 		history = {
-			owner = RAZ
-			add_core_of = RAZ
-			add_core_of = ZAP
+			owner = TST
+			add_core_of = TST
 
 			
 

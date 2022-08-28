@@ -1,7 +1,8 @@
 state={
 		id = 605
-		name = "Upwind Islands"
+		name = "Upwind_Islands"
 		manpower = 100000
+		local_supplies=0.0 
 		state_category = small_island
 
 		history = {

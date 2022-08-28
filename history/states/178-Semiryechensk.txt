@@ -2,6 +2,7 @@ state={
 		id = 178
 		name = "Semiryechensk"
 		manpower = 3656843
+		local_supplies=0.0 
 		state_category = city
 
 		history = {

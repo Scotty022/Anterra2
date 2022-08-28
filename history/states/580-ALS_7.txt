@@ -2,11 +2,12 @@ state={
 		id = 580
 		name = "ALS_7"
 		manpower = 852342
+		local_supplies=0.0 
 		state_category = town
 
 		history = {
-			owner = ALS
-			add_core_of = ALS
+			owner = TST
+			add_core_of = TST
 
 			victory_points = {3516 5}
 			victory_points = {6558 5}
